@@ -32,9 +32,13 @@ book Woe Wall
 
 Woe Wall is a room.
 
+guess-table of woe wall is table of woe wall guesses.
+
 check going east in Woe Wall: say "There's no way back to [Croots]." instead;
 
-the slick slide is scenery.
+the slick slide is a rhymable. it is scenery.
+
+guess-table of slick slide is table of slick slide guesses.
 
 chapter Po' Paul
 

@@ -20,6 +20,13 @@ sco-whirring-west is a truth state that varies.
 sco-yo-yall is a truth state that varies.
 sco-stow-stall is a truth state that varies.
 
+sco-trick-tried is a truth state that varies.
+sco-prick-pride is a truth state that varies.
+sco-sick-side is a truth state that varies.
+sco-hick-hide is a truth state that varies.
+sco-tick-tide is a truth state that varies.
+sco-rick-ride is a truth state that varies.
+
 Civil Seeming Drivel Dreaming Globals ends here.
 
 ---- DOCUMENTATION ----

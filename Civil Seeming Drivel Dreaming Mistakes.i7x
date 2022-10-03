@@ -22,6 +22,12 @@ table of woe wall guesses
 mist-regex	mist-rule	got-yet	leet-rule	mist-txt
 "show shawl"	--	false	--	"No fancy clothes are needed."
 
+volume thing tables
+
+table of slick slide guesses
+mist-regex	mist-rule	got-yet	leet-rule	mist-txt
+"dick died"	--	false	--	"A sad story is appropriate for the woe wall, but the slick slide is unmoved."
+
 volume for core module compatibility
 
 table of first check rhymes
