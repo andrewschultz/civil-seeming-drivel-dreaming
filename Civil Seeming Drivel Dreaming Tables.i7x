@@ -31,14 +31,16 @@ table of verb checks
 w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	idid	best-room	check-rule	run-rule	wfull (topic)	think-advice (text)
 "turing"	"test"	"touring"	--	false	false	true	false	Croots Craving	vc-turing-test rule	vr-turing-test rule	--
 "whirring"	"west"	--	--	false	false	true	false	Croots Craving	vc-whirring-west rule	vr-whirring-west rule	--
-"yo"	"yall"	--	--	false	false	true	false	Woe Wall	vc-yo-yall rule	vr-yo-yall rule	--
+"yo"	"yall"	--	--	false	false	true	false	Woe Wall	vc-yo-yall rule	vr-yo-yall rule	-- [Woe Wall start]
 "stow"	"stall"	--	--	false	false	true	false	Woe Wall	vc-stow-stall rule	vr-stow-stall rule	--
-"trick"	"tried"	--	--	false	true	false	false	Woe Wall	vc-trick-tried rule	vr-trick-tried rule	--	--
+"trick"	"tried"	--	--	false	false	true	false	Woe Wall	vc-trick-tried rule	vr-trick-tried rule	--	--
 "hick"	"hide|hied"	--	--	false	false	true	false	Woe Wall	vc-hick-hide rule	vr-hick-hide rule	--	--
 "prick"	"pride"	--	--	false	false	true	false	Woe Wall	vc-prick-pride rule	vr-prick-pride rule	--	--
 "sick"	"side"	"sic/sighed"	--	false	false	true	false	Woe Wall	vc-sick-side rule	vr-sick-side rule	--	--
 "tick"	"tide|tied"	--	--	false	false	true	false	Woe Wall	vc-tick-tide rule	vr-tick-tide rule	--	--
 "rick"	"ride"	--	--	false	false	true	false	Woe Wall	vc-rick-ride rule	vr-rick-ride rule	--	--
+"lie"	"lich"	--	--	false	true	true	false	sigh sitch	vc-lie-lich rule	vr-lie-lich rule	--	--
+"pie"	"pitch"	--	--	false	true	true	false	sigh sitch	vc-pie-pitch rule	vr-pie-pitch rule	--	--
 
 a goodrhyme rule (this is the vc-turing-test rule):
 	if player is not in Croots Craving, unavailable;
@@ -84,6 +86,7 @@ this is the vc-stow-stall rule:
 this is the vr-stow-stall rule:
 	say "With the help of [paul], you uncover an area with emergency supplies. It includes ... a slick slide!";
 	now sco-stow-stall is true;
+	move slick slide to woe wall;
 
 a goodrhyme rule (this is the vc-trick-tried rule):
 	if slick slide is not fungible, unavailable;
@@ -161,6 +164,33 @@ this is the vr-rick-ride rule:
 	now sco-rick-ride is true;
 	say "You take the rick ride back to Woe Wall...";
 	move player to Woe Wall;
+
+a goodrhyme rule (this is the vc-lie-lich rule):
+	if player is not in sigh sitch, unavailable;
+	if sco-lie-lich is true:
+		vcal "You already summoned one lie lich, and two lies won't cancel each other out!";
+		already-done;
+	ready;
+
+this is the vr-lie-lich rule:
+	now sco-lie-lich is true;
+	say "A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!";
+	move lie lich to sigh sitch;
+
+a goodrhyme rule (this is the vc-pie-pitch rule):
+	if player is not in sigh sitch, unavailable;
+	if sco-lie-lich is false:
+		vcp "You have no target at which to pick a pie, yet.";
+		not-yet;
+	if sco-pie-pitch is true:
+		vcal "You already cast the spell to banish the lich!";
+		already-done;
+	ready;
+
+this is the vr-pie-pitch rule:
+	now sco-pie-pitch is true;
+	say "Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.";
+	moot lie lich;
 
 chapter auxiliary rules
 

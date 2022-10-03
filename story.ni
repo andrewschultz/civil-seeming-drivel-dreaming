@@ -16,6 +16,10 @@ include Civil Seeming Drivel Dreaming Mistakes by Andrew Schultz.
 
 include Civil Seeming Drivel Dreaming Tables by Andrew Schultz.
 
+section testing - not for release
+
+include Civil Seeming Drivel Dreaming Tests by Andrew Schultz.
+
 volume rooms
 
 book Croots Craving
@@ -47,6 +51,14 @@ Po Paul is a person. printed name is "Po['] Paul".
 book Sigh Sitch
 
 Sigh Sitch is a room. printed name is "(Sigh) Sitch".
+
+chapter witch
+
+The I Itch Why Witch is a person in Sigh Sitch.
+
+chapter lich
+
+the lie lich is a person.
 
 book Honing Hey Groaning Grey
 
