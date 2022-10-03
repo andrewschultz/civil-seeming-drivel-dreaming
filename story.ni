@@ -10,6 +10,8 @@ include Prime Pro Rhyme Row E34 by Andrew Schultz.
 
 include Civil Seeming Drivel Dreaming Definitions by Andrew Schultz.
 
+include Civil Seeming Drivel Dreaming Globals by Andrew Schultz.
+
 include Civil Seeming Drivel Dreaming Mistakes by Andrew Schultz.
 
 include Civil Seeming Drivel Dreaming Tables by Andrew Schultz.

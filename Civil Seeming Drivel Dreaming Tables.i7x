@@ -35,14 +35,19 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "stow"	"stall"	--	--	false	false	true	false	Woe Wall	vc-stow-stall rule	vr-stow-stall rule	--
 
 a goodrhyme rule (this is the vc-turing-test rule):
-	unless purring pest is fungible, unavailable;
+	if player is not in Croots Craving, unavailable;
+	if pest is moot:
+		vcal "You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.";
+		already-done;
 	ready;
 
 this is the vr-turing-test rule:
 	say "The purring pest disappears with a pop.";
+	moot purring pest;
 
 a goodrhyme rule (this is the vc-whirring-west rule):
-	unless player is in Croots Craving, the rule fails;
+	unless player is in Croots Craving, unavailable;
+	ready;
 
 this is the vr-whirring-west rule:
 	say "You follow the noise and tumble down to...";
@@ -50,15 +55,29 @@ this is the vr-whirring-west rule:
 
 this is the vc-yo-yall rule:
 	if player is not in woe wall, unavailable;
+	if sco-yo-yall is true:
+		vcal "You already made contact behind the wall.";
+		already-done;
+	ready;
 
 this is the vr-yo-yall rule:
 	say "Some people pop out from behind the Woe Wall. [paul], their leader, introduces himself to you.";
+	now Po Paul is in Woe Wall;
+	now sco-yo-yall is true;
 
 this is the vc-stow-stall rule:
 	if player is not in woe wall, unavailable;
+	if sco-yo-yall is false:
+		vcp "Perhaps there is one buried beyond the wall, but you have nobody to help you look for it.";
+		not-yet;
+	if sco-stow-stall is true:
+		vcal "You already found the stall.";
+		already-done;
+	ready;
 
 this is the vr-stow-stall rule:
 	say "With the help of [paul], you uncover an area with emergency supplies. It includes ... a slick slide!";
+	now sco-stow-stall is true;
 
 volume can't go that way notes
 
