@@ -29,7 +29,7 @@ other stuff that may be added is best-room though I may have divided room-specif
 
 table of verb checks
 w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	idid	best-room	check-rule	run-rule	wfull (topic)	think-advice (text)
-"turing"	"test"	"touring"	--	false	false	true	false	Croots Craving	vc-turing-test rule	vr-turing-test rule	--
+"turing"	"test"	"touring"	--	false	false	false	false	Croots Craving	vc-turing-test rule	vr-turing-test rule	--
 "whirring"	"west"	--	--	false	false	true	false	Croots Craving	vc-whirring-west rule	vr-whirring-west rule	--
 "yo"	"yall"	--	--	false	false	true	false	Woe Wall	vc-yo-yall rule	vr-yo-yall rule	-- [Woe Wall start]
 "stow"	"stall"	--	--	false	false	true	false	Woe Wall	vc-stow-stall rule	vr-stow-stall rule	--
@@ -39,8 +39,10 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "sick"	"side"	"sic/sighed"	--	false	false	true	false	Woe Wall	vc-sick-side rule	vr-sick-side rule	--	--
 "tick"	"tide|tied"	--	--	false	false	true	false	Woe Wall	vc-tick-tide rule	vr-tick-tide rule	--	--
 "rick"	"ride"	--	--	false	false	true	false	Woe Wall	vc-rick-ride rule	vr-rick-ride rule	--	--
-"lie"	"lich"	--	--	false	true	true	false	sigh sitch	vc-lie-lich rule	vr-lie-lich rule	--	--
+"lie"	"lich"	--	--	false	true	true	false	sigh sitch	vc-lie-lich rule	vr-lie-lich rule	--	-- [Sigh Sitch start]
 "pie"	"pitch"	--	--	false	true	true	false	sigh sitch	vc-pie-pitch rule	vr-pie-pitch rule	--	--
+"owning"	"eh"	--	--	false	true	true	false	honing hey	vc-owning-eh rule	vr-owning-eh rule	--	--
+"cloning"	"clay"	--	--	false	true	true	false	honing hey	vc-cloning-clay rule	vr-cloning-clay rule	--	--
 
 a goodrhyme rule (this is the vc-turing-test rule):
 	if player is not in Croots Craving, unavailable;
@@ -191,13 +193,58 @@ this is the vr-pie-pitch rule:
 	now sco-pie-pitch is true;
 	say "Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.";
 	moot lie lich;
+	rick-ride-check;
+
+a goodrhyme rule (this is the vc-owning-eh rule):
+	if player is not in honing hey, unavailable;
+	if sco-cloning-clay is true:
+		vcal "You take time to reflect on your own faults.";
+		not-yet;
+	if sco-owning-eh is true:
+		vcal "You don't need to rub [mmdd]'s past behavior in. They're ready to become better people.";
+		already-done;
+	ready;
+
+this is the vr-owning-eh rule:
+	now sco-owning-eh is true;
+	say "Hooray! You figured what to do! You get a point!";
+
+a goodrhyme rule (this is the vc-cloning-clay rule):
+	if player is not in honing hey, unavailable;
+	if sco-owning-eh is false:
+		vcp "Maybe later, but right now, you wouldn't want to clone [mmdd] as they are.";
+		not-yet;
+	if sco-cloning-clay is true:
+		vcal "You already cloned [mmdd]!";
+		already-done;
+	ready;
+
+this is the vr-cloning-clay rule:
+	now sco-cloning-clay is true;
+	say "You discover some cloning clay, and [mmdd] spend time pouring their life essence into thousands of tiny golems. You watch as they both fade, their spirits no longer tormented. Your work here is done.";
+	rick-ride-check;
 
 chapter auxiliary rules
+
+[woe wall stuff]
 
 this is the slick-trick rule:
 	if sco-trick-tried is false:
 		vcp "The slide is so slippery, you can't even get on it to go down it. You'll need to fix that furst.";
 		not-yet;
+
+[transport stuff]
+
+to rick-ride-check:
+	say "[line break]";
+	if sco-rick-ride is false:
+		say "Now to find transport back.";
+	else:
+		say "You can take the [b]RICK RIDE[r] back now or try to pick up guess points if you want."; [?? what if no guess points left?]
+
+[clay abbreviations]
+
+to say mmdd: say "Moaning Mae and Droning Dre"
 
 volume can't go that way notes
 

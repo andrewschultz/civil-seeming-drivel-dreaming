@@ -30,6 +30,9 @@ sco-rick-ride is a truth state that varies.
 sco-lie-lich is a truth state that varies.
 sco-pie-pitch is a truth state that varies.
 
+sco-owning-eh is a truth state that varies.
+sco-cloning-clay is a truth state that varies.
+
 Civil Seeming Drivel Dreaming Globals ends here.
 
 ---- DOCUMENTATION ----
