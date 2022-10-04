@@ -12,51 +12,57 @@
 
 >au 2
 
+>z
+
 >turing test
 
 >turing test
-WRONG
+You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
 >whirring west
 
 #testcase-check-vc-whirring-west-rule-unless-player-is-in-croots-craving
 >whirring west
-WRONG
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 #testcase-check-vc-turing-test-rule-unless-player-is-in-croots-craving
 >turing test
-WRONG
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 >stow stall
-WRONG
+Perhaps there is one buried beyond the wall, but you have nobody to help you look for it.
 
 >think
-WRONG
+You can find the STOW STALL once you've met people familiar with the area.
 
 >yo yall
 by one point
 
 >yo yall
-WRONG
+You already made contact behind the wall.
 
 >stow stall
 by one point
+
+#testcase-check-vc-rick-ride-rule-default
+>rick ride
+That would be a great way to get back, once you've found a way down the slick slide.
 
 #testcase-check-vc-prick-pride-rule-default
 >prick pride
-WRONG
+The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 
 #testcase-check-vc-sick-side-rule-default
 >sick side
-WRONG
+The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 
 #testcase-check-vc-hick-hide-rule-default
 >hick hide
-WRONG
+The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 
 #testcase-check-vc-tick-tide-rule-default
 >tick tide
-WRONG
+The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 
 #testcase-think-table-of-verb-checks-vc-hick-hide-rule
 #testcase-think-table-of-verb-checks-vc-prick-pride-rule
@@ -66,7 +72,7 @@ WRONG
 >think
 You can HICK HIDE once you've made the slick slide navigable.
 You can PRICK PRIDE once you've made the slick slide navigable.
-You can RICK RIDE once you've taken a trip on the slick slide.
+You can take a RICK RIDE once you've taken a trip on the slick slide.
 You can SICK SIDE once you've made the slick slide navigable.
 You can TICK TIDE once you've made the slick slide navigable.
 
@@ -79,7 +85,94 @@ by one point
 #+testcase-think-table-of-verb-checks-vc-sick-side-rule
 #+testcase-think-table-of-verb-checks-vc-tick-tide-rule
 >think
-You can HICK HIDE once you've made the slick slide navigable.
-You can PRICK PRIDE once you've made the slick slide navigable.
-You can SICK SIDE once you've made the slick slide navigable.
-You can TICK TIDE once you've made the slick slide navigable.
+You can HICK HIDE now you've made the slick slide navigable.
+You can PRICK PRIDE now you've made the slick slide navigable.
+You can SICK SIDE now you've made the slick slide navigable.
+You can TICK TIDE now you've made the slick slide navigable.
+
+>prick pride
+by one point
+
+>lie lich
+by one point
+
+>pie pitch
+by one point
+
+>think
+#testcase-think-table-of-verb-checks-vc-rick-ride-rule
+You can take a RICK RIDE now you've taken a trip on the slick slide.
+
+>rick ride
+
+>tick tide
+by one point
+
+>owning eh
+by one point
+
+>cloning clay
+by one point
+
+>rick ride
+
+>hick hide
+
+>ivy
+by one point
+
+>lively
+by one point
+
+>jive gee
+by one point
+
+>thrive three
+by one point
+
+>whyve we
+by one point
+
+>rick ride
+
+>sick side
+
+>royal rink
+by one point
+
+>soil sink
+by one point
+
+>broil brink
+by one point
+
+>loyal link
+by one point
+
+>foil fink
+by one point
+
+>rick ride
+
+>foe fall
+by one point
+
+>core kit
+by one point
+
+>war wit
+by one point
+
+>mo maul
+by one point
+
+>bro brawl
+by one point
+
+>oh all
+by one point
+
+>let in the light
+Hooray! You figured what to do! You get a point!
+by one point
+*** SPOOKY SPITE, FLUKY FLIGHT ***

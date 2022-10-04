@@ -8,6 +8,8 @@
 #--
 #--
 
+#NOTE: PRC.PY has a bug where it double-prints the text at the end if the final command fails
+
 files=reg-csdd-thru-min.txt,reg-csdd-thru-all.txt,reg-csdd-thru-reject.txt,reg-csdd-thru-alt-verbs.txt,reg-csdd-thru-guide-gong.txt,reg-csdd-thru-pride-prong.txt,reg-csdd-thru-mistakes.txt,reg-csdd-thru-ha-half.txt,reg-csdd-thru-homonyms.txt,reg-csdd-thru-verbs.txt,reg-csdd-thru-goto.txt,reg-csdd-thru-hints.txt,reg-csdd-thru-hintfull.txt
 ~	min	t0
 ~	all	t1
@@ -62,13 +64,15 @@ TSV:## minimum walkthrough	## walkthrough with all points	## walkthrough with al
 >au 2
 
 @!min
+>z
+\\
 >turing test
 }}SCORE++
 }}CURMIN++
 
 @rej
 >turing test
-WRONG
+You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
 @all
 #testcase-check-vc-whirring-west-rule-fallthrough
@@ -82,11 +86,11 @@ WRONG
 @rej
 #testcase-check-vc-whirring-west-rule-unless-player-is-in-croots-craving
 >whirring west
-WRONG
+{$REJECT2}
 \\
 #testcase-check-vc-turing-test-rule-unless-player-is-in-croots-craving
 >turing test
-WRONG
+{$REJECT2}
 
 @hom
 >whoah
@@ -94,37 +98,41 @@ WRONG
 
 @rej
 >stow stall
-WRONG
+Perhaps there is one buried beyond the wall, but you have nobody to help you look for it.
 \\
 >think
-WRONG
+You can find the STOW STALL once you've met people familiar with the area.
 
 >yo yall
 by one point
 
 @rej
 >yo yall
-WRONG
+You already made contact behind the wall.
 
 >stow stall
 by one point
 
 @rej
+#testcase-check-vc-rick-ride-rule-default
+>rick ride
+That would be a great way to get back, once you've found a way down the slick slide.
+\\
 #testcase-check-vc-prick-pride-rule-default
 >prick pride
-WRONG
+The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 \\
 #testcase-check-vc-sick-side-rule-default
 >sick side
-WRONG
+The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 \\
 #testcase-check-vc-hick-hide-rule-default
 >hick hide
-WRONG
+The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 \\
 #testcase-check-vc-tick-tide-rule-default
 >tick tide
-WRONG
+The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 \\
 #testcase-think-table-of-verb-checks-vc-hick-hide-rule
 #testcase-think-table-of-verb-checks-vc-prick-pride-rule
@@ -134,7 +142,7 @@ WRONG
 >think
 You can HICK HIDE once you've made the slick slide navigable.
 You can PRICK PRIDE once you've made the slick slide navigable.
-You can RICK RIDE once you've taken a trip on the slick slide.
+You can take a RICK RIDE once you've taken a trip on the slick slide.
 You can SICK SIDE once you've made the slick slide navigable.
 You can TICK TIDE once you've made the slick slide navigable.
 
@@ -148,7 +156,163 @@ by one point
 #+testcase-think-table-of-verb-checks-vc-sick-side-rule
 #+testcase-think-table-of-verb-checks-vc-tick-tide-rule
 >think
-You can HICK HIDE once you've made the slick slide navigable.
-You can PRICK PRIDE once you've made the slick slide navigable.
-You can SICK SIDE once you've made the slick slide navigable.
-You can TICK TIDE once you've made the slick slide navigable.
+You can HICK HIDE now you've made the slick slide navigable.
+You can PRICK PRIDE now you've made the slick slide navigable.
+You can SICK SIDE now you've made the slick slide navigable.
+You can TICK TIDE now you've made the slick slide navigable.
+
+>prick pride
+by one point
+
+@all
+#testcase-room-names-sigh-sitch
+/^\(Sigh\) Sitch$
+
+>lie lich
+by one point
+
+>pie pitch
+by one point
+
+@rej
+>think
+#testcase-think-table-of-verb-checks-vc-rick-ride-rule
+You can take a RICK RIDE now you've taken a trip on the slick slide.
+
+>rick ride
+
+>tick tide
+by one point
+
+@all
+#testcase-room-names-honing-hey-groaning-grey
+/^Honing \(Hey\) Groaning, Grey$
+
+>owning eh
+by one point
+
+>cloning clay
+by one point
+
+>rick ride
+
+@all
+Woe Wall
+
+>hick hide
+
+@all
+#testcase-room-names-five-fee-contrive-country
+/^Five-Fee-Contrive Country$
+
+>ivy
+by one point
+
+>lively
+by one point
+
+>jive gee
+by one point
+
+>thrive three
+by one point
+
+>whyve we
+by one point
+
+>rick ride
+
+@all
+Woe Wall
+
+>sick side
+
+@all
+#testcase-room-names-oil-inc
+/^Oil, Inc\.$
+
+>royal rink
+by one point
+
+>soil sink
+by one point
+
+>broil brink
+by one point
+
+>loyal link
+by one point
+
+>foil fink
+by one point
+
+>rick ride
+
+@all
+Woe Wall
+
+@alt
+>bro brawl
+by one point
+Forfeit, Bore
+\\
+>undo
+\\
+>mo maul
+by one point
+Forfeit, Bore
+\\
+>undo
+
+>foe fall
+by one point
+
+@all
+#testcase-room-names-forfeit-bore-bit
+/^"Forfeit, Bore" Bit$
+
+>core kit
+by one point
+
+@all
+#+testcase-room-names-forfeit-bore-bit
+/^Pore Pit$
+
+>war wit
+by one point
+
+@all
+Woe Wall
+
+@!min
+>mo maul
+by one point
+\\
+>bro brawl
+by one point
+
+>oh all
+by one point
+
+@all
+#testcase-room-names-let-in-the-light-net-in-the-night
+/^Set-in-the-Site Net in the Night$
+\\
+>fret fright
+I'm going to be pedantic here and tell you not to throw out the small words.
+\\
+>let light
+I'm going to be pedantic here and tell you not to throw out the small words.
+
+@alt
+>fret in the fright
+You give up at the final moment. Too bad. But you still, like, learned lessons and stuff.
+Your score just went up by one point.
+*** SPOOKY SPITE, FLUKY FLIGHT ***
+\\
+>undo
+
+>let in the light
+Hooray! You figured what to do! You get a point!
+by one point
+*** SPOOKY SPITE, FLUKY FLIGHT ***

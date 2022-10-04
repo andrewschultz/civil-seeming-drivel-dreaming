@@ -15,6 +15,8 @@
 
 >au 2
 
+>z
+
 >turing test
 
 #testcase-check-vc-whirring-west-rule-fallthrough
@@ -33,3 +35,120 @@ by one point
 >trick tried
 by one point
 
+>prick pride
+by one point
+
+#testcase-room-names-sigh-sitch
+/^\(Sigh\) Sitch$
+
+>lie lich
+by one point
+
+>pie pitch
+by one point
+
+>rick ride
+
+>tick tide
+by one point
+
+#testcase-room-names-honing-hey-groaning-grey
+/^Honing \(Hey\) Groaning, Grey$
+
+>owning eh
+by one point
+
+>cloning clay
+by one point
+
+>rick ride
+
+Woe Wall
+
+>hick hide
+
+#testcase-room-names-five-fee-contrive-country
+/^Five-Fee-Contrive Country$
+
+>ivy
+by one point
+
+>lively
+by one point
+
+>jive gee
+by one point
+
+>thrive three
+by one point
+
+>whyve we
+by one point
+
+>rick ride
+
+Woe Wall
+
+>sick side
+
+#testcase-room-names-oil-inc
+/^Oil, Inc\.$
+
+>royal rink
+by one point
+
+>soil sink
+by one point
+
+>broil brink
+by one point
+
+>loyal link
+by one point
+
+>foil fink
+by one point
+
+>rick ride
+
+Woe Wall
+
+>foe fall
+by one point
+
+#testcase-room-names-forfeit-bore-bit
+/^"Forfeit, Bore" Bit$
+
+>core kit
+by one point
+
+#+testcase-room-names-forfeit-bore-bit
+/^Pore Pit$
+
+>war wit
+by one point
+
+Woe Wall
+
+>mo maul
+by one point
+
+>bro brawl
+by one point
+
+>oh all
+by one point
+
+#testcase-room-names-let-in-the-light-net-in-the-night
+/^Set-in-the-Site Net in the Night$
+
+>fret fright
+I'm going to be pedantic here and tell you not to throw out the small words.
+
+>let light
+I'm going to be pedantic here and tell you not to throw out the small words.
+
+>let in the light
+Hooray! You figured what to do! You get a point!
+by one point
+*** SPOOKY SPITE, FLUKY FLIGHT ***
