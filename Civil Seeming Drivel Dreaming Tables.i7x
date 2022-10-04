@@ -49,6 +49,13 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "thrive"	"three"	--	--	false	true	true	false	contrive country	vc-thrive-three rule	vr-thrive-three rule	--	--
 "whyve"	"we"	--	--	false	true	true	false	contrive country	vc-whyve-we rule	vr-whyve-we rule	--	--
 
+a goodrhyme rule (this is the vc-turing-test rule):
+	if player is not in Croots Craving, unavailable;
+	if pest is moot:
+		vcal "You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.";
+		already-done;
+	ready;
+
 this is the vr-turing-test rule:
 	say "The purring pest disappears with a pop.";
 	moot purring pest;
@@ -100,7 +107,7 @@ this is the vr-trick-tried rule:
 	say "Aha! You see what was wrong with the slick slide. You see what to do. It's so tricky, I can't even describe it to you, but since you did it, you have a pretty good idea. Right?";
 
 a goodrhyme rule (this is the vc-hick-hide rule):
-	if player is not in Woe Wall, unavailable;
+	abide by the slick-trick rule;
 	if sco-hick-hide is true:
 		vcal "You already did this!";
 		already-done;
@@ -112,7 +119,7 @@ this is the vr-hick-hide rule:
 	move player to Five Fee Contrive Country;
 
 a goodrhyme rule (this is the vc-prick-pride rule):
-	if player is not in Woe Wall, unavailable;
+	abide by the slick-trick rule;
 	if sco-prick-pride is true:
 		vcal "You already did this!";
 		already-done;
@@ -124,7 +131,7 @@ this is the vr-prick-pride rule:
 	move player to Sigh Sitch;
 
 a goodrhyme rule (this is the vc-sick-side rule):
-	if player is not in Woe Wall, unavailable;
+	abide by the slick-trick rule;
 	if sco-sick-side is true:
 		vcal "You already did this!";
 		already-done;
@@ -132,11 +139,10 @@ a goodrhyme rule (this is the vc-sick-side rule):
 
 this is the vr-sick-side rule:
 	now sco-sick-side is true;
-	say "You slide down somewhere ... there's a lot of complaining, and there are two prime suspects.";
-	move player to Honing Hey Groaning Grey;
+	say "You're ready to help out with the effects of the petrochemical industry on health, or something.";
+	move player to Oil Inc;
 
 a goodrhyme rule (this is the vc-tick-tide rule):
-	if player is not in Woe Wall, unavailable;
 	abide by the slick-trick rule;
 	if sco-tick-tide is true:
 		vcal "You already did this!";
@@ -145,7 +151,8 @@ a goodrhyme rule (this is the vc-tick-tide rule):
 
 this is the vr-tick-tide rule:
 	now sco-tick-tide is true;
-	say "You take the slick slide, expecting to find a swarm of insects. Instead, you find...";
+	say "You slide down somewhere ... there's a lot of complaining about all the bugs around. You can't see them, but there are two prime suspects.";
+	move player to Honing Hey Groaning Grey;
 
 a goodrhyme rule (this is the vc-rick-ride rule):
 	if slick slide is off-stage, unavailable;
@@ -283,18 +290,13 @@ this is the vr-whyve-we rule:
 	now sco-whyve-we is true;
 	say "Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.";
 
-a goodrhyme rule (this is the vc-turing-test rule):
-	if player is not in Croots Craving, unavailable;
-	if pest is moot:
-		vcal "You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.";
-		already-done;
-	ready;
 
 chapter auxiliary rules
 
 [woe wall stuff]
 
 this is the slick-trick rule:
+	if player is not in Woe Wall, unavailable;
 	if sco-trick-tried is false:
 		vcp "The slide is so slippery, you can't even get on it to go down it. You'll need to fix that furst.";
 		not-yet;
