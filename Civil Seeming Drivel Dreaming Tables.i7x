@@ -59,6 +59,7 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "oh"	"all"	--	--	false	true	true	false	woe wall	vc-oh-all rule	vr-oh-all rule	--	--
 "core"	"kit"	--	--	false	true	true	false	forfeit bore bit	vc-core-kit rule	vr-core-kit rule	--	--
 "war"	"wit"	--	--	false	true	true	false	forfeit bore bit	vc-war-wit rule	vr-war-wit rule	--	--
+"let"	"light"	--	--	false	true	true	false	net in the night	vc-let-light rule	vr-let-light rule	--	--
 
 a goodrhyme rule (this is the vc-turing-test rule):
 	if player is not in Croots Craving, unavailable;
@@ -407,6 +408,7 @@ a goodrhyme rule (this is the vc-oh-all rule):
 this is the vr-oh-all rule:
 	now sco-oh-all is true;
 	say "Hooray! You figured what to do! You get a point!";
+	move player to Net in the Night;
 
 a goodrhyme rule (this is the vc-core-kit rule):
 	if player is not in forfeit bore bit, unavailable;
@@ -484,6 +486,19 @@ this is the big-battle-check rule:
 		move player to Forfeit Bore Bit;
 	else:
 		say "Your charges appear even more, uh, charged!";
+
+a goodrhyme rule (this is the vc-let-light rule):
+	if player is not in net in the night, unavailable;
+	if final-cmd-extra-words is false:
+		vcal "I'm going to be pedantic here and tell you not to throw out the small words.";
+		already-done;
+	ready;
+
+this is the vr-let-light rule:
+	now sco-let-light is true;
+	say "Hooray! You figured what to do! You get a point!";
+	end the story finally saying "SPOOKY SPITE, FLUKY FLIGHT";
+	follow the shutdown rules;
 
 volume can't go that way notes
 

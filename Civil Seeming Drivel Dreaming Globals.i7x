@@ -54,6 +54,8 @@ sco-oh-all is a truth state that varies.
 sco-core-kit is a truth state that varies.
 sco-war-wit is a truth state that varies.
 
+sco-let-light is a truth state that varies.
+
 Civil Seeming Drivel Dreaming Globals ends here.
 
 ---- DOCUMENTATION ----

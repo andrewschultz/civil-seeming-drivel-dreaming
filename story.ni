@@ -82,7 +82,7 @@ The moil mink is a thing in Oil Inc.
 
 book Forfeit Bore Bit
 
-Forfeit Bore Bit is a room. printed name is "'Forfeit, Bore' Bit".
+Forfeit Bore Bit is a room. printed name is "[if sco-core-kit is false]'Forfeit, Bore' Bit[else]Pore Pit[end if]".
 
 book Set in the Site Net in the Night
 
@@ -224,3 +224,16 @@ Rule for printing a parser error (this is the clue half right words rule):
 
 the clue half right words rule is listed first in the for printing a parser error rulebook. [note: this caused a speedup when I first tried it. I'm not sure if this would last, so I'll need to do testing with this line vs with it commented out. ?? ]
 
+book stupid parser tricks for the final point
+
+final-cmd-extra-words is a truth state that varies.
+
+after reading a command: [ should this be moved to parser errors? ]
+	if player is in Net in the Night:
+		now final-cmd-extra-words is false;
+		if word number 2 in the player's command is "in":
+			let X be indexed text;
+			now X is "[the player's command]";
+			replace the regular expression "\Win( the)?\W" in the player's command with "";
+			now final-cmd-extra-words is true;
+			change the text of the player's command to X;
