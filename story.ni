@@ -70,7 +70,7 @@ Droning Dre is a person in Honing Hey.
 
 book Five Fee Contrive Country
 
-Five Fee Contrive Country is a room.
+Five Fee Contrive Country is a room. printed name is "Five-Fee-Contrive Country".
 
 book Oil Inc
 

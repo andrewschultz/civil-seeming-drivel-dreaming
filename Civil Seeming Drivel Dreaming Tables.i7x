@@ -32,13 +32,13 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "turing"	"test"	"touring"	--	false	false	false	false	Croots Craving	vc-turing-test rule	vr-turing-test rule	--
 "whirring"	"west"	--	--	false	false	true	false	Croots Craving	vc-whirring-west rule	vr-whirring-west rule	--
 "yo"	"yall"	--	--	false	false	true	false	Woe Wall	vc-yo-yall rule	vr-yo-yall rule	-- [Woe Wall start]
-"stow"	"stall"	--	--	false	false	true	false	Woe Wall	vc-stow-stall rule	vr-stow-stall rule	--
+"stow"	"stall"	--	--	false	false	true	false	Woe Wall	vc-stow-stall rule	vr-stow-stall rule	--	"You can find the [b]STOW STALL[r] [once-now of vc-stow-stall rule] you've met people familiar with the area."
 "trick"	"tried"	--	--	false	false	true	false	Woe Wall	vc-trick-tried rule	vr-trick-tried rule	--	--
 "hick"	"hide|hied"	--	--	false	false	true	false	Woe Wall	vc-hick-hide rule	vr-hick-hide rule	--	"You can [b]HICK HIDE[r] [slick-nav]."
 "prick"	"pride"	--	--	false	false	true	false	Woe Wall	vc-prick-pride rule	vr-prick-pride rule	--	"You can [b]PRICK PRIDE[r] [slick-nav]."
 "sick"	"side"	"sic/sighed"	--	false	false	true	false	Woe Wall	vc-sick-side rule	vr-sick-side rule	--	"You can [b]SICK SIDE[r] [slick-nav]."
 "tick"	"tide|tied"	--	--	false	false	true	false	Woe Wall	vc-tick-tide rule	vr-tick-tide rule	--	"You can [b]TICK TIDE[r] [slick-nav]."
-"rick"	"ride"	--	--	false	false	true	false	Woe Wall	vc-rick-ride rule	vr-rick-ride rule	--	"You can [b]RICK RIDE[r] once you've taken a trip on the slick slide."
+"rick"	"ride"	--	--	false	false	true	false	Woe Wall	vc-rick-ride rule	vr-rick-ride rule	--	"You can take a [b]RICK RIDE[r] [once-now of vc-rick-ride rule] you've taken a trip on the slick slide." [ which of the above rules doesn't matter, since once-now also catches already-done ]
 "lie"	"lich"	--	--	false	true	true	false	sigh sitch	vc-lie-lich rule	vr-lie-lich rule	--	-- [Sigh Sitch start]
 "pie"	"pitch"	--	--	false	true	true	false	sigh sitch	vc-pie-pitch rule	vr-pie-pitch rule	--	--
 "owning"	"eh"	--	--	false	true	true	false	honing hey	vc-owning-eh rule	vr-owning-eh rule	--	--
@@ -420,6 +420,7 @@ a goodrhyme rule (this is the vc-core-kit rule):
 this is the vr-core-kit rule:
 	now sco-core-kit is true;
 	say "You discover a core kit somewhere in the darkness here. It contains a book of affirmations, some soldier toys to plan strategies and also tools you can use to climb up to somewhere less awful. So you do. But you drop the book in the process. Pity. Some of the ideas would've made you a lot more content once you woke up. That's life!";
+	print-the-loc;
 
 a goodrhyme rule (this is the vc-war-wit rule):
 	if player is not in forfeit bore bit, unavailable;
@@ -442,7 +443,7 @@ to say slick-nav: say "[if sco-trick-tried is false]once[else]now[end if] you've
 this is the slick-trick rule:
 	if player is not in Woe Wall, unavailable;
 	if sco-trick-tried is false:
-		vcp "The slide is so slippery, you can't even get on it to go down it. You'll need to fix that furst.";
+		vcp "The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.";
 		not-yet;
 
 [transport stuff]
@@ -501,6 +502,7 @@ this is the vr-let-light rule:
 		say "You give up at the final moment. Too bad. But you still, like, learned lessons and stuff.";
 	else:
 		say "Hooray! You figured what to do! You get a point!";
+	up-reg;
 	process the score and thinking changes rule;
 	end the story finally saying "SPOOKY SPITE, FLUKY FLIGHT";
 	follow the shutdown rules;

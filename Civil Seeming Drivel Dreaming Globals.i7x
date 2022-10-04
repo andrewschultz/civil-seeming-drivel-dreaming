@@ -56,6 +56,10 @@ sco-war-wit is a truth state that varies.
 
 sco-let-light is a truth state that varies.
 
+volume variables for cluing and such
+
+hint-trip-room is Woe Wall.
+
 Civil Seeming Drivel Dreaming Globals ends here.
 
 ---- DOCUMENTATION ----
