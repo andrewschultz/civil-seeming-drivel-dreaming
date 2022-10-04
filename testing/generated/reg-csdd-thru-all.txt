@@ -1,0 +1,35 @@
+#stable-file: this eventually says that the project is stable, and I shouldn't change the main/minimal file unless I really need to.
+
+## reg-csdd-thru-all.txt
+## GENERATOR FILE: rbr-csdd-thru.txt
+
+## walkthrough with all points
+
+** game: /home/andrew/prt/debug-civil-seeming-drivel-dreaming.z8
+** interpreter: /home/andrew/prt/dfrotz -m -w5000 -h25
+
+* main-thru
+
+#testcase-room-names-croots-craving
+/^Croots Craving
+
+>au 2
+
+>turing test
+
+#testcase-check-vc-whirring-west-rule-fallthrough
+
+>whirring west
+
+#testcase-room-names-woe-wall
+/^Woe Wall$
+
+>yo yall
+by one point
+
+>stow stall
+by one point
+
+>trick tried
+by one point
+

@@ -1,0 +1,85 @@
+#stable-file: this eventually says that the project is stable, and I shouldn't change the main/minimal file unless I really need to.
+
+## reg-csdd-thru-reject.txt
+## GENERATOR FILE: rbr-csdd-thru.txt
+
+## walkthrough with all rejections and think
+
+** game: /home/andrew/prt/debug-civil-seeming-drivel-dreaming.z8
+** interpreter: /home/andrew/prt/dfrotz -m -w5000 -h25
+
+* main-thru
+
+>au 2
+
+>turing test
+
+>turing test
+WRONG
+
+>whirring west
+
+#testcase-check-vc-whirring-west-rule-unless-player-is-in-croots-craving
+>whirring west
+WRONG
+
+#testcase-check-vc-turing-test-rule-unless-player-is-in-croots-craving
+>turing test
+WRONG
+
+>stow stall
+WRONG
+
+>think
+WRONG
+
+>yo yall
+by one point
+
+>yo yall
+WRONG
+
+>stow stall
+by one point
+
+#testcase-check-vc-prick-pride-rule-default
+>prick pride
+WRONG
+
+#testcase-check-vc-sick-side-rule-default
+>sick side
+WRONG
+
+#testcase-check-vc-hick-hide-rule-default
+>hick hide
+WRONG
+
+#testcase-check-vc-tick-tide-rule-default
+>tick tide
+WRONG
+
+#testcase-think-table-of-verb-checks-vc-hick-hide-rule
+#testcase-think-table-of-verb-checks-vc-prick-pride-rule
+#testcase-think-table-of-verb-checks-vc-rick-ride-rule
+#testcase-think-table-of-verb-checks-vc-sick-side-rule
+#testcase-think-table-of-verb-checks-vc-tick-tide-rule
+>think
+You can HICK HIDE once you've made the slick slide navigable.
+You can PRICK PRIDE once you've made the slick slide navigable.
+You can RICK RIDE once you've taken a trip on the slick slide.
+You can SICK SIDE once you've made the slick slide navigable.
+You can TICK TIDE once you've made the slick slide navigable.
+
+>trick tried
+by one point
+
+#+testcase-think-table-of-verb-checks-vc-hick-hide-rule
+#+testcase-think-table-of-verb-checks-vc-prick-pride-rule
+#+testcase-think-table-of-verb-checks-vc-rick-ride-rule
+#+testcase-think-table-of-verb-checks-vc-sick-side-rule
+#+testcase-think-table-of-verb-checks-vc-tick-tide-rule
+>think
+You can HICK HIDE once you've made the slick slide navigable.
+You can PRICK PRIDE once you've made the slick slide navigable.
+You can SICK SIDE once you've made the slick slide navigable.
+You can TICK TIDE once you've made the slick slide navigable.
