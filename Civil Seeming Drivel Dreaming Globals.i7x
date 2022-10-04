@@ -8,7 +8,7 @@ the release number is 1.
 
 [entry-in-series is 4.]
 
-core-max is 25.
+core-max is 28.
 
 max-bonus is 3.
 

@@ -4,7 +4,9 @@ Version 1/221003 of Civil Seeming Drivel Dreaming Tests by Andrew Schultz begins
 
 volume tests
 
-test r1 with "turing test/whirring west".
+test r1 with "whirring west".
+
+test r1f with "turing test/whirring west".
 
 test r2 with "yo yall/stow stall/trick tried".
 
@@ -18,7 +20,11 @@ test r6 with "sick side/loyal link/broil brink/royal rink/soil sink/foil fink/ri
 
 test r7 with "foe fall/core kit/war wit/oh all/let in the light".
 
-test wall with "test r1/test r2/test r3/test r4/test r5/test r6/test r7".
+test r7f with "foe fall/core kit/war wit/bro brawl/mo maul/oh all/let in the light".
+
+test wb with "test r1/test r2/test r3/test r4/test r5/test r6/test r7".
+
+test wf with "test r1f/test r2/test r3/test r4/test r5/test r6/test r7f".
 
 Civil Seeming Drivel Dreaming Tests ends here.
 

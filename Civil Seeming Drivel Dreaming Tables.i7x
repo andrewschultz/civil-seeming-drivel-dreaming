@@ -59,7 +59,7 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "oh"	"all"	--	--	false	true	true	false	woe wall	vc-oh-all rule	vr-oh-all rule	--	--
 "core"	"kit"	--	--	false	true	true	false	forfeit bore bit	vc-core-kit rule	vr-core-kit rule	--	--
 "war"	"wit"	--	--	false	true	true	false	forfeit bore bit	vc-war-wit rule	vr-war-wit rule	--	--
-"let"	"light"	--	--	false	true	true	false	net in the night	vc-let-light rule	vr-let-light rule	--	--
+"let|fret"	"light|fright"	--	--	false	true	true	false	net in the night	vc-let-light rule	vr-let-light rule	"let light" or "fret fright"	--
 
 a goodrhyme rule (this is the vc-turing-test rule):
 	if player is not in Croots Craving, unavailable;
@@ -481,7 +481,6 @@ this is the big-battle-check rule:
 				if player's command includes "brawl", next;
 			else:
 				next;
-			now think-cue entry is true;
 			now core entry is false;
 		move player to Forfeit Bore Bit;
 	else:
@@ -496,7 +495,11 @@ a goodrhyme rule (this is the vc-let-light rule):
 
 this is the vr-let-light rule:
 	now sco-let-light is true;
-	say "Hooray! You figured what to do! You get a point!";
+	if the player's command includes "fright":
+		say "You give up at the final moment. Too bad. But you still, like, learned lessons and stuff.";
+	else:
+		say "Hooray! You figured what to do! You get a point!";
+	process the score and thinking changes rule;
 	end the story finally saying "SPOOKY SPITE, FLUKY FLIGHT";
 	follow the shutdown rules;
 

@@ -90,7 +90,7 @@ Set in the Site Net in the Night is a room. printed name is "Set-in-the-Site Net
 
 volume verbs
 
-check taking: say "Anything you need in [this-game] will be automatically taken." instead;
+check taking: if noun is not leet learner, say "Anything you need in [this-game] will be automatically taken." instead;
 
 volume parser stuff
 
@@ -234,6 +234,6 @@ after reading a command: [ should this be moved to parser errors? ]
 		if word number 2 in the player's command is "in":
 			let X be indexed text;
 			now X is "[the player's command]";
-			replace the regular expression "\Win( the)?\W" in the player's command with "";
+			replace the regular expression "\W(in( the)?)\W" in X with " ";
 			now final-cmd-extra-words is true;
 			change the text of the player's command to X;
