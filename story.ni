@@ -95,6 +95,14 @@ book Five Fee Contrive Country
 
 Five Fee Contrive Country is a hubroom. printed name is "Five-Fee-Contrive Country".
 
+from-number of five fee contrive country is 11210. to-number of five fee contrive country is 16006.
+
+chapter Clive Klee
+
+Clive Klee is a person in Contrive Country.
+
+from-number of clive klee is 5504. to-number of clive klee is 16006.
+
 book Oil Inc
 
 Oil Inc is a hubroom. printed name is "Oil, Inc.".
@@ -123,6 +131,8 @@ check taking: if noun is not leet learner, say "Anything you need in [this-game]
 
 volume hint stuff
 
+book hint device stuff
+
 rule for supplying a missing noun when lling (this is the get readings from room rule):
 	say "You scan the area[one of]. This will suffice most of the time, though you may wish to [b]LL[r] a thing that doesn't jibe with its rhymes[or][stopping].";
 	if player is in croots craving:
@@ -131,7 +141,14 @@ rule for supplying a missing noun when lling (this is the get readings from room
 			say "[line break]Perhaps you will get more meaningful information scanning the [pest].";
 		reject the player's command;
 	abide by the general-ll-locations rule;
+	if player is in Contrive Country, follow the one-word-hints rule;
 	reject the player's command;
+
+report lling Clive Klee (this is the one-word-hints rule):
+	if sco-ivy is false or sco-lively is false:
+		say "The display's acting oddly, as if the numbers are almost trying to squish together or something.";
+
+book actual hints
 
 volume parser stuff
 

@@ -11,7 +11,8 @@
 #testcase-room-names-croots-craving
 /^Croots Craving
 
->z
+>take learner
+Taken.
 
 >au 2
 
@@ -21,6 +22,9 @@
 The purring pest disappears with a pop.
 
 >whirring west
+by one point
+
+>w
 
 #testcase-room-names-woe-wall
 /^Woe Wall$
@@ -101,6 +105,7 @@ by one point
 Woe Wall
 
 >hick hide
+by one point
 
 #testcase-room-names-five-fee-contrive-country
 /^Five-Fee-Contrive Country$

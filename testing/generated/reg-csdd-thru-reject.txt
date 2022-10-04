@@ -8,7 +8,8 @@
 
 * main-thru
 
->z
+>take learner
+Taken.
 
 >au 2
 
@@ -102,6 +103,9 @@ The purring pest disappears with a pop.
 You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
 >whirring west
+by one point
+
+>w
 
 #testcase-check-vc-whirring-west-rule-fallthrough
 You follow the noise and tumble down to...
@@ -292,6 +296,7 @@ You take time to reflect on your own faults.
 >rick ride
 
 >hick hide
+by one point
 
 #testcase-check-vc-hick-hide-rule-fallthrough
 You dream of elitists who look down on rural types as you take the slick slide. And what do you know? You find one, at the end!

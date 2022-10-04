@@ -48,7 +48,9 @@ to decide whether rhyme-mechanism-known:
 	if current-score > 0, yes;
 	no;
 
-book to decide what number
+book to decide what/which number
+
+to decide which number is pest-score: decide on (boolval of sco-whirring-west) + (boolval of sco-turing-test);
 
 to decide which number is hubs-solved: decide on (boolval of sco-whyve-we) + (boolval of sco-cloning-clay) + (boolval of sco-foil-fink) + (boolval of sco-pie-pitch);
 

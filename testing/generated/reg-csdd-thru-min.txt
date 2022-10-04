@@ -11,6 +11,9 @@
 >au 2
 
 >whirring west
+by one point
+
+>w
 
 >yo yall
 by one point
@@ -45,6 +48,7 @@ by one point
 >rick ride
 
 >hick hide
+by one point
 
 >ivy
 by one point

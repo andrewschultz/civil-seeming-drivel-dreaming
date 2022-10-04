@@ -63,13 +63,18 @@ TSV:## minimum walkthrough	## walkthrough with all points	## walkthrough with al
 /^Croots Craving
 
 @!min
->z
+>take learner
+Taken.
 
 >au 2
 
+@hin
+>ll
+You scan the area. This will suffice most of the time, though you may wish to LL a thing that doesn't jibe with its rhymes.
+You get an interesting reading when it flips to the BRUTES BRAVING SUITS SAVING text. The numbers blink from (0.50, 0.50) to (-0.50, -0.50) and back, as if it's clueless what should have been changed from, or to, what.
+Perhaps you will get more meaningful information scanning the blurring blest purring pest.
+
 @ha
->take learner
-\\
 #testcase-ha-half-table-of-verb-checks-2-west
 >whirring zwest
 {$GREENCOREFIRST}
@@ -88,10 +93,30 @@ ONE-TIME NOTE
 >zturing test
 {$GREENBONUS}
 
+@hin
+>ll pest
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
+!it's really dim
+\\
+##balance undos
+>whirring west
+by one point
+\\
+>ll pest
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.50, -0.50.)
+However, it's really dim, as if you don't need to do or think whatever there is to do or think.
+\\
+>undo
+>undo
+
 @!min
 >turing test
 }}SCORE++
 }}CURMIN++
+
+@hin
+>ll pest
+Your rhyming attempts bring up nothing.
 
 @rej
 #####################this is just testing for rejects in general
@@ -187,6 +212,13 @@ The purring pest disappears with a pop.
 You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
 >whirring west
+by one point
+
+@hin
+>ll pest
+Your rhyming attempts bring up nothing.
+
+>w
 
 @all
 #testcase-room-names-woe-wall
@@ -211,6 +243,10 @@ You follow the noise and tumble down to...
 #testcase-check-vc-owning-eh-rule-if-player-is-not-in-honing-hey
 >owing eh
 {$REJECT2}
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
 @hom
 >whoah
@@ -260,12 +296,23 @@ You already made contact behind the wall.
 >zstow stall
 {$GREENCORE}
 
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 1.00.)
+
 >stow stall
 by one point
 
 @all,rej
 {--rej}#testcase-check-vc-stow-stall-rule-fallthrough
 WRONG
+
+@hin
+>ll
+WRONG
+\\
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
 
 @rej
 >bro brawl
@@ -376,6 +423,10 @@ You can TICK TIDE once you've made the slick slide navigable.
 >trick tried
 by one point
 
+@hin
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.00, 0.00.)
+
 @all,rej
 {--rej}#testcase-check-vc-trick-tried-rule-fallthrough
 {--all}#testcase-run-vr-trick-tried-rule-default
@@ -395,6 +446,16 @@ You can TICK TIDE now you've made the slick slide navigable.
 
 >prick pride
 by one point
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.75, -0.75.)
+\\
+>ll witch
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+\\
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
 @all
 #testcase-room-names-sigh-sitch
@@ -433,6 +494,16 @@ You can ask for a PIE PITCH once there's someone or something evil as a target.
 >lie lich
 by one point
 
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
+\\
+>ll witch
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.50.)
+\\
+>ll lich
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
+
 @rej
 #+testcase-think-table-of-verb-checks-vc-pie-pitch-rule
 >think
@@ -445,6 +516,11 @@ A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones se
 
 >pie pitch
 by one point
+
+@hin
+>ll
+GO TO THE SLIDE
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
 
 @all,rej
 {--rej}#testcase-check-vc-pie-pitch-rule-fallthrough
@@ -464,6 +540,10 @@ by one point
 {--all}#testcase-run-vr-rick-ride-rule-default
 You take the rick ride back to Woe Wall...
 
+@hin
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
 >tick tide
 by one point
 
@@ -475,6 +555,10 @@ by one point
 {--rej}#testcase-check-vc-tick-tide-rule-fallthrough
 {--all}#testcase-run-vr-tick-tide-rule-default
 You slide down somewhere ... there's a lot of complaining about all the bugs around. You can't see them, but there are two prime suspects.
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
 
 @rej
 >cloning clay
@@ -504,6 +588,10 @@ are more worth cloning.
 
 >owning eh
 by one point
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
 
 @rej
 #+testcase-think-table-of-verb-checks-vc-cloning-clay-rule
@@ -535,12 +623,21 @@ by one point
 >owning eh
 You take time to reflect on your own faults.
 
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
+
 >rick ride
 
 @all
 Woe Wall
 
+@hin
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+
 >hick hide
+by one point
 
 @all
 #testcase-room-names-five-fee-contrive-country
@@ -585,6 +682,13 @@ You can summon the THRIVE THREE once Five-Fee-Contrive Country thrives three way
 >zwhyve we
 {$YELLOWCORE}
 
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+\\
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+
 >ivy
 by one point
 
@@ -593,6 +697,13 @@ by one point
 {--all}#testcase-run-vr-ivy-rule-default
 Five-Fee-Contrive Country is now filled with vegetation!
 
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+\\
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+
 >lively
 by one point
 
@@ -600,6 +711,13 @@ by one point
 {--rej}#testcase-check-vc-lively-rule-fallthrough
 {--all}#testcase-run-vr-lively-rule-default
 Five-Fee-Contrive Country now seems more populated.
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+\\
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
 
 >jive gee
 by one point
@@ -616,6 +734,13 @@ The air feels laden with possibilities for friendly wisecracking.
 You can say WHYVE WE once you have allies to outnumber Clive Klee.
 You can summon the THRIVE THREE now Five-Fee-Contrive Country thrives three ways.
 
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+\\
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+
 >thrive three
 by one point
 
@@ -628,6 +753,13 @@ You can say WHYVE WE now you have allies to outnumber Clive Klee.
 {--rej}#testcase-check-vc-thrive-three-rule-fallthrough
 {--all}#testcase-run-vr-thrive-three-rule-default
 BZZT Change This
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+\\
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
 
 >whyve we
 by one point
@@ -694,6 +826,13 @@ You're ready to help out with the effects of the petrochemical industry on healt
 >zfoil fink
 {$YELLOWCORE}
 
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+\\
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+
 @rej
 >foil fink
 WRONG
@@ -713,6 +852,13 @@ WRONG
 #testcase-run-vr-royal-rink-rule-default
 BZZT Change This
 
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+\\
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+
 >soil sink
 by one point
 
@@ -723,6 +869,13 @@ WRONG
 @all
 #testcase-run-vr-soil-sink-rule-default
 BZZT Change This
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+\\
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
 
 >broil brink
 by one point
@@ -735,6 +888,13 @@ WRONG
 #testcase-run-vr-broil-brink-rule-default
 <now sco-broil-brink is true;>
 BZZT Change This
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+\\
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
 
 >loyal link
 by one point
@@ -761,6 +921,13 @@ You can FOIL FINK now enough is in place to depose Oil, Inc.
 >zfoil fink
 {$GREENCORE}
 
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+\\
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+
 >foil fink
 by one point
 
@@ -782,6 +949,10 @@ Woe Wall
 You can cry BRO BRAWL now combat is underway.
 You can cry FOE FALL now combat is underway.
 You can cry MO MAUL now combat is underway.
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
 
 @alt
 >bro brawl
@@ -857,6 +1028,10 @@ You're beyond the rick's help here. You must find a way out on your own.
 >war zwit
 {$YELLOWCORE}
 
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+
 >core kit
 by one point
 
@@ -876,6 +1051,10 @@ WRONG
 #testcase-think-table-of-verb-checks-vc-war-wit-rule
 >think
 You can learn WAR WIT once you are no longer in the depths of despair.
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
 
 >war wit
 by one point
@@ -926,6 +1105,10 @@ You can cry OH ALL once-now you have full leadership skills.
 #testcase-ha-half-table-of-verb-checks-28-oh
 >zoh all
 {$GREENCORE}
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
 
 >oh all
 by one point
@@ -979,6 +1162,10 @@ Your score just went up by one point.
 *** SPOOKY SPITE, FLUKY FLIGHT ***
 \\
 >undo
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
 
 >let in the light
 by one point

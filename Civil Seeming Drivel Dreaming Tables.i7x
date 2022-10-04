@@ -70,20 +70,18 @@ a goodrhyme rule (this is the vc-turing-test rule):
 
 this is the vr-turing-test rule:
 	now sco-turing-test is true;
-	say "The purring pest disappears with a pop.";
-	moot purring pest;
+	abide by the purring-pest-pop rule;
+	say "The purring pest walks over to a corner and falls asleep. It's unclear whether this is out of failure to past your test or boredom from how you administered it, but you feel smart either way[if sco-whirring-west is true]. Perhaps you can still use it to figure how to get out of here[end if].";
 
 a goodrhyme rule (this is the vc-whirring-west rule):
 	unless player is in Croots Craving, unavailable;
 	ready;
 
 this is the vr-whirring-west rule:
+	now sco-whirring-west is true;
 	say "You follow the noise and tumble down to...";
-	if sco-turing-test is false:
-		now to-number of blurring blest purring pest is -5604;
-	else:
-		now to-number of blurring blest purring pest is -3;
-	move player to Woe Wall;
+	abide by the purring-pest-pop rule;
+	now to-number of blurring blest purring pest is -5604;
 
 this is the vc-yo-yall rule:
 	if player is not in woe wall, unavailable;
@@ -112,6 +110,7 @@ this is the vr-stow-stall rule:
 	say "With the help of [paul], you uncover an area with emergency supplies. It includes ... a slick slide! Everyone patches up the entrance afterwards, because there's lots of other stuff to be stowed for even later.[paragraph break]The slide seems a bit too slick at the moment.";
 	now sco-stow-stall is true;
 	move slick slide to woe wall;
+	declue woe wall;
 
 a goodrhyme rule (this is the vc-trick-tried rule):
 	if slick slide is not fungible, unavailable;
@@ -268,6 +267,7 @@ a goodrhyme rule (this is the vc-ivy rule):
 this is the vr-ivy rule:
 	now sco-ivy is true;
 	say "[country] is now filled with vegetation!";
+	country-down 5201;
 
 a goodrhyme rule (this is the vc-lively rule):
 	if player is not in contrive country, unavailable;
@@ -279,6 +279,7 @@ a goodrhyme rule (this is the vc-lively rule):
 this is the vr-lively rule:
 	now sco-lively is true;
 	say "[country] now seems more populated.";
+	country-down 5402;
 
 a goodrhyme rule (this is the vc-jive-gee rule):
 	if player is not in contrive country, unavailable;
@@ -290,6 +291,7 @@ a goodrhyme rule (this is the vc-jive-gee rule):
 this is the vr-jive-gee rule:
 	now sco-jive-gee is true;
 	say "The air feels laden with possibilities for friendly wisecracking.";
+	country-down 5403;
 
 a goodrhyme rule (this is the vc-thrive-three rule):
 	if player is not in contrive country, unavailable;
@@ -304,6 +306,8 @@ a goodrhyme rule (this is the vc-thrive-three rule):
 this is the vr-thrive-three rule:
 	now sco-thrive-three is true;
 	say "Hooray! You figured what to do! You get a point!";
+	now to-number of clive klee is 5605;
+	now to-number of contrive country is 5605;
 
 a goodrhyme rule (this is the vc-whyve-we rule):
 	if player is not in contrive country, unavailable;
@@ -318,6 +322,8 @@ a goodrhyme rule (this is the vc-whyve-we rule):
 this is the vr-whyve-we rule:
 	now sco-whyve-we is true;
 	say "Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.";
+	now to-number of clive klee is -3;
+	now to-number of contrive country is -3;
 
 a goodrhyme rule (this is the vc-broil-brink rule):
 	abide by the oil-inc-basics rule;
@@ -459,6 +465,16 @@ this is the vr-war-wit rule:
 
 chapter auxiliary rules
 
+[initial room]
+
+this is the purring-pest-pop rule:
+	if pest-score is 2:
+		say "The [pest], its job (so to speak) done, disappears with a pop.";
+		moot purring pest;
+		now to-number of croots craving is -3;
+	else:
+		say "The [pest], pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice[if sco-turing-test is false], the sort to show advanced intelligence or whatever for its own sake[end if].";
+
 [woe wall stuff]
 
 to say slick-nav: say "[if sco-trick-tried is false]once[else]now[end if] you've made the slick slide navigable"
@@ -504,6 +520,14 @@ a goodrhyme rule (this is the oil-inc-basics rule):
 	if oil-inc-score > 5:
 		vcal "No need reliving old times. You're done here.";
 		already-done;
+
+[country stuff]
+
+to country-down (nu - a number):
+	if country-score is 3:
+		now to-number of contrive country is 5605;
+	else:
+		decrease to-number of contrive country by nu;
 
 [end fight]
 
