@@ -82,7 +82,7 @@ The moil mink is a thing in Oil Inc.
 
 book Forfeit Bore Bit
 
-Forfeit Bore Bit is a room. printed name is "Forfeit-Bore Bit".
+Forfeit Bore Bit is a room. printed name is "'Forfeit, Bore' Bit".
 
 book Set in the Site Net in the Night
 

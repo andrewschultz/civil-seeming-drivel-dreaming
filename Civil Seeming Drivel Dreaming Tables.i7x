@@ -53,6 +53,10 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "royal"	"rink"	--	--	false	true	true	false	oil inc	vc-royal-rink rule	vr-royal-rink rule	--	--
 "soil"	"sink"	--	--	false	true	true	false	oil inc	vc-soil-sink rule	vr-soil-sink rule	--	--
 "foil"	"fink"	--	--	false	true	true	false	oil inc	vc-foil-fink rule	vr-foil-fink rule	--	--
+"foe"	"fall"	--	--	false	true	true	false	woe wall	vc-foe-fall rule	vr-foe-fall rule	--	--
+"mo"	"maul"	--	--	false	true	true	false	woe wall	vc-mo-maul rule	vr-mo-maul rule	--	--
+"bro"	"brawl"	--	--	false	true	true	false	woe wall	vc-bro-brawl rule	vr-bro-brawl rule	--	--
+"oh"	"all"	--	--	false	true	true	false	woe wall	vc-oh-all rule	vr-oh-all rule	--	--
 
 a goodrhyme rule (this is the vc-turing-test rule):
 	if player is not in Croots Craving, unavailable;
@@ -352,6 +356,55 @@ this is the vr-foil-fink rule:
 	now sco-foil-fink is true;
 	say "Hooray! You figured what to do! You get a point!";
 
+a goodrhyme rule (this is the vc-bro-brawl rule):
+	if player is not in woe wall, unavailable;
+	if sco-bro-brawl is true:
+		vcal "You already did this!";
+		already-done;
+	ready;
+
+this is the vr-bro-brawl rule:
+	now sco-bro-brawl is true;
+	say "Hooray! You figured what to do! You get a point!";
+	abide by the big-battle-check rule;
+
+a goodrhyme rule (this is the vc-foe-fall rule):
+	if player is not in woe wall, unavailable;
+	if sco-foe-fall is true:
+		vcal "You already did this!";
+		already-done;
+	ready;
+
+this is the vr-foe-fall rule:
+	now sco-foe-fall is true;
+	say "Hooray! You figured what to do! You get a point!";
+
+a goodrhyme rule (this is the vc-mo-maul rule):
+	if player is not in woe wall, unavailable;
+	if sco-mo-maul is true:
+		vcal "You already did this!";
+		already-done;
+	ready;
+
+this is the vr-mo-maul rule:
+	now sco-mo-maul is true;
+	say "Hooray! You figured what to do! You get a point!";
+	abide by the big-battle-check rule;
+
+a goodrhyme rule (this is the vc-oh-all rule):
+	if player is not in woe wall, unavailable;
+	if sco-yo-yall is false:
+		vcp "This would be a way to bring everyone together once you have their trust. But there is no everyone to bring together. How to great them?";
+		not-yet;
+	if forfeit bore bit is unvisited:
+		vcp "You don't feel you have enough leadership skills yet to unite everyone!";
+		not-yet;
+	ready;
+
+this is the vr-oh-all rule:
+	now sco-oh-all is true;
+	say "Hooray! You figured what to do! You get a point!";
+
 chapter auxiliary rules
 
 [woe wall stuff]
@@ -385,6 +438,15 @@ a goodrhyme rule (this is the oil-inc-basics rule):
 	if oil-inc-score > 5:
 		vcal "No need reliving old times. You're done here.";
 		already-done;
+
+[end fight]
+
+this is the big-battle-check rule:
+	if forfeit bore bit is unvisited:
+		say "Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to the Woe Wall bums.";
+		move player to Forfeit Bore Bit;
+	else:
+		say "Your charges appear even more, uh, charged!";
 
 volume can't go that way notes
 

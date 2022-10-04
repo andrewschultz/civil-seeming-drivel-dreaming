@@ -10,7 +10,7 @@ the release number is 1.
 
 core-max is 25.
 
-max-bonus is 1.
+max-bonus is 3.
 
 volume scoring variables
 
@@ -44,6 +44,12 @@ sco-soil-sink is a truth state that varies.
 sco-loyal-link is a truth state that varies.
 sco-broil-brink is a truth state that varies.
 sco-foil-fink is a truth state that varies.
+
+sco-foe-fall is a truth state that varies.
+sco-mo-maul is a truth state that varies.
+sco-bro-brawl is a truth state that varies.
+
+sco-oh-all is a truth state that varies.
 
 Civil Seeming Drivel Dreaming Globals ends here.
 
