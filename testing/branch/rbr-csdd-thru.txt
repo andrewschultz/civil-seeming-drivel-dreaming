@@ -24,12 +24,13 @@ files=reg-csdd-thru-min.txt,reg-csdd-thru-all.txt,reg-csdd-thru-reject.txt,reg-c
 ~	goto,gt,go	t10
 ~	hin,hint,hints	t11
 ~	hf,hfull	t12
-#stable-file: this eventually says that the project is stable, and I shouldn't change the main/minimal file unless I really need to.
+#--stable-file: this eventually says that the project is stable, and I shouldn't change the main/minimal file unless I really need to.
 #--strict-file: this says that the project requires strict section marking e.g. @all instead of ==t1.
 
 }$REJECT=I couldn't parse that command. You don't need any more than two words long.
 }$REJECT2=Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 }$GREENBONUS=The HA HALF button on your Leet Learner lights up green. Very dim, though. Perhaps this is a rhyme you don't strictly need to figure to win.
+}$GREENCOREFIRST=The HA HALF button on your Leet Learner lights up green--one of the words you thought must be right.
 }$GREENCORE=The HA HALF button on your Leet Learner lights up green.
 }$YELLOWBONUS=The HA HALF button on your Leet Learner lights up yellow. Very dim, though. Perhaps this is a rhyme you don't strictly need to figure to win.
 }$YELLOWCOREFIRST=The HA HALF button on your Leet Learner lights up yellow--one of the words must work for a future solution.
@@ -65,6 +66,27 @@ TSV:## minimum walkthrough	## walkthrough with all points	## walkthrough with al
 >z
 
 >au 2
+
+@ha
+>take learner
+\\
+#testcase-ha-half-table-of-verb-checks-2-west
+>whirring zwest
+{$GREENCOREFIRST}
+ONE-TIME NOTE
+\\
+#testcase-ha-half-table-of-verb-checks-2-whirring
+>zwhirring west
+{$GREENCORE}
+!ONE-TIME NOTE
+\\
+#testcase-ha-half-table-of-verb-checks-1-test
+>turing ztest
+{$GREENBONUS}
+\\
+#testcase-ha-half-table-of-verb-checks-1-turing
+>zturing test
+{$GREENBONUS}
 
 @!min
 >turing test
@@ -202,6 +224,15 @@ Perhaps there is one buried beyond the wall, but you have nobody to help you loo
 >think
 You can find the STOW STALL once you've met people familiar with the area.
 
+@ha
+#testcase-ha-half-table-of-verb-checks-3-yall
+>yo zyall
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-3-yo
+>zyo yall
+{$GREENCORE}
+
 >yo yall
 by one point
 
@@ -219,6 +250,15 @@ Some people pop out from behind the Woe Wall. Po' Paul, their leader, introduces
 #testcase-check-vc-yo-yall-rule-if-sco-yo-yall-is-true
 >yo yall
 You already made contact behind the wall.
+
+@ha
+#testcase-ha-half-table-of-verb-checks-4-stall
+>stow zstall
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-4-stow
+>zstow stall
+{$GREENCORE}
 
 >stow stall
 by one point
@@ -284,6 +324,55 @@ You can take a RICK RIDE once you've taken a trip on the slick slide.
 You can SICK SIDE once you've made the slick slide navigable.
 You can TICK TIDE once you've made the slick slide navigable.
 
+@ha
+#testcase-ha-half-table-of-verb-checks-5-trick
+>ztrick tried
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-5-tried
+>trick ztried
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-6-hick
+>zhick hide
+{$YELLOWCOREFIRST}
+\\
+#testcase-ha-half-table-of-verb-checks-6-hide-hied
+>hick zhide
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-7-prick
+>zprick pride
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-7-pride
+>prick zpride
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-8-sick
+>zsick side
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-8-side
+>sick zside
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-9-tick
+>ztick tide
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-9-tide-tied
+>tick ztied
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-10-rick
+>zrick ride
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-10-ride
+>rick zride
+{$YELLOWCORE}
+
 >trick tried
 by one point
 
@@ -323,6 +412,23 @@ WRONG
 #testcase-think-table-of-verb-checks-vc-pie-pitch-rule
 >think
 You can ask for a PIE PITCH once there's someone or something evil as a target.
+
+@ha
+#testcase-ha-half-table-of-verb-checks-11-lich
+>lie zlich
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-11-lie
+>zlie lich
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-12-pie
+>zpie pitch
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-12-pitch
+>pie zpitch
+{$YELLOWCORE}
 
 >lie lich
 by one point
@@ -378,6 +484,23 @@ WRONG
 >think
 You can summon CLONING CLAY once
 are more worth cloning.
+
+@ha
+#testcase-ha-half-table-of-verb-checks-13-eh
+>owning zeh
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-13-owning
+>zowning eh
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-14-clay
+>cloning zclay
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-14-cloning
+>zcloning clay
+{$YELLOWCORE}
 
 >owning eh
 by one point
@@ -436,6 +559,31 @@ WRONG
 #testcase-think-table-of-verb-checks-vc-thrive-three-rule
 >think
 You can summon the THRIVE THREE once Five-Fee-Contrive Country thrives three ways.
+
+@ha
+#testcase-ha-half-table-of-verb-checks-16-gee
+>jive zgee
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-16-jive
+>zjive gee
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-18-three
+>thrive zthree
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-18-thrive
+>zthrive three
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-19-we
+>whyve zwe
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-19-whyve
+>zwhyve we
+{$YELLOWCORE}
 
 >ivy
 by one point
@@ -505,6 +653,47 @@ Woe Wall
 {--all}#testcase-run-vr-sick-side-rule-default
 You're ready to help out with the effects of the petrochemical industry on health, or something.
 
+@ha
+#testcase-ha-half-table-of-verb-checks-20-brink
+>broil zbrink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-20-broil
+>zbroil brink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-21-link
+>loyal zlink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-21-loyal
+>zloyal link
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-22-rink
+>royal zrink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-22-royal
+>zroyal rink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-23-sink
+>soil zsink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-23-soil
+>zsoil sink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-24-fink
+>foil zfink
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-24-foil
+>zfoil fink
+{$YELLOWCORE}
+
 @rej
 >foil fink
 WRONG
@@ -563,6 +752,15 @@ BZZT Change This
 >think
 You can FOIL FINK now enough is in place to depose Oil, Inc.
 
+@ha
+#+testcase-ha-half-table-of-verb-checks-24-fink
+>foil zfink
+{$GREENCORE}
+\\
+#+testcase-ha-half-table-of-verb-checks-24-foil
+>zfoil fink
+{$GREENCORE}
+
 >foil fink
 by one point
 
@@ -598,6 +796,31 @@ Forfeit, Bore
 \\
 >undo
 
+@ha
+#testcase-ha-half-table-of-verb-checks-25-fall
+>foe zfall
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-25-foe
+>zfoe fall
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-26-maul
+>mo zmaul
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-26-mo
+>zmo maul
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-27-brawl
+>bro zbrawl
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-27-bro
+>zbro brawl
+{$GREENCORE}
+
 >foe fall
 by one point
 
@@ -616,6 +839,23 @@ BZZT Change This
 #testcase-check-vc-rick-ride-rule-if-player-is-in-forfeit-or-player-is-in-net-in-the-night
 >rick ride
 You're beyond the rick's help here. You must find a way out on your own.
+
+@ha
+#testcase-ha-half-table-of-verb-checks-29-core
+>zcore kit
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-29-kit
+>core zkit
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-30-war
+>zwar wit
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-30-wit
+>war zwit
+{$YELLOWCORE}
 
 >core kit
 by one point
@@ -678,6 +918,15 @@ BZZT Change This
 >think
 You can cry OH ALL once-now you have full leadership skills.
 
+@ha
+#testcase-ha-half-table-of-verb-checks-28-all
+>oh zall
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-28-oh
+>zoh all
+{$GREENCORE}
+
 >oh all
 by one point
 
@@ -686,8 +935,25 @@ by one point
 {--all}#testcase-run-vr-oh-all-rule-default
 BZZT Change This
 
-@all
-#testcase-room-names-let-in-the-light-net-in-the-night
+@ha
+#testcase-ha-half-table-of-verb-checks-31-let-fret
+>let zlight
+{$GREENCORE}
+\\
+#+testcase-ha-half-table-of-verb-checks-31-let-fret
+>fret zfright
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-31-light-fright
+>zlet light
+{$GREENCORE}
+\\
+#+testcase-ha-half-table-of-verb-checks-31-light-fright
+>zfret fright
+{$GREENCORE}
+
+@all,rej
+{--all}#testcase-room-names-let-in-the-light-net-in-the-night
 /^Set-in-the-Site Net in the Night$
 \\
 >fret fright
@@ -697,6 +963,10 @@ I'm going to be pedantic here and tell you not to throw out the small words.
 I'm going to be pedantic here and tell you not to throw out the small words.
 
 @rej
+#testcase-think-table-of-verb-checks-vc-let-light-rule
+>think
+The final solution is more than two words long. Add words so your action matches the room.
+\\
 #+testcase-check-vc-rick-ride-rule-if-player-is-in-forfeit-or-player-is-in-net-in-the-night
 >rick ride
 You're beyond the rick's help here. You must find a way out on your own.
