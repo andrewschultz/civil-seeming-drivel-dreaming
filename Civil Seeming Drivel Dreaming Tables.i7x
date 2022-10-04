@@ -43,13 +43,11 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "pie"	"pitch"	--	--	false	true	true	false	sigh sitch	vc-pie-pitch rule	vr-pie-pitch rule	--	--
 "owning"	"eh"	--	--	false	true	true	false	honing hey	vc-owning-eh rule	vr-owning-eh rule	--	--
 "cloning"	"clay"	--	--	false	true	true	false	honing hey	vc-cloning-clay rule	vr-cloning-clay rule	--	--
-
-a goodrhyme rule (this is the vc-turing-test rule):
-	if player is not in Croots Craving, unavailable;
-	if pest is moot:
-		vcal "You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.";
-		already-done;
-	ready;
+"ivy"	--	--	--	false	true	true	false	contrive country	vc-ivy rule	vr-ivy rule	"ivy"	--
+"jive"	"gee"	--	--	false	true	true	false	contrive country	vc-jive-gee rule	vr-jive-gee rule	--	--
+"lively"	--	--	--	false	true	true	false	contrive country	vc-lively rule	vr-lively rule	"lively"	--
+"thrive"	"three"	--	--	false	true	true	false	contrive country	vc-thrive-three rule	vr-thrive-three rule	--	--
+"whyve"	"we"	--	--	false	true	true	false	contrive country	vc-whyve-we rule	vr-whyve-we rule	--	--
 
 this is the vr-turing-test rule:
 	say "The purring pest disappears with a pop.";
@@ -223,6 +221,74 @@ this is the vr-cloning-clay rule:
 	now sco-cloning-clay is true;
 	say "You discover some cloning clay, and [mmdd] spend time pouring their life essence into thousands of tiny golems. You watch as they both fade, their spirits no longer tormented. Your work here is done.";
 	rick-ride-check;
+
+a goodrhyme rule (this is the vc-ivy rule):
+	if player is not in contrive country, unavailable;
+	if sco-ivy is true:
+		vcal "You already vegetated [country]!";
+		already-done;
+	ready;
+
+this is the vr-ivy rule:
+	now sco-ivy is true;
+	say "[country] is now filled with vegetation!";
+
+a goodrhyme rule (this is the vc-lively rule):
+	if player is not in contrive country, unavailable;
+	if sco-lively is true:
+		vcal "But [country] is already populated enough.";
+		already-done;
+	ready;
+
+this is the vr-lively rule:
+	now sco-lively is true;
+	say "[country] now seems more populated.";
+
+a goodrhyme rule (this is the vc-jive-gee rule):
+	if player is not in contrive country, unavailable;
+	if sco-jive-gee is true:
+		vcal "[country] already has personality and soul.";
+		already-done;
+	ready;
+
+this is the vr-jive-gee rule:
+	now sco-jive-gee is true;
+	say "The air feels laden with possibilities for friendly wisecracking.";
+
+a goodrhyme rule (this is the vc-thrive-three rule):
+	if player is not in contrive country, unavailable;
+	if country-score < 3:
+		vcp "You haven't done enough to summon three people, yet!";
+		not-yet;
+	if sco-thrive-three is true:
+		vcal "You already summoned the Thrive Three!";
+		already-done;
+	ready;
+
+this is the vr-thrive-three rule:
+	now sco-thrive-three is true;
+	say "Hooray! You figured what to do! You get a point!";
+
+a goodrhyme rule (this is the vc-whyve-we rule):
+	if player is not in contrive country, unavailable;
+	if sco-thrive-three is false:
+		vcp "You need to outnumber Clive before you can ask this question successfully!";
+		not-yet;
+	if sco-whyve-we is true:
+		vcal "You already asked this critical question successfully!";
+		already-done;
+	ready;
+
+this is the vr-whyve-we rule:
+	now sco-whyve-we is true;
+	say "Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.";
+
+a goodrhyme rule (this is the vc-turing-test rule):
+	if player is not in Croots Craving, unavailable;
+	if pest is moot:
+		vcal "You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.";
+		already-done;
+	ready;
 
 chapter auxiliary rules
 

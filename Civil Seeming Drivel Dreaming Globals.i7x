@@ -33,6 +33,12 @@ sco-pie-pitch is a truth state that varies.
 sco-owning-eh is a truth state that varies.
 sco-cloning-clay is a truth state that varies.
 
+sco-lively is a truth state that varies.
+sco-ivy is a truth state that varies.
+sco-jive-gee is a truth state that varies.
+sco-thrive-three is a truth state that varies.
+sco-whyve-we is a truth state that varies.
+
 Civil Seeming Drivel Dreaming Globals ends here.
 
 ---- DOCUMENTATION ----

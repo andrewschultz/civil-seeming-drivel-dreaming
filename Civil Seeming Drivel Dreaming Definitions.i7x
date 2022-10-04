@@ -40,6 +40,10 @@ to decide whether (ru - a rule) is spaceable: yes; [annoying space breaks in inf
 
 to decide whether good-say-guess: no;
 
+book to decide what number
+
+to decide which number is country-score: decide on (boolval of sco-ivy) + (boolval of sco-lively) + (boolval of sco-jive-gee)
+
 section mostly VVFF dependent stuff with Dean Duggan
 
 to decide whether too-distracted: no;
