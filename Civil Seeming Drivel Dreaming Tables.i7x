@@ -59,7 +59,7 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "oh"	"all"	--	--	false	true	true	false	woe wall	vc-oh-all rule	vr-oh-all rule	--	"You can cry [b]OH ALL[r] [once-now of vc-foe-fall rule] you have full leadership skills."
 "core"	"kit"	--	--	false	true	true	false	forfeit bore bit	vc-core-kit rule	vr-core-kit rule	--	--
 "war"	"wit"	--	--	false	true	true	false	forfeit bore bit	vc-war-wit rule	vr-war-wit rule	--	"You can learn [b]WAR WIT[r] [once-now of vc-war-wit rule] you are no longer in the depths of despair."
-"let|fret"	"light|fright"	--	--	false	true	true	false	net in the night	vc-let-light rule	vr-let-light rule	"let light" or "fret fright"	--
+"let|fret"	"light|fright"	--	--	false	true	true	false	net in the night	vc-let-light rule	vr-let-light rule	"let light" or "fret fright"	"The final solution is more than two words long. Add words so your action matches the room."
 
 a goodrhyme rule (this is the vc-turing-test rule):
 	unless player is in Croots Craving, unavailable;
@@ -347,10 +347,10 @@ this is the vr-soil-sink rule:
 	say "Hooray! You figured what to do! You get a point!";
 
 a goodrhyme rule (this is the vc-foil-fink rule):
-	abide by the oil-inc-basics rule;
+	if player is not in oil inc, unavailable; [can't use oil inc rule as it may say you are already-done ]
 	if oil-inc-score < 4:
-		vcp "You're not ready yet.";
-		already-done;
+		vcp "You're not ready yet. You need more support!";
+		not-yet;
 	if sco-foil-fink is true:
 		vcal "You already foiled the fink and rescued people from Oil, Inc.!";
 		already-done;
@@ -493,8 +493,8 @@ this is the big-battle-check rule:
 a goodrhyme rule (this is the vc-let-light rule):
 	if player is not in net in the night, unavailable;
 	if final-cmd-extra-words is false:
-		vcal "I'm going to be pedantic here and tell you not to throw out the small words.";
-		already-done;
+		vcp "I'm going to be pedantic here and tell you not to throw out the small words.";
+		semi-pass;
 	ready;
 
 this is the vr-let-light rule:
