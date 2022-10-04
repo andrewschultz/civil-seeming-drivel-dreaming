@@ -193,7 +193,7 @@ a goodrhyme rule (this is the vc-lie-lich rule):
 
 this is the vr-lie-lich rule:
 	now sco-lie-lich is true;
-	say "A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!";
+	say "A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. It mentions it doesn't have to be chivalrous and wait, which discombobulates you, but for whatever reason, you know you're a good-guy, or a good-enough guy, so you can strike first.[paragraph break]You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!";
 	move lie lich to sigh sitch;
 
 a goodrhyme rule (this is the vc-pie-pitch rule):
@@ -457,7 +457,7 @@ to rick-ride-check:
 
 [clay abbreviations]
 
-to say mmdd: say "Moaning Mae and Droning Dre"
+to say mmdd: say "[one of]Moaning Mae and Droning Dre[or]Droning Dre and Moaning Mae[at random]"
 
 [oil inc]
 

@@ -10,23 +10,30 @@
 
 * main-thru
 
+>z
+
 >au 2
 
->z
+#testcase-check-vc-turing-test-rule-fallthrough
 
 >turing test
 
+#testcase-check-vc-turing-test-rule-if-pest-is-moot
 >turing test
 You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
 >whirring west
 
+#testcase-check-vc-turing-test-rule-unless-player-is-in-croots-craving
+>turing test
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
 #testcase-check-vc-whirring-west-rule-unless-player-is-in-croots-craving
 >whirring west
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
-#testcase-check-vc-turing-test-rule-unless-player-is-in-croots-craving
->turing test
+#testcase-check-vc-yo-yall-rule-if-player-is-not-in-woe-wall
+>yo yall
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 >stow stall
@@ -38,6 +45,8 @@ You can find the STOW STALL once you've met people familiar with the area.
 >yo yall
 by one point
 
+#testcase-check-vc-yo-yall-rule-fallthrough
+#testcase-check-vc-yo-yall-rule-if-sco-yo-yall-is-true
 >yo yall
 You already made contact behind the wall.
 
@@ -99,11 +108,12 @@ by one point
 >pie pitch
 by one point
 
+#+testcase-think-table-of-verb-checks-vc-rick-ride-rule
 >think
-#testcase-think-table-of-verb-checks-vc-rick-ride-rule
 You can take a RICK RIDE now you've taken a trip on the slick slide.
 
 >rick ride
+by one point
 
 >tick tide
 by one point
@@ -173,6 +183,5 @@ by one point
 by one point
 
 >let in the light
-Hooray! You figured what to do! You get a point!
 by one point
-*** SPOOKY SPITE, FLUKY FLIGHT ***
+
