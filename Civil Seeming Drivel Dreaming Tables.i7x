@@ -169,7 +169,7 @@ this is the vr-tick-tide rule:
 a goodrhyme rule (this is the vc-rick-ride rule):
 	if slick slide is off-stage, unavailable;
 	if player is in Woe Wall:
-		if sco-rick-ride is true:
+		if number of visited hubrooms > 1:
 			vcal "The rick ride is only for transport back here.";
 			already-done;
 		vcp "That would be a great way to get back, once you've found a way down the slick slide.";

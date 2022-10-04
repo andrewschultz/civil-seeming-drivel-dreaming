@@ -2,6 +2,10 @@ Version 1/221003 of Civil Seeming Drivel Dreaming Definitions by Andrew Schultz 
 
 "This should briefly describe the purpose of Civil Seeming Drivel Dreaming Definitions."
 
+volume types
+
+a hubroom is a kind of room.
+
 volume gotoing
 
 to decide whether (di - a direction) is blocked: no;

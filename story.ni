@@ -50,7 +50,7 @@ Po Paul is a person. printed name is "Po['] Paul".
 
 book Sigh Sitch
 
-Sigh Sitch is a room. printed name is "(Sigh) Sitch".
+Sigh Sitch is a hubroom. printed name is "(Sigh) Sitch".
 
 chapter witch
 
@@ -62,7 +62,7 @@ the lie lich is a person.
 
 book Honing Hey Groaning Grey
 
-Honing Hey Groaning Grey is a room. printed name is "Honing (Hey) Groaning, Grey".
+Honing Hey Groaning Grey is a hubroom. printed name is "Honing (Hey) Groaning, Grey".
 
 Moaning Mae is a person in Honing Hey.
 
@@ -70,11 +70,11 @@ Droning Dre is a person in Honing Hey.
 
 book Five Fee Contrive Country
 
-Five Fee Contrive Country is a room. printed name is "Five-Fee-Contrive Country".
+Five Fee Contrive Country is a hubroom. printed name is "Five-Fee-Contrive Country".
 
 book Oil Inc
 
-Oil Inc is a room. printed name is "Oil, Inc.".
+Oil Inc is a hubroom. printed name is "Oil, Inc.".
 
 chapter moil mink
 
