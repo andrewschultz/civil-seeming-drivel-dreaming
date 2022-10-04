@@ -72,13 +72,13 @@ book Five Fee Contrive Country
 
 Five Fee Contrive Country is a room.
 
-book Broil Brink
+book Oil Inc
 
-Broil Brink is a room.
+Oil Inc is a room. printed name is "Oil, Inc.".
 
 chapter moil mink
 
-The moil mink is a thing in Broil Brink.
+The moil mink is a thing in Oil Inc.
 
 book Forfeit Bore Bit
 

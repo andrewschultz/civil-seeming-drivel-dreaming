@@ -39,6 +39,12 @@ sco-jive-gee is a truth state that varies.
 sco-thrive-three is a truth state that varies.
 sco-whyve-we is a truth state that varies.
 
+sco-royal-rink is a truth state that varies.
+sco-soil-sink is a truth state that varies.
+sco-loyal-link is a truth state that varies.
+sco-broil-brink is a truth state that varies.
+sco-foil-fink is a truth state that varies.
+
 Civil Seeming Drivel Dreaming Globals ends here.
 
 ---- DOCUMENTATION ----

@@ -48,6 +48,11 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "lively"	--	--	--	false	true	true	false	contrive country	vc-lively rule	vr-lively rule	"lively"	--
 "thrive"	"three"	--	--	false	true	true	false	contrive country	vc-thrive-three rule	vr-thrive-three rule	--	--
 "whyve"	"we"	--	--	false	true	true	false	contrive country	vc-whyve-we rule	vr-whyve-we rule	--	--
+"broil"	"brink"	--	--	false	true	true	false	oil inc	vc-broil-brink rule	vr-broil-brink rule	--	--
+"loyal"	"link"	--	--	false	true	true	false	oil inc	vc-loyal-link rule	vr-loyal-link rule	--	--
+"royal"	"rink"	--	--	false	true	true	false	oil inc	vc-royal-rink rule	vr-royal-rink rule	--	--
+"soil"	"sink"	--	--	false	true	true	false	oil inc	vc-soil-sink rule	vr-soil-sink rule	--	--
+"foil"	"fink"	--	--	false	true	true	false	oil inc	vc-foil-fink rule	vr-foil-fink rule	--	--
 
 a goodrhyme rule (this is the vc-turing-test rule):
 	if player is not in Croots Craving, unavailable;
@@ -290,6 +295,62 @@ this is the vr-whyve-we rule:
 	now sco-whyve-we is true;
 	say "Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.";
 
+a goodrhyme rule (this is the vc-broil-brink rule):
+	abide by the oil-inc-basics rule;
+	if sco-broil-brink is true:
+		vcal "People are already mad, but not bursting. That's probably for the best.!";
+		already-done;
+	ready;
+
+this is the vr-broil-brink rule:
+	now sco-broil-brink is true;
+	say "Hooray! You figured what to do! You get a point!";
+
+a goodrhyme rule (this is the vc-loyal-link rule):
+	abide by the oil-inc-basics rule;
+	if sco-loyal-link is true:
+		vcal "People already understand the deeper value of loyalty here.";
+		already-done;
+	ready;
+
+this is the vr-loyal-link rule:
+	now sco-loyal-link is true;
+	say "Hooray! You figured what to do! You get a point!";
+
+a goodrhyme rule (this is the vc-royal-rink rule):
+	abide by the oil-inc-basics rule;
+	if sco-royal-rink is true:
+		vcal "People already have a place where they can assemble!";
+		already-done;
+	ready;
+
+this is the vr-royal-rink rule:
+	now sco-royal-rink is true;
+	say "Hooray! You figured what to do! You get a point!";
+
+a goodrhyme rule (this is the vc-soil-sink rule):
+	abide by the oil-inc-basics rule;
+	if sco-soil-sink is true:
+		vcal "You already put a dent in Oil, Inc.'s profits!";
+		already-done;
+	ready;
+
+this is the vr-soil-sink rule:
+	now sco-soil-sink is true;
+	say "Hooray! You figured what to do! You get a point!";
+
+a goodrhyme rule (this is the vc-foil-fink rule):
+	if oil-inc-score < 4:
+		vcp "You're not ready yet.";
+		already-done;
+	if sco-foil-fink is true:
+		vcal "You already foiled the fink and rescued people from Oil, Inc.!";
+		already-done;
+	ready;
+
+this is the vr-foil-fink rule:
+	now sco-foil-fink is true;
+	say "Hooray! You figured what to do! You get a point!";
 
 chapter auxiliary rules
 
@@ -313,6 +374,17 @@ to rick-ride-check:
 [clay abbreviations]
 
 to say mmdd: say "Moaning Mae and Droning Dre"
+
+[oil inc]
+
+a goodrhyme rule (this is the oil-inc-basics rule):
+	if player is not in oil inc, unavailable;
+	if oil-inc-score is 4:
+		vcal "You need to focus on deposing the moil mink.";
+		already-done;
+	if oil-inc-score > 5:
+		vcal "No need reliving old times. You're done here.";
+		already-done;
 
 volume can't go that way notes
 
