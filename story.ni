@@ -32,15 +32,26 @@ chapter blurring blest purring pest
 
 the blurring blest purring pest is a thing in Croots Craving.
 
+from-number of blurring blest purring pest is 11509. to-number of blurring blest purring pest is 5804.
+
+check going west in Croots Craving:
+	if sco-whirring-west is false, say "That seems like the right direction, but you'd like a clue. A sound, or something." instead;
+
 book Woe Wall
 
-Woe Wall is a room.
+Woe Wall is west of Croots Craving.
+
+from-number of woe wall is 5304. to-number of woe wall is 5204.
 
 guess-table of woe wall is table of woe wall guesses.
 
 check going east in Woe Wall: say "There's no way back to [Croots]." instead;
 
+chapter slick slide
+
 the slick slide is a rhymable. it is scenery.
+
+from-number of slick slide is 5505. to-number of slick slide is 5505.
 
 guess-table of slick slide is table of slick slide guesses.
 
@@ -52,21 +63,33 @@ book Sigh Sitch
 
 Sigh Sitch is a hubroom. printed name is "(Sigh) Sitch".
 
+from-number of sigh sitch is 5405. to-number of sigh sitch is 5304.
+
 chapter witch
 
 The I Itch Why Witch is a person in Sigh Sitch.
+
+from-number of i itch why witch is 10409. to-number of i itch why witch is 5304.
 
 chapter lich
 
 the lie lich is a person.
 
+from-number of lie lich is 5304. to-number of lie lich is 5305.
+
 book Honing Hey Groaning Grey
 
 Honing Hey Groaning Grey is a hubroom. printed name is "Honing (Hey) Groaning, Grey".
 
+from-number of honing hey groaning grey is 11407. to-number of honing hey groaning grey is 5602.
+
 Moaning Mae is a person in Honing Hey.
 
+from-number of moaning mae is 5703. to-number of moaning mae is 5602.
+
 Droning Dre is a person in Honing Hey.
+
+from-number of droning dre is 5703. to-number of droning dre is 5602.
 
 book Five Fee Contrive Country
 
@@ -76,6 +99,8 @@ book Oil Inc
 
 Oil Inc is a hubroom. printed name is "Oil, Inc.".
 
+from-number of oil inc is 5303. to-number of oil inc is 21917.
+
 chapter moil mink
 
 The moil mink is a thing in Oil Inc.
@@ -84,13 +109,29 @@ book Forfeit Bore Bit
 
 Forfeit Bore Bit is a room. printed name is "[if sco-core-kit is false]'Forfeit, Bore' Bit[else]Pore Pit[end if]".
 
+from-number of Forfeit Bore Bit is 10707. to-number of Forfeit Bore Bit is 5403.
+
 book Set in the Site Net in the Night
 
 Set in the Site Net in the Night is a room. printed name is "Set-in-the-Site Net in the Night".
 
+from-number of Net in the Night is 10609. to-number of Net in the Night is 5306.
+
 volume verbs
 
 check taking: if noun is not leet learner, say "Anything you need in [this-game] will be automatically taken." instead;
+
+volume hint stuff
+
+rule for supplying a missing noun when lling (this is the get readings from room rule):
+	say "You scan the area[one of]. This will suffice most of the time, though you may wish to [b]LL[r] a thing that doesn't jibe with its rhymes[or][stopping].";
+	if player is in croots craving:
+		say "You get an interesting reading when it flips to the BRUTES BRAVING SUITS SAVING text. The numbers blink from (0.50, 0.50) to (-0.50, -0.50) and back, as if it's clueless what should have been changed from, or to, what.";
+		if sco-whirring-west is false:
+			say "[line break]Perhaps you will get more meaningful information scanning the [pest].";
+		reject the player's command;
+	abide by the general-ll-locations rule;
+	reject the player's command;
 
 volume parser stuff
 

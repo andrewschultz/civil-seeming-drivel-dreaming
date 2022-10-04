@@ -14,7 +14,7 @@ max-bonus is 3.
 
 volume scoring variables
 
-sco-purring-pest is a truth state that varies.
+sco-turing-test is a truth state that varies.
 sco-whirring-west is a truth state that varies.
 
 sco-yo-yall is a truth state that varies.

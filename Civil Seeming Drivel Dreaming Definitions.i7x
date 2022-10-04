@@ -50,6 +50,8 @@ to decide whether rhyme-mechanism-known:
 
 book to decide what number
 
+to decide which number is hubs-solved: decide on (boolval of sco-whyve-we) + (boolval of sco-cloning-clay) + (boolval of sco-foil-fink) + (boolval of sco-pie-pitch);
+
 to decide which number is country-score: decide on (boolval of sco-ivy) + (boolval of sco-lively) + (boolval of sco-jive-gee);
 
 to decide which number is oil-inc-score: decide on (boolval of sco-broil-brink) + (boolval of sco-loyal-link) + (boolval of sco-royal-rink) + (boolval of sco-soil-sink);

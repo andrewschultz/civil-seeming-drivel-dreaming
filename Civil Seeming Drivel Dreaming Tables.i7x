@@ -69,6 +69,7 @@ a goodrhyme rule (this is the vc-turing-test rule):
 	ready;
 
 this is the vr-turing-test rule:
+	now sco-turing-test is true;
 	say "The purring pest disappears with a pop.";
 	moot purring pest;
 
@@ -78,6 +79,10 @@ a goodrhyme rule (this is the vc-whirring-west rule):
 
 this is the vr-whirring-west rule:
 	say "You follow the noise and tumble down to...";
+	if sco-turing-test is false:
+		now to-number of blurring blest purring pest is -5604;
+	else:
+		now to-number of blurring blest purring pest is -3;
 	move player to Woe Wall;
 
 this is the vc-yo-yall rule:
@@ -90,6 +95,7 @@ this is the vc-yo-yall rule:
 this is the vr-yo-yall rule:
 	say "Some people pop out from behind the Woe Wall. [paul], their leader, introduces himself to you.";
 	now Po Paul is in Woe Wall;
+	now to-number of woe wall is 5405;
 	now sco-yo-yall is true;
 
 this is the vc-stow-stall rule:
@@ -103,7 +109,7 @@ this is the vc-stow-stall rule:
 	ready;
 
 this is the vr-stow-stall rule:
-	say "With the help of [paul], you uncover an area with emergency supplies. It includes ... a slick slide!";
+	say "With the help of [paul], you uncover an area with emergency supplies. It includes ... a slick slide! Everyone patches up the entrance afterwards, because there's lots of other stuff to be stowed for even later.[paragraph break]The slide seems a bit too slick at the moment.";
 	now sco-stow-stall is true;
 	move slick slide to woe wall;
 
@@ -116,6 +122,7 @@ a goodrhyme rule (this is the vc-trick-tried rule):
 
 this is the vr-trick-tried rule:
 	now sco-trick-tried is true;
+	now to-number of slick slide is 21717;
 	say "Aha! You see what was wrong with the slick slide. You see what to do. It's so tricky, I can't even describe it to you, but since you did it, you have a pretty good idea. Right?";
 
 a goodrhyme rule (this is the vc-hick-hide rule):
@@ -126,6 +133,7 @@ a goodrhyme rule (this is the vc-hick-hide rule):
 	ready;
 
 this is the vr-hick-hide rule:
+	thing-decrease slick slide and 5404;
 	now sco-hick-hide is true;
 	say "You dream of elitists who look down on rural types as you take the slick slide. And what do you know? You find one, at the end!";
 	move player to Five Fee Contrive Country;
@@ -138,6 +146,7 @@ a goodrhyme rule (this is the vc-prick-pride rule):
 	ready;
 
 this is the vr-prick-pride rule:
+	thing-decrease slick slide and 5505;
 	now sco-prick-pride is true;
 	say "You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.";
 	move player to Sigh Sitch;
@@ -150,6 +159,7 @@ a goodrhyme rule (this is the vc-sick-side rule):
 	ready;
 
 this is the vr-sick-side rule:
+	thing-decrease slick slide and 5505;
 	now sco-sick-side is true;
 	say "You're ready to help out with the effects of the petrochemical industry on health, or something.";
 	move player to Oil Inc;
@@ -162,6 +172,7 @@ a goodrhyme rule (this is the vc-tick-tide rule):
 	ready;
 
 this is the vr-tick-tide rule:
+	thing-decrease slick slide and 5404;
 	now sco-tick-tide is true;
 	say "You slide down somewhere ... there's a lot of complaining about all the bugs around. You can't see them, but there are two prime suspects.";
 	move player to Honing Hey Groaning Grey;
@@ -192,6 +203,8 @@ a goodrhyme rule (this is the vc-lie-lich rule):
 	ready;
 
 this is the vr-lie-lich rule:
+	now to-number of sigh sitch is 5305;
+	now to-number of i itch why witch is 5305;
 	now sco-lie-lich is true;
 	say "A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. It mentions it doesn't have to be chivalrous and wait, which discombobulates you, but for whatever reason, you know you're a good-guy, or a good-enough guy, so you can strike first.[paragraph break]You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!";
 	move lie lich to sigh sitch;
@@ -207,12 +220,16 @@ a goodrhyme rule (this is the vc-pie-pitch rule):
 	ready;
 
 this is the vr-pie-pitch rule:
+	now to-number of sigh sitch is -3;
 	now sco-pie-pitch is true;
 	say "Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.";
 	moot lie lich;
 	rick-ride-check;
 
 a goodrhyme rule (this is the vc-owning-eh rule):
+	now to-number of honing hey groaning grey is 5704;
+	now to-number of moaning mae is 5704;
+	now to-number of droning dre is 5704;
 	if player is not in honing hey, unavailable;
 	if sco-cloning-clay is true:
 		vcal "You take time to reflect on your own faults.";
@@ -357,8 +374,10 @@ a goodrhyme rule (this is the vc-foil-fink rule):
 	ready;
 
 this is the vr-foil-fink rule:
+	now to-number of oil inc is -3;
 	now sco-foil-fink is true;
 	say "Hooray! You figured what to do! You get a point!";
+	check-battle;
 
 a goodrhyme rule (this is the vc-bro-brawl rule):
 	if player is not in woe wall, unavailable;
@@ -421,6 +440,8 @@ a goodrhyme rule (this is the vc-core-kit rule):
 this is the vr-core-kit rule:
 	now sco-core-kit is true;
 	say "You discover a core kit somewhere in the darkness here. It contains a book of affirmations, some soldier toys to plan strategies and also tools you can use to climb up to somewhere less awful. So you do. But you drop the book in the process. Pity. Some of the ideas would've made you a lot more content once you woke up. That's life!";
+	now to-number of bore bit is 5303;
+	now from-number of bore bit is 5403;
 	print-the-loc;
 
 a goodrhyme rule (this is the vc-war-wit rule):
@@ -432,6 +453,7 @@ a goodrhyme rule (this is the vc-war-wit rule):
 
 this is the vr-war-wit rule:
 	now sco-war-wit is true;
+	now to-number of woe wall is 5203;
 	say "Yes! You see what to do, now. You make believe you still have the soldier toys and see the right strategy for repelling the enemy. They'll be toast now.";
 	move player to Woe Wall;
 
@@ -449,6 +471,14 @@ this is the slick-trick rule:
 
 [transport stuff]
 
+to thing-decrease (th - a thing) and (nu - a number):
+	decrease to-number of th by nu;
+	if to-number of th is 0, now to-number of th is -4;
+
+to room-decrease (rm - a room) and (nu - a number):
+	decrease to-number of rm by nu;
+	if to-number of rm is 0, now to-number of rm is -3;
+
 to rick-ride-check:
 	say "[line break]";
 	if sco-rick-ride is false:
@@ -462,6 +492,10 @@ to say mmdd: say "[one of]Moaning Mae and Droning Dre[or]Droning Dre and Moaning
 
 [oil inc]
 
+to oil-inc-decrease (nu - a number):
+	decrease to-number of oil inc by nu;
+	if to-number of oil inc is 0, now to-number of oil inc is 5404;
+
 a goodrhyme rule (this is the oil-inc-basics rule):
 	if player is not in oil inc, unavailable;
 	if oil-inc-score is 4:
@@ -472,6 +506,10 @@ a goodrhyme rule (this is the oil-inc-basics rule):
 		already-done;
 
 [end fight]
+
+to check-battle:
+	if hubs-solved is 4 and to-number of woe wall is -5:
+		now to-number of woe wall is 15813;
 
 this is the big-battle-check rule:
 	if forfeit bore bit is unvisited:
