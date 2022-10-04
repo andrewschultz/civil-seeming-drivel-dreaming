@@ -57,6 +57,8 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "mo"	"maul"	--	--	false	true	true	false	woe wall	vc-mo-maul rule	vr-mo-maul rule	--	--
 "bro"	"brawl"	--	--	false	true	true	false	woe wall	vc-bro-brawl rule	vr-bro-brawl rule	--	--
 "oh"	"all"	--	--	false	true	true	false	woe wall	vc-oh-all rule	vr-oh-all rule	--	--
+"core"	"kit"	--	--	false	true	true	false	forfeit bore bit	vc-core-kit rule	vr-core-kit rule	--	--
+"war"	"wit"	--	--	false	true	true	false	forfeit bore bit	vc-war-wit rule	vr-war-wit rule	--	--
 
 a goodrhyme rule (this is the vc-turing-test rule):
 	if player is not in Croots Craving, unavailable;
@@ -378,6 +380,7 @@ a goodrhyme rule (this is the vc-foe-fall rule):
 this is the vr-foe-fall rule:
 	now sco-foe-fall is true;
 	say "Hooray! You figured what to do! You get a point!";
+	abide by the big-battle-check rule;
 
 a goodrhyme rule (this is the vc-mo-maul rule):
 	if player is not in woe wall, unavailable;
@@ -404,6 +407,29 @@ a goodrhyme rule (this is the vc-oh-all rule):
 this is the vr-oh-all rule:
 	now sco-oh-all is true;
 	say "Hooray! You figured what to do! You get a point!";
+
+a goodrhyme rule (this is the vc-core-kit rule):
+	if player is not in forfeit bore bit, unavailable;
+	if sco-core-kit is true:
+		vcal "You already found a core kit!";
+		already-done;
+	ready;
+
+this is the vr-core-kit rule:
+	now sco-core-kit is true;
+	say "You discover a core kit somewhere in the darkness here. It contains a book of affirmations, some soldier toys to plan strategies and also tools you can use to climb up to somewhere less awful. So you do. But you drop the book in the process. Pity. Some of the ideas would've made you a lot more content once you woke up. That's life!";
+
+a goodrhyme rule (this is the vc-war-wit rule):
+	if player is not in forfeit bore bit, unavailable;
+	if sco-core-kit is false:
+		vcp "You know you will have to plan the battle better eventually, but you are too far in the dumps now!";
+		not-yet;
+	ready;
+
+this is the vr-war-wit rule:
+	now sco-war-wit is true;
+	say "Yes! You see what to do, now. You make believe you still have the soldier toys and see the right strategy for repelling the enemy. They'll be toast now.";
+	move player to Woe Wall;
 
 chapter auxiliary rules
 
@@ -444,6 +470,17 @@ a goodrhyme rule (this is the oil-inc-basics rule):
 this is the big-battle-check rule:
 	if forfeit bore bit is unvisited:
 		say "Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to the Woe Wall bums.";
+		repeat through table of verb checks:
+			if check-rule entry is vc-mo-maul rule:
+				if player's command includes "maul", next;
+			else if check-rule entry is vc-foe-fall rule:
+				if player's command includes "fall", next;
+			else if check-rule entry is vc-bro-brawl rule:
+				if player's command includes "brawl", next;
+			else:
+				next;
+			now think-cue entry is true;
+			now core entry is false;
 		move player to Forfeit Bore Bit;
 	else:
 		say "Your charges appear even more, uh, charged!";

@@ -126,7 +126,7 @@ this is the verb-checker rule:
 				increment my-count;
 		if my-count >= 2:
 [			if debug-state is true, say "DEBUG: processing [check-rule entry], outcome [if rb-out is unavailable outcome]UA[else if rb-out is not-yet outcome]NOT YET[else if rb-out is already-done outcome]already done[else]rady[end if].";]
-			process the check-rule entry; [necessary to catch the mad monk--perhaps we could have an extra "inconclusive" state]
+			process the check-rule entry;
 			let rb-out be the outcome of the rulebook;
 			if rb-out is the already-done outcome, the rule succeeds;
 			if rb-out is the not-yet outcome:
