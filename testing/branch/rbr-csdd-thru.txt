@@ -66,16 +66,97 @@ TSV:## minimum walkthrough	## walkthrough with all points	## walkthrough with al
 
 >au 2
 
-@rej
-#testcase-check-vc-turing-test-rule-fallthrough
-
 @!min
 >turing test
 }}SCORE++
 }}CURMIN++
 
-@all
-#testcase-run-vr-turing-test-rule-default
+@rej
+#####################this is just testing for rejects in general
+====alphabetize on
+#testcase-check-vc-whyve-we-rule-if-player-is-not-in-contrive-country
+>whyve we
+{$REJECT2}
+\\
+#testcase-check-vc-trick-tried-rule-if-slick-slide-is-not-fungible
+>trick tried
+{$REJECT2}
+\\
+#testcase-check-vc-stow-stall-rule-if-player-is-not-in-woe-wall
+>stow stall
+{$REJECT2}
+\\
+#testcase-check-vc-pie-pitch-rule-if-player-is-not-in-sigh-sitch
+>pie pitch
+{$REJECT2}
+\\
+#testcase-check-vc-owning-eh-rule-if-player-is-not-in-honing-hey
+>owning eh
+{$REJECT2}
+\\
+#testcase-check-vc-oh-all-rule-if-player-is-not-in-woe-wall
+>oh all
+{$REJECT2}
+\\
+#testcase-check-vc-mo-maul-rule-if-player-is-not-in-woe-wall
+>mo maul
+{$REJECT2}
+\\
+#testcase-check-vc-rick-ride-rule-if-slick-slide-is-off-stage
+>rick ride
+{$REJECT2}
+\\
+#testcase-check-vc-let-light-rule-if-player-is-not-in-net-in-the-night
+>let light
+{$REJECT2}
+\\
+#testcase-check-vc-lie-lich-rule-if-player-is-not-in-sigh-sitch
+>lie lich
+{$REJECT2}
+\\
+#testcase-check-vc-ivy-rule-if-player-is-not-in-contrive-country
+>ivy
+{$REJECT2}
+\\
+#testcase-check-vc-foil-fink-rule-if-player-is-not-in-oil-inc
+>foil fink
+{$REJECT2}
+\\
+#testcase-check-vc-core-kit-rule-if-player-is-not-in-forfeit-bore-bit
+>core kit
+{$REJECT2}
+\\
+#testcase-check-vc-foe-fall-rule-if-player-is-not-in-woe-wall
+>foe fall
+{$REJECT2}
+\\
+#testcase-check-vc-bro-brawl-rule-if-player-is-not-in-woe-wall
+>bro brawl
+{$REJECT2}
+\\
+#testcase-check-vc-cloning-clay-rule-if-player-is-not-in-honing-hey
+>cloning clay
+{$REJECT2}
+\\
+#testcase-check-vc-lively-rule-if-player-is-not-in-contrive-country
+>lively
+{$REJECT2}
+\\
+#testcase-check-vc-thrive-three-rule-if-player-is-not-in-contrive-country
+>thrive three
+{$REJECT2}
+\\
+#testcase-check-vc-jive-gee-rule-if-player-is-not-in-contrive-country
+>jive gee
+{$REJECT2}
+\\
+#testcase-check-vc-yo-yall-rule-if-player-is-not-in-woe-wall
+>yo yall
+{$REJECT2}
+
+@all,rej
+{--rej}#testcase-check-vc-turing-test-rule-fallthrough
+{--all}#testcase-run-vr-turing-test-rule-default
 The purring pest disappears with a pop.
 
 @rej
@@ -83,20 +164,20 @@ The purring pest disappears with a pop.
 >turing test
 You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
-@all
-#testcase-check-vc-whirring-west-rule-fallthrough
-
 >whirring west
 
 @all
 #testcase-room-names-woe-wall
 /^Woe Wall$
-\\
-#testcase-run-vr-whirring-west-rule-default
+
+@all,rej
+{--rej}#testcase-check-vc-whirring-west-rule-fallthrough
+{--all}#testcase-run-vr-whirring-west-rule-default
 You follow the noise and tumble down to...
 
 @rej
-#####################this is just testing for rejects in general
+#####################this is just testing general rejects that would succeed in croots craving
+====alphabetize on
 #testcase-check-vc-turing-test-rule-unless-player-is-in-croots-craving
 >turing test
 {$REJECT2}
@@ -105,8 +186,8 @@ You follow the noise and tumble down to...
 >whirring west
 {$REJECT2}
 \\
-#testcase-check-vc-yo-yall-rule-if-player-is-not-in-woe-wall
->yo yall
+#testcase-check-vc-owning-eh-rule-if-player-is-not-in-honing-hey
+>owing eh
 {$REJECT2}
 
 @hom
@@ -124,7 +205,7 @@ You can find the STOW STALL once you've met people familiar with the area.
 >yo yall
 by one point
 
-@think
+@rej
 #+testcase-think-table-of-verb-checks-vc-stow-stall-rule
 >think
 You can find the STOW STALL now you've met people familiar with the area.
@@ -141,6 +222,30 @@ You already made contact behind the wall.
 
 >stow stall
 by one point
+
+@all,rej
+{--rej}#testcase-check-vc-stow-stall-rule-fallthrough
+WRONG
+
+@rej
+>bro brawl
+WRONG
+\\
+>foe fall
+WRONG
+\\
+>mo maul
+WRONG
+\\
+>oh all
+WRONG
+\\
+#testcase-think-table-of-verb-checks-vc-bro-brawl-rule
+>think
+You can cry BRO BRAWL once combat is underway.
+You can cry FOE FALL once combat is underway.
+You can cry MO MAUL once combat is underway.
+You can cry OH ALL once you have full leadership skills.
 
 @all
 #testcase-run-vr-stow-stall-rule-default
@@ -182,8 +287,9 @@ You can TICK TIDE once you've made the slick slide navigable.
 >trick tried
 by one point
 
-@all
-#testcase-run-vr-trick-tried-rule-default
+@all,rej
+{--rej}#testcase-check-vc-trick-tried-rule-fallthrough
+{--all}#testcase-run-vr-trick-tried-rule-default
 Aha! You see what was wrong with the slick slide. You see what to do. It's so tricky, I can't even describe it to you, but since you did it, you have a pretty good idea. Right?
 
 @rej
@@ -204,22 +310,39 @@ by one point
 @all
 #testcase-room-names-sigh-sitch
 /^\(Sigh\) Sitch$
-\\
-#testcase-run-vr-prick-pride-rule-default
+
+@all,rej
+{--rej}#testcase-check-vc-prick-pride-rule-fallthrough
+{--all}#testcase-run-vr-prick-pride-rule-default
 You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.
+
+@rej
+>pie pitch
+WRONG
+\\
+#testcase-think-table-of-verb-checks-vc-pie-pitch-rule
+>think
+You can ask for a PIE PITCH once there's someone or something evil as a target.
 
 >lie lich
 by one point
 
-@all
-#testcase-run-vr-lie-lich-rule-default
+@rej
+#+testcase-think-table-of-verb-checks-vc-pie-pitch-rule
+>think
+You can ask for a PIE PITCH now there's someone or something evil as a target.
+
+@all,rej
+{--rej}#testcase-check-vc-lie-lich-rule-fallthrough
+{--all}#testcase-run-vr-lie-lich-rule-default
 A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!
 
 >pie pitch
 by one point
 
-@all
-#testcase-run-vr-pie-pitch-rule-default
+@all,rej
+{--rej}#testcase-check-vc-pie-pitch-rule-fallthrough
+{--all}#testcase-run-vr-pie-pitch-rule-default
 Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.
 
 @rej
@@ -230,8 +353,9 @@ You can take a RICK RIDE now you've taken a trip on the slick slide.
 >rick ride
 by one point
 
-@all
-#testcase-run-vr-rick-ride-rule-default
+@all,rej
+{--rej}#testcase-check-vc-rick-ride-rule-fallthrough
+{--all}#testcase-run-vr-rick-ride-rule-default
 You take the rick ride back to Woe Wall...
 
 >tick tide
@@ -240,23 +364,53 @@ by one point
 @all
 #testcase-room-names-honing-hey-groaning-grey
 /^Honing \(Hey\) Groaning, Grey$
-\\
-#testcase-run-vr-tick-tide-rule-default
+
+@all,rej
+{--rej}#testcase-check-vc-tick-tide-rule-fallthrough
+{--all}#testcase-run-vr-tick-tide-rule-default
 You slide down somewhere ... there's a lot of complaining about all the bugs around. You can't see them, but there are two prime suspects.
+
+@rej
+>cloning clay
+WRONG
+\\
+#testcase-think-table-of-verb-checks-vc-cloning-clay-rule
+>think
+You can summon CLONING CLAY once
+are more worth cloning.
 
 >owning eh
 by one point
 
+@rej
+#+testcase-think-table-of-verb-checks-vc-cloning-clay-rule
+>think
+You can summon CLONING CLAY now
+are more worth cloning.
+
 @all
-#testcase-run-vr-owning-eh-rule-default
+{--rej}#testcase-check-vc-owning-eh-rule-fallthrough
+{--all}#testcase-run-vr-owning-eh-rule-default
 BZZT Change This
+
+@rej
+#testcase-check-vc-owning-eh-rule-if-sco-owning-eh-is-true
+>owning eh
+You don't need to rub 
+past behavior in. They're ready to become better people.
 
 >cloning clay
 by one point
 
-@all
-#testcase-run-vr-cloning-clay-rule-default
+@all,rej
+{--rej}#testcase-check-vc-cloning-clay-rule-fallthrough
+{--all}#testcase-run-vr-cloning-clay-rule-default
 /You discover some cloning clay, and (Moaning Mae and Droning Dre|Droning Dre and Moaning Mae) spend time pouring their life essence into thousands of tiny golems\. You watch as they both fade, their spirits no longer tormented\. Your work here is done\.
+
+@rej
+#testcase-check-vc-owning-eh-rule-if-sco-cloning-clay-is-true
+>owning eh
+You take time to reflect on your own faults.
 
 >rick ride
 
@@ -268,44 +422,71 @@ Woe Wall
 @all
 #testcase-room-names-five-fee-contrive-country
 /^Five-Fee-Contrive Country$
-\\
-#testcase-run-vr-hick-hide-rule-default
-<now sco-hick-hide is true;>
+
+@all,rej
+{--rej}#testcase-check-vc-hick-hide-rule-fallthrough
+{--all}#testcase-run-vr-hick-hide-rule-default
 You dream of elitists who look down on rural types as you take the slick slide. And what do you know? You find one, at the end!
+WRONG
+
+@rej
+>thrive three
+WRONG
+\\
+#testcase-think-table-of-verb-checks-vc-thrive-three-rule
+>think
+You can summon the THRIVE THREE once Five-Fee-Contrive Country thrives three ways.
 
 >ivy
 by one point
 
-@all
-#testcase-run-vr-ivy-rule-default
+@all,rej
+{--rej}#testcase-check-vc-ivy-rule-fallthrough
+{--all}#testcase-run-vr-ivy-rule-default
 Five-Fee-Contrive Country is now filled with vegetation!
 
 >lively
 by one point
 
-@all
-#testcase-run-vr-lively-rule-default
+@all,rej
+{--rej}#testcase-check-vc-lively-rule-fallthrough
+{--all}#testcase-run-vr-lively-rule-default
 Five-Fee-Contrive Country now seems more populated.
 
 >jive gee
 by one point
 
-@all
-#testcase-run-vr-jive-gee-rule-default
+@all,rej
+{--rej}#testcase-check-vc-jive-gee-rule-fallthrough
+{--all}#testcase-run-vr-jive-gee-rule-default
 The air feels laden with possibilities for friendly wisecracking.
+
+@rej
+#testcase-think-table-of-verb-checks-vc-whyve-we-rule
+#+testcase-think-table-of-verb-checks-vc-thrive-three-rule
+>think
+You can say WHYVE WE once you have allies to outnumber Clive Klee.
+You can summon the THRIVE THREE now Five-Fee-Contrive Country thrives three ways.
 
 >thrive three
 by one point
 
-@all
-#testcase-run-vr-thrive-three-rule-default
+@rej
+#+testcase-think-table-of-verb-checks-vc-whyve-we-rule
+>think
+You can say WHYVE WE now you have allies to outnumber Clive Klee.
+
+@all,rej
+{--rej}#testcase-check-vc-thrive-three-rule-fallthrough
+{--all}#testcase-run-vr-thrive-three-rule-default
 BZZT Change This
 
 >whyve we
 by one point
 
-@all
-#testcase-run-vr-whyve-we-rule-default
+@all,rej
+{--rej}#testcase-check-vc-whyve-we-rule-fallthrough
+{--all}#testcase-run-vr-whyve-we-rule-default
 Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.
 
 >rick ride
@@ -318,12 +499,26 @@ Woe Wall
 @all
 #testcase-room-names-oil-inc
 /^Oil, Inc\.$
-\\
-#testcase-run-vr-sick-side-rule-default
+
+@all,rej
+{--rej}#testcase-check-vc-sick-side-rule-fallthrough
+{--all}#testcase-run-vr-sick-side-rule-default
 You're ready to help out with the effects of the petrochemical industry on health, or something.
+
+@rej
+>foil fink
+WRONG
+\\
+#testcase-think-table-of-verb-checks-vc-foil-fink-rule
+>think
+You can FOIL FINK once enough is in place to depose Oil, Inc.
 
 >royal rink
 by one point
+
+@all,rej
+{--rej}#testcase-check-vc-royal-rink-rule-fallthrough
+WRONG
 
 @all
 #testcase-run-vr-royal-rink-rule-default
@@ -332,12 +527,20 @@ BZZT Change This
 >soil sink
 by one point
 
+@all,rej
+{--rej}#testcase-check-vc-soil-sink-rule-fallthrough
+WRONG
+
 @all
 #testcase-run-vr-soil-sink-rule-default
 BZZT Change This
 
 >broil brink
 by one point
+
+@all,rej
+{--rej}#testcase-check-vc-broil-brink-rule-fallthrough
+WRONG
 
 @all
 #testcase-run-vr-broil-brink-rule-default
@@ -347,21 +550,40 @@ BZZT Change This
 >loyal link
 by one point
 
+@all,rej
+{--rej}#testcase-check-vc-loyal-link-rule-fallthrough
+WRONG
+
 @all
 #testcase-run-vr-loyal-link-rule-default
 BZZT Change This
 
+@rej
+#+testcase-think-table-of-verb-checks-vc-foil-fink-rule
+>think
+You can FOIL FINK now enough is in place to depose Oil, Inc.
+
 >foil fink
 by one point
 
-@all
-#testcase-run-vr-foil-fink-rule-default
+@all,rej
+{--rej}#testcase-check-vc-foil-fink-rule-fallthrough
+{--all}#testcase-run-vr-foil-fink-rule-default
 BZZT Change This
 
 >rick ride
 
 @all
 Woe Wall
+
+@rej
+#+testcase-think-table-of-verb-checks-vc-bro-brawl-rule
+#+testcase-think-table-of-verb-checks-vc-foe-fall-rule
+#+testcase-think-table-of-verb-checks-vc-mo-maul-rule
+>think
+You can cry BRO BRAWL now combat is underway.
+You can cry FOE FALL now combat is underway.
+You can cry MO MAUL now combat is underway.
 
 @alt
 >bro brawl
@@ -379,6 +601,10 @@ Forfeit, Bore
 >foe fall
 by one point
 
+@all,rej
+{--rej}#testcase-check-vc-foe-fall-rule-fallthrough
+WRONG
+
 @all
 #testcase-room-names-forfeit-bore-bit
 /^"Forfeit, Bore" Bit$
@@ -386,18 +612,42 @@ by one point
 #testcase-run-vr-foe-fall-rule-default
 BZZT Change This
 
+@rej
+#testcase-check-vc-rick-ride-rule-if-player-is-in-forfeit-or-player-is-in-net-in-the-night
+>rick ride
+You're beyond the rick's help here. You must find a way out on your own.
+
 >core kit
 by one point
 
 @all
 #+testcase-room-names-forfeit-bore-bit
 /^Pore Pit$
-\\
-#testcase-run-vr-core-kit-rule-default
+
+@all,rej
+{--rej}#testcase-check-vc-core-kit-rule-fallthrough
+{--all}#testcase-run-vr-core-kit-rule-default
 You discover a core kit somewhere in the darkness here. It contains a book of affirmations, some soldier toys to plan strategies and also tools you can use to climb up to somewhere less awful. So you do. But you drop the book in the process. Pity. Some of the ideas would've made you a lot more content once you woke up. That's life!
+
+@rej
+>war wit
+WRONG
+\\
+#testcase-think-table-of-verb-checks-vc-war-wit-rule
+>think
+You can learn WAR WIT once you are no longer in the depths of despair.
 
 >war wit
 by one point
+
+@all,rej
+{--rej}#testcase-check-vc-war-wit-rule-fallthrough
+WRONG
+
+@rej
+#+testcase-think-table-of-verb-checks-vc-war-wit-rule
+>think
+You can learn WAR WIT now you are no longer in the depths of despair.
 
 @all
 Woe Wall
@@ -409,8 +659,9 @@ Yes! You see what to do, now. You make believe you still have the soldier toys a
 >mo maul
 by one point
 
-@all
-#testcase-run-vr-mo-maul-rule-default
+@all,rej
+{--rej}#testcase-check-vc-mo-maul-rule-fallthrough
+{--all}#testcase-run-vr-mo-maul-rule-default
 BZZT Change This
 
 @!min
@@ -418,24 +669,37 @@ BZZT Change This
 by one point
 
 @all
+#testcase-check-vc-bro-brawl-rule-fallthrough
 #testcase-run-vr-bro-brawl-rule-default
 BZZT Change This
+
+@rej
+#+testcase-think-table-of-verb-checks-vc-oh-all-rule
+>think
+You can cry OH ALL once-now you have full leadership skills.
 
 >oh all
 by one point
 
+@all,rej
+{--rej}#testcase-check-vc-oh-all-rule-fallthrough
+{--all}#testcase-run-vr-oh-all-rule-default
+BZZT Change This
+
 @all
 #testcase-room-names-let-in-the-light-net-in-the-night
 /^Set-in-the-Site Net in the Night$
-\\
-#testcase-run-vr-oh-all-rule-default
-BZZT Change This
 \\
 >fret fright
 I'm going to be pedantic here and tell you not to throw out the small words.
 \\
 >let light
 I'm going to be pedantic here and tell you not to throw out the small words.
+
+@rej
+#+testcase-check-vc-rick-ride-rule-if-player-is-in-forfeit-or-player-is-in-net-in-the-night
+>rick ride
+You're beyond the rick's help here. You must find a way out on your own.
 
 @alt
 #testcase-run-vr-let-light-rule-if-the-player's-command-includes-fright
@@ -449,8 +713,9 @@ Your score just went up by one point.
 >let in the light
 by one point
 
-@all
-#testcase-run-vr-let-light-rule-default
-#testcase-run-vr-let-light-rule-fallthrough
+@all,rej
+{--rej}#testcase-check-vc-let-light-rule-fallthrough
+{--all}#testcase-run-vr-let-light-rule-default
+{--all}#testcase-run-vr-let-light-rule-fallthrough
 BZZT Change This
 *** SPOOKY SPITE, FLUKY FLIGHT ***

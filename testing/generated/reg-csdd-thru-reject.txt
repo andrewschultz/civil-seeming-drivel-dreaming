@@ -14,15 +14,99 @@
 
 >au 2
 
-#testcase-check-vc-turing-test-rule-fallthrough
-
 >turing test
+
+#testcase-check-vc-whyve-we-rule-if-player-is-not-in-contrive-country
+>whyve we
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-trick-tried-rule-if-slick-slide-is-not-fungible
+>trick tried
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-stow-stall-rule-if-player-is-not-in-woe-wall
+>stow stall
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-pie-pitch-rule-if-player-is-not-in-sigh-sitch
+>pie pitch
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-owning-eh-rule-if-player-is-not-in-honing-hey
+>owning eh
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-oh-all-rule-if-player-is-not-in-woe-wall
+>oh all
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-mo-maul-rule-if-player-is-not-in-woe-wall
+>mo maul
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-rick-ride-rule-if-slick-slide-is-off-stage
+>rick ride
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-let-light-rule-if-player-is-not-in-net-in-the-night
+>let light
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-lie-lich-rule-if-player-is-not-in-sigh-sitch
+>lie lich
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-ivy-rule-if-player-is-not-in-contrive-country
+>ivy
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-foil-fink-rule-if-player-is-not-in-oil-inc
+>foil fink
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-core-kit-rule-if-player-is-not-in-forfeit-bore-bit
+>core kit
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-foe-fall-rule-if-player-is-not-in-woe-wall
+>foe fall
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-bro-brawl-rule-if-player-is-not-in-woe-wall
+>bro brawl
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-cloning-clay-rule-if-player-is-not-in-honing-hey
+>cloning clay
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-lively-rule-if-player-is-not-in-contrive-country
+>lively
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-thrive-three-rule-if-player-is-not-in-contrive-country
+>thrive three
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-jive-gee-rule-if-player-is-not-in-contrive-country
+>jive gee
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-yo-yall-rule-if-player-is-not-in-woe-wall
+>yo yall
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-check-vc-turing-test-rule-fallthrough
+The purring pest disappears with a pop.
 
 #testcase-check-vc-turing-test-rule-if-pest-is-moot
 >turing test
 You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
 >whirring west
+
+#testcase-check-vc-whirring-west-rule-fallthrough
+You follow the noise and tumble down to...
 
 #testcase-check-vc-turing-test-rule-unless-player-is-in-croots-craving
 >turing test
@@ -32,18 +116,23 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 >whirring west
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
-#testcase-check-vc-yo-yall-rule-if-player-is-not-in-woe-wall
->yo yall
+#testcase-check-vc-owning-eh-rule-if-player-is-not-in-honing-hey
+>owing eh
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 >stow stall
 Perhaps there is one buried beyond the wall, but you have nobody to help you look for it.
 
+#testcase-think-table-of-verb-checks-vc-stow-stall-rule
 >think
 You can find the STOW STALL once you've met people familiar with the area.
 
 >yo yall
 by one point
+
+#+testcase-think-table-of-verb-checks-vc-stow-stall-rule
+>think
+You can find the STOW STALL now you've met people familiar with the area.
 
 #testcase-check-vc-yo-yall-rule-fallthrough
 #testcase-check-vc-yo-yall-rule-if-sco-yo-yall-is-true
@@ -52,6 +141,28 @@ You already made contact behind the wall.
 
 >stow stall
 by one point
+
+#testcase-check-vc-stow-stall-rule-fallthrough
+WRONG
+
+>bro brawl
+WRONG
+
+>foe fall
+WRONG
+
+>mo maul
+WRONG
+
+>oh all
+WRONG
+
+#testcase-think-table-of-verb-checks-vc-bro-brawl-rule
+>think
+You can cry BRO BRAWL once combat is underway.
+You can cry FOE FALL once combat is underway.
+You can cry MO MAUL once combat is underway.
+You can cry OH ALL once you have full leadership skills.
 
 #testcase-check-vc-rick-ride-rule-default
 >rick ride
@@ -88,6 +199,9 @@ You can TICK TIDE once you've made the slick slide navigable.
 >trick tried
 by one point
 
+#testcase-check-vc-trick-tried-rule-fallthrough
+Aha! You see what was wrong with the slick slide. You see what to do. It's so tricky, I can't even describe it to you, but since you did it, you have a pretty good idea. Right?
+
 #+testcase-think-table-of-verb-checks-vc-hick-hide-rule
 #+testcase-think-table-of-verb-checks-vc-prick-pride-rule
 #+testcase-think-table-of-verb-checks-vc-rick-ride-rule
@@ -102,11 +216,31 @@ You can TICK TIDE now you've made the slick slide navigable.
 >prick pride
 by one point
 
+#testcase-check-vc-prick-pride-rule-fallthrough
+You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.
+
+>pie pitch
+WRONG
+
+#testcase-think-table-of-verb-checks-vc-pie-pitch-rule
+>think
+You can ask for a PIE PITCH once there's someone or something evil as a target.
+
 >lie lich
 by one point
 
+#+testcase-think-table-of-verb-checks-vc-pie-pitch-rule
+>think
+You can ask for a PIE PITCH now there's someone or something evil as a target.
+
+#testcase-check-vc-lie-lich-rule-fallthrough
+A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!
+
 >pie pitch
 by one point
+
+#testcase-check-vc-pie-pitch-rule-fallthrough
+Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.
 
 #+testcase-think-table-of-verb-checks-vc-rick-ride-rule
 >think
@@ -115,73 +249,220 @@ You can take a RICK RIDE now you've taken a trip on the slick slide.
 >rick ride
 by one point
 
+#testcase-check-vc-rick-ride-rule-fallthrough
+You take the rick ride back to Woe Wall...
+
 >tick tide
 by one point
+
+#testcase-check-vc-tick-tide-rule-fallthrough
+You slide down somewhere ... there's a lot of complaining about all the bugs around. You can't see them, but there are two prime suspects.
+
+>cloning clay
+WRONG
+
+#testcase-think-table-of-verb-checks-vc-cloning-clay-rule
+>think
+You can summon CLONING CLAY once
+are more worth cloning.
 
 >owning eh
 by one point
 
+#+testcase-think-table-of-verb-checks-vc-cloning-clay-rule
+>think
+You can summon CLONING CLAY now
+are more worth cloning.
+
+#testcase-check-vc-owning-eh-rule-fallthrough
+
+#testcase-check-vc-owning-eh-rule-if-sco-owning-eh-is-true
+>owning eh
+You don't need to rub 
+past behavior in. They're ready to become better people.
+
 >cloning clay
 by one point
+
+#testcase-check-vc-cloning-clay-rule-fallthrough
+/You discover some cloning clay, and (Moaning Mae and Droning Dre|Droning Dre and Moaning Mae) spend time pouring their life essence into thousands of tiny golems\. You watch as they both fade, their spirits no longer tormented\. Your work here is done\.
+
+#testcase-check-vc-owning-eh-rule-if-sco-cloning-clay-is-true
+>owning eh
+You take time to reflect on your own faults.
 
 >rick ride
 
 >hick hide
 
+#testcase-check-vc-hick-hide-rule-fallthrough
+You dream of elitists who look down on rural types as you take the slick slide. And what do you know? You find one, at the end!
+WRONG
+
+>thrive three
+WRONG
+
+#testcase-think-table-of-verb-checks-vc-thrive-three-rule
+>think
+You can summon the THRIVE THREE once Five-Fee-Contrive Country thrives three ways.
+
 >ivy
 by one point
+
+#testcase-check-vc-ivy-rule-fallthrough
+Five-Fee-Contrive Country is now filled with vegetation!
 
 >lively
 by one point
 
+#testcase-check-vc-lively-rule-fallthrough
+Five-Fee-Contrive Country now seems more populated.
+
 >jive gee
 by one point
+
+#testcase-check-vc-jive-gee-rule-fallthrough
+The air feels laden with possibilities for friendly wisecracking.
+
+#testcase-think-table-of-verb-checks-vc-whyve-we-rule
+#+testcase-think-table-of-verb-checks-vc-thrive-three-rule
+>think
+You can say WHYVE WE once you have allies to outnumber Clive Klee.
+You can summon the THRIVE THREE now Five-Fee-Contrive Country thrives three ways.
 
 >thrive three
 by one point
 
+#+testcase-think-table-of-verb-checks-vc-whyve-we-rule
+>think
+You can say WHYVE WE now you have allies to outnumber Clive Klee.
+
+#testcase-check-vc-thrive-three-rule-fallthrough
+BZZT Change This
+
 >whyve we
 by one point
+
+#testcase-check-vc-whyve-we-rule-fallthrough
+Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.
 
 >rick ride
 
 >sick side
 
+#testcase-check-vc-sick-side-rule-fallthrough
+You're ready to help out with the effects of the petrochemical industry on health, or something.
+
+>foil fink
+WRONG
+
+#testcase-think-table-of-verb-checks-vc-foil-fink-rule
+>think
+You can FOIL FINK once enough is in place to depose Oil, Inc.
+
 >royal rink
 by one point
+
+#testcase-check-vc-royal-rink-rule-fallthrough
+WRONG
 
 >soil sink
 by one point
 
+#testcase-check-vc-soil-sink-rule-fallthrough
+WRONG
+
 >broil brink
 by one point
+
+#testcase-check-vc-broil-brink-rule-fallthrough
+WRONG
 
 >loyal link
 by one point
 
+#testcase-check-vc-loyal-link-rule-fallthrough
+WRONG
+
+#+testcase-think-table-of-verb-checks-vc-foil-fink-rule
+>think
+You can FOIL FINK now enough is in place to depose Oil, Inc.
+
 >foil fink
 by one point
 
+#testcase-check-vc-foil-fink-rule-fallthrough
+BZZT Change This
+
 >rick ride
+
+#+testcase-think-table-of-verb-checks-vc-bro-brawl-rule
+#+testcase-think-table-of-verb-checks-vc-foe-fall-rule
+#+testcase-think-table-of-verb-checks-vc-mo-maul-rule
+>think
+You can cry BRO BRAWL now combat is underway.
+You can cry FOE FALL now combat is underway.
+You can cry MO MAUL now combat is underway.
 
 >foe fall
 by one point
 
+#testcase-check-vc-foe-fall-rule-fallthrough
+WRONG
+
+#testcase-check-vc-rick-ride-rule-if-player-is-in-forfeit-or-player-is-in-net-in-the-night
+>rick ride
+You're beyond the rick's help here. You must find a way out on your own.
+
 >core kit
 by one point
+
+#testcase-check-vc-core-kit-rule-fallthrough
+You discover a core kit somewhere in the darkness here. It contains a book of affirmations, some soldier toys to plan strategies and also tools you can use to climb up to somewhere less awful. So you do. But you drop the book in the process. Pity. Some of the ideas would've made you a lot more content once you woke up. That's life!
+
+>war wit
+WRONG
+
+#testcase-think-table-of-verb-checks-vc-war-wit-rule
+>think
+You can learn WAR WIT once you are no longer in the depths of despair.
 
 >war wit
 by one point
 
+#testcase-check-vc-war-wit-rule-fallthrough
+WRONG
+
+#+testcase-think-table-of-verb-checks-vc-war-wit-rule
+>think
+You can learn WAR WIT now you are no longer in the depths of despair.
+
 >mo maul
 by one point
+
+#testcase-check-vc-mo-maul-rule-fallthrough
+BZZT Change This
 
 >bro brawl
 by one point
 
+#+testcase-think-table-of-verb-checks-vc-oh-all-rule
+>think
+You can cry OH ALL once-now you have full leadership skills.
+
 >oh all
 by one point
+
+#testcase-check-vc-oh-all-rule-fallthrough
+BZZT Change This
+
+#+testcase-check-vc-rick-ride-rule-if-player-is-in-forfeit-or-player-is-in-net-in-the-night
+>rick ride
+You're beyond the rick's help here. You must find a way out on your own.
 
 >let in the light
 by one point
 
+#testcase-check-vc-let-light-rule-fallthrough
+BZZT Change This
+*** SPOOKY SPITE, FLUKY FLIGHT ***

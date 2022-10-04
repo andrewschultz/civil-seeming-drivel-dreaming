@@ -22,8 +22,6 @@
 #testcase-run-vr-turing-test-rule-default
 The purring pest disappears with a pop.
 
-#testcase-check-vc-whirring-west-rule-fallthrough
-
 >whirring west
 
 #testcase-room-names-woe-wall
@@ -40,6 +38,8 @@ Some people pop out from behind the Woe Wall. Po' Paul, their leader, introduces
 
 >stow stall
 by one point
+
+WRONG
 
 #testcase-run-vr-stow-stall-rule-default
 With the help of Po' Paul, you uncover an area with emergency supplies. It includes ... a slick slide!
@@ -108,8 +108,8 @@ Woe Wall
 /^Five-Fee-Contrive Country$
 
 #testcase-run-vr-hick-hide-rule-default
-<now sco-hick-hide is true;>
 You dream of elitists who look down on rural types as you take the slick slide. And what do you know? You find one, at the end!
+WRONG
 
 >ivy
 by one point
@@ -156,11 +156,15 @@ You're ready to help out with the effects of the petrochemical industry on healt
 >royal rink
 by one point
 
+WRONG
+
 #testcase-run-vr-royal-rink-rule-default
 BZZT Change This
 
 >soil sink
 by one point
+
+WRONG
 
 #testcase-run-vr-soil-sink-rule-default
 BZZT Change This
@@ -168,12 +172,16 @@ BZZT Change This
 >broil brink
 by one point
 
+WRONG
+
 #testcase-run-vr-broil-brink-rule-default
 <now sco-broil-brink is true;>
 BZZT Change This
 
 >loyal link
 by one point
+
+WRONG
 
 #testcase-run-vr-loyal-link-rule-default
 BZZT Change This
@@ -190,6 +198,8 @@ Woe Wall
 
 >foe fall
 by one point
+
+WRONG
 
 #testcase-room-names-forfeit-bore-bit
 /^"Forfeit, Bore" Bit$
@@ -209,6 +219,8 @@ You discover a core kit somewhere in the darkness here. It contains a book of af
 >war wit
 by one point
 
+WRONG
+
 Woe Wall
 
 #testcase-run-vr-war-wit-rule-default
@@ -223,17 +235,18 @@ BZZT Change This
 >bro brawl
 by one point
 
+#testcase-check-vc-bro-brawl-rule-fallthrough
 #testcase-run-vr-bro-brawl-rule-default
 BZZT Change This
 
 >oh all
 by one point
 
-#testcase-room-names-let-in-the-light-net-in-the-night
-/^Set-in-the-Site Net in the Night$
-
 #testcase-run-vr-oh-all-rule-default
 BZZT Change This
+
+#testcase-room-names-let-in-the-light-net-in-the-night
+/^Set-in-the-Site Net in the Night$
 
 >fret fright
 I'm going to be pedantic here and tell you not to throw out the small words.
