@@ -127,7 +127,7 @@ this is the vr-trick-tried rule:
 a goodrhyme rule (this is the vc-hick-hide rule):
 	abide by the slick-trick rule;
 	if sco-hick-hide is true:
-		vcal "You already did this!";
+		vcal "You don't need to go back!";
 		already-done;
 	ready;
 
@@ -179,7 +179,10 @@ this is the vr-tick-tide rule:
 a goodrhyme rule (this is the vc-rick-ride rule):
 	if slick slide is off-stage, unavailable;
 	if player is in Woe Wall:
-		if number of visited hubrooms > 1:
+		if hub-score is 4:
+			vcal "You can't escape the big fight!";
+			already-done;
+		if number of visited hubrooms > 0:
 			vcal "The rick ride is only for transport back here.";
 			already-done;
 		vcp "That would be a great way to get back, once you've found a way down the slick slide.";
@@ -393,9 +396,8 @@ this is the vr-foil-fink rule:
 	say "Hooray! You figured what to do! You get a point!";
 	rick-and-slide-check;
 
-
 a goodrhyme rule (this is the vc-bro-brawl rule):
-	if player is not in woe wall, unavailable;
+	abide by the pre-wall-fight rule;
 	if sco-bro-brawl is true:
 		vcal "You already did this!";
 		already-done;
@@ -407,7 +409,7 @@ this is the vr-bro-brawl rule:
 	abide by the big-battle-check rule;
 
 a goodrhyme rule (this is the vc-foe-fall rule):
-	if player is not in woe wall, unavailable;
+	abide by the pre-wall-fight rule;
 	if sco-foe-fall is true:
 		vcal "You already did this!";
 		already-done;
@@ -419,7 +421,7 @@ this is the vr-foe-fall rule:
 	abide by the big-battle-check rule;
 
 a goodrhyme rule (this is the vc-mo-maul rule):
-	if player is not in woe wall, unavailable;
+	abide by the pre-wall-fight rule;
 	if sco-mo-maul is true:
 		vcal "You already did this!";
 		already-done;
@@ -431,10 +433,10 @@ this is the vr-mo-maul rule:
 	abide by the big-battle-check rule;
 
 a goodrhyme rule (this is the vc-oh-all rule):
-	if player is not in woe wall, unavailable;
 	if sco-yo-yall is false:
 		vcp "This would be a way to bring everyone together once you have their trust. But there is no everyone to bring together. How to great them?";
 		not-yet;
+	abide by the-pre-wall-fight rule;
 	if forfeit bore bit is unvisited:
 		vcp "You don't feel you have enough leadership skills yet to unite everyone!";
 		not-yet;
@@ -535,10 +537,10 @@ to oil-inc-decrease (nu - a number):
 a goodrhyme rule (this is the oil-inc-basics rule):
 	if player is not in oil inc, unavailable;
 	if oil-inc-score is 4:
-		vcal "You need to focus on deposing the moil mink.";
+		vcal "Already done. You need to focus on deposing the moil mink.";
 		already-done;
-	if oil-inc-score > 5:
-		vcal "No need reliving old times. You're done here.";
+	if oil-inc-score > 4:
+		vcal "You're done here. No need to dwell on past successes.";
 		already-done;
 
 [country stuff]
@@ -551,6 +553,12 @@ to country-down (nu - a number):
 	now to-number of clive klee is to-number of contrive country;
 
 [end fight]
+
+this is the pre-wall-fight rule:
+	if player is not in woe wall, unavailable;
+	if hub-score < 4:
+		vcp "There's no fight that needs a rallying cry yet.";
+		not-yet;
 
 this is the big-battle-check rule:
 	if forfeit bore bit is unvisited:
