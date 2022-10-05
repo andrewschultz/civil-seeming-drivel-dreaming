@@ -69,8 +69,8 @@ a goodrhyme rule (this is the vc-turing-test rule):
 	ready;
 
 this is the vr-turing-test rule:
-	now sco-turing-test is true;
 	abide by the purring-pest-pop rule;
+	now sco-turing-test is true;
 	say "The purring pest walks over to a corner and falls asleep. It's unclear whether this is out of failure to past your test or boredom from how you administered it, but you feel smart either way[if sco-whirring-west is true]. Perhaps you can still use it to figure how to get out of here[end if].";
 
 a goodrhyme rule (this is the vc-whirring-west rule):
@@ -78,9 +78,8 @@ a goodrhyme rule (this is the vc-whirring-west rule):
 	ready;
 
 this is the vr-whirring-west rule:
-	now sco-whirring-west is true;
-	say "You follow the noise and tumble down to...";
 	abide by the purring-pest-pop rule;
+	now sco-whirring-west is true;
 	now to-number of blurring blest purring pest is -5604;
 
 this is the vc-yo-yall rule:
@@ -126,9 +125,7 @@ this is the vr-trick-tried rule:
 
 a goodrhyme rule (this is the vc-hick-hide rule):
 	abide by the slick-trick rule;
-	if sco-hick-hide is true:
-		vcal "You don't need to go back!";
-		already-done;
+	abide by the slide-warp-check rule for contrive country;
 	ready;
 
 this is the vr-hick-hide rule:
@@ -139,9 +136,7 @@ this is the vr-hick-hide rule:
 
 a goodrhyme rule (this is the vc-prick-pride rule):
 	abide by the slick-trick rule;
-	if sco-prick-pride is true:
-		vcal "You already did this!";
-		already-done;
+	abide by the slide-warp-check rule for sigh sitch;
 	ready;
 
 this is the vr-prick-pride rule:
@@ -152,9 +147,7 @@ this is the vr-prick-pride rule:
 
 a goodrhyme rule (this is the vc-sick-side rule):
 	abide by the slick-trick rule;
-	if sco-sick-side is true:
-		vcal "You already did this!";
-		already-done;
+	abide by the slide-warp-check rule for oil inc;
 	ready;
 
 this is the vr-sick-side rule:
@@ -165,9 +158,7 @@ this is the vr-sick-side rule:
 
 a goodrhyme rule (this is the vc-tick-tide rule):
 	abide by the slick-trick rule;
-	if sco-tick-tide is true:
-		vcal "You already did this!";
-		already-done;
+	abide by the slide-warp-check rule for honing hey;
 	ready;
 
 this is the vr-tick-tide rule:
@@ -179,7 +170,7 @@ this is the vr-tick-tide rule:
 a goodrhyme rule (this is the vc-rick-ride rule):
 	if slick slide is off-stage, unavailable;
 	if player is in Woe Wall:
-		if hub-score is 4:
+		if hubs-solved is 4:
 			vcal "You can't escape the big fight!";
 			already-done;
 		if number of visited hubrooms > 0:
@@ -436,7 +427,7 @@ a goodrhyme rule (this is the vc-oh-all rule):
 	if sco-yo-yall is false:
 		vcp "This would be a way to bring everyone together once you have their trust. But there is no everyone to bring together. How to great them?";
 		not-yet;
-	abide by the-pre-wall-fight rule;
+	abide by the pre-wall-fight rule;
 	if forfeit bore bit is unvisited:
 		vcp "You don't feel you have enough leadership skills yet to unite everyone!";
 		not-yet;
@@ -556,7 +547,7 @@ to country-down (nu - a number):
 
 this is the pre-wall-fight rule:
 	if player is not in woe wall, unavailable;
-	if hub-score < 4:
+	if hubs-solved < 4:
 		vcp "There's no fight that needs a rallying cry yet.";
 		not-yet;
 
@@ -594,6 +585,22 @@ this is the vr-let-light rule:
 	process the score and thinking changes rule;
 	end the story finally saying "SPOOKY SPITE, FLUKY FLIGHT";
 	follow the shutdown rules;
+
+[super general flexible rule]
+
+the roomwarp rules are a room based rulebook. the roomwarp rules have outcomes already-done and not-yet.
+
+a roomwarp rule for a room (called myrm) (this is the slide-warp-check rule):
+	if sco-rick-ride is false:
+		vcp "You'll need to find transport back to Woe Wall first to take the slide there.";
+		not-yet;
+	if player is in myrm:
+		vcal "You're already here!";
+		already-done;
+	if to-number of myrm is -3:
+		vcal "You've already solved that area!";
+		already-done;
+
 
 volume can't go that way notes
 

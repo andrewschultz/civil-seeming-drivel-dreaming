@@ -16,20 +16,38 @@ Taken.
 
 >au 2
 
+#testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-pop-rule
+>whirring west
+WRONG
+
+>turing test
+WRONG
+
+#testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-pop-rule
+
+>undo
+>undo
+
 >turing test
 
-#testcase-run-vr-turing-test-rule-default
+#+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-pop-rule
+WRONG
+
+#testcase-run-vr-turing-test-rule-fallthrough
 The purring pest disappears with a pop.
 
 >whirring west
 by one point
+
+#+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-pop-rule
+WRONG
 
 >w
 
 #testcase-room-names-woe-wall
 /^Woe Wall$
 
-#testcase-run-vr-whirring-west-rule-default
+#testcase-run-vr-whirring-west-rule-fallthrough
 You follow the noise and tumble down to...
 
 >yo yall
@@ -202,6 +220,20 @@ Woe Wall
 #testcase-run-vr-rick-ride-rule-default
 You take the rick ride back to Woe Wall...
 
+#testcase-run-vr-bro-brawl-rule-abide-by-the-big-battle-check-rule
+>bro brawl
+by one point
+Forfeit, Bore
+
+>undo
+
+#testcase-run-vr-mo-maul-rule-abide-by-the-big-battle-check-rule
+>mo maul
+by one point
+Forfeit, Bore
+
+>undo
+
 >foe fall
 by one point
 
@@ -239,7 +271,6 @@ BZZT Change This
 >bro brawl
 by one point
 
-#testcase-check-vc-bro-brawl-rule-fallthrough
 #testcase-run-vr-bro-brawl-rule-default
 BZZT Change This
 
@@ -252,13 +283,13 @@ BZZT Change This
 #testcase-room-names-let-in-the-light-net-in-the-night
 /^Set-in-the-Site Net in the Night$
 
-#testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
->fret fright
-I'm going to be pedantic here and tell you not to throw out the small words.
+#testcase-run-vr-let-light-rule-if-the-player's-command-includes-fright
+>fret in the fright
+You give up at the final moment. Too bad. But you still, like, learned lessons and stuff.
+Your score just went up by one point.
+*** SPOOKY SPITE, FLUKY FLIGHT ***
 
-#+testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
->let light
-I'm going to be pedantic here and tell you not to throw out the small words.
+>undo
 
 >let in the light
 by one point
@@ -267,3 +298,8 @@ by one point
 #testcase-run-vr-let-light-rule-fallthrough
 BZZT Change This
 *** SPOOKY SPITE, FLUKY FLIGHT ***
+
+#testcase-run-vr-let-light-rule-follow-the-shutdown-rules
+Would you like to
+
+has just gone up

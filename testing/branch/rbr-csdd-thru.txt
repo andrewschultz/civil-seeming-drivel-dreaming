@@ -109,7 +109,7 @@ However, it's really dim, as if you don't need to do or think whatever there is 
 >undo
 >undo
 
-@rej
+@all
 ##balance undos
 #testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-pop-rule
 >whirring west
@@ -128,7 +128,7 @@ WRONG
 }}SCORE++
 }}CURMIN++
 
-@rej
+@all
 #+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-pop-rule
 WRONG
 
@@ -163,14 +163,6 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >owning eh
 {$REJECT2}
 \\
-#testcase-check-vc-oh-all-rule-if-player-is-not-in-woe-wall
->oh all
-{$REJECT2}
-\\
-#testcase-check-vc-mo-maul-rule-if-player-is-not-in-woe-wall
->mo maul
-{$REJECT2}
-\\
 #testcase-check-vc-rick-ride-rule-if-slick-slide-is-off-stage
 >rick ride
 {$REJECT2}
@@ -195,14 +187,6 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >core kit
 {$REJECT2}
 \\
-#testcase-check-vc-foe-fall-rule-if-player-is-not-in-woe-wall
->foe fall
-{$REJECT2}
-\\
-#testcase-check-vc-bro-brawl-rule-if-player-is-not-in-woe-wall
->bro brawl
-{$REJECT2}
-\\
 #testcase-check-vc-cloning-clay-rule-if-player-is-not-in-honing-hey
 >cloning clay
 {$REJECT2}
@@ -225,7 +209,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 
 @all,rej
 {--rej}#testcase-check-vc-turing-test-rule-fallthrough
-{--all}#testcase-run-vr-turing-test-rule-default
+{--all}#testcase-run-vr-turing-test-rule-fallthrough
 The purring pest disappears with a pop.
 
 @rej
@@ -236,7 +220,7 @@ You perform a Turing Test on yourself, since nobody else is around. You hope you
 >whirring west
 by one point
 
-@rej
+@all
 #+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-pop-rule
 WRONG
 
@@ -252,7 +236,7 @@ Your rhyming attempts bring up nothing.
 
 @all,rej
 {--rej}#testcase-check-vc-whirring-west-rule-fallthrough
-{--all}#testcase-run-vr-whirring-west-rule-default
+{--all}#testcase-run-vr-whirring-west-rule-fallthrough
 You follow the noise and tumble down to...
 
 @rej
@@ -264,10 +248,6 @@ You follow the noise and tumble down to...
 \\
 #testcase-check-vc-whirring-west-rule-unless-player-is-in-croots-craving
 >whirring west
-{$REJECT2}
-\\
-#testcase-check-vc-owning-eh-rule-if-player-is-not-in-honing-hey
->owing eh
 {$REJECT2}
 
 @hin
@@ -597,6 +577,14 @@ Nothing comes up. The general area here has been changed enough.
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
+@rej
+#testcase-check-vc-tick-tide-rule-abide-by-the-slide-warp-check-rule-for-honing-hey
+>tick tide
+You're already here!
+\\
+>sick side
+You'll need to find transport back to Woe Wall first to take the slide there.
+
 >rick ride
 by one point
 
@@ -777,6 +765,13 @@ Your questioning, with the Thrive Three's backing, drives Clive Klee over the ed
 #testcase-check-vc-whyve-we-rule-if-sco-whyve-we-is-true
 >whyve we
 WRONG
+\\
+#testcase-check-vc-hick-hide-rule-abide-by-the-slide-warp-check-rule-for-contrive-country
+>hick hide
+You're already here!
+\\
+>tick tide
+You've already solved that area!
 
 >rick ride
 !by one point
@@ -1009,6 +1004,16 @@ You're done here. No need to dwell on past successes.
 #+testcase-check-vc-loyal-link-rule-abide-by-the-oil-inc-basics-rule
 >loyal link
 You're done here. No need to dwell on past successes.
+\\
+#testcase-check-vc-sick-side-rule-abide-by-the-slide-warp-check-rule-for-oil-inc
+>sick side
+You're already here!
+\\
+>hick hide
+You've already solved that area!
+\\
+>tick tide
+You've already solved that area!
 
 >rick ride
 
@@ -1099,6 +1104,19 @@ Ha-ha! You think for a minute and realize that while powerful spells can't affec
 #testcase-check-vc-pie-pitch-rule-if-sco-pie-pitch-is-true
 >pie pitch
 WRONG
+\\
+#testcase-check-vc-prick-pride-rule-abide-by-the-slide-warp-check-rule-for-sigh-sitch
+>prick pride
+You're already here!
+\\
+>hick hide
+You've already solved that area!
+\\
+>sick side
+You've already solved that area!
+\\
+>tick tide
+You've already solved that area!
 
 >rick ride
 !by one point
@@ -1112,7 +1130,7 @@ Woe Wall
 You take the rick ride back to Woe Wall...
 
 @rej
-#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall-if-hub-score-is-4
+#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall-if-hubs-solved-is-4
 >rick ride
 You can't escape the big fight!
 \\
@@ -1137,7 +1155,7 @@ You can cry MO MAUL now combat is underway.
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.33, 0.33.)
 
-@alt
+@all
 #testcase-run-vr-bro-brawl-rule-abide-by-the-big-battle-check-rule
 >bro brawl
 by one point
@@ -1180,9 +1198,9 @@ Forfeit, Bore
 >foe fall
 by one point
 
-@rej
-#testcase-run-vr-foe-fall-rule-abide-by-the-big-battle-check-rule
-#testcase-check-vc-foe-fall-rule-fallthrough
+@all,rej
+{--all}#testcase-run-vr-foe-fall-rule-abide-by-the-big-battle-check-rule
+{--rej}#testcase-check-vc-foe-fall-rule-fallthrough
 WRONG
 
 @all
@@ -1288,7 +1306,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 by one point
 
 @all
-#testcase-check-vc-bro-brawl-rule-fallthrough
+{--rej}#testcase-check-vc-bro-brawl-rule-fallthrough
 #testcase-run-vr-bro-brawl-rule-default
 BZZT Change This
 
@@ -1348,10 +1366,11 @@ BZZT Change This
 >zfret fright
 {$GREENCORE}
 
-@all,rej
-{--all}#testcase-room-names-let-in-the-light-net-in-the-night
+@all
+#testcase-room-names-let-in-the-light-net-in-the-night
 /^Set-in-the-Site Net in the Night$
-\\
+
+@rej
 #testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
 >fret fright
 I'm going to be pedantic here and tell you not to throw out the small words.
@@ -1359,8 +1378,7 @@ I'm going to be pedantic here and tell you not to throw out the small words.
 #+testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
 >let light
 I'm going to be pedantic here and tell you not to throw out the small words.
-
-@rej
+\\
 #testcase-think-table-of-verb-checks-vc-let-light-rule
 >think
 The final solution is more than two words long. Add words so your action matches the room.
@@ -1369,7 +1387,7 @@ The final solution is more than two words long. Add words so your action matches
 >rick ride
 You're beyond the rick's help here. You must find a way out on your own.
 
-@alt
+@all
 #testcase-run-vr-let-light-rule-if-the-player's-command-includes-fright
 >fret in the fright
 You give up at the final moment. Too bad. But you still, like, learned lessons and stuff.
@@ -1391,3 +1409,9 @@ by one point
 {--all}#testcase-run-vr-let-light-rule-fallthrough
 BZZT Change This
 *** SPOOKY SPITE, FLUKY FLIGHT ***
+
+@all
+#testcase-run-vr-let-light-rule-follow-the-shutdown-rules
+Would you like to
+\\
+has just gone up

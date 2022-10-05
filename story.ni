@@ -172,7 +172,6 @@ volume parser stuff
 this is the situational-cuing-reject rule: do nothing;
 
 this is the verb-checker rule:
-	say "[spare-slide-num] [to-number of slick slide].";
 	let local-ha-half-level be 0;
 	let local-post-hom be false;
 	let brightness be false;

@@ -13,22 +13,7 @@ Taken.
 
 >au 2
 
-#testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-pop-rule
->whirring west
-WRONG
-
 >turing test
-WRONG
-
-#testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-pop-rule
-
->undo
->undo
-
->turing test
-
-#+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-pop-rule
-WRONG
 
 #testcase-check-vc-war-wit-rule-if-player-is-not-in-forfeit-bore-bit
 >war wit
@@ -54,14 +39,6 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 >owning eh
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
-#testcase-check-vc-oh-all-rule-if-player-is-not-in-woe-wall
->oh all
-Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
-
-#testcase-check-vc-mo-maul-rule-if-player-is-not-in-woe-wall
->mo maul
-Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
-
 #testcase-check-vc-rick-ride-rule-if-slick-slide-is-off-stage
 >rick ride
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
@@ -84,14 +61,6 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 
 #testcase-check-vc-core-kit-rule-if-player-is-not-in-forfeit-bore-bit
 >core kit
-Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
-
-#testcase-check-vc-foe-fall-rule-if-player-is-not-in-woe-wall
->foe fall
-Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
-
-#testcase-check-vc-bro-brawl-rule-if-player-is-not-in-woe-wall
->bro brawl
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 #testcase-check-vc-cloning-clay-rule-if-player-is-not-in-honing-hey
@@ -124,9 +93,6 @@ You perform a Turing Test on yourself, since nobody else is around. You hope you
 >whirring west
 by one point
 
-#+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-pop-rule
-WRONG
-
 >w
 
 #testcase-check-vc-whirring-west-rule-fallthrough
@@ -138,10 +104,6 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 
 #testcase-check-vc-whirring-west-rule-unless-player-is-in-croots-craving
 >whirring west
-Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
-
-#testcase-check-vc-owning-eh-rule-if-player-is-not-in-honing-hey
->owing eh
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 #testcase-check-vc-stow-stall-rule-if-sco-yo-yall-is-false
@@ -301,6 +263,13 @@ WRONG
 >owning eh
 You take time to reflect on your own faults.
 
+#testcase-check-vc-tick-tide-rule-abide-by-the-slide-warp-check-rule-for-honing-hey
+>tick tide
+You're already here!
+
+>sick side
+You'll need to find transport back to Woe Wall first to take the slide there.
+
 >rick ride
 by one point
 
@@ -390,6 +359,13 @@ Your questioning, with the Thrive Three's backing, drives Clive Klee over the ed
 #testcase-check-vc-whyve-we-rule-if-sco-whyve-we-is-true
 >whyve we
 WRONG
+
+#testcase-check-vc-hick-hide-rule-abide-by-the-slide-warp-check-rule-for-contrive-country
+>hick hide
+You're already here!
+
+>tick tide
+You've already solved that area!
 
 >rick ride
 !by one point
@@ -494,6 +470,16 @@ You're done here. No need to dwell on past successes.
 >loyal link
 You're done here. No need to dwell on past successes.
 
+#testcase-check-vc-sick-side-rule-abide-by-the-slide-warp-check-rule-for-oil-inc
+>sick side
+You're already here!
+
+>hick hide
+You've already solved that area!
+
+>tick tide
+You've already solved that area!
+
 >rick ride
 
 >prick pride
@@ -534,13 +520,26 @@ Ha-ha! You think for a minute and realize that while powerful spells can't affec
 >pie pitch
 WRONG
 
+#testcase-check-vc-prick-pride-rule-abide-by-the-slide-warp-check-rule-for-sigh-sitch
+>prick pride
+You're already here!
+
+>hick hide
+You've already solved that area!
+
+>sick side
+You've already solved that area!
+
+>tick tide
+You've already solved that area!
+
 >rick ride
 !by one point
 
 #testcase-check-vc-rick-ride-rule-fallthrough
 You take the rick ride back to Woe Wall...
 
-#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall-if-hub-score-is-4
+#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall-if-hubs-solved-is-4
 >rick ride
 You can't escape the big fight!
 
@@ -559,8 +558,9 @@ You can cry MO MAUL now combat is underway.
 >foe fall
 by one point
 
-#testcase-run-vr-foe-fall-rule-abide-by-the-big-battle-check-rule
-#testcase-check-vc-foe-fall-rule-fallthrough
+@all,rej
+{--all}#testcase-run-vr-foe-fall-rule-abide-by-the-big-battle-check-rule
+{--rej}#testcase-check-vc-foe-fall-rule-fallthrough
 WRONG
 
 #testcase-check-vc-rick-ride-rule-if-player-is-in-forfeit-or-player-is-in-net-in-the-night
@@ -604,6 +604,8 @@ BZZT Change This
 >bro brawl
 by one point
 
+#testcase-check-vc-bro-brawl-rule-fallthrough
+
 #+testcase-think-table-of-verb-checks-vc-oh-all-rule
 >think
 You can cry OH ALL once-now you have full leadership skills.
@@ -625,8 +627,6 @@ by one point
 
 #testcase-check-vc-oh-all-rule-fallthrough
 BZZT Change This
-
-/^Set-in-the-Site Net in the Night$
 
 #testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
 >fret fright
@@ -650,3 +650,4 @@ by one point
 #testcase-check-vc-let-light-rule-fallthrough
 BZZT Change This
 *** SPOOKY SPITE, FLUKY FLIGHT ***
+
