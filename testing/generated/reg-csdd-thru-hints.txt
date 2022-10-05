@@ -1,0 +1,291 @@
+## reg-csdd-thru-hints.txt
+## GENERATOR FILE: rbr-csdd-thru.txt
+
+## walkthrough testing hints basic
+
+** game: /home/andrew/prt/debug-civil-seeming-drivel-dreaming.z8
+** interpreter: /home/andrew/prt/dfrotz -m -w5000 -h25
+
+* main-thru
+
+>take learner
+Taken.
+
+>au 2
+
+>ll
+You scan the area. This will suffice most of the time, though you may wish to LL a thing that doesn't jibe with its rhymes.
+You get an interesting reading when it flips to the BRUTES BRAVING SUITS SAVING text. The numbers blink from (0.50, 0.50) to (-0.50, -0.50) and back, as if it's clueless what should have been changed from, or to, what.
+Perhaps you will get more meaningful information scanning the blurring blest purring pest.
+
+>ll pest
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
+!it's really dim
+
+>whirring west
+by one point
+
+>ll pest
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.50, -0.50.)
+However, it's really dim, as if you don't need to do or think whatever there is to do or think.
+
+>undo
+>undo
+
+>turing test
+
+>ll pest
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
+
+>whirring west
+by one point
+
+>ll pest
+Your rhyming attempts bring up nothing.
+
+>w
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
+
+>yo yall
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+
+>stow stall
+by one point
+
+>ll
+The leet learner makes a weird noise, as if it's about to find something, but then it doesn't. Maybe there's something to do here a bit later.
+
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+
+>trick tried
+by one point
+
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.75, -0.75.)
+
+>tick tide
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.50.)
+
+>ll moaning mae
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+>ll droning dre
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+>owning eh
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
+
+>ll moaning mae
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
+
+>ll droning dre
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
+
+>cloning clay
+by one point
+
+#this will be slightly different from the others.
+>ll
+Nothing comes up. The general area here has been changed enough.
+
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+>rick ride
+by one point
+
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, -0.66.)
+
+>hick hide
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.66, -3.00.)
+
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.66, -2.00.)
+
+>ivy
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.00, -2.50.)
+
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.50.)
+
+>lively
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.00, -2.00.)
+!You must supply a noun
+
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+>jive gee
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+
+>thrive three
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -3.00.)
+
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -2.00.)
+
+>whyve we
+by one point
+
+>rick ride
+!by one point
+
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+
+>sick side
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.75, 1.25.)
+
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.75, 0.25.)
+
+>royal rink
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.66, 1.33.)
+
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.66, 0.33.)
+
+>soil sink
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.50.)
+
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.50.)
+
+>broil brink
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.00.)
+
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.00.)
+
+>loyal link
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+
+>foil fink
+by one point
+
+>rick ride
+
+>prick pride
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+>ll witch
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, -0.50.)
+
+>ll slide
+DEBUG: can't see any such thing error.
+
+>lie lich
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
+
+>ll witch
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.50.)
+
+>ll lich
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
+
+>pie pitch
+by one point
+
+>rick ride
+!by one point
+
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.33, 0.33.)
+
+>foe fall
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
+
+>core kit
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
+
+>war wit
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+>mo maul
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+>bro brawl
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+>oh all
+by one point
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.50.)
+
+>let in the light
+by one point
+
