@@ -2,6 +2,10 @@
 
 volume inclusions
 
+the story description is "Am (Oh!) Sham-Show".
+
+the story headline is "Prime Pro-Rhyme Row entry 4".
+
 include Trivial Niceties by Andrew Schultz.
 
 include Prime Pro Rhyme Row Common by Andrew Schultz.
@@ -44,7 +48,9 @@ the leet learner is a thing in Croots Craving.
 
 chapter blurring blest purring pest
 
-the blurring blest purring pest is a thing in Croots Craving.
+the blurring blest purring pest is a rhymable in Croots Craving. printed name is "blurring-blest purring pest".
+
+guess-table of blurring blest purring pest is table of blurring blest purring pest guesses.
 
 from-number of blurring blest purring pest is 11509. to-number of blurring blest purring pest is 5804.
 
@@ -77,7 +83,7 @@ Po Paul is a person. printed name is "Po['] Paul".
 
 book Sigh Sitch
 
-Sigh Sitch is a hubroom. printed name is "(Sigh) Sitch".
+Sigh Sitch is a hubroom. printed name is "[if sco-pie-pitch is false](Sigh) Sitch[else]'Hi!' Hitch[end if]".
 
 from-number of sigh sitch is 5405. to-number of sigh sitch is 5304.
 
@@ -101,7 +107,7 @@ from-number of lie lich is 5304. to-number of lie lich is 5305.
 
 book Honing Hey Groaning Grey
 
-Honing Hey Groaning Grey is a hubroom. printed name is "Honing (Hey) Groaning, Grey".
+Honing Hey Groaning Grey is a hubroom. printed name is "[if sco-cloning-clay is false]Honing (Hey) Groaning, Grey[else]Koan-ing, [']K?[end if]".
 
 from-number of honing hey groaning grey is 11407. to-number of honing hey groaning grey is 5602.
 
@@ -121,7 +127,7 @@ second-text of Honing Hey is "You feel more positive. This time, you'll help [mm
 
 book Five Fee Contrive Country
 
-Five Fee Contrive Country is a hubroom. printed name is "Five-Fee-Contrive Country".
+Five Fee Contrive Country is a hubroom. printed name is "[if sco-whyve-we is false]Five-Fee-Contrive Country[else]Strives Tree[end if]".
 
 first-text of Contrive Country is "You dream of sticking it to elitists who look down on rural types as you take the slick slide. And what do you know? You find such a person, at the end!";
 
@@ -137,9 +143,17 @@ Clive Klee is a person in Contrive Country.
 
 from-number of clive klee is 5504. to-number of clive klee is 16006.
 
+chapter strives tree
+
+the strives tree is scenery. "It's quite tall, and it's a symbol of how not to let established rules, even good ones that make a fun game, get in the way of doing or making one more cool thing."
+
 book Oil Inc
 
-Oil Inc is a hubroom. printed name is "Oil, Inc.". "Your average run-of-the-mill urban dystopia here. Nothing really wonderful yet. But maybe you can change that!"
+Oil Inc is a hubroom. printed name is "[if sco-foil-fink is false]Oil, Inc.[else]Loyal Link[end if]". "Your average run-of-the-mill urban dystopia here. Nothing really wonderful yet. But maybe you can change that!"
+
+understand "loyal/link" and "loyal link" as oil inc when sco-foil-fink is true.
+
+from-number of oil inc is 5303. to-number of oil inc is 21917.
 
 first-text of oil inc is "You figure there must be sickness to stamp out. There always is. The process of doing so is at least as important as the physical help."
 
@@ -147,13 +161,11 @@ retreat-text of Oil Inc is "Big Oil remains entrenched. For now. You mutter some
 
 second-text of Oil Inc is "You're not going to let Big Oil keep the little guy down forever!"
 
-from-number of oil inc is 5303. to-number of oil inc is 21917.
+chapter Doyle Dink
 
-chapter moil mink
+Doyle Dink is a person in Oil Inc. "[one of]A man here introduces himself as Doyle Dink, philanthropist, entrepeneur, etc. This place is all his, and you should be impressed with it[or]Doyle Dink seems slightly upset you're not as impressed with his vision of peak capitalism as you should be[stopping]."
 
-The moil mink is a thing in Oil Inc.
-
-from-number of moil mink is 5404. to-number of oil inc is 21917.
+from-number of doyle dink is 5504. to-number of doyle dink is 21917.
 
 book Forfeit Bore Bit
 

@@ -316,11 +316,11 @@ a goodrhyme rule (this is the vc-whyve-we rule):
 
 this is the vr-whyve-we rule:
 	now sco-whyve-we is true;
-	say "Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.";
+	say "Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He gives up. If people can't appreciate his small business initiative, he'll go elsewhere! And he does. Where he stood, a Strives Tree sprouts quickly. It feels out of place here, and yet, it doesn't.";
 	now to-number of clive klee is -3;
 	now to-number of contrive country is -3;
+	move strives tree to contrive country;
 	rick-and-slide-check;
-
 
 a goodrhyme rule (this is the vc-broil-brink rule):
 	abide by the oil-inc-basics rule;
@@ -383,7 +383,7 @@ a goodrhyme rule (this is the vc-foil-fink rule):
 this is the vr-foil-fink rule:
 	now to-number of oil inc is -3;
 	now sco-foil-fink is true;
-	say "You've done enough damage to [oil] and Doyle Dink that enough people not only support you but also believe it's worth the risk. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!";
+	say "You've done enough damage to Doyle Dink and Oil, Inc. that enough people not only support you but also believe it's worth the risk to finish the job. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!";
 	rick-and-slide-check;
 
 a goodrhyme rule (this is the vc-bro-brawl rule):
@@ -521,6 +521,7 @@ to room-decrease (rm - a room) and (nu - a number):
 	if to-number of rm is 0, now to-number of rm is -3;
 
 to rick-and-slide-check:
+	print-the-loc;
 	say "[line break]";
 	if sco-rick-ride is false:
 		say "Now to find transport back.";
@@ -538,7 +539,7 @@ to say mmdd: say "[one of]Moaning Mae and Droning Dre[or]Droning Dre and Moaning
 to oil-inc-decrease (nu - a number):
 	decrease to-number of oil inc by nu;
 	if to-number of oil inc is 0, now to-number of oil inc is 5404;
-	now to-number of moil mink is to-number of oil inc;
+	now to-number of Doyle Dink is to-number of oil inc;
 
 a goodrhyme rule (this is the oil-inc-basics rule):
 	if player is not in oil inc, unavailable;

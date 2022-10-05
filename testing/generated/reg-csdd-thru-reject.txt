@@ -17,7 +17,7 @@ Taken.
 
 #testcase-check-vc-turing-test-rule-if-pest-is-moot
 >turing test
-You perform a Turing Test on yourself, since you already administered one to the blurring blest purring pest. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
+You perform a Turing Test on yourself, since you already administered one to the blurring-blest purring pest. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
 #testcase-reject-start-table-of-verb-checks-vr-bro-brawl-rule
 >bro brawl
@@ -159,7 +159,7 @@ by one point
 #testcase-check-vc-turing-test-rule-fallthrough
 #testcase-check-vc-whirring-west-rule-fallthrough
 Ah, yes! You identify where the noise is coming from and what it is. You see a way out now.
-The blurring blest purring pest, its job (so to speak) done, disappears with a pop.
+The blurring-blest purring pest, its job (so to speak) done, disappears with a pop.
 
 >w
 
@@ -429,7 +429,7 @@ You can say WHYVE WE now you have allies to outnumber Clive Klee.
 by one point
 
 #testcase-check-vc-whyve-we-rule-fallthrough
-Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.
+Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He gives up. If people can't appreciate his small business initiative, he'll go elsewhere! And he does. Where he stood, a Strives Tree sprouts quickly. It feels out of place here, and yet, it doesn't.
 
 #testcase-check-vc-whyve-we-rule-if-sco-whyve-we-is-true
 >whyve we
@@ -523,7 +523,7 @@ Already done. There must be another way to gain allies or weaken Oil, Inc.
 by one point
 
 #testcase-check-vc-foil-fink-rule-fallthrough
-You've done enough damage to Oil, Inc. and Doyle Dink that enough people not only support you but also believe it's worth the risk. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!
+You've done enough damage to Doyle Dink and Oil, Inc. that enough people not only support you but also believe it's worth the risk to finish the job. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!
 
 #testcase-check-vc-foil-fink-rule-if-sco-foil-fink-is-true
 >foil fink

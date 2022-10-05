@@ -24,6 +24,10 @@ mist-regex	mist-rule	got-yet	leet-rule	mist-txt
 
 volume thing tables
 
+table of blurring blest purring pest guesses
+mist-regex	mist-rule	got-yet	leet-rule	mist-txt
+"conquering conquest"	--	false	--	"Whoah. Smaller goals, here."
+
 table of slick slide guesses
 mist-regex	mist-rule	got-yet	leet-rule	mist-txt
 "dick died"	--	false	--	"A sad story is appropriate for the woe wall, but the slick slide is unmoved."

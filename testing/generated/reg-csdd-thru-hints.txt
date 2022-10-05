@@ -16,7 +16,7 @@ Taken.
 >ll
 You scan the area. This will suffice most of the time, though you may wish to LL a thing that doesn't jibe with its rhymes.
 You get an interesting reading when it flips to the BRUTES BRAVING SUITS SAVING text. The numbers blink from (0.50, 0.50) to (-0.50, -0.50) and back, as if it's clueless what should have been changed from, or to, what.
-Perhaps you will get more meaningful information scanning the blurring blest purring pest.
+Perhaps you will get more meaningful information scanning the blurring-blest purring pest.
 
 >ll pest
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)

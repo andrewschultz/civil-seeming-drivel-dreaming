@@ -19,11 +19,11 @@ Taken.
 #testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
 >whirring west
 Ah, yes! You identify where the noise is coming from and what it is. You see a way out now. Perhaps there is a bit more you can do to show off, but you don't need to.
-The blurring blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
+The blurring-blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
 
 >turing test
-You think up questions to ask the blurring blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down.
-The blurring blest purring pest, its job (so to speak) done, disappears with a pop.
+You think up questions to ask the blurring-blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down.
+The blurring-blest purring pest, its job (so to speak) done, disappears with a pop.
 
 #testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
 
@@ -33,8 +33,8 @@ The blurring blest purring pest, its job (so to speak) done, disappears with a p
 >turing test
 
 #+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
-You think up questions to ask the blurring blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down. You still don't have a way out of here, but maybe the pest can he;lp with that, too.
-The blurring blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
+You think up questions to ask the blurring-blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down. You still don't have a way out of here, but maybe the pest can he;lp with that, too.
+The blurring-blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
 
 >whirring west
 by one point
@@ -43,7 +43,7 @@ by one point
 #testcase-run-vr-turing-test-rule-fallthrough
 #+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
 Ah, yes! You identify where the noise is coming from and what it is. You see a way out now.
-The blurring blest purring pest, its job (so to speak) done, disappears with a pop.
+The blurring-blest purring pest, its job (so to speak) done, disappears with a pop.
 
 >w
 
@@ -146,6 +146,8 @@ You commence a small heart-to-heart with
 >cloning clay
 by one point
 
+/^Koan-ing, 'K\?$
+
 #testcase-run-vr-cloning-clay-rule-default
 /You discover some cloning clay, and (Moaning Mae and Droning Dre|Droning Dre and Moaning Mae) spend time pouring their life essence into thousands of tiny golems\. You watch as they both fade, their spirits no longer tormented\. Your work here is done\.
 
@@ -191,7 +193,9 @@ Now that you've changed the area in three ways, it makes sense that you can summ
 by one point
 
 #testcase-run-vr-whyve-we-rule-default
-Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.
+Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He gives up. If people can't appreciate his small business initiative, he'll go elsewhere! And he does. Where he stood, a Strives Tree sprouts quickly. It feels out of place here, and yet, it doesn't.
+
+/^Strives Tree$
 
 >rick ride
 !by one point
@@ -234,8 +238,10 @@ Loyal links are formed--links physical and emotional. It looks like the loyal li
 >foil fink
 by one point
 
+/^Loyal Link$
+
 #testcase-run-vr-foil-fink-rule-default
-You've done enough damage to Oil, Inc. and Doyle Dink that enough people not only support you but also believe it's worth the risk. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!
+You've done enough damage to Doyle Dink and Oil, Inc. that enough people not only support you but also believe it's worth the risk to finish the job. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!
 
 >rick ride
 
@@ -257,6 +263,8 @@ But that bit about how the most powerful and spectacular spells can't disarm it?
 
 >pie pitch
 by one point
+
+/^"Hi!" Hitch$
 
 #testcase-run-vr-pie-pitch-rule-default
 Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.

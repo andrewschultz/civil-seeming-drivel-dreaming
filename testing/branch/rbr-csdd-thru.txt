@@ -75,7 +75,7 @@ Taken.
 >ll
 You scan the area. This will suffice most of the time, though you may wish to LL a thing that doesn't jibe with its rhymes.
 You get an interesting reading when it flips to the BRUTES BRAVING SUITS SAVING text. The numbers blink from (0.50, 0.50) to (-0.50, -0.50) and back, as if it's clueless what should have been changed from, or to, what.
-Perhaps you will get more meaningful information scanning the blurring blest purring pest.
+Perhaps you will get more meaningful information scanning the blurring-blest purring pest.
 
 @ha
 #testcase-ha-half-table-of-verb-checks-2-west
@@ -117,11 +117,11 @@ However, it's really dim, as if you don't need to do or think whatever there is 
 #testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
 >whirring west
 Ah, yes! You identify where the noise is coming from and what it is. You see a way out now. Perhaps there is a bit more you can do to show off, but you don't need to.
-The blurring blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
+The blurring-blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
 \\
 >turing test
-You think up questions to ask the blurring blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down.
-The blurring blest purring pest, its job (so to speak) done, disappears with a pop.
+You think up questions to ask the blurring-blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down.
+The blurring-blest purring pest, its job (so to speak) done, disappears with a pop.
 \\
 #testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
 \\
@@ -135,13 +135,13 @@ The blurring blest purring pest, its job (so to speak) done, disappears with a p
 
 @all
 #+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
-You think up questions to ask the blurring blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down. You still don't have a way out of here, but maybe the pest can he;lp with that, too.
-The blurring blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
+You think up questions to ask the blurring-blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down. You still don't have a way out of here, but maybe the pest can he;lp with that, too.
+The blurring-blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
 
 @rej
 #testcase-check-vc-turing-test-rule-if-pest-is-moot
 >turing test
-You perform a Turing Test on yourself, since you already administered one to the blurring blest purring pest. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
+You perform a Turing Test on yourself, since you already administered one to the blurring-blest purring pest. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
 @hin
 >ll pest
@@ -294,7 +294,7 @@ by one point
 {--all}#testcase-run-vr-turing-test-rule-fallthrough
 {--all}#+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
 Ah, yes! You identify where the noise is coming from and what it is. You see a way out now.
-The blurring blest purring pest, its job (so to speak) done, disappears with a pop.
+The blurring-blest purring pest, its job (so to speak) done, disappears with a pop.
 
 @hin
 >ll pest
@@ -692,6 +692,9 @@ past behavior in. They're ready to become better people.
 >cloning clay
 by one point
 
+@all
+/^Koan-ing, 'K\?$
+
 @all,rej
 {--rej}#testcase-check-vc-cloning-clay-rule-fallthrough
 {--all}#testcase-run-vr-cloning-clay-rule-default
@@ -896,7 +899,10 @@ by one point
 @all,rej
 {--rej}#testcase-check-vc-whyve-we-rule-fallthrough
 {--all}#testcase-run-vr-whyve-we-rule-default
-Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.
+Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He gives up. If people can't appreciate his small business initiative, he'll go elsewhere! And he does. Where he stood, a Strives Tree sprouts quickly. It feels out of place here, and yet, it doesn't.
+
+@all
+/^Strives Tree$
 
 @rej
 #testcase-check-vc-whyve-we-rule-if-sco-whyve-we-is-true
@@ -1103,10 +1109,13 @@ Already done. There must be another way to gain allies or weaken Oil, Inc.
 >foil fink
 by one point
 
+@all
+/^Loyal Link$
+
 @all,rej
 {--rej}#testcase-check-vc-foil-fink-rule-fallthrough
 {--all}#testcase-run-vr-foil-fink-rule-default
-You've done enough damage to Oil, Inc. and Doyle Dink that enough people not only support you but also believe it's worth the risk. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!
+You've done enough damage to Doyle Dink and Oil, Inc. that enough people not only support you but also believe it's worth the risk to finish the job. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!
 
 @rej
 #testcase-check-vc-foil-fink-rule-if-sco-foil-fink-is-true
@@ -1219,6 +1228,9 @@ You can ask for a PIE PITCH now there's someone or something evil as a target.
 
 >pie pitch
 by one point
+
+@all
+/^"Hi!" Hitch$
 
 @all,rej
 {--rej}#testcase-check-vc-pie-pitch-rule-fallthrough
