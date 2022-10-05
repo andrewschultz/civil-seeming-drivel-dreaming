@@ -6,6 +6,12 @@ volume types
 
 a hubroom is a kind of room.
 
+a hubroom has text called first-text.
+
+a hubroom has text called retreat-text.
+
+a hubroom has text called second-text.
+
 volume gotoing
 
 to decide whether (di - a direction) is blocked: no;

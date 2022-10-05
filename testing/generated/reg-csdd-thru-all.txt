@@ -18,10 +18,12 @@ Taken.
 
 #testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
 >whirring west
-WRONG
+Ah, yes! You identify where the noise is coming from and what it is. You see a way out now. Perhaps there is a bit more you can do to show off, but you don't need to.
+The blurring blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
 
 >turing test
-WRONG
+You think up questions to ask the blurring blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down.
+The blurring blest purring pest, its job (so to speak) done, disappears with a pop.
 
 #testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
 
@@ -31,22 +33,22 @@ WRONG
 >turing test
 
 #+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
-WRONG
+You think up questions to ask the blurring blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down. You still don't have a way out of here, but maybe the pest can he;lp with that, too.
+The blurring blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
 
 >whirring west
 by one point
 
+#testcase-run-vr-whirring-west-rule-fallthrough
 #testcase-run-vr-turing-test-rule-fallthrough
 #+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
-The purring pest disappears with a pop.
+Ah, yes! You identify where the noise is coming from and what it is. You see a way out now.
+The blurring blest purring pest, its job (so to speak) done, disappears with a pop.
 
 >w
 
 #testcase-room-names-woe-wall
 /^Woe Wall$
-
-#testcase-run-vr-whirring-west-rule-fallthrough
-You follow the noise and tumble down to...
 
 >yo yall
 by one point
@@ -69,6 +71,61 @@ by one point
 #testcase-run-vr-trick-tried-rule-default
 Aha! You see what was wrong with the slick slide. You see what to do. It's so tricky, I can't even describe it to you, but since you did it, you have a pretty good idea. Right?
 
+>sick side
+You figure there must be sickness to stamp out. There always is. The process of doing so is at least as important as the physical help.
+
+>rick ride
+Big Oil remains entrenched. For now. You mutter something about the petrochemical industrial complex and feel smart. (Neoliberalism, you're next, whatever you are!) Yes, one day, climate justice and such will prevail! Just not now.
+
+>sick side
+You're not going to let Big Oil keep the little guy down forever!
+
+>undo
+>undo
+>undo
+
+>prick pride
+You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.
+
+>rick ride
+The bad guys can't strike first, but you don't see how to strike, so you retreat.
+
+>prick pride
+You and the I-Itch-Why Witch should come through this time.
+
+>undo
+>undo
+>undo
+
+>hick hide
+You dream of sticking it to elitists who look down on rural types as you take the slick slide. And what do you know? You find such a person, at the end!
+
+>rick ride
+Clive Klee and his mini-dystopia will stand for now. But you will find a way to break his hold on power.
+
+>hick hide
+You'll show Clive Klee this time, dadgummit.
+
+>undo
+>undo
+>undo
+
+>tick tide
+You're ready to face a whole tide of pestilence. It doesn't seem too bad. But there's a lot of complaining. You don't see any bugs, yet, but you do see two prime suspects.
+
+>rick ride
+/(Moaning Mae and Droning Dre|Droning Dre and Moaning Mae)
+ deserve more to be made of themselves. But you don't see how, yet.
+
+>tick tide
+You feel more positive. This time, you'll help 
+/(Moaning Mae and Droning Dre|Droning Dre and Moaning Mae)
+ actualize themselves, and stuff.
+
+>undo
+>undo
+>undo
+
 >tick tide
 by one point
 
@@ -76,13 +133,15 @@ by one point
 /^Honing \(Hey\) Groaning, Grey$
 
 #testcase-run-vr-tick-tide-rule-default
-You slide down somewhere ... there's a lot of complaining about all the bugs around. You can't see them, but there are two prime suspects.
+You're ready to face a whole tide of pestilence. It doesn't seem too bad. But there's a lot of complaining. You don't see any bugs, yet, but you do see two prime suspects.
 
 >owning eh
 by one point
 
 #testcase-run-vr-owning-eh-rule-default
-BZZT Change This
+You commence a small heart-to-heart with 
+/(Moaning Mae and Droning Dre|Droning Dre and Moaning Mae)
+. Nothing accusatory, just a suggestion they have more agency than they think. You reminisce of times you thought you were helpless but weren't, or when you should or could have done more, but you didn't. And you all share a few special moments and vow to do better in the future.
 
 >cloning clay
 by one point
@@ -102,8 +161,7 @@ by one point
 /^Five-Fee-Contrive Country$
 
 #testcase-run-vr-hick-hide-rule-default
-You dream of elitists who look down on rural types as you take the slick slide. And what do you know? You find one, at the end!
-WRONG
+You dream of sticking it to elitists who look down on rural types as you take the slick slide. And what do you know? You find such a person, at the end!
 
 >ivy
 by one point
@@ -127,7 +185,7 @@ The air feels laden with possibilities for friendly wisecracking.
 by one point
 
 #testcase-run-vr-thrive-three-rule-default
-BZZT Change This
+Now that you've changed the area in three ways, it makes sense that you can summon three people to help you improve it even more. They look at you as if to say, just one question to Clive over here, and he's a goner.
 
 >whyve we
 by one point
@@ -147,46 +205,37 @@ by one point
 /^Oil, Inc\.$
 
 #testcase-run-vr-sick-side-rule-default
-You're ready to help out with the effects of the petrochemical industry on health, or something.
+You figure there must be sickness to stamp out. There always is. The process of doing so is at least as important as the physical help.
 
 >royal rink
 by one point
 
-WRONG
-
 #testcase-run-vr-royal-rink-rule-default
-BZZT Change This
+A big ol' royal rink pops up in the middle of the dystopian landscape. The moil mink looks furious.
 
 >soil sink
 by one point
 
-WRONG
-
 #testcase-run-vr-soil-sink-rule-default
-BZZT Change This
+The soil collapses under the most hideous of workhouses and takes along an almost-completely-constructed Trump Tower-level-ugly skyscraper in the process! (Don't worry, they were empty. After all, it's night-time.)
 
 >broil brink
 by one point
 
-WRONG
-
 #testcase-run-vr-broil-brink-rule-default
-<now sco-broil-brink is true;>
-BZZT Change This
+You foment an undercurrent of constructive discontent in the populace. Nothing that would cause the quasi-police state to have cause to repress them, of course.
 
 >loyal link
 by one point
 
-WRONG
-
 #testcase-run-vr-loyal-link-rule-default
-BZZT Change This
+Loyal links are formed--links physical and emotional. It looks like the loyal link is not just capable of transporting people around but of doing so with solar power! Take that, Oil, Inc.!
 
 >foil fink
 by one point
 
 #testcase-run-vr-foil-fink-rule-default
-BZZT Change This
+You've done enough damage to Oil, Inc. and Doyle Dink that enough people not only support you but also believe it's worth the risk. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!
 
 >rick ride
 
@@ -203,7 +252,8 @@ You're ready to help someone burst someone else's bubble, or perhaps help them g
 by one point
 
 #testcase-run-vr-lie-lich-rule-default
-A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!
+A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. Including the languid one about letting you go first even though it doesn't have to. (It does.)
+But that bit about how the most powerful and spectacular spells can't disarm it? True. Except...
 
 >pie pitch
 by one point
@@ -237,14 +287,12 @@ Forfeit, Bore
 by one point
 
 #testcase-run-vr-foe-fall-rule-abide-by-the-big-battle-check-rule
-WRONG
+You spring a battle cry, simple and effective! While it fails to discuss how the foe can fall, well, it still gives darn-good returns to scale for a measly seven letters.
 Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to the Woe Wall bums.
 
+#testcase-run-vr-foe-fall-rule-default
 #testcase-room-names-forfeit-bore-bit
 /^"Forfeit, Bore" Bit$
-
-#testcase-run-vr-foe-fall-rule-default
-BZZT Change This
 
 >core kit
 by one point
@@ -269,26 +317,28 @@ Yes! You see what to do, now. You make believe you still have the soldier toys a
 by one point
 
 #testcase-run-vr-mo-maul-rule-default
-BZZT Change This
+You spring a battle cry, simple and effective! While it's relatively obvious that, given the choice between more mauling and less mauling, the first is to be preferred, (provided said mauling is of evil people who deserve it,) sometimes people need that forceful nudge to what they were going to do anyway, just to make sure they do it to the max.
+Your charges appear even more, uh, charged!
 
 >bro brawl
 by one point
 
 #testcase-run-vr-bro-brawl-rule-default
-BZZT Change This
+You spring a battle cry, simple and effective! While "bro" doesn't feel as inclusive as it could be, those who might feel shunted focus on the "family" aspect of "bro," redirecting their anger towards those who would probably call them far worse than "bro."
 
 >oh all
 by one point
 
 #testcase-run-vr-oh-all-rule-default
-BZZT Change This
+The simplicity! The universality! It's so simple and universal, several members of the Throw Thrall defect, and several briefly consider attacking themselves! Fortunately, this is not necessary. You learned from your time in the Pore Pit, and you show you're not all sloganeering as you direct the troops this way and that. It's a rout!
+But sadly, you didn't continue the battle cry after the Throw Thrall defections. Their minds unfogged by your charisma, they realize they are close to capturing the leader. So they do. Again. You're thrown to somewhere different this time...
 
 #testcase-room-names-let-in-the-light-net-in-the-night
 /^Set-in-the-Site Net in the Night$
 
 #testcase-run-vr-let-light-rule-if-the-player's-command-includes-fright
 >fret in the fright
-You give up at the final moment. Too bad. But you still, like, learned lessons and stuff.
+You give up at the final moment. Too bad. But you still, like, learned lessons and stuff. And it was only a dream. Nevertheless, you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.
 Your score just went up by one point.
 *** SPOOKY SPITE, FLUKY FLIGHT ***
 
@@ -298,15 +348,12 @@ Your score just went up by one point.
 by one point
 
 #testcase-run-vr-let-light-rule-process-the-score-and-thinking-changes-rule
->hint
-score has gone
+just went up
 
 #testcase-run-vr-let-light-rule-default
 #testcase-run-vr-let-light-rule-fallthrough
-BZZT Change This
+Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. You let in the light and then some! With nothing left to be done, you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.
 *** SPOOKY SPITE, FLUKY FLIGHT ***
 
 #testcase-run-vr-let-light-rule-follow-the-shutdown-rules
 Would you like to
-
-has just gone up

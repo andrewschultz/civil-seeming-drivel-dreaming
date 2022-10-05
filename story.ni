@@ -20,6 +20,12 @@ section testing - not for release
 
 include Civil Seeming Drivel Dreaming Tests by Andrew Schultz.
 
+volume when play begins
+
+when play begins:
+	say "Of course you always save the bad Halloween candy for last. And you only buy it on November 1st. Last year, though, you messed up. You didn't get to the store soon enough![paragraph break]You needed to make space in your cupboard, so you ate it ... too much, in fact. The result was a sugar coma and actual sleep, and a weird dream...";
+	wfas;
+
 volume rooms
 
 chapter general hubrooms
@@ -75,15 +81,21 @@ Sigh Sitch is a hubroom. printed name is "(Sigh) Sitch".
 
 from-number of sigh sitch is 5405. to-number of sigh sitch is 5304.
 
+first-text of Sigh Sitch is "You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.".
+
+retreat-text of Sigh Sitch is "The bad guys can't strike first, but you don't see how to strike, so you retreat."
+
+second-text of Sigh Sitch is "You and [the witch] should come through this time.".
+
 chapter witch
 
-The I Itch Why Witch is a person in Sigh Sitch.
+The I Itch Why Witch is a person in Sigh Sitch. printed name is "I-Itch-Why Witch".
 
 from-number of i itch why witch is 10409. to-number of i itch why witch is 5304.
 
 chapter lich
 
-the lie lich is a person.
+the lie lich is a person. description is "The lie lich you summoned waits here for you or [the witch] to cast the first spell. The rules of the universe dictate bad guys don't get to go first. RIGGED!"
 
 from-number of lie lich is 5304. to-number of lie lich is 5305.
 
@@ -101,9 +113,21 @@ Droning Dre is a person in Honing Hey.
 
 from-number of droning dre is 5703. to-number of droning dre is 5602.
 
+first-text of Honing Hey is "You're ready to face a whole tide of pestilence. It doesn't seem too bad. But there's a lot of complaining. You don't see any bugs, yet, but you do see two prime suspects.";
+
+retreat-text of Honing Hey is "[mmdd] deserve more to be made of themselves. But you don't see how, yet."
+
+second-text of Honing Hey is "You feel more positive. This time, you'll help [mmdd] actualize themselves, and stuff.".
+
 book Five Fee Contrive Country
 
 Five Fee Contrive Country is a hubroom. printed name is "Five-Fee-Contrive Country".
+
+first-text of Contrive Country is "You dream of sticking it to elitists who look down on rural types as you take the slick slide. And what do you know? You find such a person, at the end!";
+
+retreat-text of Contrive Country is "Clive Klee and his mini-dystopia will stand for now. But you will find a way to break his hold on power."
+
+second-text of Contrive Country is "You'll show Clive Klee this time, dadgummit."
 
 from-number of five fee contrive country is 11210. to-number of five fee contrive country is 16006.
 
@@ -115,7 +139,13 @@ from-number of clive klee is 5504. to-number of clive klee is 16006.
 
 book Oil Inc
 
-Oil Inc is a hubroom. printed name is "Oil, Inc.".
+Oil Inc is a hubroom. printed name is "Oil, Inc.". "Your average run-of-the-mill urban dystopia here. Nothing really wonderful yet. But maybe you can change that!"
+
+first-text of oil inc is "You figure there must be sickness to stamp out. There always is. The process of doing so is at least as important as the physical help."
+
+retreat-text of Oil Inc is "Big Oil remains entrenched. For now. You mutter something about the petrochemical industrial complex and feel smart. (Neoliberalism, you're next, whatever you are!) Yes, one day, climate justice and such will prevail! Just not now."
+
+second-text of Oil Inc is "You're not going to let Big Oil keep the little guy down forever!"
 
 from-number of oil inc is 5303. to-number of oil inc is 21917.
 
@@ -133,7 +163,7 @@ from-number of Forfeit Bore Bit is 10707. to-number of Forfeit Bore Bit is 5403.
 
 book Set in the Site Net in the Night
 
-Set in the Site Net in the Night is a room. printed name is "Set-in-the-Site Net in the Night".
+Set in the Site Net in the Night is a room. printed name is "Set-in-the-Site Net in the Night". "'Don't mind me,' you fret, telepathically guilt-tripping anyone within a twelve-mile radius. 'I deserved it, for my moment of inattention. I probably had more attention than a schlep like me earned, anyway, and I guess this is my rightful punishment. I don't deserve, like, a simple way out,' you mumble to yourself, while of course deep down you believe the complete opposite."
 
 from-number of Net in the Night is 10609. to-number of Net in the Night is 5306.
 

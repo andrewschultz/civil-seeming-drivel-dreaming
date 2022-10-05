@@ -69,6 +69,7 @@ a goodrhyme rule (this is the vc-turing-test rule):
 	ready;
 
 this is the vr-turing-test rule:
+	say "You think up questions to ask [the pest], and surprisingly, it answers them okay at first, but once you get into detail, it breaks down[if sco-whirring-west is false]. You still don't have a way out of here, but maybe the pest can he;lp with that, too[end if].";
 	abide by the purring-pest-ping rule;
 	now sco-turing-test is true;
 
@@ -77,6 +78,7 @@ a goodrhyme rule (this is the vc-whirring-west rule):
 	ready;
 
 this is the vr-whirring-west rule:
+	say "Ah, yes! You identify where the noise is coming from and what it is. You see a way out now[if sco-turing-test is false]. Perhaps there is a bit more you can do to show off, but you don't need to[end if].";
 	abide by the purring-pest-ping rule;
 	now sco-whirring-west is true;
 	now to-number of blurring blest purring pest is -5604;
@@ -130,7 +132,6 @@ a goodrhyme rule (this is the vc-hick-hide rule):
 this is the vr-hick-hide rule:
 	if Contrive Country is unvisited, thing-decrease slick slide and 5404;
 	now sco-hick-hide is true;
-	say "You dream of elitists who look down on rural types as you take the slick slide. And what do you know? You find one, at the end!";
 	slide-shift Five Fee Contrive Country;
 
 a goodrhyme rule (this is the vc-prick-pride rule):
@@ -141,7 +142,6 @@ a goodrhyme rule (this is the vc-prick-pride rule):
 this is the vr-prick-pride rule:
 	if Sigh Sitch is unvisited, thing-decrease slick slide and 5505;
 	now sco-prick-pride is true;
-	say "You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.";
 	slide-shift Sigh Sitch;
 
 a goodrhyme rule (this is the vc-sick-side rule):
@@ -152,7 +152,6 @@ a goodrhyme rule (this is the vc-sick-side rule):
 this is the vr-sick-side rule:
 	if Oil Inc is unvisited, thing-decrease slick slide and 5505;
 	now sco-sick-side is true;
-	say "You're ready to help out with the effects of the petrochemical industry on health, or something.";
 	slide-shift Oil Inc;
 
 a goodrhyme rule (this is the vc-tick-tide rule):
@@ -163,7 +162,6 @@ a goodrhyme rule (this is the vc-tick-tide rule):
 this is the vr-tick-tide rule:
 	if Groaning Grey is unvisited, thing-decrease slick slide and 5404;
 	now sco-tick-tide is true;
-	say "You slide down somewhere ... there's a lot of complaining about all the bugs around. You can't see them, but there are two prime suspects.";
 	slide-shift Honing Hey Groaning Grey;
 
 a goodrhyme rule (this is the vc-rick-ride rule):
@@ -179,13 +177,14 @@ a goodrhyme rule (this is the vc-rick-ride rule):
 		not-yet;
 	if player is in Forfeit or player is in Net in the Night:
 		vcal "You're beyond the rick's help here. You must find a way out on your own.";
-		not-yet;
+		already-done;
 	ready;
 
 this is the vr-rick-ride rule:
 	if sco-rick-ride is false, now to-number of slick slide is spare-slide-num;
 	now sco-rick-ride is true;
 	say "[one of]Yes! That must be the way back! A rick ride rolls up. You only get a brief glimpse of the driver, who is red-headed and wears a double-breasted blue blazer and white-and-blue striped shirt. He seems tall, with a deep voice. He takes you back to Woe Wall but stays out of sight. You know you'll be together forever, or at least until the end of this adventure.[or]You take the rick ride back to Woe Wall again...[stopping]";
+	print-deferral;
 	move player to Woe Wall;
 	move slick slide to Woe Wall;
 
@@ -200,7 +199,8 @@ this is the vr-lie-lich rule:
 	now to-number of sigh sitch is 5305;
 	now to-number of i itch why witch is 5305;
 	now sco-lie-lich is true;
-	say "A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. It mentions it doesn't have to be chivalrous and wait, which discombobulates you, but for whatever reason, you know you're a good-guy, or a good-enough guy, so you can strike first.[paragraph break]You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!";
+	say "A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. Including the languid one about letting you go first even though it doesn't have to. (It does.)";
+	say "[line break]But that bit about how the most powerful and spectacular spells can't disarm it? True. Except...";
 	move lie lich to sigh sitch;
 
 a goodrhyme rule (this is the vc-pie-pitch rule):
@@ -232,7 +232,7 @@ a goodrhyme rule (this is the vc-owning-eh rule):
 
 this is the vr-owning-eh rule:
 	now sco-owning-eh is true;
-	say "Hooray! You figured what to do! You get a point!";
+	say "You commence a small heart-to-heart with [mmdd]. Nothing accusatory, just a suggestion they have more agency than they think. You reminisce of times you thought you were helpless but weren't, or when you should or could have done more, but you didn't. And you all share a few special moments and vow to do better in the future.";
 	now to-number of honing hey groaning grey is 5704;
 	now to-number of moaning mae is 5704;
 	now to-number of droning dre is 5704;
@@ -300,7 +300,7 @@ a goodrhyme rule (this is the vc-thrive-three rule):
 
 this is the vr-thrive-three rule:
 	now sco-thrive-three is true;
-	say "Hooray! You figured what to do! You get a point!";
+	say "Now that you've changed the area in three ways, it makes sense that you can summon three people to help you improve it even more. They look at you as if to say, just one question to Clive over here, and he's a goner.";
 	now to-number of clive klee is 5502;
 	now to-number of contrive country is 5502;
 
@@ -331,7 +331,7 @@ a goodrhyme rule (this is the vc-broil-brink rule):
 
 this is the vr-broil-brink rule:
 	now sco-broil-brink is true;
-	say "Hooray! You figured what to do! You get a point!";
+	say "You foment an undercurrent of constructive discontent in the populace. Nothing that would cause the quasi-police state to have cause to repress them, of course.";
 	oil-inc-decrease 5505;
 
 a goodrhyme rule (this is the vc-loyal-link rule):
@@ -343,7 +343,7 @@ a goodrhyme rule (this is the vc-loyal-link rule):
 
 this is the vr-loyal-link rule:
 	now sco-loyal-link is true;
-	say "Hooray! You figured what to do! You get a point!";
+	say "Loyal links are formed--links physical and emotional. It looks like the loyal link is not just capable of transporting people around but of doing so with solar power! Take that, [oil]!";
 	oil-inc-decrease 5504;
 
 a goodrhyme rule (this is the vc-royal-rink rule):
@@ -355,19 +355,19 @@ a goodrhyme rule (this is the vc-royal-rink rule):
 
 this is the vr-royal-rink rule:
 	now sco-royal-rink is true;
-	say "Hooray! You figured what to do! You get a point!";
+	say "A big ol['] royal rink pops up in the middle of the dystopian landscape. The moil mink looks furious.";
 	oil-inc-decrease 5504;
 
 a goodrhyme rule (this is the vc-soil-sink rule):
 	abide by the oil-inc-basics rule;
 	if sco-soil-sink is true:
-		vcal "You already put a dent in Oil, Inc.[']s profits!";
+		vcal "You already destroyed the most oppressive parts of Oil, Inc.[']s dark and dreary skyline!";
 		already-done;
 	ready;
 
 this is the vr-soil-sink rule:
 	now sco-soil-sink is true;
-	say "Hooray! You figured what to do! You get a point!";
+	say "The soil collapses under the most hideous of workhouses and takes along an almost-completely-constructed Trump Tower-level-ugly skyscraper in the process! (Don't worry, they were empty. After all, it's night-time.)";
 	oil-inc-decrease 5404;
 
 a goodrhyme rule (this is the vc-foil-fink rule):
@@ -383,43 +383,43 @@ a goodrhyme rule (this is the vc-foil-fink rule):
 this is the vr-foil-fink rule:
 	now to-number of oil inc is -3;
 	now sco-foil-fink is true;
-	say "Hooray! You figured what to do! You get a point!";
+	say "You've done enough damage to [oil] and Doyle Dink that enough people not only support you but also believe it's worth the risk. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!";
 	rick-and-slide-check;
 
 a goodrhyme rule (this is the vc-bro-brawl rule):
 	abide by the pre-wall-fight rule;
 	if sco-bro-brawl is true:
-		vcal "You already did this!";
+		vcal "Everyone's already been pumped up this way!";
 		already-done;
 	ready;
 
 this is the vr-bro-brawl rule:
 	now sco-bro-brawl is true;
-	say "Hooray! You figured what to do! You get a point!";
+	say "You spring a battle cry, simple and effective! While 'bro' doesn't feel as inclusive as it could be, those who might feel shunted focus on the 'family' aspect of 'bro,' redirecting their anger towards those who would probably call them far worse than 'bro.'";
 	abide by the big-battle-check rule;
 
 a goodrhyme rule (this is the vc-foe-fall rule):
 	abide by the pre-wall-fight rule;
 	if sco-foe-fall is true:
-		vcal "You already did this!";
+		vcal "You already exhorted the troops this way!";
 		already-done;
 	ready;
 
 this is the vr-foe-fall rule:
 	now sco-foe-fall is true;
-	say "Hooray! You figured what to do! You get a point!";
+	say "You spring a battle cry, simple and effective! While it fails to discuss how the foe can fall, well, it still gives darn-good returns to scale for a measly seven letters.";
 	abide by the big-battle-check rule;
 
 a goodrhyme rule (this is the vc-mo-maul rule):
 	abide by the pre-wall-fight rule;
 	if sco-mo-maul is true:
-		vcal "You already did this!";
+		vcal "You already exhorted the troops this way!";
 		already-done;
 	ready;
 
 this is the vr-mo-maul rule:
 	now sco-mo-maul is true;
-	say "Hooray! You figured what to do! You get a point!";
+	say "You spring a battle cry, simple and effective! While it's relatively obvious that, given the choice between more mauling and less mauling, the first is to be preferred, (provided said mauling is of evil people who deserve it,) sometimes people need that forceful nudge to what they were going to do anyway, just to make sure they do it to the max.";
 	abide by the big-battle-check rule;
 
 a goodrhyme rule (this is the vc-oh-all rule):
@@ -437,7 +437,8 @@ a goodrhyme rule (this is the vc-oh-all rule):
 
 this is the vr-oh-all rule:
 	now sco-oh-all is true;
-	say "Hooray! You figured what to do! You get a point!";
+	say "The simplicity! The universality! It's so simple and universal, several members of the Throw Thrall defect, and several briefly consider attacking themselves! Fortunately, this is not necessary. You learned from your time in the Pore Pit, and you show you're not all sloganeering as you direct the troops this way and that. It's a rout!";
+	say "[line break]But sadly, you didn't continue the battle cry after the Throw Thrall defections. Their minds unfogged by your charisma, they realize they are close to capturing the leader. So they do. Again. You're thrown to somewhere different this time...";
 	move player to Net in the Night;
 
 a goodrhyme rule (this is the vc-core-kit rule):
@@ -493,14 +494,24 @@ this is the slick-trick rule:
 
 [transport stuff]
 
-to slide-shift (rm - a room):
+to print-deferral: if location of player is a hubroom and to-number of location of player is not -3, say "[line break][retreat-text of location of player][line break]";
+
+to slide-shift (rm - a hubroom):
+	print-deferral;
 	if sco-rick-ride is false, move slick slide to rm;
+	say "[line break]";
+	if rm is unvisited:
+		say "[first-text of rm]";
+	else if to-number of rm is -3:
+		say "You retreat to a scene of prior success.";
+	else:
+		say "[second-text of rm]";
+	say "[line break]";
 	move player to rm;
 
 to thing-decrease (th - a thing) and (nu - a number):
 	decrease to-number of th by nu;
 	if to-number of th is 0, now to-number of th is -4;
-	say "New to-number for [th] is [to-number of th].";
 	if sco-rick-ride is false and th is slick slide:
 		now spare-slide-num is to-number of slick slide;
 		now to-number of slick slide is 5404;
@@ -582,9 +593,10 @@ a goodrhyme rule (this is the vc-let-light rule):
 this is the vr-let-light rule:
 	now sco-let-light is true;
 	if the player's command includes "fright":
-		say "You give up at the final moment. Too bad. But you still, like, learned lessons and stuff.";
+		say "You give up at the final moment. Too bad. But you still, like, learned lessons and stuff. And it was only a dream. Nevertheless,";
 	else:
-		say "Hooray! You figured what to do! You get a point!";
+		say "Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. You let in the light and then some! With nothing left to be done,";
+	say " you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.";
 	up-reg;
 	process the score and thinking changes rule;
 	end the story finally saying "SPOOKY SPITE, FLUKY FLIGHT";
@@ -592,10 +604,11 @@ this is the vr-let-light rule:
 
 [super general flexible rule]
 
-the roomwarp rules are a room based rulebook. the roomwarp rules have outcomes already-done and not-yet.
+the roomwarp rules are a room based rulebook. the roomwarp rules have outcomes already-done, not-yet and unavailable.
 
 a roomwarp rule for a room (called myrm) (this is the slide-warp-check rule):
 	if player is in Woe Wall, make no decision;
+	unless player is in a hubroom, unavailable;
 	if sco-rick-ride is false:
 		vcp "You'll need to find transport back to Woe Wall first to take the slide there.";
 		not-yet;

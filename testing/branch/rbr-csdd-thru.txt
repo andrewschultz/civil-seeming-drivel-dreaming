@@ -27,6 +27,7 @@ files=reg-csdd-thru-min.txt,reg-csdd-thru-all.txt,reg-csdd-thru-reject.txt,reg-c
 #--stable-file: this eventually says that the project is stable, and I shouldn't change the main/minimal file unless I really need to.
 #--strict-file: this says that the project requires strict section marking e.g. @all instead of ==t1.
 
+}$MMDD=/(Moaning Mae and Droning Dre|Droning Dre and Moaning Mae)
 }$REJECT=I couldn't parse that command. You don't need any more than two words long.
 }$REJECT1=Most special commands are more than one word. VERBS will give a list of useful, non-puzzle-solving verbs.
 }$REJECT1A=Most special commands are more than one word, because of the rhyme-pairs involved. VERBS will give a list of useful, non-puzzle-solving verbs.
@@ -115,10 +116,12 @@ However, it's really dim, as if you don't need to do or think whatever there is 
 ##balance undos
 #testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
 >whirring west
-WRONG
+Ah, yes! You identify where the noise is coming from and what it is. You see a way out now. Perhaps there is a bit more you can do to show off, but you don't need to.
+The blurring blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
 \\
 >turing test
-WRONG
+You think up questions to ask the blurring blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down.
+The blurring blest purring pest, its job (so to speak) done, disappears with a pop.
 \\
 #testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
 \\
@@ -132,7 +135,8 @@ WRONG
 
 @all
 #+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
-WRONG
+You think up questions to ask the blurring blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down. You still don't have a way out of here, but maybe the pest can he;lp with that, too.
+The blurring blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
 
 @rej
 #testcase-check-vc-turing-test-rule-if-pest-is-moot
@@ -285,9 +289,12 @@ by one point
 
 @all,rej
 {--rej}#testcase-check-vc-turing-test-rule-fallthrough
+{--rej}#testcase-check-vc-whirring-west-rule-fallthrough
+{--all}#testcase-run-vr-whirring-west-rule-fallthrough
 {--all}#testcase-run-vr-turing-test-rule-fallthrough
 {--all}#+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
-The purring pest disappears with a pop.
+Ah, yes! You identify where the noise is coming from and what it is. You see a way out now.
+The blurring blest purring pest, its job (so to speak) done, disappears with a pop.
 
 @hin
 >ll pest
@@ -298,11 +305,6 @@ Your rhyming attempts bring up nothing.
 @all
 #testcase-room-names-woe-wall
 /^Woe Wall$
-
-@all,rej
-{--rej}#testcase-check-vc-whirring-west-rule-fallthrough
-{--all}#testcase-run-vr-whirring-west-rule-fallthrough
-You follow the noise and tumble down to...
 
 @rej
 #####################this is just testing general rejects that would succeed in croots craving
@@ -525,6 +527,63 @@ Aha! You see what was wrong with the slick slide. You see what to do. It's so tr
 >trick tried
 There was only one trick needed to get the slick slide to work.
 
+@all
+##balance undos
+>sick side
+You figure there must be sickness to stamp out. There always is. The process of doing so is at least as important as the physical help.
+\\
+>rick ride
+Big Oil remains entrenched. For now. You mutter something about the petrochemical industrial complex and feel smart. (Neoliberalism, you're next, whatever you are!) Yes, one day, climate justice and such will prevail! Just not now.
+\\
+>sick side
+You're not going to let Big Oil keep the little guy down forever!
+\\
+>undo
+>undo
+>undo
+\\
+>prick pride
+You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.
+\\
+>rick ride
+The bad guys can't strike first, but you don't see how to strike, so you retreat.
+\\
+>prick pride
+You and the I-Itch-Why Witch should come through this time.
+\\
+>undo
+>undo
+>undo
+\\
+>hick hide
+You dream of sticking it to elitists who look down on rural types as you take the slick slide. And what do you know? You find such a person, at the end!
+\\
+>rick ride
+Clive Klee and his mini-dystopia will stand for now. But you will find a way to break his hold on power.
+\\
+>hick hide
+You'll show Clive Klee this time, dadgummit.
+\\
+>undo
+>undo
+>undo
+\\
+>tick tide
+You're ready to face a whole tide of pestilence. It doesn't seem too bad. But there's a lot of complaining. You don't see any bugs, yet, but you do see two prime suspects.
+\\
+>rick ride
+{$MMDD}
+ deserve more to be made of themselves. But you don't see how, yet.
+\\
+>tick tide
+You feel more positive. This time, you'll help 
+{$MMDD}
+ actualize themselves, and stuff.
+\\
+>undo
+>undo
+>undo
+
 @hin
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.75, -0.75.)
@@ -551,7 +610,7 @@ by one point
 @all,rej
 {--rej}#testcase-check-vc-tick-tide-rule-fallthrough
 {--all}#testcase-run-vr-tick-tide-rule-default
-You slide down somewhere ... there's a lot of complaining about all the bugs around. You can't see them, but there are two prime suspects.
+You're ready to face a whole tide of pestilence. It doesn't seem too bad. But there's a lot of complaining. You don't see any bugs, yet, but you do see two prime suspects.
 
 @hin
 >ll
@@ -612,7 +671,9 @@ are more worth cloning.
 @all
 {--rej}#testcase-check-vc-owning-eh-rule-fallthrough
 {--all}#testcase-run-vr-owning-eh-rule-default
-BZZT Change This
+You commence a small heart-to-heart with 
+{$MMDD}
+. Nothing accusatory, just a suggestion they have more agency than they think. You reminisce of times you thought you were helpless but weren't, or when you should or could have done more, but you didn't. And you all share a few special moments and vow to do better in the future.
 
 @rej
 #testcase-check-vc-owning-eh-rule-if-sco-owning-eh-is-true
@@ -682,13 +743,12 @@ by one point
 @all,rej
 {--rej}#testcase-check-vc-hick-hide-rule-fallthrough
 {--all}#testcase-run-vr-hick-hide-rule-default
-You dream of elitists who look down on rural types as you take the slick slide. And what do you know? You find one, at the end!
-WRONG
+You dream of sticking it to elitists who look down on rural types as you take the slick slide. And what do you know? You find such a person, at the end!
 
 @rej
 #testcase-check-vc-whyve-we-rule-if-sco-thrive-three-is-false
 >whyve we
-wrong
+WRONG
 \\
 #testcase-check-vc-thrive-three-rule-if-country-score-<-3
 >thrive three
@@ -812,7 +872,7 @@ You can say WHYVE WE now you have allies to outnumber Clive Klee.
 @all,rej
 {--rej}#testcase-check-vc-thrive-three-rule-fallthrough
 {--all}#testcase-run-vr-thrive-three-rule-default
-BZZT Change This
+Now that you've changed the area in three ways, it makes sense that you can summon three people to help you improve it even more. They look at you as if to say, just one question to Clive over here, and he's a goner.
 
 @hin
 >ll
@@ -861,7 +921,7 @@ by one point
 @all,rej
 {--rej}#testcase-check-vc-sick-side-rule-fallthrough
 {--all}#testcase-run-vr-sick-side-rule-default
-You're ready to help out with the effects of the petrochemical industry on health, or something.
+You figure there must be sickness to stamp out. There always is. The process of doing so is at least as important as the physical help.
 
 @ha
 #testcase-ha-half-table-of-verb-checks-20-brink
@@ -925,11 +985,8 @@ by one point
 
 @all,rej
 {--rej}#testcase-check-vc-royal-rink-rule-fallthrough
-WRONG
-
-@all
-#testcase-run-vr-royal-rink-rule-default
-BZZT Change This
+{--all}#testcase-run-vr-royal-rink-rule-default
+A big ol' royal rink pops up in the middle of the dystopian landscape. The moil mink looks furious.
 
 @rej
 #testcase-check-vc-royal-rink-rule-if-sco-royal-rink-is-true
@@ -948,11 +1005,8 @@ by one point
 
 @all,rej
 {--rej}#testcase-check-vc-soil-sink-rule-fallthrough
-WRONG
-
-@all
-#testcase-run-vr-soil-sink-rule-default
-BZZT Change This
+{--all}#testcase-run-vr-soil-sink-rule-default
+The soil collapses under the most hideous of workhouses and takes along an almost-completely-constructed Trump Tower-level-ugly skyscraper in the process! (Don't worry, they were empty. After all, it's night-time.)
 
 @rej
 #testcase-check-vc-soil-sink-rule-if-sco-soil-sink-is-true
@@ -972,12 +1026,8 @@ by one point
 
 @all,rej
 {--rej}#testcase-check-vc-broil-brink-rule-fallthrough
-WRONG
-
-@all
-#testcase-run-vr-broil-brink-rule-default
-<now sco-broil-brink is true;>
-BZZT Change This
+{--all}#testcase-run-vr-broil-brink-rule-default
+You foment an undercurrent of constructive discontent in the populace. Nothing that would cause the quasi-police state to have cause to repress them, of course.
 
 @rej
 #testcase-check-vc-broil-brink-rule-if-sco-broil-brink-is-true
@@ -995,12 +1045,9 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 by one point
 
 @all,rej
+{--all}#testcase-run-vr-loyal-link-rule-default
 {--rej}#testcase-check-vc-loyal-link-rule-fallthrough
-WRONG
-
-@all
-#testcase-run-vr-loyal-link-rule-default
-BZZT Change This
+Loyal links are formed--links physical and emotional. It looks like the loyal link is not just capable of transporting people around but of doing so with solar power! Take that, Oil, Inc.!
 
 @rej
 #testcase-check-vc-loyal-link-rule-if-sco-loyal-link-is-true
@@ -1050,7 +1097,7 @@ by one point
 @all,rej
 {--rej}#testcase-check-vc-foil-fink-rule-fallthrough
 {--all}#testcase-run-vr-foil-fink-rule-default
-BZZT Change This
+You've done enough damage to Oil, Inc. and Doyle Dink that enough people not only support you but also believe it's worth the risk. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!
 
 @rej
 #testcase-check-vc-foil-fink-rule-if-sco-foil-fink-is-true
@@ -1139,7 +1186,8 @@ by one point
 @all,rej
 {--rej}#testcase-check-vc-lie-lich-rule-fallthrough
 {--all}#testcase-run-vr-lie-lich-rule-default
-A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!
+A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. Including the languid one about letting you go first even though it doesn't have to. (It does.)
+But that bit about how the most powerful and spectacular spells can't disarm it? True. Except...
 
 @hin
 >ll
@@ -1269,15 +1317,13 @@ by one point
 @all,rej
 {--all}#testcase-run-vr-foe-fall-rule-abide-by-the-big-battle-check-rule
 {--rej}#testcase-check-vc-foe-fall-rule-fallthrough
-WRONG
+You spring a battle cry, simple and effective! While it fails to discuss how the foe can fall, well, it still gives darn-good returns to scale for a measly seven letters.
 Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to the Woe Wall bums.
 
 @all
+#testcase-run-vr-foe-fall-rule-default
 #testcase-room-names-forfeit-bore-bit
 /^"Forfeit, Bore" Bit$
-\\
-#testcase-run-vr-foe-fall-rule-default
-BZZT Change This
 
 @rej
 #testcase-check-vc-rick-ride-rule-if-player-is-in-forfeit-or-player-is-in-net-in-the-night
@@ -1368,7 +1414,8 @@ by one point
 @all,rej
 {--rej}#testcase-check-vc-mo-maul-rule-fallthrough
 {--all}#testcase-run-vr-mo-maul-rule-default
-BZZT Change This
+You spring a battle cry, simple and effective! While it's relatively obvious that, given the choice between more mauling and less mauling, the first is to be preferred, (provided said mauling is of evil people who deserve it,) sometimes people need that forceful nudge to what they were going to do anyway, just to make sure they do it to the max.
+Your charges appear even more, uh, charged!
 
 @hint
 >ll
@@ -1381,7 +1428,7 @@ by one point
 @all
 {--rej}#testcase-check-vc-bro-brawl-rule-fallthrough
 #testcase-run-vr-bro-brawl-rule-default
-BZZT Change This
+You spring a battle cry, simple and effective! While "bro" doesn't feel as inclusive as it could be, those who might feel shunted focus on the "family" aspect of "bro," redirecting their anger towards those who would probably call them far worse than "bro."
 
 @rej
 #+testcase-think-table-of-verb-checks-vc-oh-all-rule
@@ -1404,15 +1451,15 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 @rej
 #testcase-check-vc-bro-brawl-rule-if-sco-bro-brawl-is-true
 >bro brawl
-WRONG
+Everyone's already been pumped up this way!
 \\
 #testcase-check-vc-foe-fall-rule-if-sco-foe-fall-is-true
 >foe fall
-WRONG
+Everyone's already been pumped up this way!
 \\
 #testcase-check-vc-mo-maul-rule-if-sco-mo-maul-is-true
 >mo maul
-WRONG
+Everyone's already been pumped up this way!
 
 >oh all
 by one point
@@ -1420,7 +1467,8 @@ by one point
 @all,rej
 {--rej}#testcase-check-vc-oh-all-rule-fallthrough
 {--all}#testcase-run-vr-oh-all-rule-default
-BZZT Change This
+The simplicity! The universality! It's so simple and universal, several members of the Throw Thrall defect, and several briefly consider attacking themselves! Fortunately, this is not necessary. You learned from your time in the Pore Pit, and you show you're not all sloganeering as you direct the troops this way and that. It's a rout!
+But sadly, you didn't continue the battle cry after the Throw Thrall defections. Their minds unfogged by your charisma, they realize they are close to capturing the leader. So they do. Again. You're thrown to somewhere different this time...
 
 @ha
 #testcase-ha-half-table-of-verb-checks-31-let-fret
@@ -1465,7 +1513,7 @@ You're beyond the rick's help here. You must find a way out on your own.
 @all
 #testcase-run-vr-let-light-rule-if-the-player's-command-includes-fright
 >fret in the fright
-You give up at the final moment. Too bad. But you still, like, learned lessons and stuff.
+You give up at the final moment. Too bad. But you still, like, learned lessons and stuff. And it was only a dream. Nevertheless, you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.
 Your score just went up by one point.
 *** SPOOKY SPITE, FLUKY FLIGHT ***
 \\
@@ -1546,7 +1594,8 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 \\
 #testcase-reject-end-table-of-verb-checks-vr-rick-ride-rule
 >rick ride
-{$REJECT2}
+You're beyond the rick's help here. You must find a way out on your own.
+!Hmph
 \\
 #testcase-reject-end-table-of-verb-checks-vr-royal-rink-rule
 >royal rink
@@ -1601,18 +1650,15 @@ by one point
 
 @all
 #testcase-run-vr-let-light-rule-process-the-score-and-thinking-changes-rule
->hint
-score has gone
+just went up
 
 @all,rej
 {--rej}#testcase-check-vc-let-light-rule-fallthrough
 {--all}#testcase-run-vr-let-light-rule-default
 {--all}#testcase-run-vr-let-light-rule-fallthrough
-BZZT Change This
+Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. You let in the light and then some! With nothing left to be done, you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.
 *** SPOOKY SPITE, FLUKY FLIGHT ***
 
 @all
 #testcase-run-vr-let-light-rule-follow-the-shutdown-rules
 Would you like to
-\\
-has just gone up
