@@ -63,22 +63,21 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 
 a goodrhyme rule (this is the vc-turing-test rule):
 	unless player is in Croots Craving, unavailable;
-	if pest is moot:
-		vcal "You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.";
+	if sco-turing-test is true:
+		vcal "You perform a Turing Test on yourself, since you already administered one to [the pest]. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.";
 		already-done;
 	ready;
 
 this is the vr-turing-test rule:
-	abide by the purring-pest-pop rule;
+	abide by the purring-pest-ping rule;
 	now sco-turing-test is true;
-	say "The purring pest walks over to a corner and falls asleep. It's unclear whether this is out of failure to past your test or boredom from how you administered it, but you feel smart either way[if sco-whirring-west is true]. Perhaps you can still use it to figure how to get out of here[end if].";
 
 a goodrhyme rule (this is the vc-whirring-west rule):
 	unless player is in Croots Craving, unavailable;
 	ready;
 
 this is the vr-whirring-west rule:
-	abide by the purring-pest-pop rule;
+	abide by the purring-pest-ping rule;
 	now sco-whirring-west is true;
 	now to-number of blurring blest purring pest is -5604;
 
@@ -106,7 +105,7 @@ this is the vc-stow-stall rule:
 	ready;
 
 this is the vr-stow-stall rule:
-	say "With the help of [paul], you uncover an area with emergency supplies. It includes ... a slick slide! Everyone patches up the entrance afterwards, because there's lots of other stuff to be stowed for even later.[paragraph break]The slide seems a bit too slick at the moment.";
+	say "With the help of [paul], you uncover an area with emergency supplies. It includes ... a slick slide! Everyone patches up the entrance afterwards, because there's lots of other stuff to be stowed for even later.[paragraph break]The slide seems a bit too slick at the moment for travel, though. How to fix it?";
 	now sco-stow-stall is true;
 	move slick slide to woe wall;
 	now to-number of woe wall is -5;
@@ -207,7 +206,7 @@ this is the vr-lie-lich rule:
 a goodrhyme rule (this is the vc-pie-pitch rule):
 	if player is not in sigh sitch, unavailable;
 	if sco-lie-lich is false:
-		vcp "You have no target at which to pick a pie, yet.";
+		vcp "You have no target at which to pitch a pie, yet.";
 		not-yet;
 	if sco-pie-pitch is true:
 		vcal "You already cast the spell to banish the lich!";
@@ -256,7 +255,7 @@ this is the vr-cloning-clay rule:
 a goodrhyme rule (this is the vc-ivy rule):
 	if player is not in contrive country, unavailable;
 	if sco-ivy is true:
-		vcal "You already vegetated [country]!";
+		vcal "You already vegetatified [country]!";
 		already-done;
 	ready;
 
@@ -326,7 +325,7 @@ this is the vr-whyve-we rule:
 a goodrhyme rule (this is the vc-broil-brink rule):
 	abide by the oil-inc-basics rule;
 	if sco-broil-brink is true:
-		vcal "People are already mad, but not bursting. That's probably for the best.!";
+		vcal "People are already mad, but not bursting. That's probably for the best!";
 		already-done;
 	ready;
 
@@ -362,7 +361,7 @@ this is the vr-royal-rink rule:
 a goodrhyme rule (this is the vc-soil-sink rule):
 	abide by the oil-inc-basics rule;
 	if sco-soil-sink is true:
-		vcal "You already put a dent in Oil, Inc.'s profits!";
+		vcal "You already put a dent in Oil, Inc.[']s profits!";
 		already-done;
 	ready;
 
@@ -424,10 +423,13 @@ this is the vr-mo-maul rule:
 	abide by the big-battle-check rule;
 
 a goodrhyme rule (this is the vc-oh-all rule):
+	if player is not in woe wall, unavailable;
 	if sco-yo-yall is false:
-		vcp "This would be a way to bring everyone together once you have their trust. But there is no everyone to bring together. How to great them?";
+		vcp "This would be a way to bring everyone fully together once you have their trust. But there is no everyone to bring together. How to greet them?";
 		not-yet;
-	abide by the pre-wall-fight rule;
+	if hubs-solved < 4:
+		vcp "There's nothing urgent enough to bring everyone together from behind the Woe Wall.";
+		not-yet;
 	if forfeit bore bit is unvisited:
 		vcp "You don't feel you have enough leadership skills yet to unite everyone!";
 		not-yet;
@@ -441,7 +443,7 @@ this is the vr-oh-all rule:
 a goodrhyme rule (this is the vc-core-kit rule):
 	if player is not in forfeit bore bit, unavailable;
 	if sco-core-kit is true:
-		vcal "You already found a core kit!";
+		vcal "You already found a core kit. Cork it!";
 		already-done;
 	ready;
 
@@ -469,8 +471,8 @@ chapter auxiliary rules
 
 [initial room]
 
-this is the purring-pest-pop rule:
-	if pest-score is 2:
+this is the purring-pest-ping rule:
+	if pest-score is 1:
 		say "The [pest], its job (so to speak) done, disappears with a pop.";
 		moot purring pest;
 		now to-number of croots craving is -3;
@@ -482,7 +484,9 @@ this is the purring-pest-pop rule:
 to say slick-nav: say "[if sco-trick-tried is false]once[else]now[end if] you've made the slick slide navigable"
 
 this is the slick-trick rule:
-	if slick slide is not fungible, unavailable;
+	if slick slide is off-stage, unavailable;
+	if player is not in woe wall:
+		if sco-rick-ride is false and player is not in a hubroom, unavailable;
 	if sco-trick-tried is false:
 		vcp "The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.";
 		not-yet;
@@ -528,7 +532,7 @@ to oil-inc-decrease (nu - a number):
 a goodrhyme rule (this is the oil-inc-basics rule):
 	if player is not in oil inc, unavailable;
 	if oil-inc-score is 4:
-		vcal "Already done. You need to focus on deposing the moil mink.";
+		vcal "Already forged. You need to focus on deposing the moil mink.";
 		already-done;
 	if oil-inc-score > 4:
 		vcal "You're done here. No need to dwell on past successes.";
@@ -591,6 +595,7 @@ this is the vr-let-light rule:
 the roomwarp rules are a room based rulebook. the roomwarp rules have outcomes already-done and not-yet.
 
 a roomwarp rule for a room (called myrm) (this is the slide-warp-check rule):
+	if player is in Woe Wall, make no decision;
 	if sco-rick-ride is false:
 		vcp "You'll need to find transport back to Woe Wall first to take the slide there.";
 		not-yet;

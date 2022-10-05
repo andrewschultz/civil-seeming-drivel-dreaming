@@ -16,31 +16,29 @@ Taken.
 
 >au 2
 
-#testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-pop-rule
+#testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
 >whirring west
 WRONG
 
 >turing test
 WRONG
 
-#testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-pop-rule
+#testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
 
 >undo
 >undo
 
 >turing test
 
-#+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-pop-rule
+#+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
 WRONG
-
-#testcase-run-vr-turing-test-rule-fallthrough
-The purring pest disappears with a pop.
 
 >whirring west
 by one point
 
-#+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-pop-rule
-WRONG
+#testcase-run-vr-turing-test-rule-fallthrough
+#+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
+The purring pest disappears with a pop.
 
 >w
 
@@ -59,7 +57,8 @@ Some people pop out from behind the Woe Wall. Po' Paul, their leader, introduces
 >stow stall
 by one point
 
-WRONG
+With the help of Po' Paul, you uncover an area with emergency supplies. It includes ... a slick slide! Everyone patches up the entrance afterwards, because there's lots of other stuff to be stowed for even later.
+The slide seems a bit too slick at the moment for travel, though. How to fix it?
 
 #testcase-run-vr-stow-stall-rule-default
 With the help of Po' Paul, you uncover an area with emergency supplies. It includes ... a slick slide!
@@ -218,7 +217,7 @@ Ha-ha! You think for a minute and realize that while powerful spells can't affec
 Woe Wall
 
 #testcase-run-vr-rick-ride-rule-default
-You take the rick ride back to Woe Wall...
+You take the rick ride back to Woe Wall again...
 
 #testcase-run-vr-bro-brawl-rule-abide-by-the-big-battle-check-rule
 >bro brawl
@@ -236,6 +235,10 @@ Forfeit, Bore
 
 >foe fall
 by one point
+
+#testcase-run-vr-foe-fall-rule-abide-by-the-big-battle-check-rule
+WRONG
+Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to the Woe Wall bums.
 
 #testcase-room-names-forfeit-bore-bit
 /^"Forfeit, Bore" Bit$
@@ -255,7 +258,7 @@ You discover a core kit somewhere in the darkness here. It contains a book of af
 >war wit
 by one point
 
-WRONG
+Yes! You see what to do, now. You make believe you still have the soldier toys and see the right strategy for repelling the enemy. They'll be toast now.
 
 Woe Wall
 
@@ -293,6 +296,10 @@ Your score just went up by one point.
 
 >let in the light
 by one point
+
+#testcase-run-vr-let-light-rule-process-the-score-and-thinking-changes-rule
+>hint
+score has gone
 
 #testcase-run-vr-let-light-rule-default
 #testcase-run-vr-let-light-rule-fallthrough

@@ -28,6 +28,8 @@ files=reg-csdd-thru-min.txt,reg-csdd-thru-all.txt,reg-csdd-thru-reject.txt,reg-c
 #--strict-file: this says that the project requires strict section marking e.g. @all instead of ==t1.
 
 }$REJECT=I couldn't parse that command. You don't need any more than two words long.
+}$REJECT1=Most special commands are more than one word. VERBS will give a list of useful, non-puzzle-solving verbs.
+}$REJECT1A=Most special commands are more than one word, because of the rhyme-pairs involved. VERBS will give a list of useful, non-puzzle-solving verbs.
 }$REJECT2=Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 }$GREENBONUS=The HA HALF button on your Leet Learner lights up green. Very dim, though. Perhaps this is a rhyme you don't strictly need to figure to win.
 }$GREENCOREFIRST=The HA HALF button on your Leet Learner lights up green--one of the words you thought must be right.
@@ -111,14 +113,14 @@ However, it's really dim, as if you don't need to do or think whatever there is 
 
 @all
 ##balance undos
-#testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-pop-rule
+#testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
 >whirring west
 WRONG
 \\
 >turing test
 WRONG
 \\
-#testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-pop-rule
+#testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
 \\
 >undo
 >undo
@@ -129,8 +131,13 @@ WRONG
 }}CURMIN++
 
 @all
-#+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-pop-rule
+#+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
 WRONG
+
+@rej
+#testcase-check-vc-turing-test-rule-if-pest-is-moot
+>turing test
+You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
 @hin
 >ll pest
@@ -139,90 +146,148 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 @rej
 #####################this is just testing for rejects in general
 ====alphabetize on
-#testcase-check-vc-war-wit-rule-if-player-is-not-in-forfeit-bore-bit
->war wit
+#testcase-reject-start-table-of-verb-checks-vr-bro-brawl-rule
+>bro brawl
 {$REJECT2}
 \\
-#testcase-check-vc-whyve-we-rule-if-player-is-not-in-contrive-country
->whyve we
-{$REJECT2}
-\\
-#testcase-check-vc-trick-tried-rule-if-slick-slide-is-not-fungible
->trick tried
-{$REJECT2}
-\\
-#testcase-check-vc-stow-stall-rule-if-player-is-not-in-woe-wall
->stow stall
-{$REJECT2}
-\\
-#testcase-check-vc-pie-pitch-rule-if-player-is-not-in-sigh-sitch
->pie pitch
-{$REJECT2}
-\\
-#testcase-check-vc-owning-eh-rule-if-player-is-not-in-honing-hey
->owning eh
-{$REJECT2}
-\\
-#testcase-check-vc-rick-ride-rule-if-slick-slide-is-off-stage
->rick ride
-{$REJECT2}
-\\
-#testcase-check-vc-let-light-rule-if-player-is-not-in-net-in-the-night
->let light
-{$REJECT2}
-\\
-#testcase-check-vc-lie-lich-rule-if-player-is-not-in-sigh-sitch
->lie lich
-{$REJECT2}
-\\
-#testcase-check-vc-ivy-rule-if-player-is-not-in-contrive-country
->ivy
-{$REJECT2}
-\\
-#testcase-check-vc-foil-fink-rule-if-player-is-not-in-oil-inc
->foil fink
-{$REJECT2}
-\\
-#testcase-check-vc-core-kit-rule-if-player-is-not-in-forfeit-bore-bit
->core kit
+#testcase-reject-start-table-of-verb-checks-vr-broil-brink-rule
+>broil brink
 {$REJECT2}
 \\
 #testcase-check-vc-cloning-clay-rule-if-player-is-not-in-honing-hey
+#testcase-reject-start-table-of-verb-checks-vr-cloning-clay-rule
 >cloning clay
 {$REJECT2}
 \\
-#testcase-check-vc-lively-rule-if-player-is-not-in-contrive-country
->lively
+#testcase-check-vc-core-kit-rule-if-player-is-not-in-forfeit-bore-bit
+#testcase-reject-start-table-of-verb-checks-vr-core-kit-rule
+>core kit
 {$REJECT2}
 \\
-#testcase-check-vc-thrive-three-rule-if-player-is-not-in-contrive-country
->thrive three
+#testcase-reject-start-table-of-verb-checks-vr-foe-fall-rule
+>foe fall
 {$REJECT2}
 \\
+#testcase-check-vc-foil-fink-rule-if-player-is-not-in-oil-inc
+#testcase-reject-start-table-of-verb-checks-vr-foil-fink-rule
+>foil fink
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-hick-hide-rule
+>hick hide
+{$REJECT2}
+\\
+#testcase-check-vc-ivy-rule-if-player-is-not-in-contrive-country
+#testcase-reject-start-table-of-verb-checks-vr-ivy-rule
+>ivy
+{$REJECT1}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-jive-gee-rule
 #testcase-check-vc-jive-gee-rule-if-player-is-not-in-contrive-country
 >jive gee
 {$REJECT2}
 \\
+#testcase-check-vc-let-light-rule-if-player-is-not-in-net-in-the-night
+#testcase-reject-start-table-of-verb-checks-vr-let-light-rule
+>let light
+{$REJECT2}
+\\
+#testcase-check-vc-lie-lich-rule-if-player-is-not-in-sigh-sitch
+#testcase-reject-start-table-of-verb-checks-vr-lie-lich-rule
+>lie lich
+{$REJECT2}
+\\
+{$REJECT2}
+#testcase-check-vc-lively-rule-if-player-is-not-in-contrive-country
+#testcase-reject-start-table-of-verb-checks-vr-lively-rule
+>lively
+{$REJECT1}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-loyal-link-rule
+>loyal link
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-mo-maul-rule
+>mo maul
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-oh-all-rule
+>oh all
+{$REJECT2}
+\\
+#testcase-check-vc-owning-eh-rule-if-player-is-not-in-honing-hey
+#testcase-reject-start-table-of-verb-checks-vr-owning-eh-rule
+>owning eh
+{$REJECT2}
+\\
+#testcase-check-vc-pie-pitch-rule-if-player-is-not-in-sigh-sitch
+#testcase-reject-start-table-of-verb-checks-vr-pie-pitch-rule
+>pie pitch
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-prick-pride-rule
+>prick pride
+{$REJECT2}
+\\
+#testcase-check-vc-rick-ride-rule-if-slick-slide-is-off-stage
+#testcase-reject-start-table-of-verb-checks-vr-rick-ride-rule
+>rick ride
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-royal-rink-rule
+>royal rink
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-sick-side-rule
+>sick side
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-soil-sink-rule
+>soil sink
+{$REJECT2}
+\\
+#testcase-check-vc-stow-stall-rule-if-player-is-not-in-woe-wall
+#testcase-reject-start-table-of-verb-checks-vr-stow-stall-rule
+>stow stall
+{$REJECT2}
+\\
+#testcase-check-vc-thrive-three-rule-if-player-is-not-in-contrive-country
+#testcase-reject-start-table-of-verb-checks-vr-thrive-three-rule
+>thrive three
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-tick-tide-rule
+>tick tide
+{$REJECT2}
+\\
+#testcase-check-vc-trick-tried-rule-if-slick-slide-is-not-fungible
+#testcase-reject-start-table-of-verb-checks-vr-trick-tried-rule
+>trick tried
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-war-wit-rule
+#testcase-check-vc-war-wit-rule-if-player-is-not-in-forfeit-bore-bit
+>war wit
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-whyve-we-rule
+#testcase-check-vc-whyve-we-rule-if-player-is-not-in-contrive-country
+>whyve we
+{$REJECT2}
+\\
 #testcase-check-vc-yo-yall-rule-if-player-is-not-in-woe-wall
+#testcase-reject-start-table-of-verb-checks-vr-yo-yall-rule
 >yo yall
 {$REJECT2}
-
-@all,rej
-{--rej}#testcase-check-vc-turing-test-rule-fallthrough
-{--all}#testcase-run-vr-turing-test-rule-fallthrough
-The purring pest disappears with a pop.
-
-@rej
-#testcase-check-vc-turing-test-rule-if-pest-is-moot
->turing test
-You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
 >whirring west
 by one point
 
-@all
-#+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-pop-rule
-WRONG
+@all,rej
+{--rej}#testcase-check-vc-turing-test-rule-fallthrough
+{--all}#testcase-run-vr-turing-test-rule-fallthrough
+{--all}#+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
+The purring pest disappears with a pop.
 
 @hin
 >ll pest
@@ -242,10 +307,12 @@ You follow the noise and tumble down to...
 @rej
 #####################this is just testing general rejects that would succeed in croots craving
 ====alphabetize on
+#testcase-reject-start-table-of-verb-checks-vr-whirring-west-rule
 #testcase-check-vc-turing-test-rule-unless-player-is-in-croots-craving
 >turing test
 {$REJECT2}
 \\
+#testcase-reject-start-table-of-verb-checks-vr-turing-test-rule
 #testcase-check-vc-whirring-west-rule-unless-player-is-in-croots-craving
 >whirring west
 {$REJECT2}
@@ -279,7 +346,7 @@ You can find the STOW STALL once you've met people familiar with the area.
 @rej
 #testcase-check-vc-oh-all-rule-if-sco-yo-yall-is-false
 >oh all
-This would be a way to bring everyone together once you have their trust. But there is no everyone to bring together. How to great them?
+This would be a way to bring everyone fully together once you have their trust. But there is no everyone to bring together. How to greet them?
 
 >yo yall
 by one point
@@ -317,7 +384,8 @@ by one point
 
 @all,rej
 {--rej}#testcase-check-vc-stow-stall-rule-fallthrough
-WRONG
+With the help of Po' Paul, you uncover an area with emergency supplies. It includes ... a slick slide! Everyone patches up the entrance afterwards, because there's lots of other stuff to be stowed for even later.
+The slide seems a bit too slick at the moment for travel, though. How to fix it?
 
 @rej
 #testcase-check-vc-stow-stall-rule-if-sco-stow-stall-is-true
@@ -346,7 +414,7 @@ There's no fight that needs a rallying cry yet.
 \\
 #testcase-check-vc-oh-all-rule-abide-by-the-pre-wall-fight-rule
 >oh all
-There's no fight that needs a rallying cry yet.
+There's nothing urgent enough to bring everyone together from behind the Woe Wall.
 \\
 #testcase-think-table-of-verb-checks-vc-bro-brawl-rule
 #testcase-think-table-of-verb-checks-vc-foe-fall-rule
@@ -447,19 +515,19 @@ You can TICK TIDE once you've made the slick slide navigable.
 >trick tried
 by one point
 
-@rej
-#testcase-check-vc-trick-tried-rule-if-sco-trick-tried-is-true
->trick tried
-WRONG
-
-@hin
->ll slide
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.75, -0.75.)
-
 @all,rej
 {--rej}#testcase-check-vc-trick-tried-rule-fallthrough
 {--all}#testcase-run-vr-trick-tried-rule-default
 Aha! You see what was wrong with the slick slide. You see what to do. It's so tricky, I can't even describe it to you, but since you did it, you have a pretty good idea. Right?
+
+@rej
+#testcase-check-vc-trick-tried-rule-if-sco-trick-tried-is-true
+>trick tried
+There was only one trick needed to get the slick slide to work.
+
+@hin
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.75, -0.75.)
 
 @rej
 #+testcase-think-table-of-verb-checks-vc-hick-hide-rule
@@ -498,7 +566,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 @rej
 #testcase-check-vc-cloning-clay-rule-if-sco-owning-eh-is-false
 >cloning clay
-WRONG
+Maybe later, but right now, you wouldn't want to clone Moaning Mae and Droning Dre as they are.
 \\
 #testcase-think-table-of-verb-checks-vc-cloning-clay-rule
 >think
@@ -673,7 +741,7 @@ Five-Fee-Contrive Country is now filled with vegetation!
 @rej
 #testcase-check-vc-ivy-rule-if-sco-ivy-is-true
 >ivy
-You already vegetated Five-Fee-Contrive Country!
+You already vegetatified Five-Fee-Contrive Country!
 
 @hin
 >ll
@@ -714,7 +782,7 @@ The air feels laden with possibilities for friendly wisecracking.
 @rej
 #testcase-check-vc-jive-gee-rule-if-sco-jive-gee-is-true
 >jive gee
-WRONG
+Five-Fee-Contrive Country already has personality and soul.
 \\
 #testcase-think-table-of-verb-checks-vc-whyve-we-rule
 #+testcase-think-table-of-verb-checks-vc-thrive-three-rule
@@ -764,7 +832,7 @@ Your questioning, with the Thrive Three's backing, drives Clive Klee over the ed
 @rej
 #testcase-check-vc-whyve-we-rule-if-sco-whyve-we-is-true
 >whyve we
-WRONG
+You already asked this critical question successfully!
 \\
 #testcase-check-vc-hick-hide-rule-abide-by-the-slide-warp-check-rule-for-contrive-country
 >hick hide
@@ -866,7 +934,7 @@ BZZT Change This
 @rej
 #testcase-check-vc-royal-rink-rule-if-sco-royal-rink-is-true
 >royal rink
-WRONG
+People already have a place where they can assemble!
 
 @hin
 >ll
@@ -914,7 +982,7 @@ BZZT Change This
 @rej
 #testcase-check-vc-broil-brink-rule-if-sco-broil-brink-is-true
 >broil brink
-WRONG
+People are already mad, but not bursting. That's probably for the best!
 
 @hin
 >ll
@@ -937,7 +1005,7 @@ BZZT Change This
 @rej
 #testcase-check-vc-loyal-link-rule-if-sco-loyal-link-is-true
 >loyal link
-WRONG
+Already forged. You need to focus on deposing the moil mink.
 \\
 #+testcase-think-table-of-verb-checks-vc-foil-fink-rule
 >think
@@ -987,7 +1055,7 @@ BZZT Change This
 @rej
 #testcase-check-vc-foil-fink-rule-if-sco-foil-fink-is-true
 >foil fink
-WRONG
+You already foiled the fink and rescued people from Oil, Inc.!
 \\
 #+testcase-check-vc-soil-sink-rule-abide-by-the-oil-inc-basics-rule
 >soil sink
@@ -1042,7 +1110,7 @@ You're ready to help someone burst someone else's bubble, or perhaps help them g
 @rej
 #testcase-check-vc-pie-pitch-rule-if-sco-lie-lich-is-false
 >pie pitch
-WRONG
+You have no target at which to pitch a pie, yet.
 \\
 #testcase-think-table-of-verb-checks-vc-pie-pitch-rule
 >think
@@ -1068,6 +1136,11 @@ You can ask for a PIE PITCH once there's someone or something evil as a target.
 >lie lich
 by one point
 
+@all,rej
+{--rej}#testcase-check-vc-lie-lich-rule-fallthrough
+{--all}#testcase-run-vr-lie-lich-rule-default
+A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!
+
 @hin
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
@@ -1081,16 +1154,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 @rej
 #testcase-check-vc-lie-lich-rule-if-sco-lie-lich-is-true
 >lie lich
-WRONG
+You already summoned one lie lich, and two lies won't cancel each other out!
 \\
 #+testcase-think-table-of-verb-checks-vc-pie-pitch-rule
 >think
 You can ask for a PIE PITCH now there's someone or something evil as a target.
-
-@all,rej
-{--rej}#testcase-check-vc-lie-lich-rule-fallthrough
-{--all}#testcase-run-vr-lie-lich-rule-default
-A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!
 
 >pie pitch
 by one point
@@ -1103,7 +1171,7 @@ Ha-ha! You think for a minute and realize that while powerful spells can't affec
 @rej
 #testcase-check-vc-pie-pitch-rule-if-sco-pie-pitch-is-true
 >pie pitch
-WRONG
+You already cast the spell to banish the lich!
 \\
 #testcase-check-vc-prick-pride-rule-abide-by-the-slide-warp-check-rule-for-sigh-sitch
 >prick pride
@@ -1127,7 +1195,7 @@ Woe Wall
 @all,rej
 {--rej}#testcase-check-vc-rick-ride-rule-fallthrough
 {--all}#testcase-run-vr-rick-ride-rule-default
-You take the rick ride back to Woe Wall...
+You take the rick ride back to Woe Wall again...
 
 @rej
 #testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall-if-hubs-solved-is-4
@@ -1202,6 +1270,7 @@ by one point
 {--all}#testcase-run-vr-foe-fall-rule-abide-by-the-big-battle-check-rule
 {--rej}#testcase-check-vc-foe-fall-rule-fallthrough
 WRONG
+Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to the Woe Wall bums.
 
 @all
 #testcase-room-names-forfeit-bore-bit
@@ -1239,7 +1308,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 @rej
 #testcase-check-vc-war-wit-rule-if-sco-core-kit-is-false
 >war wit
-WRONG
+You know you will have to plan the battle better eventually, but you are too far in the dumps now!
+\\
+#testcase-think-table-of-verb-checks-vc-war-wit-rule
+>think
+You can learn WAR WIT now you are no longer in the depths of despair.
 
 >core kit
 by one point
@@ -1256,11 +1329,11 @@ You discover a core kit somewhere in the darkness here. It contains a book of af
 @rej
 #testcase-check-vc-core-kit-rule-if-sco-core-kit-is-true
 >core kit
-WRONG
+You already found a core kit. Cork it!
 \\
-#testcase-think-table-of-verb-checks-vc-war-wit-rule
+#+testcase-think-table-of-verb-checks-vc-war-wit-rule
 >think
-You can learn WAR WIT once you are no longer in the depths of despair.
+You can learn WAR WIT now you are no longer in the depths of despair.
 
 @hin
 >ll
@@ -1271,7 +1344,7 @@ by one point
 
 @all,rej
 {--rej}#testcase-check-vc-war-wit-rule-fallthrough
-WRONG
+Yes! You see what to do, now. You make believe you still have the soldier toys and see the right strategy for repelling the enemy. They'll be toast now.
 
 @rej
 #+testcase-think-table-of-verb-checks-vc-war-wit-rule
@@ -1313,7 +1386,7 @@ BZZT Change This
 @rej
 #+testcase-think-table-of-verb-checks-vc-oh-all-rule
 >think
-You can cry OH ALL once-now you have full leadership skills.
+You can cry OH ALL now you have full leadership skills.
 
 @ha
 #testcase-ha-half-table-of-verb-checks-28-all
@@ -1374,10 +1447,12 @@ BZZT Change This
 #testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
 >fret fright
 I'm going to be pedantic here and tell you not to throw out the small words.
+!by one point
 \\
 #+testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
 >let light
 I'm going to be pedantic here and tell you not to throw out the small words.
+!by one point
 \\
 #testcase-think-table-of-verb-checks-vc-let-light-rule
 >think
@@ -1400,8 +1475,134 @@ Your score just went up by one point.
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.50.)
 
+@rej
+#testcase-reject-end-table-of-verb-checks-vr-bro-brawl-rule
+>bro brawl
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-broil-brink-rule
+>broil brink
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-cloning-clay-rule
+>cloning clay
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-core-kit-rule
+>core kit
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-foe-fall-rule
+>foe fall
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-foil-fink-rule
+>foil fink
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-hick-hide-rule
+>hick hide
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-ivy-rule
+>ivy
+{$REJECT1A}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-jive-gee-rule
+>jive gee
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-lie-lich-rule
+>lie lich
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-lively-rule
+>lively
+{$REJECT1A}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-loyal-link-rule
+>loyal link
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-mo-maul-rule
+>mo maul
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-oh-all-rule
+>oh all
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-owning-eh-rule
+>owning eh
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-pie-pitch-rule
+>pie pitch
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-prick-pride-rule
+>prick pride
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-rick-ride-rule
+>rick ride
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-royal-rink-rule
+>royal rink
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-sick-side-rule
+>sick side
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-soil-sink-rule
+>soil sink
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-stow-stall-rule
+>stow stall
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-thrive-three-rule
+>thrive three
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-tick-tide-rule
+>tick tide
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-trick-tried-rule
+>trick tried
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-turing-test-rule
+>turing test
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-war-wit-rule
+>war wit
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-whirring-west-rule
+>whirring west
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-whyve-we-rule
+>whyve we
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-yo-yall-rule
+>yo yall
+{$REJECT2}
+
 >let in the light
 by one point
+
+@all
+#testcase-run-vr-let-light-rule-process-the-score-and-thinking-changes-rule
+>hint
+score has gone
 
 @all,rej
 {--rej}#testcase-check-vc-let-light-rule-fallthrough

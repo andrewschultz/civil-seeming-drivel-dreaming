@@ -212,7 +212,9 @@ this is the verb-checker rule:
 				else:
 					say "[line break]Hmph. That [if exact-cmd is false](or a functionally equivalent alternate solution) [end if]still doesn't quite work! You'll figure out the how and when and where, though.";
 				the rule succeeds;
-			if rb-out is semi-pass outcome, now think-cue entry is true;
+			if rb-out is semi-pass outcome:
+				now think-cue entry is true;
+				the rule succeeds;
 			if okflip entry is false:
 				unless my-count is 4 or there is no w2 entry or the player's command matches the regular expression "^([w1 entry])\W": [using only w1 is for the DIM'D test case... and "my-count is 4" is a hack for FLIMFLAM]
 					say "You've got it backwards! Just flip things around, and it'll be okay.";
