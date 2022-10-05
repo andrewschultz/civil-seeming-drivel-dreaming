@@ -52,7 +52,7 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "loyal"	"link"	--	--	false	true	true	false	oil inc	vc-loyal-link rule	vr-loyal-link rule	--	--
 "royal"	"rink"	--	--	false	true	true	false	oil inc	vc-royal-rink rule	vr-royal-rink rule	--	--
 "soil"	"sink"	--	--	false	true	true	false	oil inc	vc-soil-sink rule	vr-soil-sink rule	--	--
-"foil"	"fink"	--	--	false	true	true	false	oil inc	vc-foil-fink rule	vr-foil-fink rule	--	"You can [b]FOIL FINK[r] [once-now of vc-foil-fink rule] enough is in place to depose Oil, Inc."
+"foil"	"fink"	--	--	false	true	true	false	oil inc	vc-foil-fink rule	vr-foil-fink rule	--	"You can [b]FOIL FINK[r] [once-now of vc-foil-fink rule] Oil, Inc. is weak enough and you've gained enough support."
 "foe"	"fall"	--	--	false	true	true	false	woe wall	vc-foe-fall rule	vr-foe-fall rule	--	"You can cry [b]FOE FALL[r] [once-now of vc-foe-fall rule] combat is underway."
 "mo"	"maul"	--	--	false	true	true	false	woe wall	vc-mo-maul rule	vr-mo-maul rule	--	"You can cry [b]MO MAUL[r] [once-now of vc-mo-maul rule] combat is underway."
 "bro"	"brawl"	--	--	false	true	true	false	woe wall	vc-bro-brawl rule	vr-bro-brawl rule	--	"You can cry [b]BRO BRAWL[r] [once-now of vc-bro-brawl rule] combat is underway."
@@ -173,7 +173,7 @@ a goodrhyme rule (this is the vc-rick-ride rule):
 		if number of visited hubrooms > 0:
 			vcal "The rick ride is only for transport back here.";
 			already-done;
-		vcp "That would be a great way to get back, once you've found a way down the slick slide.";
+		vcp "That would be a great way to get back here, once you've found a way down the slick slide.";
 		not-yet;
 	if player is in Forfeit or player is in Net in the Night:
 		vcal "You're beyond the rick's help here. You must find a way out on your own.";
@@ -307,7 +307,7 @@ this is the vr-thrive-three rule:
 a goodrhyme rule (this is the vc-whyve-we rule):
 	if player is not in contrive country, unavailable;
 	if sco-thrive-three is false:
-		vcp "You need to outnumber Clive before you can ask this question successfully!";
+		vcp "You need to outnumber Clive before you can ask this question successfully! He's too slippery to deal with alone.";
 		not-yet;
 	if sco-whyve-we is true:
 		vcal "You already asked this critical question successfully!";
@@ -389,7 +389,7 @@ this is the vr-foil-fink rule:
 a goodrhyme rule (this is the vc-bro-brawl rule):
 	abide by the pre-wall-fight rule;
 	if sco-bro-brawl is true:
-		vcal "Everyone's already been pumped up this way!";
+		vcal "You already exhorted the troops this way!";
 		already-done;
 	ready;
 
@@ -543,7 +543,7 @@ to oil-inc-decrease (nu - a number):
 a goodrhyme rule (this is the oil-inc-basics rule):
 	if player is not in oil inc, unavailable;
 	if oil-inc-score is 4:
-		vcal "Already forged. You need to focus on deposing the moil mink.";
+		vcal "Already done. There must be another way to gain allies or weaken Oil, Inc.";
 		already-done;
 	if oil-inc-score > 4:
 		vcal "You're done here. No need to dwell on past successes.";
@@ -593,10 +593,10 @@ a goodrhyme rule (this is the vc-let-light rule):
 this is the vr-let-light rule:
 	now sco-let-light is true;
 	if the player's command includes "fright":
-		say "You give up at the final moment. Too bad. But you still, like, learned lessons and stuff. And it was only a dream. Nevertheless,";
+		say "You give up at the final moment. Too bad. But you still, like, learned lessons and stuff. And it was only a dream. Nevertheless";
 	else:
-		say "Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. You let in the light and then some! With nothing left to be done,";
-	say " you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.";
+		say "Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. You let in the light and then some! With nothing left to be done";
+	say ", you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.";
 	up-reg;
 	process the score and thinking changes rule;
 	end the story finally saying "SPOOKY SPITE, FLUKY FLIGHT";
@@ -609,12 +609,12 @@ the roomwarp rules are a room based rulebook. the roomwarp rules have outcomes a
 a roomwarp rule for a room (called myrm) (this is the slide-warp-check rule):
 	if player is in Woe Wall, make no decision;
 	unless player is in a hubroom, unavailable;
+	if player is in myrm:
+		vcal "You're already here[if sco-rick-ride is false], and also, you'd need a way to get back to Woe Wall before returning.[else]![end if]";
+		already-done;
 	if sco-rick-ride is false:
 		vcp "You'll need to find transport back to Woe Wall first to take the slide there.";
 		not-yet;
-	if player is in myrm:
-		vcal "You're already here!";
-		already-done;
 	if to-number of myrm is -3:
 		vcal "You've already solved that area!";
 		already-done;

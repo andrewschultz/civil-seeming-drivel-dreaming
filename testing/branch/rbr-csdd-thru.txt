@@ -141,7 +141,7 @@ The blurring blest purring pest, pushed back a bit, crawls into a corner. Perhap
 @rej
 #testcase-check-vc-turing-test-rule-if-pest-is-moot
 >turing test
-You perform a Turing Test on yourself, since nobody else is around. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
+You perform a Turing Test on yourself, since you already administered one to the blurring blest purring pest. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
 @hin
 >ll pest
@@ -433,10 +433,6 @@ You can cry OH ALL once you have full leadership skills.
 With the help of Po' Paul, you uncover an area with emergency supplies. It includes ... a slick slide!
 
 @rej
-#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall
->rick ride
-That would be a great way to get back, once you've found a way down the slick slide.
-\\
 #testcase-check-vc-prick-pride-rule-abide-by-the-slick-trick-rule
 >prick pride
 The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
@@ -454,14 +450,12 @@ The slide is so slippery, you can't even get on it to go down it. You'll need to
 The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 \\
 #testcase-think-table-of-verb-checks-vc-hick-hide-rule
-#testcase-think-table-of-verb-checks-vc-prick-pride-rule
 #testcase-think-table-of-verb-checks-vc-rick-ride-rule
 #testcase-think-table-of-verb-checks-vc-sick-side-rule
 #testcase-think-table-of-verb-checks-vc-tick-tide-rule
 >think
 You can HICK HIDE once you've made the slick slide navigable.
 You can PRICK PRIDE once you've made the slick slide navigable.
-You can take a RICK RIDE once you've taken a trip on the slick slide.
 You can SICK SIDE once you've made the slick slide navigable.
 You can TICK TIDE once you've made the slick slide navigable.
 
@@ -526,6 +520,13 @@ Aha! You see what was wrong with the slick slide. You see what to do. It's so tr
 #testcase-check-vc-trick-tried-rule-if-sco-trick-tried-is-true
 >trick tried
 There was only one trick needed to get the slick slide to work.
+\\
+>rick ride
+That would be a great way to get back here, once you've found a way down the slick slide.
+\\
+#testcase-think-table-of-verb-checks-vc-prick-pride-rule
+>think
+You can take a RICK RIDE once you've taken a trip on the slick slide.
 
 @all
 ##balance undos
@@ -612,6 +613,11 @@ by one point
 {--all}#testcase-run-vr-tick-tide-rule-default
 You're ready to face a whole tide of pestilence. It doesn't seem too bad. But there's a lot of complaining. You don't see any bugs, yet, but you do see two prime suspects.
 
+@rej
+#+testcase-think-table-of-verb-checks-vc-rick-ride-rule
+>think
+You can take a RICK RIDE now you've taken a trip on the slick slide.
+
 @hin
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.50.)
@@ -625,7 +631,9 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 @rej
 #testcase-check-vc-cloning-clay-rule-if-sco-owning-eh-is-false
 >cloning clay
-Maybe later, but right now, you wouldn't want to clone Moaning Mae and Droning Dre as they are.
+Maybe later, but right now, you wouldn't want to clone 
+{$MMDD}
+ as they are.
 \\
 #testcase-think-table-of-verb-checks-vc-cloning-clay-rule
 >think
@@ -692,7 +700,8 @@ by one point
 @rej
 #testcase-check-vc-cloning-clay-rule-if-sco-cloning-clay-is-true
 >cloning clay
-WRONG
+You already cloned 
+{$MMDD}
 \\
 #testcase-check-vc-owning-eh-rule-if-sco-cloning-clay-is-true
 >owning eh
@@ -709,7 +718,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 @rej
 #testcase-check-vc-tick-tide-rule-abide-by-the-slide-warp-check-rule-for-honing-hey
 >tick tide
-You're already here!
+You're already here, and also, you'd need a way to get back to Woe Wall before returning.
 \\
 >sick side
 You'll need to find transport back to Woe Wall first to take the slide there.
@@ -724,7 +733,7 @@ The rick ride is only for transport back here.
 \\
 #+testcase-think-table-of-verb-checks-vc-rick-ride-rule
 >think
-You can take a RICK RIDE now you've taken a trip on the slick slide.
+!You can take a RICK RIDE now you've taken a trip on the slick slide.
 
 @all
 Woe Wall
@@ -748,7 +757,7 @@ You dream of sticking it to elitists who look down on rural types as you take th
 @rej
 #testcase-check-vc-whyve-we-rule-if-sco-thrive-three-is-false
 >whyve we
-WRONG
+You need to outnumber Clive before you can ask this question successfully! He's too slippery to deal with alone.
 \\
 #testcase-check-vc-thrive-three-rule-if-country-score-<-3
 >thrive three
@@ -860,6 +869,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >thrive three
 by one point
 
+@all,rej
+{--rej}#testcase-check-vc-thrive-three-rule-fallthrough
+{--all}#testcase-run-vr-thrive-three-rule-default
+Now that you've changed the area in three ways, it makes sense that you can summon three people to help you improve it even more. They look at you as if to say, just one question to Clive over here, and he's a goner.
+
 @rej
 #testcase-check-vc-thrive-three-rule-if-sco-thrive-three-is-true
 >thrive three
@@ -868,11 +882,6 @@ You already summoned the Thrive Three!
 #+testcase-think-table-of-verb-checks-vc-whyve-we-rule
 >think
 You can say WHYVE WE now you have allies to outnumber Clive Klee.
-
-@all,rej
-{--rej}#testcase-check-vc-thrive-three-rule-fallthrough
-{--all}#testcase-run-vr-thrive-three-rule-default
-Now that you've changed the area in three ways, it makes sense that you can summon three people to help you improve it even more. They look at you as if to say, just one question to Clive over here, and he's a goner.
 
 @hin
 >ll
@@ -978,7 +987,7 @@ You're not ready yet. You need more support!
 \\
 #testcase-think-table-of-verb-checks-vc-foil-fink-rule
 >think
-You can FOIL FINK once enough is in place to depose Oil, Inc.
+You can FOIL FINK once Oil, Inc. is weak enough and you've gained enough support.
 
 >royal rink
 by one point
@@ -1012,7 +1021,7 @@ The soil collapses under the most hideous of workhouses and takes along an almos
 #testcase-check-vc-soil-sink-rule-if-sco-soil-sink-is-true
 >soil sink
 #OK-APOSTROPHE
-You already put a dent in Oil, Inc.'s profits!
+You already destroyed the most oppressive parts of Oil, Inc.'s dark and dreary skyline!
 
 @hin
 >ll
@@ -1052,11 +1061,11 @@ Loyal links are formed--links physical and emotional. It looks like the loyal li
 @rej
 #testcase-check-vc-loyal-link-rule-if-sco-loyal-link-is-true
 >loyal link
-Already forged. You need to focus on deposing the moil mink.
+Already done. There must be another way to gain allies or weaken Oil, Inc.
 \\
 #+testcase-think-table-of-verb-checks-vc-foil-fink-rule
 >think
-You can FOIL FINK now enough is in place to depose Oil, Inc.
+You can FOIL FINK now Oil, Inc. is weak enough and you've gained enough support.
 
 @ha
 #+testcase-ha-half-table-of-verb-checks-24-fink
@@ -1077,19 +1086,19 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 @rej
 #testcase-check-vc-soil-sink-rule-abide-by-the-oil-inc-basics-rule
 >soil sink
-Already done. You need to focus on deposing the moil mink.
+Already done. There must be another way to gain allies or weaken Oil, Inc.
 \\
 #testcase-check-vc-royal-rink-rule-abide-by-the-oil-inc-basics-rule
->roil rink
-Already done. You need to focus on deposing the moil mink.
+>royal rink
+Already done. There must be another way to gain allies or weaken Oil, Inc.
 \\
 #testcase-check-vc-broil-brink-rule-abide-by-the-oil-inc-basics-rule
 >broil brink
-Already done. You need to focus on deposing the moil mink.
+Already done. There must be another way to gain allies or weaken Oil, Inc.
 \\
 #testcase-check-vc-loyal-link-rule-abide-by-the-oil-inc-basics-rule
 >loyal link
-Already done. You need to focus on deposing the moil mink.
+Already done. There must be another way to gain allies or weaken Oil, Inc.
 
 >foil fink
 by one point
@@ -1109,7 +1118,7 @@ You already foiled the fink and rescued people from Oil, Inc.!
 You're done here. No need to dwell on past successes.
 \\
 #+testcase-check-vc-royal-rink-rule-abide-by-the-oil-inc-basics-rule
->roil rink
+>royal rink
 You're done here. No need to dwell on past successes.
 \\
 #+testcase-check-vc-broil-brink-rule-abide-by-the-oil-inc-basics-rule
@@ -1358,7 +1367,7 @@ You know you will have to plan the battle better eventually, but you are too far
 \\
 #testcase-think-table-of-verb-checks-vc-war-wit-rule
 >think
-You can learn WAR WIT now you are no longer in the depths of despair.
+You can learn WAR WIT once you are no longer in the depths of despair.
 
 >core kit
 by one point
@@ -1393,9 +1402,9 @@ by one point
 Yes! You see what to do, now. You make believe you still have the soldier toys and see the right strategy for repelling the enemy. They'll be toast now.
 
 @rej
-#+testcase-think-table-of-verb-checks-vc-war-wit-rule
+#+testcase-think-table-of-verb-checks-vc-oh-all-rule
 >think
-You can learn WAR WIT now you are no longer in the depths of despair.
+You can cry OH ALL now you have full leadership skills.
 
 @all
 Woe Wall
@@ -1430,11 +1439,6 @@ by one point
 #testcase-run-vr-bro-brawl-rule-default
 You spring a battle cry, simple and effective! While "bro" doesn't feel as inclusive as it could be, those who might feel shunted focus on the "family" aspect of "bro," redirecting their anger towards those who would probably call them far worse than "bro."
 
-@rej
-#+testcase-think-table-of-verb-checks-vc-oh-all-rule
->think
-You can cry OH ALL now you have full leadership skills.
-
 @ha
 #testcase-ha-half-table-of-verb-checks-28-all
 >oh zall
@@ -1451,15 +1455,15 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 @rej
 #testcase-check-vc-bro-brawl-rule-if-sco-bro-brawl-is-true
 >bro brawl
-Everyone's already been pumped up this way!
+You already exhorted the troops this way!
 \\
 #testcase-check-vc-foe-fall-rule-if-sco-foe-fall-is-true
 >foe fall
-Everyone's already been pumped up this way!
+You already exhorted the troops this way!
 \\
 #testcase-check-vc-mo-maul-rule-if-sco-mo-maul-is-true
 >mo maul
-Everyone's already been pumped up this way!
+You already exhorted the troops this way!
 
 >oh all
 by one point
