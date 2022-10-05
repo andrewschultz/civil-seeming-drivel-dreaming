@@ -215,45 +215,6 @@ You can PRICK PRIDE now you've made the slick slide navigable.
 You can SICK SIDE now you've made the slick slide navigable.
 You can TICK TIDE now you've made the slick slide navigable.
 
->prick pride
-by one point
-
-#testcase-check-vc-prick-pride-rule-fallthrough
-You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.
-
->pie pitch
-WRONG
-
-#testcase-think-table-of-verb-checks-vc-pie-pitch-rule
->think
-You can ask for a PIE PITCH once there's someone or something evil as a target.
-
->lie lich
-by one point
-
-#+testcase-think-table-of-verb-checks-vc-pie-pitch-rule
->think
-You can ask for a PIE PITCH now there's someone or something evil as a target.
-
-#testcase-check-vc-lie-lich-rule-fallthrough
-A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!
-
->pie pitch
-by one point
-
-#testcase-check-vc-pie-pitch-rule-fallthrough
-Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.
-
-#+testcase-think-table-of-verb-checks-vc-rick-ride-rule
->think
-You can take a RICK RIDE now you've taken a trip on the slick slide.
-
->rick ride
-by one point
-
-#testcase-check-vc-rick-ride-rule-fallthrough
-You take the rick ride back to Woe Wall...
-
 >tick tide
 by one point
 
@@ -294,6 +255,11 @@ by one point
 You take time to reflect on your own faults.
 
 >rick ride
+by one point
+
+#+testcase-think-table-of-verb-checks-vc-rick-ride-rule
+>think
+You can take a RICK RIDE now you've taken a trip on the slick slide.
 
 >hick hide
 by one point
@@ -350,8 +316,10 @@ by one point
 Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.
 
 >rick ride
+!by one point
 
 >sick side
+by one point
 
 #testcase-check-vc-sick-side-rule-fallthrough
 You're ready to help out with the effects of the petrochemical industry on health, or something.
@@ -398,6 +366,41 @@ by one point
 BZZT Change This
 
 >rick ride
+
+>prick pride
+by one point
+
+#testcase-check-vc-prick-pride-rule-fallthrough
+You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.
+
+>pie pitch
+WRONG
+
+#testcase-think-table-of-verb-checks-vc-pie-pitch-rule
+>think
+You can ask for a PIE PITCH once there's someone or something evil as a target.
+
+>lie lich
+by one point
+
+#+testcase-think-table-of-verb-checks-vc-pie-pitch-rule
+>think
+You can ask for a PIE PITCH now there's someone or something evil as a target.
+
+#testcase-check-vc-lie-lich-rule-fallthrough
+A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!
+
+>pie pitch
+by one point
+
+#testcase-check-vc-pie-pitch-rule-fallthrough
+Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.
+
+>rick ride
+!by one point
+
+#testcase-check-vc-rick-ride-rule-fallthrough
+You take the rick ride back to Woe Wall...
 
 #+testcase-think-table-of-verb-checks-vc-bro-brawl-rule
 #+testcase-think-table-of-verb-checks-vc-foe-fall-rule

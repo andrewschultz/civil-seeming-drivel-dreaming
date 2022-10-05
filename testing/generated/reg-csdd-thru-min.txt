@@ -24,18 +24,6 @@ by one point
 >trick tried
 by one point
 
->prick pride
-by one point
-
->lie lich
-by one point
-
->pie pitch
-by one point
-
->rick ride
-by one point
-
 >tick tide
 by one point
 
@@ -46,6 +34,7 @@ by one point
 by one point
 
 >rick ride
+by one point
 
 >hick hide
 by one point
@@ -66,8 +55,10 @@ by one point
 by one point
 
 >rick ride
+!by one point
 
 >sick side
+by one point
 
 >royal rink
 by one point
@@ -85,6 +76,18 @@ by one point
 by one point
 
 >rick ride
+
+>prick pride
+by one point
+
+>lie lich
+by one point
+
+>pie pitch
+by one point
+
+>rick ride
+!by one point
 
 >foe fall
 by one point

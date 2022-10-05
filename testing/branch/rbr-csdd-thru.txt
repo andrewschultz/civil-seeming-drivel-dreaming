@@ -116,7 +116,7 @@ However, it's really dim, as if you don't need to do or think whatever there is 
 
 @hin
 >ll pest
-Your rhyming attempts bring up nothing.
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
 
 @rej
 #####################this is just testing for rejects in general
@@ -298,7 +298,7 @@ You already made contact behind the wall.
 
 @hin
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 1.00.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 
 >stow stall
 by one point
@@ -309,10 +309,10 @@ WRONG
 
 @hin
 >ll
-WRONG
+The leet learner makes a weird noise, as if it's about to find something, but then it doesn't. Maybe there's something to do here a bit later.
 \\
 >ll slide
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 
 @rej
 >bro brawl
@@ -425,7 +425,7 @@ by one point
 
 @hin
 >ll slide
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.00, 0.00.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.75, -0.75.)
 
 @all,rej
 {--rej}#testcase-check-vc-trick-tried-rule-fallthrough
@@ -444,18 +444,441 @@ You can PRICK PRIDE now you've made the slick slide navigable.
 You can SICK SIDE now you've made the slick slide navigable.
 You can TICK TIDE now you've made the slick slide navigable.
 
+>tick tide
+by one point
+
+@all
+#testcase-room-names-honing-hey-groaning-grey
+/^Honing \(Hey\) Groaning, Grey$
+
+@all,rej
+{--rej}#testcase-check-vc-tick-tide-rule-fallthrough
+{--all}#testcase-run-vr-tick-tide-rule-default
+You slide down somewhere ... there's a lot of complaining about all the bugs around. You can't see them, but there are two prime suspects.
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.50.)
+\\
+>ll moaning mae
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+\\
+>ll droning dre
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+@rej
+>cloning clay
+WRONG
+\\
+#testcase-think-table-of-verb-checks-vc-cloning-clay-rule
+>think
+You can summon CLONING CLAY once
+are more worth cloning.
+
+@ha
+#testcase-ha-half-table-of-verb-checks-13-eh
+>owning zeh
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-13-owning
+>zowning eh
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-14-clay
+>cloning zclay
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-14-cloning
+>zcloning clay
+{$YELLOWCORE}
+
+>owning eh
+by one point
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
+\\
+>ll moaning mae
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
+\\
+>ll droning dre
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
+
+@rej
+#+testcase-think-table-of-verb-checks-vc-cloning-clay-rule
+>think
+You can summon CLONING CLAY now
+are more worth cloning.
+
+@all
+{--rej}#testcase-check-vc-owning-eh-rule-fallthrough
+{--all}#testcase-run-vr-owning-eh-rule-default
+BZZT Change This
+
+@rej
+#testcase-check-vc-owning-eh-rule-if-sco-owning-eh-is-true
+>owning eh
+You don't need to rub 
+past behavior in. They're ready to become better people.
+
+>cloning clay
+by one point
+
+@all,rej
+{--rej}#testcase-check-vc-cloning-clay-rule-fallthrough
+{--all}#testcase-run-vr-cloning-clay-rule-default
+/You discover some cloning clay, and (Moaning Mae and Droning Dre|Droning Dre and Moaning Mae) spend time pouring their life essence into thousands of tiny golems\. You watch as they both fade, their spirits no longer tormented\. Your work here is done\.
+
+@rej
+#testcase-check-vc-owning-eh-rule-if-sco-cloning-clay-is-true
+>owning eh
+You take time to reflect on your own faults.
+
+@hin
+#this will be slightly different from the others.
+>ll
+Nothing comes up. The general area here has been changed enough.
+\\
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+>rick ride
+by one point
+
+@rej
+#+testcase-think-table-of-verb-checks-vc-rick-ride-rule
+>think
+You can take a RICK RIDE now you've taken a trip on the slick slide.
+
+@all
+Woe Wall
+
+@hin
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, -0.66.)
+
+>hick hide
+by one point
+
+@all
+#testcase-room-names-five-fee-contrive-country
+/^Five-Fee-Contrive Country$
+
+@all,rej
+{--rej}#testcase-check-vc-hick-hide-rule-fallthrough
+{--all}#testcase-run-vr-hick-hide-rule-default
+You dream of elitists who look down on rural types as you take the slick slide. And what do you know? You find one, at the end!
+WRONG
+
+@rej
+>thrive three
+WRONG
+\\
+#testcase-think-table-of-verb-checks-vc-thrive-three-rule
+>think
+You can summon the THRIVE THREE once Five-Fee-Contrive Country thrives three ways.
+
+@ha
+#testcase-ha-half-table-of-verb-checks-16-gee
+>jive zgee
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-16-jive
+>zjive gee
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-18-three
+>thrive zthree
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-18-thrive
+>zthrive three
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-19-we
+>whyve zwe
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-19-whyve
+>zwhyve we
+{$YELLOWCORE}
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.66, -3.00.)
+\\
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.66, -2.00.)
+
+>ivy
+by one point
+
+@all,rej
+{--rej}#testcase-check-vc-ivy-rule-fallthrough
+{--all}#testcase-run-vr-ivy-rule-default
+Five-Fee-Contrive Country is now filled with vegetation!
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.00, -2.50.)
+\\
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.50.)
+
+>lively
+by one point
+
+@all,rej
+{--rej}#testcase-check-vc-lively-rule-fallthrough
+{--all}#testcase-run-vr-lively-rule-default
+Five-Fee-Contrive Country now seems more populated.
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.00, -2.00.)
+!You must supply a noun
+\\
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+>jive gee
+by one point
+
+@all,rej
+{--rej}#testcase-check-vc-jive-gee-rule-fallthrough
+{--all}#testcase-run-vr-jive-gee-rule-default
+The air feels laden with possibilities for friendly wisecracking.
+
+@rej
+#testcase-think-table-of-verb-checks-vc-whyve-we-rule
+#+testcase-think-table-of-verb-checks-vc-thrive-three-rule
+>think
+You can say WHYVE WE once you have allies to outnumber Clive Klee.
+You can summon the THRIVE THREE now Five-Fee-Contrive Country thrives three ways.
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+\\
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+
+>thrive three
+by one point
+
+@rej
+#+testcase-think-table-of-verb-checks-vc-whyve-we-rule
+>think
+You can say WHYVE WE now you have allies to outnumber Clive Klee.
+
+@all,rej
+{--rej}#testcase-check-vc-thrive-three-rule-fallthrough
+{--all}#testcase-run-vr-thrive-three-rule-default
+BZZT Change This
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -3.00.)
+\\
+>ll clive klee
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -2.00.)
+
+>whyve we
+by one point
+
+@all,rej
+{--rej}#testcase-check-vc-whyve-we-rule-fallthrough
+{--all}#testcase-run-vr-whyve-we-rule-default
+Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.
+
+>rick ride
+!by one point
+
+@all
+Woe Wall
+
+@hin
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+
+>sick side
+by one point
+
+@all
+#testcase-room-names-oil-inc
+/^Oil, Inc\.$
+
+@all,rej
+{--rej}#testcase-check-vc-sick-side-rule-fallthrough
+{--all}#testcase-run-vr-sick-side-rule-default
+You're ready to help out with the effects of the petrochemical industry on health, or something.
+
+@ha
+#testcase-ha-half-table-of-verb-checks-20-brink
+>broil zbrink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-20-broil
+>zbroil brink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-21-link
+>loyal zlink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-21-loyal
+>zloyal link
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-22-rink
+>royal zrink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-22-royal
+>zroyal rink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-23-sink
+>soil zsink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-23-soil
+>zsoil sink
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-24-fink
+>foil zfink
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-24-foil
+>zfoil fink
+{$YELLOWCORE}
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.75, 1.25.)
+\\
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.75, 0.25.)
+
+@rej
+>foil fink
+WRONG
+\\
+#testcase-think-table-of-verb-checks-vc-foil-fink-rule
+>think
+You can FOIL FINK once enough is in place to depose Oil, Inc.
+
+>royal rink
+by one point
+
+@all,rej
+{--rej}#testcase-check-vc-royal-rink-rule-fallthrough
+WRONG
+
+@all
+#testcase-run-vr-royal-rink-rule-default
+BZZT Change This
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.66, 1.33.)
+\\
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.66, 0.33.)
+
+>soil sink
+by one point
+
+@all,rej
+{--rej}#testcase-check-vc-soil-sink-rule-fallthrough
+WRONG
+
+@all
+#testcase-run-vr-soil-sink-rule-default
+BZZT Change This
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.50.)
+\\
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.50.)
+
+>broil brink
+by one point
+
+@all,rej
+{--rej}#testcase-check-vc-broil-brink-rule-fallthrough
+WRONG
+
+@all
+#testcase-run-vr-broil-brink-rule-default
+<now sco-broil-brink is true;>
+BZZT Change This
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.00.)
+\\
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.00.)
+
+>loyal link
+by one point
+
+@all,rej
+{--rej}#testcase-check-vc-loyal-link-rule-fallthrough
+WRONG
+
+@all
+#testcase-run-vr-loyal-link-rule-default
+BZZT Change This
+
+@rej
+#+testcase-think-table-of-verb-checks-vc-foil-fink-rule
+>think
+You can FOIL FINK now enough is in place to depose Oil, Inc.
+
+@ha
+#+testcase-ha-half-table-of-verb-checks-24-fink
+>foil zfink
+{$GREENCORE}
+\\
+#+testcase-ha-half-table-of-verb-checks-24-foil
+>zfoil fink
+{$GREENCORE}
+
+@hin
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+\\
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+
+>foil fink
+by one point
+
+@all,rej
+{--rej}#testcase-check-vc-foil-fink-rule-fallthrough
+{--all}#testcase-run-vr-foil-fink-rule-default
+BZZT Change This
+
+>rick ride
+
 >prick pride
 by one point
 
 @hin
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.75, -0.75.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 \\
 >ll witch
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, -0.50.)
 \\
 >ll slide
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+DEBUG: can't see any such thing error.
 
 @all
 #testcase-room-names-sigh-sitch
@@ -517,23 +940,13 @@ A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones se
 >pie pitch
 by one point
 
-@hin
->ll
-GO TO THE SLIDE
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-
 @all,rej
 {--rej}#testcase-check-vc-pie-pitch-rule-fallthrough
 {--all}#testcase-run-vr-pie-pitch-rule-default
 Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.
 
-@rej
-#+testcase-think-table-of-verb-checks-vc-rick-ride-rule
->think
-You can take a RICK RIDE now you've taken a trip on the slick slide.
-
 >rick ride
-by one point
+!by one point
 
 @all,rej
 {--rej}#testcase-check-vc-rick-ride-rule-fallthrough
@@ -542,401 +955,7 @@ You take the rick ride back to Woe Wall...
 
 @hin
 >ll slide
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
-
->tick tide
-by one point
-
-@all
-#testcase-room-names-honing-hey-groaning-grey
-/^Honing \(Hey\) Groaning, Grey$
-
-@all,rej
-{--rej}#testcase-check-vc-tick-tide-rule-fallthrough
-{--all}#testcase-run-vr-tick-tide-rule-default
-You slide down somewhere ... there's a lot of complaining about all the bugs around. You can't see them, but there are two prime suspects.
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
-
-@rej
->cloning clay
-WRONG
-\\
-#testcase-think-table-of-verb-checks-vc-cloning-clay-rule
->think
-You can summon CLONING CLAY once
-are more worth cloning.
-
-@ha
-#testcase-ha-half-table-of-verb-checks-13-eh
->owning zeh
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-13-owning
->zowning eh
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-14-clay
->cloning zclay
-{$YELLOWCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-14-cloning
->zcloning clay
-{$YELLOWCORE}
-
->owning eh
-by one point
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
-
-@rej
-#+testcase-think-table-of-verb-checks-vc-cloning-clay-rule
->think
-You can summon CLONING CLAY now
-are more worth cloning.
-
-@all
-{--rej}#testcase-check-vc-owning-eh-rule-fallthrough
-{--all}#testcase-run-vr-owning-eh-rule-default
-BZZT Change This
-
-@rej
-#testcase-check-vc-owning-eh-rule-if-sco-owning-eh-is-true
->owning eh
-You don't need to rub 
-past behavior in. They're ready to become better people.
-
->cloning clay
-by one point
-
-@all,rej
-{--rej}#testcase-check-vc-cloning-clay-rule-fallthrough
-{--all}#testcase-run-vr-cloning-clay-rule-default
-/You discover some cloning clay, and (Moaning Mae and Droning Dre|Droning Dre and Moaning Mae) spend time pouring their life essence into thousands of tiny golems\. You watch as they both fade, their spirits no longer tormented\. Your work here is done\.
-
-@rej
-#testcase-check-vc-owning-eh-rule-if-sco-cloning-clay-is-true
->owning eh
-You take time to reflect on your own faults.
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
-
->rick ride
-
-@all
-Woe Wall
-
-@hin
->ll slide
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-
->hick hide
-by one point
-
-@all
-#testcase-room-names-five-fee-contrive-country
-/^Five-Fee-Contrive Country$
-
-@all,rej
-{--rej}#testcase-check-vc-hick-hide-rule-fallthrough
-{--all}#testcase-run-vr-hick-hide-rule-default
-You dream of elitists who look down on rural types as you take the slick slide. And what do you know? You find one, at the end!
-WRONG
-
-@rej
->thrive three
-WRONG
-\\
-#testcase-think-table-of-verb-checks-vc-thrive-three-rule
->think
-You can summon the THRIVE THREE once Five-Fee-Contrive Country thrives three ways.
-
-@ha
-#testcase-ha-half-table-of-verb-checks-16-gee
->jive zgee
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-16-jive
->zjive gee
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-18-three
->thrive zthree
-{$YELLOWCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-18-thrive
->zthrive three
-{$YELLOWCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-19-we
->whyve zwe
-{$YELLOWCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-19-whyve
->zwhyve we
-{$YELLOWCORE}
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-\\
->ll clive klee
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-
->ivy
-by one point
-
-@all,rej
-{--rej}#testcase-check-vc-ivy-rule-fallthrough
-{--all}#testcase-run-vr-ivy-rule-default
-Five-Fee-Contrive Country is now filled with vegetation!
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-\\
->ll clive klee
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-
->lively
-by one point
-
-@all,rej
-{--rej}#testcase-check-vc-lively-rule-fallthrough
-{--all}#testcase-run-vr-lively-rule-default
-Five-Fee-Contrive Country now seems more populated.
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-\\
->ll clive klee
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-
->jive gee
-by one point
-
-@all,rej
-{--rej}#testcase-check-vc-jive-gee-rule-fallthrough
-{--all}#testcase-run-vr-jive-gee-rule-default
-The air feels laden with possibilities for friendly wisecracking.
-
-@rej
-#testcase-think-table-of-verb-checks-vc-whyve-we-rule
-#+testcase-think-table-of-verb-checks-vc-thrive-three-rule
->think
-You can say WHYVE WE once you have allies to outnumber Clive Klee.
-You can summon the THRIVE THREE now Five-Fee-Contrive Country thrives three ways.
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-\\
->ll clive klee
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-
->thrive three
-by one point
-
-@rej
-#+testcase-think-table-of-verb-checks-vc-whyve-we-rule
->think
-You can say WHYVE WE now you have allies to outnumber Clive Klee.
-
-@all,rej
-{--rej}#testcase-check-vc-thrive-three-rule-fallthrough
-{--all}#testcase-run-vr-thrive-three-rule-default
-BZZT Change This
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-\\
->ll clive klee
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-
->whyve we
-by one point
-
-@all,rej
-{--rej}#testcase-check-vc-whyve-we-rule-fallthrough
-{--all}#testcase-run-vr-whyve-we-rule-default
-Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.
-
->rick ride
-
-@all
-Woe Wall
-
->sick side
-
-@all
-#testcase-room-names-oil-inc
-/^Oil, Inc\.$
-
-@all,rej
-{--rej}#testcase-check-vc-sick-side-rule-fallthrough
-{--all}#testcase-run-vr-sick-side-rule-default
-You're ready to help out with the effects of the petrochemical industry on health, or something.
-
-@ha
-#testcase-ha-half-table-of-verb-checks-20-brink
->broil zbrink
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-20-broil
->zbroil brink
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-21-link
->loyal zlink
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-21-loyal
->zloyal link
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-22-rink
->royal zrink
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-22-royal
->zroyal rink
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-23-sink
->soil zsink
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-23-soil
->zsoil sink
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-24-fink
->foil zfink
-{$YELLOWCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-24-foil
->zfoil fink
-{$YELLOWCORE}
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-\\
->ll moil mink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-
-@rej
->foil fink
-WRONG
-\\
-#testcase-think-table-of-verb-checks-vc-foil-fink-rule
->think
-You can FOIL FINK once enough is in place to depose Oil, Inc.
-
->royal rink
-by one point
-
-@all,rej
-{--rej}#testcase-check-vc-royal-rink-rule-fallthrough
-WRONG
-
-@all
-#testcase-run-vr-royal-rink-rule-default
-BZZT Change This
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-\\
->ll moil mink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-
->soil sink
-by one point
-
-@all,rej
-{--rej}#testcase-check-vc-soil-sink-rule-fallthrough
-WRONG
-
-@all
-#testcase-run-vr-soil-sink-rule-default
-BZZT Change This
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-\\
->ll moil mink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-
->broil brink
-by one point
-
-@all,rej
-{--rej}#testcase-check-vc-broil-brink-rule-fallthrough
-WRONG
-
-@all
-#testcase-run-vr-broil-brink-rule-default
-<now sco-broil-brink is true;>
-BZZT Change This
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-\\
->ll moil mink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-
->loyal link
-by one point
-
-@all,rej
-{--rej}#testcase-check-vc-loyal-link-rule-fallthrough
-WRONG
-
-@all
-#testcase-run-vr-loyal-link-rule-default
-BZZT Change This
-
-@rej
-#+testcase-think-table-of-verb-checks-vc-foil-fink-rule
->think
-You can FOIL FINK now enough is in place to depose Oil, Inc.
-
-@ha
-#+testcase-ha-half-table-of-verb-checks-24-fink
->foil zfink
-{$GREENCORE}
-\\
-#+testcase-ha-half-table-of-verb-checks-24-foil
->zfoil fink
-{$GREENCORE}
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-\\
->ll moil mink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
-
->foil fink
-by one point
-
-@all,rej
-{--rej}#testcase-check-vc-foil-fink-rule-fallthrough
-{--all}#testcase-run-vr-foil-fink-rule-default
-BZZT Change This
-
->rick ride
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 
 @all
 Woe Wall
@@ -952,7 +971,7 @@ You can cry MO MAUL now combat is underway.
 
 @hin
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.33, 0.33.)
 
 @alt
 >bro brawl
@@ -1030,7 +1049,7 @@ You're beyond the rick's help here. You must find a way out on your own.
 
 @hin
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
 
 >core kit
 by one point
@@ -1054,7 +1073,7 @@ You can learn WAR WIT once you are no longer in the depths of despair.
 
 @hin
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
 >war wit
 by one point
@@ -1074,6 +1093,10 @@ Woe Wall
 #testcase-run-vr-war-wit-rule-default
 Yes! You see what to do, now. You make believe you still have the soldier toys and see the right strategy for repelling the enemy. They'll be toast now.
 
+@hint
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
 @!min
 >mo maul
 by one point
@@ -1082,6 +1105,10 @@ by one point
 {--rej}#testcase-check-vc-mo-maul-rule-fallthrough
 {--all}#testcase-run-vr-mo-maul-rule-default
 BZZT Change This
+
+@hint
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
 @!min
 >bro brawl
@@ -1108,7 +1135,7 @@ You can cry OH ALL once-now you have full leadership skills.
 
 @hin
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
 >oh all
 by one point
@@ -1165,7 +1192,7 @@ Your score just went up by one point.
 
 @hin
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-x.xx, x.xx.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.50.)
 
 >let in the light
 by one point

@@ -52,33 +52,6 @@ by one point
 #testcase-run-vr-trick-tried-rule-default
 Aha! You see what was wrong with the slick slide. You see what to do. It's so tricky, I can't even describe it to you, but since you did it, you have a pretty good idea. Right?
 
->prick pride
-by one point
-
-#testcase-room-names-sigh-sitch
-/^\(Sigh\) Sitch$
-
-#testcase-run-vr-prick-pride-rule-default
-You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.
-
->lie lich
-by one point
-
-#testcase-run-vr-lie-lich-rule-default
-A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!
-
->pie pitch
-by one point
-
-#testcase-run-vr-pie-pitch-rule-default
-Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.
-
->rick ride
-by one point
-
-#testcase-run-vr-rick-ride-rule-default
-You take the rick ride back to Woe Wall...
-
 >tick tide
 by one point
 
@@ -101,6 +74,7 @@ by one point
 /You discover some cloning clay, and (Moaning Mae and Droning Dre|Droning Dre and Moaning Mae) spend time pouring their life essence into thousands of tiny golems\. You watch as they both fade, their spirits no longer tormented\. Your work here is done\.
 
 >rick ride
+by one point
 
 Woe Wall
 
@@ -145,10 +119,12 @@ by one point
 Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.
 
 >rick ride
+!by one point
 
 Woe Wall
 
 >sick side
+by one point
 
 #testcase-room-names-oil-inc
 /^Oil, Inc\.$
@@ -196,6 +172,33 @@ by one point
 BZZT Change This
 
 >rick ride
+
+>prick pride
+by one point
+
+#testcase-room-names-sigh-sitch
+/^\(Sigh\) Sitch$
+
+#testcase-run-vr-prick-pride-rule-default
+You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.
+
+>lie lich
+by one point
+
+#testcase-run-vr-lie-lich-rule-default
+A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. You believe it, though, when it says the most powerful spells can't disarm it. Now you're in for it!
+
+>pie pitch
+by one point
+
+#testcase-run-vr-pie-pitch-rule-default
+Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.
+
+>rick ride
+!by one point
+
+#testcase-run-vr-rick-ride-rule-default
+You take the rick ride back to Woe Wall...
 
 Woe Wall
 
