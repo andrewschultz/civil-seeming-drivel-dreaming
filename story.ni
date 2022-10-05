@@ -22,6 +22,14 @@ include Civil Seeming Drivel Dreaming Tests by Andrew Schultz.
 
 volume rooms
 
+chapter general hubrooms
+
+after looking in a hubroom:
+	if sco-rick-ride is false:
+		say "You can see the tip of the slick slide here, but there's no way you're reaching it. There must be another way back.";
+	else:
+		say "You can't see it, but you know the [b]RICK RIDE[r] is just out of sight and ready to roll. It's never gonna [one of]give you up[or]let you down[or]run around and desert you[or]make you cry[or]say goodbye[or]tell a lie and hurt you[cycling].";
+
 book Croots Craving
 
 Croots Craving is a room. the player is in Croots Craving. "[b]BRUTES-BRAVING SUITS SAVING[r] is etched on the ground here.". printed name is "[']Croots-Craving"
@@ -54,6 +62,8 @@ the slick slide is a rhymable. it is scenery.
 from-number of slick slide is 5505. to-number of slick slide is 5505.
 
 guess-table of slick slide is table of slick slide guesses.
+
+spare-slide-num is a number that varies.
 
 chapter Po' Paul
 
@@ -113,6 +123,8 @@ chapter moil mink
 
 The moil mink is a thing in Oil Inc.
 
+from-number of moil mink is 5404. to-number of oil inc is 21917.
+
 book Forfeit Bore Bit
 
 Forfeit Bore Bit is a room. printed name is "[if sco-core-kit is false]'Forfeit, Bore' Bit[else]Pore Pit[end if]".
@@ -141,12 +153,17 @@ rule for supplying a missing noun when lling (this is the get readings from room
 			say "[line break]Perhaps you will get more meaningful information scanning the [pest].";
 		reject the player's command;
 	abide by the general-ll-locations rule;
-	if player is in Contrive Country, follow the one-word-hints rule;
+	if player is in Contrive Country, note-odd-display;
+	if player is in a hubroom and sco-rick-ride is false and to-number of location of player is -3:
+		say "Nothing, until you touch on the slick slide.";
+		now noun is slick slide;
+		continue the action;
 	reject the player's command;
 
-report lling Clive Klee (this is the one-word-hints rule):
-	if sco-ivy is false or sco-lively is false:
-		say "The display's acting oddly, as if the numbers are almost trying to squish together or something.";
+to note-odd-display: if sco-ivy is false or sco-lively is false, say "The display's acting oddly, as if the numbers are almost trying to squish together or something.";
+
+report lling Clive Klee:
+	note-odd-display;
 
 book actual hints
 
@@ -155,6 +172,7 @@ volume parser stuff
 this is the situational-cuing-reject rule: do nothing;
 
 this is the verb-checker rule:
+	say "[spare-slide-num] [to-number of slick slide].";
 	let local-ha-half-level be 0;
 	let local-post-hom be false;
 	let brightness be false;

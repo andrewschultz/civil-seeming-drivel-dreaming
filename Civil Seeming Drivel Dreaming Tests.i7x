@@ -4,9 +4,9 @@ Version 1/221003 of Civil Seeming Drivel Dreaming Tests by Andrew Schultz begins
 
 volume tests
 
-test r1 with "whirring west".
+test r1 with "take ll/whirring west/w".
 
-test r1f with "turing test/whirring west".
+test r1f with "take ll/turing test/whirring west/w".
 
 test r2 with "yo yall/stow stall/trick tried".
 

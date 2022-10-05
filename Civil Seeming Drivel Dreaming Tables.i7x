@@ -110,7 +110,7 @@ this is the vr-stow-stall rule:
 	say "With the help of [paul], you uncover an area with emergency supplies. It includes ... a slick slide! Everyone patches up the entrance afterwards, because there's lots of other stuff to be stowed for even later.[paragraph break]The slide seems a bit too slick at the moment.";
 	now sco-stow-stall is true;
 	move slick slide to woe wall;
-	declue woe wall;
+	now to-number of woe wall is -5;
 
 a goodrhyme rule (this is the vc-trick-tried rule):
 	if slick slide is not fungible, unavailable;
@@ -132,10 +132,10 @@ a goodrhyme rule (this is the vc-hick-hide rule):
 	ready;
 
 this is the vr-hick-hide rule:
-	thing-decrease slick slide and 5404;
+	if Contrive Country is unvisited, thing-decrease slick slide and 5404;
 	now sco-hick-hide is true;
 	say "You dream of elitists who look down on rural types as you take the slick slide. And what do you know? You find one, at the end!";
-	move player to Five Fee Contrive Country;
+	slide-shift Five Fee Contrive Country;
 
 a goodrhyme rule (this is the vc-prick-pride rule):
 	abide by the slick-trick rule;
@@ -145,10 +145,10 @@ a goodrhyme rule (this is the vc-prick-pride rule):
 	ready;
 
 this is the vr-prick-pride rule:
-	thing-decrease slick slide and 5505;
+	if Sigh Sitch is unvisited, thing-decrease slick slide and 5505;
 	now sco-prick-pride is true;
 	say "You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.";
-	move player to Sigh Sitch;
+	slide-shift Sigh Sitch;
 
 a goodrhyme rule (this is the vc-sick-side rule):
 	abide by the slick-trick rule;
@@ -158,10 +158,10 @@ a goodrhyme rule (this is the vc-sick-side rule):
 	ready;
 
 this is the vr-sick-side rule:
-	thing-decrease slick slide and 5505;
+	if Oil Inc is unvisited, thing-decrease slick slide and 5505;
 	now sco-sick-side is true;
 	say "You're ready to help out with the effects of the petrochemical industry on health, or something.";
-	move player to Oil Inc;
+	slide-shift Oil Inc;
 
 a goodrhyme rule (this is the vc-tick-tide rule):
 	abide by the slick-trick rule;
@@ -171,10 +171,10 @@ a goodrhyme rule (this is the vc-tick-tide rule):
 	ready;
 
 this is the vr-tick-tide rule:
-	thing-decrease slick slide and 5404;
+	if Groaning Grey is unvisited, thing-decrease slick slide and 5404;
 	now sco-tick-tide is true;
 	say "You slide down somewhere ... there's a lot of complaining about all the bugs around. You can't see them, but there are two prime suspects.";
-	move player to Honing Hey Groaning Grey;
+	slide-shift Honing Hey Groaning Grey;
 
 a goodrhyme rule (this is the vc-rick-ride rule):
 	if slick slide is off-stage, unavailable;
@@ -190,9 +190,11 @@ a goodrhyme rule (this is the vc-rick-ride rule):
 	ready;
 
 this is the vr-rick-ride rule:
+	if sco-rick-ride is false, now to-number of slick slide is spare-slide-num;
 	now sco-rick-ride is true;
-	say "You take the rick ride back to Woe Wall...";
+	say "[one of]Yes! That must be the way back! A rick ride rolls up. You only get a brief glimpse of the driver, who is red-headed and wears a double-breasted blue blazer and white-and-blue striped shirt. He seems tall, with a deep voice. He takes you back to Woe Wall but stays out of sight. You know you'll be together forever, or at least until the end of this adventure.[or]You take the rick ride back to Woe Wall again...[stopping]";
 	move player to Woe Wall;
+	move slick slide to Woe Wall;
 
 a goodrhyme rule (this is the vc-lie-lich rule):
 	if player is not in sigh sitch, unavailable;
@@ -223,12 +225,9 @@ this is the vr-pie-pitch rule:
 	now sco-pie-pitch is true;
 	say "Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.";
 	moot lie lich;
-	rick-ride-check;
+	rick-and-slide-check;
 
 a goodrhyme rule (this is the vc-owning-eh rule):
-	now to-number of honing hey groaning grey is 5704;
-	now to-number of moaning mae is 5704;
-	now to-number of droning dre is 5704;
 	if player is not in honing hey, unavailable;
 	if sco-cloning-clay is true:
 		vcal "You take time to reflect on your own faults.";
@@ -241,6 +240,9 @@ a goodrhyme rule (this is the vc-owning-eh rule):
 this is the vr-owning-eh rule:
 	now sco-owning-eh is true;
 	say "Hooray! You figured what to do! You get a point!";
+	now to-number of honing hey groaning grey is 5704;
+	now to-number of moaning mae is 5704;
+	now to-number of droning dre is 5704;
 
 a goodrhyme rule (this is the vc-cloning-clay rule):
 	if player is not in honing hey, unavailable;
@@ -255,7 +257,7 @@ a goodrhyme rule (this is the vc-cloning-clay rule):
 this is the vr-cloning-clay rule:
 	now sco-cloning-clay is true;
 	say "You discover some cloning clay, and [mmdd] spend time pouring their life essence into thousands of tiny golems. You watch as they both fade, their spirits no longer tormented. Your work here is done.";
-	rick-ride-check;
+	rick-and-slide-check;
 
 a goodrhyme rule (this is the vc-ivy rule):
 	if player is not in contrive country, unavailable;
@@ -306,8 +308,8 @@ a goodrhyme rule (this is the vc-thrive-three rule):
 this is the vr-thrive-three rule:
 	now sco-thrive-three is true;
 	say "Hooray! You figured what to do! You get a point!";
-	now to-number of clive klee is 5605;
-	now to-number of contrive country is 5605;
+	now to-number of clive klee is 5502;
+	now to-number of contrive country is 5502;
 
 a goodrhyme rule (this is the vc-whyve-we rule):
 	if player is not in contrive country, unavailable;
@@ -324,6 +326,8 @@ this is the vr-whyve-we rule:
 	say "Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.";
 	now to-number of clive klee is -3;
 	now to-number of contrive country is -3;
+	rick-and-slide-check;
+
 
 a goodrhyme rule (this is the vc-broil-brink rule):
 	abide by the oil-inc-basics rule;
@@ -335,6 +339,7 @@ a goodrhyme rule (this is the vc-broil-brink rule):
 this is the vr-broil-brink rule:
 	now sco-broil-brink is true;
 	say "Hooray! You figured what to do! You get a point!";
+	oil-inc-decrease 5505;
 
 a goodrhyme rule (this is the vc-loyal-link rule):
 	abide by the oil-inc-basics rule;
@@ -346,6 +351,7 @@ a goodrhyme rule (this is the vc-loyal-link rule):
 this is the vr-loyal-link rule:
 	now sco-loyal-link is true;
 	say "Hooray! You figured what to do! You get a point!";
+	oil-inc-decrease 5504;
 
 a goodrhyme rule (this is the vc-royal-rink rule):
 	abide by the oil-inc-basics rule;
@@ -357,6 +363,7 @@ a goodrhyme rule (this is the vc-royal-rink rule):
 this is the vr-royal-rink rule:
 	now sco-royal-rink is true;
 	say "Hooray! You figured what to do! You get a point!";
+	oil-inc-decrease 5504;
 
 a goodrhyme rule (this is the vc-soil-sink rule):
 	abide by the oil-inc-basics rule;
@@ -368,6 +375,7 @@ a goodrhyme rule (this is the vc-soil-sink rule):
 this is the vr-soil-sink rule:
 	now sco-soil-sink is true;
 	say "Hooray! You figured what to do! You get a point!";
+	oil-inc-decrease 5404;
 
 a goodrhyme rule (this is the vc-foil-fink rule):
 	if player is not in oil inc, unavailable; [can't use oil inc rule as it may say you are already-done ]
@@ -383,7 +391,8 @@ this is the vr-foil-fink rule:
 	now to-number of oil inc is -3;
 	now sco-foil-fink is true;
 	say "Hooray! You figured what to do! You get a point!";
-	check-battle;
+	rick-and-slide-check;
+
 
 a goodrhyme rule (this is the vc-bro-brawl rule):
 	if player is not in woe wall, unavailable;
@@ -480,27 +489,37 @@ this is the purring-pest-pop rule:
 to say slick-nav: say "[if sco-trick-tried is false]once[else]now[end if] you've made the slick slide navigable"
 
 this is the slick-trick rule:
-	if player is not in Woe Wall, unavailable;
+	if slick slide is not fungible, unavailable;
 	if sco-trick-tried is false:
 		vcp "The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.";
 		not-yet;
 
 [transport stuff]
 
+to slide-shift (rm - a room):
+	if sco-rick-ride is false, move slick slide to rm;
+	move player to rm;
+
 to thing-decrease (th - a thing) and (nu - a number):
 	decrease to-number of th by nu;
 	if to-number of th is 0, now to-number of th is -4;
+	say "New to-number for [th] is [to-number of th].";
+	if sco-rick-ride is false and th is slick slide:
+		now spare-slide-num is to-number of slick slide;
+		now to-number of slick slide is 5404;
 
 to room-decrease (rm - a room) and (nu - a number):
 	decrease to-number of rm by nu;
 	if to-number of rm is 0, now to-number of rm is -3;
 
-to rick-ride-check:
+to rick-and-slide-check:
 	say "[line break]";
 	if sco-rick-ride is false:
 		say "Now to find transport back.";
 	else:
 		say "You can take the [b]RICK RIDE[r] back now or try to pick up guess points if you want."; [?? what if no guess points left?]
+	declue-here;
+	if hubs-solved is 4 and to-number of woe wall is -5, now to-number of woe wall is 15813;
 
 [clay abbreviations]
 
@@ -511,6 +530,7 @@ to say mmdd: say "[one of]Moaning Mae and Droning Dre[or]Droning Dre and Moaning
 to oil-inc-decrease (nu - a number):
 	decrease to-number of oil inc by nu;
 	if to-number of oil inc is 0, now to-number of oil inc is 5404;
+	now to-number of moil mink is to-number of oil inc;
 
 a goodrhyme rule (this is the oil-inc-basics rule):
 	if player is not in oil inc, unavailable;
@@ -528,12 +548,9 @@ to country-down (nu - a number):
 		now to-number of contrive country is 5605;
 	else:
 		decrease to-number of contrive country by nu;
+	now to-number of clive klee is to-number of contrive country;
 
 [end fight]
-
-to check-battle:
-	if hubs-solved is 4 and to-number of woe wall is -5:
-		now to-number of woe wall is 15813;
 
 this is the big-battle-check rule:
 	if forfeit bore bit is unvisited:
