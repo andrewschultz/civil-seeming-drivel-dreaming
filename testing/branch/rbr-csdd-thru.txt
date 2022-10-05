@@ -109,10 +109,28 @@ However, it's really dim, as if you don't need to do or think whatever there is 
 >undo
 >undo
 
+@rej
+##balance undos
+#testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-pop-rule
+>whirring west
+WRONG
+\\
+>turing test
+WRONG
+\\
+#testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-pop-rule
+\\
+>undo
+>undo
+
 @!min
 >turing test
 }}SCORE++
 }}CURMIN++
+
+@rej
+#+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-pop-rule
+WRONG
 
 @hin
 >ll pest
@@ -121,6 +139,10 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 @rej
 #####################this is just testing for rejects in general
 ====alphabetize on
+#testcase-check-vc-war-wit-rule-if-player-is-not-in-forfeit-bore-bit
+>war wit
+{$REJECT2}
+\\
 #testcase-check-vc-whyve-we-rule-if-player-is-not-in-contrive-country
 >whyve we
 {$REJECT2}
@@ -214,6 +236,10 @@ You perform a Turing Test on yourself, since nobody else is around. You hope you
 >whirring west
 by one point
 
+@rej
+#+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-pop-rule
+WRONG
+
 @hin
 >ll pest
 Your rhyming attempts bring up nothing.
@@ -253,6 +279,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 WRONG
 
 @rej
+#testcase-check-vc-stow-stall-rule-if-sco-yo-yall-is-false
 >stow stall
 Perhaps there is one buried beyond the wall, but you have nobody to help you look for it.
 \\
@@ -268,6 +295,11 @@ You can find the STOW STALL once you've met people familiar with the area.
 #testcase-ha-half-table-of-verb-checks-3-yo
 >zyo yall
 {$GREENCORE}
+
+@rej
+#testcase-check-vc-oh-all-rule-if-sco-yo-yall-is-false
+>oh all
+This would be a way to bring everyone together once you have their trust. But there is no everyone to bring together. How to great them?
 
 >yo yall
 by one point
@@ -307,6 +339,11 @@ by one point
 {--rej}#testcase-check-vc-stow-stall-rule-fallthrough
 WRONG
 
+@rej
+#testcase-check-vc-stow-stall-rule-if-sco-stow-stall-is-true
+>stow stall
+You already found the stall.
+
 @hin
 >ll
 The leet learner makes a weird noise, as if it's about to find something, but then it doesn't. Maybe there's something to do here a bit later.
@@ -315,19 +352,26 @@ The leet learner makes a weird noise, as if it's about to find something, but th
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 
 @rej
+#testcase-check-vc-bro-brawl-rule-abide-by-the-pre-wall-fight-rule
 >bro brawl
-WRONG
+There's no fight that needs a rallying cry yet.
 \\
+#testcase-check-vc-foe-fall-rule-abide-by-the-pre-wall-fight-rule
 >foe fall
-WRONG
+There's no fight that needs a rallying cry yet.
 \\
+#testcase-check-vc-mo-maul-rule-abide-by-the-pre-wall-fight-rule
 >mo maul
-WRONG
+There's no fight that needs a rallying cry yet.
 \\
+#testcase-check-vc-oh-all-rule-abide-by-the-pre-wall-fight-rule
 >oh all
-WRONG
+There's no fight that needs a rallying cry yet.
 \\
 #testcase-think-table-of-verb-checks-vc-bro-brawl-rule
+#testcase-think-table-of-verb-checks-vc-foe-fall-rule
+#testcase-think-table-of-verb-checks-vc-mo-maul-rule
+#testcase-think-table-of-verb-checks-vc-oh-all-rule
 >think
 You can cry BRO BRAWL once combat is underway.
 You can cry FOE FALL once combat is underway.
@@ -339,23 +383,23 @@ You can cry OH ALL once you have full leadership skills.
 With the help of Po' Paul, you uncover an area with emergency supplies. It includes ... a slick slide!
 
 @rej
-#testcase-check-vc-rick-ride-rule-default
+#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall
 >rick ride
 That would be a great way to get back, once you've found a way down the slick slide.
 \\
-#testcase-check-vc-prick-pride-rule-default
+#testcase-check-vc-prick-pride-rule-abide-by-the-slick-trick-rule
 >prick pride
 The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 \\
-#testcase-check-vc-sick-side-rule-default
+#testcase-check-vc-sick-side-rule-abide-by-the-slick-trick-rule
 >sick side
 The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 \\
-#testcase-check-vc-hick-hide-rule-default
+#testcase-check-vc-hick-hide-rule-abide-by-the-slick-trick-rule
 >hick hide
 The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 \\
-#testcase-check-vc-tick-tide-rule-default
+#testcase-check-vc-tick-tide-rule-abide-by-the-slick-trick-rule
 >tick tide
 The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.
 \\
@@ -423,6 +467,11 @@ You can TICK TIDE once you've made the slick slide navigable.
 >trick tried
 by one point
 
+@rej
+#testcase-check-vc-trick-tried-rule-if-sco-trick-tried-is-true
+>trick tried
+WRONG
+
 @hin
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.75, -0.75.)
@@ -467,6 +516,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
 @rej
+#testcase-check-vc-cloning-clay-rule-if-sco-owning-eh-is-false
 >cloning clay
 WRONG
 \\
@@ -531,6 +581,10 @@ by one point
 /You discover some cloning clay, and (Moaning Mae and Droning Dre|Droning Dre and Moaning Mae) spend time pouring their life essence into thousands of tiny golems\. You watch as they both fade, their spirits no longer tormented\. Your work here is done\.
 
 @rej
+#testcase-check-vc-cloning-clay-rule-if-sco-cloning-clay-is-true
+>cloning clay
+WRONG
+\\
 #testcase-check-vc-owning-eh-rule-if-sco-cloning-clay-is-true
 >owning eh
 You take time to reflect on your own faults.
@@ -547,6 +601,10 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 by one point
 
 @rej
+#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall-if-number-of-visited-hubrooms->-0
+>rick ride
+The rick ride is only for transport back here.
+\\
 #+testcase-think-table-of-verb-checks-vc-rick-ride-rule
 >think
 You can take a RICK RIDE now you've taken a trip on the slick slide.
@@ -572,8 +630,13 @@ You dream of elitists who look down on rural types as you take the slick slide. 
 WRONG
 
 @rej
+#testcase-check-vc-whyve-we-rule-if-sco-thrive-three-is-false
+>whyve we
+wrong
+\\
+#testcase-check-vc-thrive-three-rule-if-country-score-<-3
 >thrive three
-WRONG
+You haven't done enough to summon three people, yet!
 \\
 #testcase-think-table-of-verb-checks-vc-thrive-three-rule
 >think
@@ -619,6 +682,11 @@ by one point
 {--all}#testcase-run-vr-ivy-rule-default
 Five-Fee-Contrive Country is now filled with vegetation!
 
+@rej
+#testcase-check-vc-ivy-rule-if-sco-ivy-is-true
+>ivy
+You already vegetated Five-Fee-Contrive Country!
+
 @hin
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.00, -2.50.)
@@ -633,6 +701,11 @@ by one point
 {--rej}#testcase-check-vc-lively-rule-fallthrough
 {--all}#testcase-run-vr-lively-rule-default
 Five-Fee-Contrive Country now seems more populated.
+
+@rej
+#testcase-check-vc-lively-rule-if-sco-lively-is-true
+>lively
+But Five-Fee-Contrive Country is already populated enough.
 
 @hin
 >ll
@@ -651,6 +724,10 @@ by one point
 The air feels laden with possibilities for friendly wisecracking.
 
 @rej
+#testcase-check-vc-jive-gee-rule-if-sco-jive-gee-is-true
+>jive gee
+WRONG
+\\
 #testcase-think-table-of-verb-checks-vc-whyve-we-rule
 #+testcase-think-table-of-verb-checks-vc-thrive-three-rule
 >think
@@ -668,6 +745,10 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 by one point
 
 @rej
+#testcase-check-vc-thrive-three-rule-if-sco-thrive-three-is-true
+>thrive three
+You already summoned the Thrive Three!
+\\
 #+testcase-think-table-of-verb-checks-vc-whyve-we-rule
 >think
 You can say WHYVE WE now you have allies to outnumber Clive Klee.
@@ -691,6 +772,11 @@ by one point
 {--rej}#testcase-check-vc-whyve-we-rule-fallthrough
 {--all}#testcase-run-vr-whyve-we-rule-default
 Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He doesn't recognize the place he's built! It's populated by, well, better people.
+
+@rej
+#testcase-check-vc-whyve-we-rule-if-sco-whyve-we-is-true
+>whyve we
+WRONG
 
 >rick ride
 !by one point
@@ -763,8 +849,9 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.75, 0.25.)
 
 @rej
+#testcase-check-vc-foil-fink-rule-if-oil-inc-score-<-4
 >foil fink
-WRONG
+You're not ready yet. You need more support!
 \\
 #testcase-think-table-of-verb-checks-vc-foil-fink-rule
 >think
@@ -780,6 +867,11 @@ WRONG
 @all
 #testcase-run-vr-royal-rink-rule-default
 BZZT Change This
+
+@rej
+#testcase-check-vc-royal-rink-rule-if-sco-royal-rink-is-true
+>royal rink
+WRONG
 
 @hin
 >ll
@@ -798,6 +890,12 @@ WRONG
 @all
 #testcase-run-vr-soil-sink-rule-default
 BZZT Change This
+
+@rej
+#testcase-check-vc-soil-sink-rule-if-sco-soil-sink-is-true
+>soil sink
+#OK-APOSTROPHE
+You already put a dent in Oil, Inc.'s profits!
 
 @hin
 >ll
@@ -818,6 +916,11 @@ WRONG
 <now sco-broil-brink is true;>
 BZZT Change This
 
+@rej
+#testcase-check-vc-broil-brink-rule-if-sco-broil-brink-is-true
+>broil brink
+WRONG
+
 @hin
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.00.)
@@ -837,6 +940,10 @@ WRONG
 BZZT Change This
 
 @rej
+#testcase-check-vc-loyal-link-rule-if-sco-loyal-link-is-true
+>loyal link
+WRONG
+\\
 #+testcase-think-table-of-verb-checks-vc-foil-fink-rule
 >think
 You can FOIL FINK now enough is in place to depose Oil, Inc.
@@ -857,6 +964,23 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll moil mink
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 
+@rej
+#testcase-check-vc-soil-sink-rule-abide-by-the-oil-inc-basics-rule
+>soil sink
+Already done. You need to focus on deposing the moil mink.
+\\
+#testcase-check-vc-royal-rink-rule-abide-by-the-oil-inc-basics-rule
+>roil rink
+Already done. You need to focus on deposing the moil mink.
+\\
+#testcase-check-vc-broil-brink-rule-abide-by-the-oil-inc-basics-rule
+>broil brink
+Already done. You need to focus on deposing the moil mink.
+\\
+#testcase-check-vc-loyal-link-rule-abide-by-the-oil-inc-basics-rule
+>loyal link
+Already done. You need to focus on deposing the moil mink.
+
 >foil fink
 by one point
 
@@ -864,6 +988,27 @@ by one point
 {--rej}#testcase-check-vc-foil-fink-rule-fallthrough
 {--all}#testcase-run-vr-foil-fink-rule-default
 BZZT Change This
+
+@rej
+#testcase-check-vc-foil-fink-rule-if-sco-foil-fink-is-true
+>foil fink
+WRONG
+\\
+#+testcase-check-vc-soil-sink-rule-abide-by-the-oil-inc-basics-rule
+>soil sink
+You're done here. No need to dwell on past successes.
+\\
+#+testcase-check-vc-royal-rink-rule-abide-by-the-oil-inc-basics-rule
+>roil rink
+You're done here. No need to dwell on past successes.
+\\
+#+testcase-check-vc-broil-brink-rule-abide-by-the-oil-inc-basics-rule
+>broil brink
+You're done here. No need to dwell on past successes.
+\\
+#+testcase-check-vc-loyal-link-rule-abide-by-the-oil-inc-basics-rule
+>loyal link
+You're done here. No need to dwell on past successes.
 
 >rick ride
 
@@ -890,6 +1035,7 @@ DEBUG: can't see any such thing error.
 You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.
 
 @rej
+#testcase-check-vc-pie-pitch-rule-if-sco-lie-lich-is-false
 >pie pitch
 WRONG
 \\
@@ -928,6 +1074,10 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
 
 @rej
+#testcase-check-vc-lie-lich-rule-if-sco-lie-lich-is-true
+>lie lich
+WRONG
+\\
 #+testcase-think-table-of-verb-checks-vc-pie-pitch-rule
 >think
 You can ask for a PIE PITCH now there's someone or something evil as a target.
@@ -945,20 +1095,34 @@ by one point
 {--all}#testcase-run-vr-pie-pitch-rule-default
 Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.
 
+@rej
+#testcase-check-vc-pie-pitch-rule-if-sco-pie-pitch-is-true
+>pie pitch
+WRONG
+
 >rick ride
 !by one point
+
+@all
+Woe Wall
 
 @all,rej
 {--rej}#testcase-check-vc-rick-ride-rule-fallthrough
 {--all}#testcase-run-vr-rick-ride-rule-default
 You take the rick ride back to Woe Wall...
 
+@rej
+#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall-if-hub-score-is-4
+>rick ride
+You can't escape the big fight!
+\\
+#testcase-check-vc-oh-all-rule-if-forfeit-bore-bit-is-unvisited
+>oh all
+You don't feel you have enough leadership skills yet to unite everyone!
+
 @hin
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
-
-@all
-Woe Wall
 
 @rej
 #+testcase-think-table-of-verb-checks-vc-bro-brawl-rule
@@ -974,12 +1138,14 @@ You can cry MO MAUL now combat is underway.
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.33, 0.33.)
 
 @alt
+#testcase-run-vr-bro-brawl-rule-abide-by-the-big-battle-check-rule
 >bro brawl
 by one point
 Forfeit, Bore
 \\
 >undo
 \\
+#testcase-run-vr-mo-maul-rule-abide-by-the-big-battle-check-rule
 >mo maul
 by one point
 Forfeit, Bore
@@ -1014,8 +1180,9 @@ Forfeit, Bore
 >foe fall
 by one point
 
-@all,rej
-{--rej}#testcase-check-vc-foe-fall-rule-fallthrough
+@rej
+#testcase-run-vr-foe-fall-rule-abide-by-the-big-battle-check-rule
+#testcase-check-vc-foe-fall-rule-fallthrough
 WRONG
 
 @all
@@ -1051,6 +1218,11 @@ You're beyond the rick's help here. You must find a way out on your own.
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
 
+@rej
+#testcase-check-vc-war-wit-rule-if-sco-core-kit-is-false
+>war wit
+WRONG
+
 >core kit
 by one point
 
@@ -1064,7 +1236,8 @@ by one point
 You discover a core kit somewhere in the darkness here. It contains a book of affirmations, some soldier toys to plan strategies and also tools you can use to climb up to somewhere less awful. So you do. But you drop the book in the process. Pity. Some of the ideas would've made you a lot more content once you woke up. That's life!
 
 @rej
->war wit
+#testcase-check-vc-core-kit-rule-if-sco-core-kit-is-true
+>core kit
 WRONG
 \\
 #testcase-think-table-of-verb-checks-vc-war-wit-rule
@@ -1137,6 +1310,19 @@ You can cry OH ALL once-now you have full leadership skills.
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
+@rej
+#testcase-check-vc-bro-brawl-rule-if-sco-bro-brawl-is-true
+>bro brawl
+WRONG
+\\
+#testcase-check-vc-foe-fall-rule-if-sco-foe-fall-is-true
+>foe fall
+WRONG
+\\
+#testcase-check-vc-mo-maul-rule-if-sco-mo-maul-is-true
+>mo maul
+WRONG
+
 >oh all
 by one point
 
@@ -1166,9 +1352,11 @@ BZZT Change This
 {--all}#testcase-room-names-let-in-the-light-net-in-the-night
 /^Set-in-the-Site Net in the Night$
 \\
+#testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
 >fret fright
 I'm going to be pedantic here and tell you not to throw out the small words.
 \\
+#+testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
 >let light
 I'm going to be pedantic here and tell you not to throw out the small words.
 

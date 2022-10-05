@@ -197,15 +197,13 @@ Ha-ha! You think for a minute and realize that while powerful spells can't affec
 >rick ride
 !by one point
 
+Woe Wall
+
 #testcase-run-vr-rick-ride-rule-default
 You take the rick ride back to Woe Wall...
 
-Woe Wall
-
 >foe fall
 by one point
-
-WRONG
 
 #testcase-room-names-forfeit-bore-bit
 /^"Forfeit, Bore" Bit$
@@ -254,9 +252,11 @@ BZZT Change This
 #testcase-room-names-let-in-the-light-net-in-the-night
 /^Set-in-the-Site Net in the Night$
 
+#testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
 >fret fright
 I'm going to be pedantic here and tell you not to throw out the small words.
 
+#+testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
 >let light
 I'm going to be pedantic here and tell you not to throw out the small words.
 
