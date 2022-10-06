@@ -49,7 +49,7 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "thrive"	"three"	--	--	false	true	true	false	contrive country	vc-thrive-three rule	vr-thrive-three rule	--	"You can summon the [b]THRIVE THREE[r] [once-now of vc-thrive-three rule] [country] thrives three ways."
 "whyve"	"we"	--	--	false	true	true	false	contrive country	vc-whyve-we rule	vr-whyve-we rule	--	"You can say [b]WHYVE WE[r] [once-now of vc-whyve-we rule] you have allies to outnumber Clive Klee."
 "broil"	"brink"	--	--	false	true	true	false	oil inc	vc-broil-brink rule	vr-broil-brink rule	--	--
-"loyal"	"link"	--	--	false	true	true	false	oil inc	vc-loyal-link rule	vr-loyal-link rule	--	--
+"moil"	"mink"	--	--	false	true	true	false	oil inc	vc-moil-mink rule	vr-moil-mink rule	--	--
 "royal"	"rink"	--	--	false	true	true	false	oil inc	vc-royal-rink rule	vr-royal-rink rule	--	--
 "soil"	"sink"	--	--	false	true	true	false	oil inc	vc-soil-sink rule	vr-soil-sink rule	--	--
 "foil"	"fink"	--	--	false	true	true	false	oil inc	vc-foil-fink rule	vr-foil-fink rule	--	"You can [b]FOIL FINK[r] [once-now of vc-foil-fink rule] Oil, Inc. is weak enough and you've gained enough support."
@@ -334,16 +334,16 @@ this is the vr-broil-brink rule:
 	say "You foment an undercurrent of constructive discontent in the populace. Nothing that would cause the quasi-police state to have cause to repress them, of course.";
 	oil-inc-decrease 5505;
 
-a goodrhyme rule (this is the vc-loyal-link rule):
+a goodrhyme rule (this is the vc-moil-mink rule):
 	abide by the oil-inc-basics rule;
-	if sco-loyal-link is true:
+	if sco-moil-mink is true:
 		vcal "People already understand the deeper value of loyalty here.";
 		already-done;
 	ready;
 
-this is the vr-loyal-link rule:
-	now sco-loyal-link is true;
-	say "Loyal links are formed--links physical and emotional. It looks like the loyal link is not just capable of transporting people around but of doing so with solar power! Take that, [oil]!";
+this is the vr-moil-mink rule:
+	now sco-moil-mink is true;
+	say "A large mink appears and begins racing around. It looks like it can do damage when the time comes.";
 	oil-inc-decrease 5504;
 
 a goodrhyme rule (this is the vc-royal-rink rule):
@@ -355,7 +355,7 @@ a goodrhyme rule (this is the vc-royal-rink rule):
 
 this is the vr-royal-rink rule:
 	now sco-royal-rink is true;
-	say "A big ol['] royal rink pops up in the middle of the dystopian landscape. The moil mink looks furious.";
+	say "A big ol['] royal rink pops up in the middle of the dystopian landscape. Worse, it's solar-powered! Doyle Dink looks furious.";
 	oil-inc-decrease 5504;
 
 a goodrhyme rule (this is the vc-soil-sink rule):

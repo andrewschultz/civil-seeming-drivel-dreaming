@@ -236,7 +236,7 @@ by one point
 >broil brink
 by one point
 
->loyal link
+>moil mink
 by one point
 
 #+testcase-ha-half-table-of-verb-checks-24-fink

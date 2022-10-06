@@ -215,7 +215,7 @@ You figure there must be sickness to stamp out. There always is. The process of 
 by one point
 
 #testcase-run-vr-royal-rink-rule-default
-A big ol' royal rink pops up in the middle of the dystopian landscape. The moil mink looks furious.
+A big ol' royal rink pops up in the middle of the dystopian landscape. Worse, it's solar-powered! Doyle Dink looks furious.
 
 >soil sink
 by one point
@@ -229,11 +229,11 @@ by one point
 #testcase-run-vr-broil-brink-rule-default
 You foment an undercurrent of constructive discontent in the populace. Nothing that would cause the quasi-police state to have cause to repress them, of course.
 
->loyal link
+>moil mink
 by one point
 
-#testcase-run-vr-loyal-link-rule-default
-Loyal links are formed--links physical and emotional. It looks like the loyal link is not just capable of transporting people around but of doing so with solar power! Take that, Oil, Inc.!
+#testcase-run-vr-moil-mink-rule-default
+A large mink appears and begins racing around. It looks like it can do damage when the time comes.
 
 >foil fink
 by one point

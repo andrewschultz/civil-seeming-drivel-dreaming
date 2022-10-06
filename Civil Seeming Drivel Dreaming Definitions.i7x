@@ -62,7 +62,7 @@ to decide which number is hubs-solved: decide on (boolval of sco-whyve-we) + (bo
 
 to decide which number is country-score: decide on (boolval of sco-ivy) + (boolval of sco-lively) + (boolval of sco-jive-gee);
 
-to decide which number is oil-inc-score: decide on (boolval of sco-broil-brink) + (boolval of sco-loyal-link) + (boolval of sco-royal-rink) + (boolval of sco-soil-sink) + (boolval of sco-foil-fink);
+to decide which number is oil-inc-score: decide on (boolval of sco-broil-brink) + (boolval of sco-moil-mink) + (boolval of sco-royal-rink) + (boolval of sco-soil-sink) + (boolval of sco-foil-fink);
 
 section mostly VVFF dependent stuff with Dean Duggan
 

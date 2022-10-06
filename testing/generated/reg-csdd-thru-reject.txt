@@ -76,12 +76,12 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 >lively
 Most special commands are more than one word. VERBS will give a list of useful, non-puzzle-solving verbs.
 
-#testcase-reject-start-table-of-verb-checks-vr-loyal-link-rule
->loyal link
-Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
-
 #testcase-reject-start-table-of-verb-checks-vr-mo-maul-rule
 >mo maul
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-reject-start-table-of-verb-checks-vr-moil-mink-rule
+>moil mink
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 #testcase-reject-start-table-of-verb-checks-vr-oh-all-rule
@@ -463,7 +463,7 @@ You can FOIL FINK once Oil, Inc. is weak enough and you've gained enough support
 by one point
 
 #testcase-check-vc-royal-rink-rule-fallthrough
-A big ol' royal rink pops up in the middle of the dystopian landscape. The moil mink looks furious.
+A big ol' royal rink pops up in the middle of the dystopian landscape. Worse, it's solar-powered! Doyle Dink looks furious.
 
 #testcase-check-vc-royal-rink-rule-if-sco-royal-rink-is-true
 >royal rink
@@ -489,14 +489,14 @@ You foment an undercurrent of constructive discontent in the populace. Nothing t
 >broil brink
 People are already mad, but not bursting. That's probably for the best!
 
->loyal link
+>moil mink
 by one point
 
-#testcase-check-vc-loyal-link-rule-fallthrough
-Loyal links are formed--links physical and emotional. It looks like the loyal link is not just capable of transporting people around but of doing so with solar power! Take that, Oil, Inc.!
+#testcase-check-vc-moil-mink-rule-fallthrough
+A large mink appears and begins racing around. It looks like it can do damage when the time comes.
 
-#testcase-check-vc-loyal-link-rule-if-sco-loyal-link-is-true
->loyal link
+#testcase-check-vc-moil-mink-rule-if-sco-moil-mink-is-true
+>moil mink
 Already done. There must be another way to gain allies or weaken Oil, Inc.
 
 #+testcase-think-table-of-verb-checks-vc-foil-fink-rule
@@ -515,8 +515,8 @@ Already done. There must be another way to gain allies or weaken Oil, Inc.
 >broil brink
 Already done. There must be another way to gain allies or weaken Oil, Inc.
 
-#testcase-check-vc-loyal-link-rule-abide-by-the-oil-inc-basics-rule
->loyal link
+#testcase-check-vc-moil-mink-rule-abide-by-the-oil-inc-basics-rule
+>moil mink
 Already done. There must be another way to gain allies or weaken Oil, Inc.
 
 >foil fink
@@ -541,8 +541,8 @@ You're done here. No need to dwell on past successes.
 >broil brink
 You're done here. No need to dwell on past successes.
 
-#+testcase-check-vc-loyal-link-rule-abide-by-the-oil-inc-basics-rule
->loyal link
+#+testcase-check-vc-moil-mink-rule-abide-by-the-oil-inc-basics-rule
+>moil mink
 You're done here. No need to dwell on past successes.
 
 #testcase-check-vc-sick-side-rule-abide-by-the-slide-warp-check-rule-for-oil-inc
@@ -767,8 +767,8 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 >lively
 Most special commands are more than one word, because of the rhyme-pairs involved. VERBS will give a list of useful, non-puzzle-solving verbs.
 
-#testcase-reject-end-table-of-verb-checks-vr-loyal-link-rule
->loyal link
+#testcase-reject-end-table-of-verb-checks-vr-moil-mink-rule
+>moil mink
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 #testcase-reject-end-table-of-verb-checks-vr-mo-maul-rule

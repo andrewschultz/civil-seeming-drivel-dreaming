@@ -16,7 +16,7 @@ test r4 with "tick tide/owning eh/cloning clay/rick ride".
 
 test r5 with "hick hide/ivy/lively/jive gee/thrive three/whyve we/rick ride".
 
-test r6 with "sick side/loyal link/broil brink/royal rink/soil sink/foil fink/rick ride".
+test r6 with "sick side/moil mink/broil brink/royal rink/soil sink/foil fink/rick ride".
 
 test r7 with "foe fall/core kit/war wit/oh all/let in the light".
 

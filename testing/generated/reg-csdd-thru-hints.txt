@@ -170,8 +170,8 @@ by one point
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.75, 1.25.)
 
->ll moil mink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.75, 0.25.)
+>ll doyle dink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.25, 0.25.)
 
 >royal rink
 by one point
@@ -179,8 +179,8 @@ by one point
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.66, 1.33.)
 
->ll moil mink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.66, 0.33.)
+>ll doyle dink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.33, 0.33.)
 
 >soil sink
 by one point
@@ -188,8 +188,8 @@ by one point
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.50.)
 
->ll moil mink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.50.)
+>ll doyle dink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
 
 >broil brink
 by one point
@@ -197,17 +197,17 @@ by one point
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.00.)
 
->ll moil mink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.00.)
+>ll doyle dink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 
->loyal link
+>moil mink
 by one point
 
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 
->ll moil mink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+>ll doyle dink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
 >foil fink
 by one point
