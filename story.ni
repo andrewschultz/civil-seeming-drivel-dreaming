@@ -44,6 +44,8 @@ book Croots Craving
 
 Croots Craving is a room. the player is in Croots Craving. "[b]BRUTES-BRAVING SUITS SAVING[r] is etched on the ground here.". printed name is "[']Croots-Craving"
 
+guess-table of croots craving is the table of croots craving guesses.
+
 the leet learner is a thing in Croots Craving.
 
 chapter blurring blest purring pest
@@ -152,6 +154,8 @@ book Oil Inc
 Oil Inc is a hubroom. printed name is "[if sco-foil-fink is false]Oil, Inc.[else]Loyal Link[end if]". "Your average run-of-the-mill urban dystopia here. Nothing really wonderful yet. But maybe you can change that!"
 
 understand "loyal/link" and "loyal link" as oil inc when sco-foil-fink is true.
+
+guess-table of Oil Inc is table of oil inc guesses.
 
 from-number of oil inc is 5303. to-number of oil inc is 21917.
 
