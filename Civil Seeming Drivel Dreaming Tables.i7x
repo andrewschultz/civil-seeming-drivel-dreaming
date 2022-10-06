@@ -38,7 +38,6 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "prick"	"pride"	--	--	false	false	true	false	Woe Wall	vc-prick-pride rule	vr-prick-pride rule	--	"You can [b]PRICK PRIDE[r] [slick-nav]."
 "sick"	"side"	"sic/sighed"	--	false	false	true	false	Woe Wall	vc-sick-side rule	vr-sick-side rule	--	"You can [b]SICK SIDE[r] [slick-nav]."
 "tick"	"tide|tied"	--	--	false	false	true	false	Woe Wall	vc-tick-tide rule	vr-tick-tide rule	--	"You can [b]TICK TIDE[r] [slick-nav]."
-"rick"	"ride"	--	--	false	false	true	false	Woe Wall	vc-rick-ride rule	vr-rick-ride rule	--	"You can take a [b]RICK RIDE[r] [once-now of vc-rick-ride rule] you've taken a trip on the slick slide." [ which of the above rules doesn't matter, since once-now also catches already-done ]
 "lie"	"lich"	--	--	false	true	true	false	sigh sitch	vc-lie-lich rule	vr-lie-lich rule	--	-- [Sigh Sitch start]
 "pie"	"pitch"	--	--	false	true	true	false	sigh sitch	vc-pie-pitch rule	vr-pie-pitch rule	--	"You can ask for a [b]PIE PITCH[r] [once-now of vc-pie-pitch rule] there's someone or something evil as a target."
 "owning"	"eh"	--	--	false	true	true	false	honing hey	vc-owning-eh rule	vr-owning-eh rule	--	--
@@ -53,7 +52,8 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "royal"	"rink"	--	--	false	true	true	false	oil inc	vc-royal-rink rule	vr-royal-rink rule	--	--
 "soil"	"sink"	--	--	false	true	true	false	oil inc	vc-soil-sink rule	vr-soil-sink rule	--	--
 "foil"	"fink"	--	--	false	true	true	false	oil inc	vc-foil-fink rule	vr-foil-fink rule	--	"You can [b]FOIL FINK[r] [once-now of vc-foil-fink rule] Oil, Inc. is weak enough and you've gained enough support."
-"foe"	"fall"	--	--	false	true	true	false	woe wall	vc-foe-fall rule	vr-foe-fall rule	--	"You can cry [b]FOE FALL[r] [once-now of vc-foe-fall rule] combat is underway."
+"rick"	"ride"	--	--	false	false	true	false	Woe Wall	vc-rick-ride rule	vr-rick-ride rule	--	"You can take a [b]RICK RIDE[r] [once-now of vc-rick-ride rule] you've taken a trip on the slick slide." [ this is pushed down here as otherwise JERKING JUMP bumps you back to Woe Wall ]
+"foe"	"fall"	--	--	false	true	true	false	woe wall	vc-foe-fall rule	vr-foe-fall rule	--	"You can cry [b]FOE FALL[r] [once-now of vc-foe-fall rule] combat is underway." [ this clearly seems the most intuitive of the 3 options IMHO. Thus, I put it at the top so the Lurking Lump picks it first. ]
 "mo"	"maul"	--	--	false	true	true	false	woe wall	vc-mo-maul rule	vr-mo-maul rule	--	"You can cry [b]MO MAUL[r] [once-now of vc-mo-maul rule] combat is underway."
 "bro"	"brawl"	--	--	false	true	true	false	woe wall	vc-bro-brawl rule	vr-bro-brawl rule	--	"You can cry [b]BRO BRAWL[r] [once-now of vc-bro-brawl rule] combat is underway."
 "oh"	"all"	--	--	false	true	true	false	woe wall	vc-oh-all rule	vr-oh-all rule	--	"You can cry [b]OH ALL[r] [once-now of vc-foe-fall rule] you have full leadership skills."
@@ -163,30 +163,6 @@ this is the vr-tick-tide rule:
 	if Groaning Grey is unvisited, thing-decrease slick slide and 5404;
 	now sco-tick-tide is true;
 	slide-shift Honing Hey Groaning Grey;
-
-a goodrhyme rule (this is the vc-rick-ride rule):
-	if slick slide is off-stage, unavailable;
-	if player is in Woe Wall:
-		if hubs-solved is 4:
-			vcal "You can't escape the big fight!";
-			already-done;
-		if number of visited hubrooms > 0:
-			vcal "The rick ride is only for transport back here.";
-			already-done;
-		vcp "That would be a great way to get back here, once you've found a way down the slick slide.";
-		not-yet;
-	if player is in Forfeit or player is in Net in the Night:
-		vcal "You're beyond the rick's help here. You must find a way out on your own.";
-		already-done;
-	ready;
-
-this is the vr-rick-ride rule:
-	if sco-rick-ride is false, now to-number of slick slide is spare-slide-num;
-	now sco-rick-ride is true;
-	say "[one of]Yes! That must be the way back! A rick ride rolls up. You only get a brief glimpse of the driver, who is red-headed and wears a double-breasted blue blazer and white-and-blue striped shirt. He seems tall, with a deep voice. He takes you back to Woe Wall but stays out of sight. You know you'll be together forever, or at least until the end of this adventure.[or]You take the rick ride back to Woe Wall again...[stopping]";
-	print-deferral;
-	move player to Woe Wall;
-	move slick slide to Woe Wall;
 
 a goodrhyme rule (this is the vc-lie-lich rule):
 	if player is not in sigh sitch, unavailable;
@@ -405,6 +381,30 @@ a goodrhyme rule (this is the vc-foe-fall rule):
 		already-done;
 	ready;
 
+a goodrhyme rule (this is the vc-rick-ride rule):
+	if slick slide is off-stage, unavailable;
+	if player is in Woe Wall:
+		if hubs-solved is 4:
+			vcal "You can't escape the big fight!";
+			already-done;
+		if number of visited hubrooms > 0:
+			vcal "The rick ride is only for transport back here.";
+			already-done;
+		vcp "That would be a great way to get back here, once you've found a way down the slick slide.";
+		not-yet;
+	if player is in Forfeit or player is in Net in the Night:
+		vcal "You're beyond the rick's help here. You must find a way out on your own.";
+		already-done;
+	ready;
+
+this is the vr-rick-ride rule:
+	if sco-rick-ride is false, now to-number of slick slide is spare-slide-num;
+	now sco-rick-ride is true;
+	say "[one of]Yes! That must be the way back! A rick ride rolls up. You only get a brief glimpse of the driver, who is red-headed and wears a double-breasted blue blazer, white pants and white-and-blue striped shirt. He seems tall, with a deep voice. He takes you back to Woe Wall but stays out of sight. You know you'll be together forever, or at least until the end of this adventure.[or]You take the rick ride back to Woe Wall again...[stopping]";
+	print-deferral;
+	move player to Woe Wall;
+	move slick slide to Woe Wall;
+
 this is the vr-foe-fall rule:
 	now sco-foe-fall is true;
 	say "You spring a battle cry, simple and effective! While it fails to discuss how the foe can fall, well, it still gives darn-good returns to scale for a measly seven letters.";
@@ -596,7 +596,8 @@ this is the vr-let-light rule:
 	if the player's command includes "fright":
 		say "You give up at the final moment. Too bad. But you still, like, learned lessons and stuff. And it was only a dream. Nevertheless";
 	else:
-		say "Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. You let in the light and then some! With nothing left to be done";
+		say "Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. It all makes more sense now. Your teacher was smarter than you thought.";
+		say "[line break]You let in the light and then some! With nothing left to be done";
 	say ", you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.";
 	up-reg;
 	process the score and thinking changes rule;
@@ -610,6 +611,7 @@ the roomwarp rules are a room based rulebook. the roomwarp rules have outcomes a
 a roomwarp rule for a room (called myrm) (this is the slide-warp-check rule):
 	if player is in Woe Wall, make no decision;
 	unless player is in a hubroom, unavailable;
+	if player is in a hubroom and in-jerk-jump is true, unavailable;
 	if player is in myrm:
 		vcal "You're already here[if sco-rick-ride is false], and also, you'd need a way to get back to Woe Wall before returning.[else]![end if]";
 		already-done;

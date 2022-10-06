@@ -213,6 +213,17 @@ report lling Clive Klee:
 
 book actual hints
 
+volume subverting verbs
+
+check jerkingjumping when player is in a hubroom and sco-rick-ride is true:
+	if to-number of location of player is -3, say "Wait a minute. You're done here. You should really just take the [b]RICK RIDE[r] back." instead;
+
+carry out jerkingjumping when player is in Net in the Night:
+	say "The lump pulses. You know what you must do...";
+	say "[paragraph break][b]LET IN THE LIGHT![r]";
+	follow the vr-let-light rule;
+	the rule succeeds;
+
 volume parser stuff
 
 this is the situational-cuing-reject rule: do nothing;

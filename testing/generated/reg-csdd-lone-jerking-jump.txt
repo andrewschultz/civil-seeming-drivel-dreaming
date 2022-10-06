@@ -1,0 +1,146 @@
+## reg-csdd-lone-jjthru.txt
+## GENERATOR FILE: rbr-lljj-lone-jjthru.txt
+
+## checking wins and leet learner scoring with all possibilities
+
+** game: /home/andrew/prt/debug-civil-seeming-drivel-dreaming.z8
+** interpreter: /home/andrew/prt/dfrotz -m -w5000 -h25
+
+* main-thru
+
+>au 2
+
+#some of these test cases aren't valid, because it's hard to get a lurking lump early. But still, we try them.
+
+>jj
+After some thought, you consider the right way forward: WHIRRING WEST...
+by one point
+
+>w
+
+>jj
+After some thought, you consider the right way forward: YO YALL...
+by one point
+
+>jj
+After some thought, you consider the right way forward: STOW STALL...
+by one point
+
+>jj
+by one point
+After some thought, you consider the right way forward: TRICK TRIED...
+
+>jj
+by one point
+After some thought, you consider the right way forward: HICK HIDE...
+
+>jj
+by one point
+After some thought, you consider the right way forward: IVY...
+
+>jj
+by one point
+After some thought, you consider the right way forward: JIVE GEE...
+
+>jj
+by one point
+After some thought, you consider the right way forward: LIVELY...
+
+>jj
+by one point
+After some thought, you consider the right way forward: THRIVE THREE...
+
+>jj
+by one point
+After some thought, you consider the right way forward: WHYVE WE...
+
+>jj
+by one point
+After some thought, you consider the right way forward: RICK RIDE...
+
+>jj
+by one point
+After some thought, you consider the right way forward: PRICK PRIDE...
+
+>jj
+by one point
+After some thought, you consider the right way forward: LIE LICH...
+
+>jj
+by one point
+After some thought, you consider the right way forward: PIE PITCH...
+
+>jj
+Wait a minute. You're done here. You should really just take the RICK RIDE back.
+
+>rick ride
+Woe Wall
+
+>jj
+by one point
+After some thought, you consider the right way forward: SICK SIDE...
+
+>jj
+by one point
+After some thought, you consider the right way forward: BROIL BRINK...
+
+>jj
+by one point
+After some thought, you consider the right way forward: MOIL MINK...
+
+>jj
+by one point
+After some thought, you consider the right way forward: ROYAL RINK...
+
+>jj
+by one point
+After some thought, you consider the right way forward: SOIL SINK...
+
+>jj
+by one point
+After some thought, you consider the right way forward: FOIL FINK...
+
+>jj
+Wait a minute. You're done here. You should really just take the RICK RIDE back.
+
+>rick ride
+Woe Wall
+
+>jj
+by one point
+After some thought, you consider the right way forward: TICK TIDE...
+
+>jj
+by one point
+After some thought, you consider the right way forward: OWNING EH...
+
+>jj
+by one point
+After some thought, you consider the right way forward: CLONING CLAY...
+
+>jj
+Wait a minute. You're done here. You should really just take the RICK RIDE back.
+
+>rick ride
+Woe Wall
+
+>jj
+by one point
+After some thought, you consider the right way forward: FOE FALL...
+
+>jj
+by one point
+After some thought, you consider the right way forward: CORE KIT...
+
+>jj
+by one point
+After some thought, you consider the right way forward: WAR WIT...
+
+>jj
+by one point
+After some thought, you consider the right way forward: OH ALL...
+
+>jj
+by one point
+The lump pulses. You know what you must do...
+
