@@ -83,6 +83,14 @@ chapter Po' Paul
 
 Po Paul is a person. printed name is "Po['] Paul".
 
+from-number of Po Paul is 5204. to-number of Po Paul is 5204.
+
+chapter Throw Thrall
+
+the throw thrall is a plural-named person.
+
+from-number of throw thrall is 5506. to-number of throw thrall is 5204.
+
 book Sigh Sitch
 
 Sigh Sitch is a hubroom. printed name is "[if sco-pie-pitch is false](Sigh) Sitch[else]'Hi!' Hitch[end if]".
@@ -151,7 +159,7 @@ the strives tree is scenery. "It's quite tall, and it's a symbol of how not to l
 
 book Oil Inc
 
-Oil Inc is a hubroom. printed name is "[if sco-foil-fink is false]Oil, Inc.[else]Loyal Link[end if]". "Your average run-of-the-mill urban dystopia here. Nothing really wonderful yet. But maybe you can change that!"
+Oil Inc is a hubroom. printed name is "[if sco-foil-fink is false]Oil, Inc.[else]Loyal Link[end if]". "Your average run-of-the-mill urban dystopia here. The hypercapitalistic oppression running amok here is so obvious I don't even need to describe it, man. It would just bring everyone down further. But maybe you can change that!"
 
 understand "loyal/link" and "loyal link" as oil inc when sco-foil-fink is true.
 
@@ -167,7 +175,7 @@ second-text of Oil Inc is "You're not going to let Big Oil keep the little guy d
 
 chapter Doyle Dink
 
-Doyle Dink is a person in Oil Inc. "[one of]A man here introduces himself as Doyle Dink, philanthropist, entrepeneur, etc. This place is all his, and you should be impressed with it[or]Doyle Dink seems slightly upset you're not as impressed with his vision of peak capitalism as you should be[stopping]."
+Doyle Dink is a person in Oil Inc. "[one of]A man here introduces himself as Doyle Dink, philanthropist, entrepeneur, etc. He points out this place is all his, and he had to overcome having a stupid name to get it, so if you can't overcome whatever silly things were thrown in your path, you don't deserve much. and you should be impressed with it. Oh, and him, too, if you'd be so kind[or]Doyle Dink seems slightly upset you're not as impressed with his vision of peak capitalism as you should be[stopping]."
 
 from-number of doyle dink is 5504. to-number of doyle dink is 21917.
 
@@ -214,6 +222,10 @@ report lling Clive Klee:
 book actual hints
 
 volume subverting verbs
+
+check swearing obscenely: say "Sneak-snivel? Seek CIVIL!" instead;
+
+carry out xyzzying: say "Trope-tread: dope?! DEAD." instead;
 
 check jerkingjumping when player is in a hubroom and sco-rick-ride is true:
 	if to-number of location of player is -3, say "Wait a minute. You're done here. You should really just take the [b]RICK RIDE[r] back." instead;
