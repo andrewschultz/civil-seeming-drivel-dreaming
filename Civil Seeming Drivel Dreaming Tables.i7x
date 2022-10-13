@@ -635,7 +635,14 @@ volume can't go that way notes
 
 table of noways
 noway-rm	noway-txt
+Bore Bit	"You need a way up, but you need to think your way out of here."
+Contrive Country	"You don't have time to explore[if clive klee is fungible]. Clive Klee might not let you, anyway[end if]."
 Croots Cravin	"[if noun is west]That's the right[else]There's a[end if] direction to go, but you have to figure out why you should go that way and what to follow."
+Honing Hey	"Trust me, the land beyond is even more miserable."
+Net in the Night	"But you're under a net, here! You're probably not getting out, either."
+Oil Inc	"You dont want to get lost in the [if doyle dink is moot]nice new place you helped blossom. You have a mission[else]urban hellscape Doyle Dink created[end if]."
+Sigh Sitch	"You really don't want to step into the Die Ditch. You [if lie lich is moot]can only return to Woe Wall[else if lie lich is fungible]really need to defeat the Lie Lich you summoned[else]need to figure what [the witch] needs[end if]."
+Woe Wall	"[if slick slide is off-stage]It's too treacherous and dark. Perhaps there are other places to visit via transport[else if throw thrall is in woe wall]You're in the middle of a battle[else]Directions can't take you anywhere. The slick slide, though, can[end if]."
 
 volume homonyms
 

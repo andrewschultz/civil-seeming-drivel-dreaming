@@ -42,17 +42,27 @@ after looking in a hubroom:
 
 book Croots Cravin
 
-Croots Cravin is a room. printed name is "[']Croots-Cravin[']". "[b]BRUTES-BRAVING SUITS SAVING[r] is etched on the ground here."
+Croots Cravin is a room. printed name is "[']Croots-Cravin[']". "[b]BRUTES-BRAVING SUITS SAVING[r] is etched on the ground here[if sco-whirring-west is true]. You know you can go west[end if]."
 
 the player is in Croots Cravin.
 
 guess-table of croots Cravin is the table of croots Cravin guesses.
 
-the leet learner is a thing in Croots Cravin.
+chapter leet learner
+
+this is the leet-take rule:
+	say "(hard to do without taking it, so you do)";
+	now player has leet learner;
+
+check examining leet learner: follow the leet-take rule;
+
+check reading leet learner: follow the leet-take rule;
+
+the leet learner is a thing in Croots Cravin. "Something called a Leet Learner lies on the ground here. It looks important and technical. Maybe it will help you figure what to do."
 
 chapter blurring blest purring pest
 
-the blurring blest purring pest is a rhymable in Croots Cravin. printed name is "blurring-blest purring pest".
+the blurring blest purring pest is a rhymable in Croots Cravin. printed name is "blurring-blest purring pest". "[if sco-whirring-west is false]A [pest] bounces around here, preventing you from going -- well, whichever way you need to go[else]The [pest] has settled down a bit now that you know to go west[end if]."
 
 guess-table of blurring blest purring pest is table of blurring blest purring pest guesses.
 
