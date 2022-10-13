@@ -18,6 +18,12 @@ mist-regex (text)	mist-rule	got-yet	leet-rule	mist-txt
 
 volume room tables
 
+table of contrive country guesses
+mist-regex	mist-rule	got-yet	leet-rule	mist-txt
+"dive d|dee"	--	false	--	"This landscape doesn't need another bar."
+"hive hee|he"	--	false	--	"No, laughing bees wouldn't do the trick."
+"skive ski"	--	false	--	"It's not cold enough for crafty skiers to swoop by."
+
 table of Croots Cravin guesses
 mist-regex	mist-rule	got-yet	leet-rule	mist-txt
 "coots cavin|caving"	--	false	--	"You will defeat much scarier things than mere coots."
@@ -30,6 +36,13 @@ mist-regex	mist-rule	got-yet	leet-rule	mist-txt
 "whoots|woots wavin|waving"	--	false	--	"[i-believe]!"
 
 to say i-believe: say "Alas, you have no crowd to support you. But you can get this done! I believe in you"
+
+table of honing hey guesses
+mist-regex(topic)	mist-rule	got-yet	leet-rule	mist-txt
+"boning bay"	--	false	--	"Well, that might give thrills but not lasting happiness."
+"loaning lay|ley"	--	false	--	"You don't need a supernatural lender or backer. You can do this on your own!"
+"phoning fey|fay"	--	false	--	"If there is a fey area, you'll be able to communicate much more telepathically."
+"stoning stay"	--	false	--	"This [if sco-owning-eh is false]is[else]was[end if] only a place for verbal brutality, not physical."
 
 table of oil inc guesses
 mist-regex	mist-rule	got-yet	leet-rule	mist-txt
@@ -82,7 +95,7 @@ mist-regex	mist-rule	got-yet	leet-rule	mist-txt
 "brick bride"	--	false	--	"Halloween weddings may be scary, but they shouldn't be violent."
 "chick chide"	--	false	--	"There's no point in humansplaining to poultry. Also, there is no poultry around."
 "dick died"	--	false	--	"A sad story is appropriate for the woe wall, but the slick slide is unmoved."
-"ick id/eyed"	--	false	--	"You don't need to repulse anyone or be repulsed."
+"ick id|eyed"	--	false	--	"You don't need to repulse anyone or be repulsed."
 "lick lied"	--	false	--	"You don't need such harsh vengeance on fibbers."
 "pick pied"	--	false	--	"No piper comes by with a peck of pickled peppers, or whatever. That wouldn't help you anyway."
 "stick stied"	--	false	--	"Think differently from an oddly-shaped stick."

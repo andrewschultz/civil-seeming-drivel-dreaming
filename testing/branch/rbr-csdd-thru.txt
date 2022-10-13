@@ -105,6 +105,75 @@ ONE-TIME NOTE
 >zturing test
 {$GREENBONUS}
 
+@mis
+#ttc-table-of-general-good-guesses-ride-wrong
+>ride wrong
+There is no fourth option for the guide gone, but you do have a chance for a heel turn at game's end.
+\\
+#ttc-table-of-general-good-guesses-side-song
+>side song
+This is a no-frills text adventure. No music, no graphics, besides the middling-at-best cover art.
+\\
+#ttc-table-of-croots-cravin-guesses-coots-cavin-caving
+>coots cavin
+You will defeat much scarier things than mere coots.
+\\
+>coots caving
+You will defeat much scarier things than mere coots.
+\\
+#ttc-table-of-croots-cravin-guesses-hoots-haven
+>hoots haven
+Alas, you have no crowd to support you. But you can get this done! I believe in you!
+\\
+#ttc-table-of-croots-cravin-guesses-moots-maven
+>moots maven
+You will learn many useless things as you progress.
+\\
+#ttc-table-of-croots-cravin-guesses-newts-navin
+>newts navin
+"OH, BOY!" yells an extremely well-meaning gas station attendant. "THIS GUY REALLY LOVES NEWTS!"
+\\
+#ttc-table-of-croots-cravin-guesses-poots-pavin
+>poots pavin
+You will figure enough silent but deadly things as you go through this adventure.
+\\
+#ttc-table-of-croots-cravin-guesses-roots-ravin-raving
+>roots ravin
+Alas, you have no crowd to support you. But you can get this done! I believe in you!
+\\
+>roots raving
+Alas, you have no crowd to support you. But you can get this done! I believe in you!
+\\
+#ttc-table-of-croots-cravin-guesses-shoots-shavin-shaving
+>shoots shavin
+There is no need to combine stereotypically masculine activites here.
+\\
+>shoots shaving
+There is no need to combine stereotypically masculine activites here.
+\\
+#ttc-table-of-croots-cravin-guesses-whoots-woots-wavin-waving
+>woots wavin
+Alas, you have no crowd to support you. But you can get this done! I believe in you!
+\\
+>whoots waving
+Alas, you have no crowd to support you. But you can get this done! I believe in you!
+\\
+#ttc-table-of-blurring-blest-purring-pest-guesses-conquering-conquest
+>conquering conquest
+Whoah. Smaller goals, here.
+\\
+#ttc-table-of-blurring-blest-purring-pest-guesses-furring-fest
+>furring fest
+No costumes are needed here, and the blurring-blest purring pest needs no protection against the cold.
+\\
+#ttc-table-of-blurring-blest-purring-pest-guesses-spurrings-pest
+>spurrings pest
+The blurring-blest purring pest can't be used for self-motivation.
+\\
+#ttc-table-of-blurring-blest-purring-pest-guesses-stirrings-test
+>stirrings test
+The blurring-blest purring pest can't be used for self-motivation.
+
 @hin
 >ll pest
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
@@ -364,6 +433,35 @@ You can find the STOW STALL once you've met people familiar with the area.
 >zyo yall
 {$GREENCORE}
 
+@mis
+#ttc-table-of-woe-wall-guesses-crow-crawl
+>crow crawl
+Crows that can't fly wouldn't be helpful.
+\\
+#ttc-table-of-woe-wall-guesses-dough-doe-doh-doll
+>dough doll
+Summoning a doll on a night like this can't end well.
+\\
+#ttc-table-of-woe-wall-guesses-go-gaul
+>go gaul
+Alas, neither Asterix nor Obelix appears to help you fight.
+\\
+#ttc-table-of-woe-wall-guesses-ho-hall-haul
+>ho haul
+You don't need to transport anything or build a hall for the woe wall.
+\\
+#ttc-table-of-woe-wall-guesses-show-shawl
+>show shawl
+No fancy clothes are needed.
+\\
+#ttc-table-of-woe-wall-guesses-so-saul
+>so saul
+You don't need will, and you don't need McGill.
+\\
+#ttc-table-of-woe-wall-guesses-toe-tall
+>toe tall
+No giant appears to crush anyone.
+
 @rej
 #testcase-check-vc-oh-all-rule-if-sco-yo-yall-is-false
 >oh all
@@ -527,6 +625,43 @@ You can TICK TIDE once you've made the slick slide navigable.
 >rick zride
 {$YELLOWCORE}
 
+@mis
+#ttc-table-of-slick-slide-guesses-brick-bride
+>brick bride
+Halloween weddings may be scary, but they shouldn't be violent.
+\\
+#ttc-table-of-slick-slide-guesses-chick-chide
+>chick chide
+There's no point in humansplaining to poultry. Also, there is no poultry around.
+\\
+#ttc-table-of-slick-slide-guesses-dick-died
+>dick died
+A sad story is appropriate for the woe wall, but the slick slide is unmoved.
+\\
+#ttc-table-of-slick-slide-guesses-ick-id-eyed
+>ick id
+You don't need to repulse anyone or be repulsed.
+\\
+#ttc-table-of-slick-slide-guesses-lick-lied
+>lick lied
+You don't need such harsh vengeance on fibbers.
+\\
+#ttc-table-of-slick-slide-guesses-pick-pied
+>pick pied
+No piper comes by with a peck of pickled peppers, or whatever. That wouldn't help you anyway.
+\\
+#ttc-table-of-slick-slide-guesses-stick-stied
+>stick stied
+Think differently from an oddly-shaped stick.
+\\
+#ttc-table-of-slick-slide-guesses-strick-stride
+>strick stride
+Why would you want to inhibit how you get around?
+\\
+#ttc-table-of-slick-slide-guesses-thick-thighed
+>thick thighed
+There is no need to change your own physical shape.
+
 >trick tried
 by one point
 
@@ -606,7 +741,7 @@ You feel more positive. This time, you'll help
 >undo
 
 @gt
-#testcase-goto-table-of-noways-woe-wall
+#+testcase-goto-table-of-noways-woe-wall
 >w
 Directions can't take you anywhere. The slick slide, though, can.
 
@@ -687,6 +822,23 @@ are more worth cloning.
 >zcloning clay
 {$YELLOWCORE}
 
+@mis
+#ttc-table-of-honing-hey-guesses-boning-bay
+>boning bay
+Well, that might give thrills but not lasting happiness.
+\\
+#ttc-table-of-honing-hey-guesses-loaning-lay-ley
+>loaning ley
+You don't need a supernatural lender or backer. You can do this on your own!
+\\
+#ttc-table-of-honing-hey-guesses-phoning-fey-fay
+>phoning fey
+If there is a fey area, you'll be able to communicate much more telepathically.
+\\
+#ttc-table-of-honing-hey-guesses-stoning-stay
+>stoning stay
+This is only a place for verbal brutality, not physical.
+
 >owning eh
 by one point
 
@@ -718,6 +870,11 @@ You commence a small heart-to-heart with
 >owning eh
 You don't need to rub 
 past behavior in. They're ready to become better people.
+
+@mis
+#+ttc-table-of-honing-hey-guesses-stoning-stay
+>stoning stay
+This was only a place for verbal brutality, not physical.
 
 >cloning clay
 by one point
@@ -829,6 +986,19 @@ You don't have time to explore. Clive Klee might not let you, anyway.
 #testcase-ha-half-table-of-verb-checks-18-whyve
 >zwhyve we
 {$YELLOWCORE}
+
+@mis
+#ttc-table-of-contrive-country-guesses-dive-d-dee
+>dive d
+This landscape doesn't need another bar.
+\\
+#ttc-table-of-contrive-country-guesses-hive-hee-he
+>hive hee
+No, laughing bees wouldn't do the trick.
+\\
+#ttc-table-of-contrive-country-guesses-skive-ski
+>skive ski
+It's not cold enough for crafty skiers to swoop by.
 
 @hin
 >ll
@@ -1024,6 +1194,19 @@ You don't want to get lost in the urban hellscape Doyle Dink created.
 #testcase-ha-half-table-of-verb-checks-23-foil
 >zfoil fink
 {$YELLOWCORE}
+
+@mis
+#ttc-table-of-oil-inc-guesses-coil-kink
+>coil kink
+Yes, most coils have that.
+\\
+#ttc-table-of-oil-inc-guesses-loyal-link
+>loyal link
+You reflect that the true loyal links are the more concrete double-rhymes you conjured along the way.
+\\
+#ttc-table-of-oil-inc-guesses-spoil-spink
+>spoil spink
+But Oil, Inc. is about ruining animals, and you should be against that.
 
 @hin
 >ll
@@ -1254,6 +1437,31 @@ You really don't want to step into the Die Ditch. You need to figure what the I-
 >pie zpitch
 {$YELLOWCORE}
 
+@mis
+#ttc-table-of-sigh-sitch-guesses-hi-high-hitch
+>high hitch
+You won't be able to catch enemies on a high hitch. You may need more action.
+\\
+#ttc-table-of-sigh-sitch-guesses-my-mitch
+>my mitch
+You don't know anyone particularly burly named Mitch.
+\\
+#ttc-table-of-sigh-sitch-guesses-nigh-niche
+>nigh niche
+You find nowhere where you could hide from a perspective enemy or stuff them in there.
+\\
+#ttc-table-of-sigh-sitch-guesses-rye-rich
+>rye rich
+You fail to change the scenario into a huge farm.
+\\
+#ttc-table-of-sigh-sitch-guesses-sty-stitch
+>sty stitch
+You fail to repair a sty or create a war base from which you can hand out stitches.
+\\
+#ttc-table-of-sigh-sitch-guesses-tie-ty-titch
+>tie titch
+You must think bigger.
+
 >lie lich
 by one point
 
@@ -1320,6 +1528,11 @@ You've already solved that area!
 #+testcase-goto-table-of-noways-sigh-sitch
 >w
 You really don't want to step into the Die Ditch. You can only return to Woe Wall.
+
+@mis
+#+ttc-table-of-sigh-sitch-guesses-hi-high-hitch
+>high hitch
+!You won't be able to catch enemies
 
 >rick ride
 !by one point

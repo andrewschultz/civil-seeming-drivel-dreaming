@@ -41,7 +41,7 @@ by one point
 >trick tried
 by one point
 
-#testcase-goto-table-of-noways-woe-wall
+#+testcase-goto-table-of-noways-woe-wall
 >w
 Directions can't take you anywhere. The slick slide, though, can.
 
