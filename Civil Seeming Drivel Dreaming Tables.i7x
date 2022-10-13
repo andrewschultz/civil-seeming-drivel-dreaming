@@ -80,6 +80,8 @@ a goodrhyme rule (this is the vc-whirring-west rule):
 this is the vr-whirring-west rule:
 	say "Ah, yes! You identify where the noise is coming from and what it is. You see a way out now[if sco-turing-test is false]. Perhaps there is a bit more you can do to show off, but you don't need to[end if].";
 	abide by the purring-pest-ping rule;
+	now woe wall is mapped west of Croots Cravin;
+	now Croots Cravin is mapped east of woe wall;
 	now sco-whirring-west is true;
 	now to-number of blurring blest purring pest is -5604;
 
@@ -296,6 +298,7 @@ this is the vr-whyve-we rule:
 	now to-number of clive klee is -3;
 	now to-number of contrive country is -3;
 	move strives tree to contrive country;
+	moot clive klee;
 	rick-and-slide-check;
 
 a goodrhyme rule (this is the vc-broil-brink rule):
@@ -358,6 +361,7 @@ a goodrhyme rule (this is the vc-foil-fink rule):
 
 this is the vr-foil-fink rule:
 	now to-number of oil inc is -3;
+	moot doyle dink;
 	now sco-foil-fink is true;
 	say "You've done enough damage to Doyle Dink and Oil, Inc. that enough people not only support you but also believe it's worth the risk to finish the job. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!";
 	rick-and-slide-check;
@@ -528,7 +532,9 @@ to rick-and-slide-check:
 	else:
 		say "You can take the [b]RICK RIDE[r] back now or try to pick up guess points if you want."; [?? what if no guess points left?]
 	declue-here;
-	if hubs-solved is 4 and to-number of woe wall is -5, woe-all 15813;
+	if hubs-solved is 4 and to-number of woe wall is -5:
+		move throw thrall to woe wall;
+		woe-all 15813;
 
 to woe-all (nu - a number):
 	now to-number of woe wall is nu;
@@ -635,12 +641,12 @@ volume can't go that way notes
 
 table of noways
 noway-rm	noway-txt
-Bore Bit	"You need a way up, but you need to think your way out of here."
+Bore Bit	"[if sco-core-kit is false]You need to scrounge for materials to get out of here[else]You need to plan before returning to the Woe Wall[end if]."
 Contrive Country	"You don't have time to explore[if clive klee is fungible]. Clive Klee might not let you, anyway[end if]."
 Croots Cravin	"[if noun is west]That's the right[else]There's a[end if] direction to go, but you have to figure out why you should go that way and what to follow."
 Honing Hey	"Trust me, the land beyond is even more miserable."
 Net in the Night	"But you're under a net, here! You're probably not getting out, either."
-Oil Inc	"You dont want to get lost in the [if doyle dink is moot]nice new place you helped blossom. You have a mission[else]urban hellscape Doyle Dink created[end if]."
+Oil Inc	"You don't want to get lost in the [if doyle dink is moot]nice new place you helped blossom. You have a mission[else]urban hellscape Doyle Dink created[end if]."
 Sigh Sitch	"You really don't want to step into the Die Ditch. You [if lie lich is moot]can only return to Woe Wall[else if lie lich is fungible]really need to defeat the Lie Lich you summoned[else]need to figure what [the witch] needs[end if]."
 Woe Wall	"[if slick slide is off-stage]It's too treacherous and dark. Perhaps there are other places to visit via transport[else if throw thrall is in woe wall]You're in the middle of a battle[else]Directions can't take you anywhere. The slick slide, though, can[end if]."
 

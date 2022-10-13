@@ -63,13 +63,22 @@ TSV:## minimum walkthrough	## walkthrough with all points	## walkthrough with al
 
 @all
 #testcase-room-names-croots-cravin
-/^Croots Craving
+/^'Croots-Cravin'$
 
 @!min
 >take learner
 Taken.
 
 >au 2
+
+@gt
+#testcase-goto-table-of-noways-croots-cravin
+>w
+That's the right direction to go, but you have to figure out why you should go that way and what to follow.
+\\
+#+testcase-goto-table-of-noways-croots-cravin
+>n
+There's a direction to go, but you have to figure out why you should go that way and what to follow.
 
 @hin
 >ll
@@ -323,6 +332,11 @@ Your rhyming attempts bring up nothing.
 #testcase-check-vc-whirring-west-rule-unless-player-is-in-croots-cravin
 >whirring west
 {$REJECT2}
+
+@gt
+#testcase-goto-table-of-noways-woe-wall
+>w
+It's too treacherous and dark. Perhaps there are other places to visit via transport.
 
 @hin
 >ll
@@ -591,6 +605,11 @@ You feel more positive. This time, you'll help
 >undo
 >undo
 
+@gt
+#testcase-goto-table-of-noways-woe-wall
+>w
+Directions can't take you anywhere. The slick slide, though, can.
+
 @hin
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.75, -0.75.)
@@ -623,6 +642,11 @@ You're ready to face a whole tide of pestilence. It doesn't seem too bad. But th
 #+testcase-think-table-of-verb-checks-vc-rick-ride-rule
 >think
 You can take a RICK RIDE now you've taken a trip on the slick slide.
+
+@gt
+#testcase-goto-table-of-noways-honing-hey
+>w
+Trust me, the land beyond is even more miserable.
 
 @hin
 >ll
@@ -776,6 +800,11 @@ You haven't done enough to summon three people, yet!
 >think
 You can summon the THRIVE THREE once Five-Fee-Contrive Country thrives three ways.
 
+@gt
+#testcase-goto-table-of-noways-contrive-country
+>w
+You don't have time to explore. Clive Klee might not let you, anyway.
+
 @ha
 #testcase-ha-half-table-of-verb-checks-15-gee
 >jive zgee
@@ -922,6 +951,12 @@ You're already here!
 >tick tide
 You've already solved that area!
 
+@gt
+#+testcase-goto-table-of-noways-contrive-country
+>w
+You don't have time to explore.
+!Clive Klee
+
 >rick ride
 !by one point
 
@@ -943,6 +978,11 @@ by one point
 {--rej}#testcase-check-vc-sick-side-rule-fallthrough
 {--all}#testcase-run-vr-sick-side-rule-default
 You figure there must be sickness to stamp out. There always is. The process of doing so is at least as important as the physical help.
+
+@gt
+#testcase-goto-table-of-noways-oil-inc
+>w
+You don't want to get lost in the urban hellscape Doyle Dink created.
 
 @ha
 #testcase-ha-half-table-of-verb-checks-19-brink
@@ -1154,6 +1194,11 @@ You've already solved that area!
 >tick tide
 You've already solved that area!
 
+@gt
+#+testcase-goto-table-of-noways-oil-inc
+>w
+You don't want to get lost in the nice new place you helped blossom. You have a mission.
+
 >rick ride
 
 >prick pride
@@ -1187,6 +1232,11 @@ You have no target at which to pitch a pie, yet.
 >think
 You can ask for a PIE PITCH once there's someone or something evil as a target.
 
+@gt
+#testcase-goto-table-of-noways-sigh-sitch
+>w
+You really don't want to step into the Die Ditch. You need to figure what the I-Itch-Why Witch needs.
+
 @ha
 #testcase-ha-half-table-of-verb-checks-10-lich
 >lie zlich
@@ -1212,6 +1262,11 @@ by one point
 {--all}#testcase-run-vr-lie-lich-rule-default
 A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. Including the languid one about letting you go first even though it doesn't have to. (It does.)
 But that bit about how the most powerful and spectacular spells can't disarm it? True. Except...
+
+@gt
+#+testcase-goto-table-of-noways-sigh-sitch
+>w
+You really don't want to step into the Die Ditch. You really need to defeat the Lie Lich you summoned.
 
 @hin
 >ll
@@ -1260,6 +1315,11 @@ You've already solved that area!
 \\
 >tick tide
 You've already solved that area!
+
+@gt
+#+testcase-goto-table-of-noways-sigh-sitch
+>w
+You really don't want to step into the Die Ditch. You can only return to Woe Wall.
 
 >rick ride
 !by one point
@@ -1338,6 +1398,11 @@ Forfeit, Bore
 >zbro brawl
 {$GREENCORE}
 
+@gt
+#+testcase-goto-table-of-noways-woe-wall
+>w
+You're in the middle of a battle.
+
 >foe fall
 by one point
 
@@ -1351,6 +1416,11 @@ Sadly, your battle cry wasn't enough for a quick victory. You are captured in a 
 #testcase-run-vr-foe-fall-rule-default
 #testcase-room-names-forfeit-bore-bit
 /^"Forfeit, Bore" Bit$
+
+@gt
+#testcase-goto-table-of-noways-bore-bit
+>w
+You need to scrounge for materials to get out of here.
 
 @rej
 #testcase-check-vc-rick-ride-rule-if-player-is-in-forfeit-or-player-is-in-net-in-the-night
@@ -1398,6 +1468,11 @@ by one point
 {--rej}#testcase-check-vc-core-kit-rule-fallthrough
 {--all}#testcase-run-vr-core-kit-rule-default
 You discover a core kit somewhere in the darkness here. It contains a book of affirmations, some soldier toys to plan strategies and also tools you can use to climb up to somewhere less awful. So you do. But you drop the book in the process. Pity. Some of the ideas would've made you a lot more content once you woke up. That's life!
+
+@gt
+#+testcase-goto-table-of-noways-bore-bit
+>w
+You need to plan before returning to the Woe Wall.
 
 @rej
 #testcase-check-vc-core-kit-rule-if-sco-core-kit-is-true
@@ -1512,6 +1587,11 @@ But sadly, you didn't continue the battle cry after the Throw Thrall defections.
 @all
 #testcase-room-names-let-in-the-light-net-in-the-night
 /^Set-in-the-Site Net in the Night$
+
+@gt
+#testcase-goto-table-of-noways-net-in-the-night
+>w
+But you're under a net, here! You're probably not getting out, either.
 
 @rej
 #testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
@@ -1678,7 +1758,8 @@ just went up
 {--rej}#testcase-check-vc-let-light-rule-fallthrough
 {--all}#testcase-run-vr-let-light-rule-default
 {--all}#testcase-run-vr-let-light-rule-fallthrough
-Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. You let in the light and then some! With nothing left to be done, you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.
+Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. It all makes more sense now. Your teacher was smarter than you thought.
+You let in the light and then some! With nothing left to be done, you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.
 *** SPOOKY SPITE, FLUKY FLIGHT ***
 
 @all

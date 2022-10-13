@@ -1,0 +1,182 @@
+## reg-csdd-thru-goto.txt
+## GENERATOR FILE: rbr-csdd-thru.txt
+
+## walkthrough testing goto
+
+** game: /home/andrew/prt/debug-civil-seeming-drivel-dreaming.z8
+** interpreter: /home/andrew/prt/dfrotz -m -w5000 -h25
+
+* main-thru
+
+>take learner
+Taken.
+
+>au 2
+
+#testcase-goto-table-of-noways-croots-cravin
+>w
+That's the right direction to go, but you have to figure out why you should go that way and what to follow.
+
+#+testcase-goto-table-of-noways-croots-cravin
+>n
+There's a direction to go, but you have to figure out why you should go that way and what to follow.
+
+>turing test
+
+>whirring west
+by one point
+
+>w
+
+#testcase-goto-table-of-noways-woe-wall
+>w
+It's too treacherous and dark. Perhaps there are other places to visit via transport.
+
+>yo yall
+by one point
+
+>stow stall
+by one point
+
+>trick tried
+by one point
+
+#testcase-goto-table-of-noways-woe-wall
+>w
+Directions can't take you anywhere. The slick slide, though, can.
+
+>tick tide
+by one point
+
+#testcase-goto-table-of-noways-honing-hey
+>w
+Trust me, the land beyond is even more miserable.
+
+>owning eh
+by one point
+
+>cloning clay
+by one point
+
+>rick ride
+by one point
+
+>hick hide
+by one point
+
+#testcase-goto-table-of-noways-contrive-country
+>w
+You don't have time to explore. Clive Klee might not let you, anyway.
+
+>ivy
+by one point
+
+>lively
+by one point
+
+>jive gee
+by one point
+
+>thrive three
+by one point
+
+>whyve we
+by one point
+
+#+testcase-goto-table-of-noways-contrive-country
+>w
+You don't have time to explore.
+!Clive Klee
+
+>rick ride
+!by one point
+
+>sick side
+by one point
+
+#testcase-goto-table-of-noways-oil-inc
+>w
+You don't want to get lost in the urban hellscape Doyle Dink created.
+
+>royal rink
+by one point
+
+>soil sink
+by one point
+
+>broil brink
+by one point
+
+>moil mink
+by one point
+
+>foil fink
+by one point
+
+#+testcase-goto-table-of-noways-oil-inc
+>w
+You don't want to get lost in the nice new place you helped blossom. You have a mission.
+
+>rick ride
+
+>prick pride
+by one point
+
+#testcase-goto-table-of-noways-sigh-sitch
+>w
+You really don't want to step into the Die Ditch. You need to figure what the I-Itch-Why Witch needs.
+
+>lie lich
+by one point
+
+#+testcase-goto-table-of-noways-sigh-sitch
+>w
+You really don't want to step into the Die Ditch. You really need to defeat the Lie Lich you summoned.
+
+>pie pitch
+by one point
+
+#+testcase-goto-table-of-noways-sigh-sitch
+>w
+You really don't want to step into the Die Ditch. You can only return to Woe Wall.
+
+>rick ride
+!by one point
+
+#+testcase-goto-table-of-noways-woe-wall
+>w
+You're in the middle of a battle.
+
+>foe fall
+by one point
+
+#testcase-goto-table-of-noways-bore-bit
+>w
+You need to scrounge for materials to get out of here.
+
+>core kit
+by one point
+
+#+testcase-goto-table-of-noways-bore-bit
+>w
+You need to plan before returning to the Woe Wall.
+
+>war wit
+by one point
+
+>mo maul
+by one point
+
+>bro brawl
+by one point
+
+>oh all
+by one point
+
+#testcase-goto-table-of-noways-net-in-the-night
+>w
+But you're under a net, here! You're probably not getting out, either.
+
+>let in the light
+by one point
+

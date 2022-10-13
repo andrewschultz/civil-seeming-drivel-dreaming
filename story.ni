@@ -68,12 +68,9 @@ guess-table of blurring blest purring pest is table of blurring blest purring pe
 
 from-number of blurring blest purring pest is 11509. to-number of blurring blest purring pest is 5804.
 
-check going west in Croots Cravin:
-	if sco-whirring-west is false, say "That seems like the right direction, but you'd like a clue. A sound, or something." instead;
-
 book Woe Wall
 
-Woe Wall is west of Croots Cravin.
+Woe Wall is a room.
 
 from-number of woe wall is 5304. to-number of woe wall is 5204.
 
