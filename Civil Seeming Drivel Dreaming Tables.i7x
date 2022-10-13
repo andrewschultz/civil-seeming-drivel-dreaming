@@ -29,8 +29,8 @@ other stuff that may be added is best-room though I may have divided room-specif
 
 table of verb checks
 w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	idid	best-room	check-rule	run-rule	wfull (topic)	think-advice (text)
-"turing"	"test"	"touring"	--	false	false	false	false	Croots Craving	vc-turing-test rule	vr-turing-test rule	--
-"whirring"	"west"	--	--	false	false	true	false	Croots Craving	vc-whirring-west rule	vr-whirring-west rule	--
+"turing"	"test"	"touring"	--	false	false	false	false	Croots Cravin	vc-turing-test rule	vr-turing-test rule	--
+"whirring"	"west"	--	--	false	false	true	false	Croots Cravin	vc-whirring-west rule	vr-whirring-west rule	--
 "yo"	"yall"	--	--	false	false	true	false	Woe Wall	vc-yo-yall rule	vr-yo-yall rule	-- [Woe Wall start]
 "stow"	"stall"	--	--	false	false	true	false	Woe Wall	vc-stow-stall rule	vr-stow-stall rule	--	"You can find the [b]STOW STALL[r] [once-now of vc-stow-stall rule] you've met people familiar with the area."
 "trick"	"tried"	--	--	false	false	true	false	Woe Wall	vc-trick-tried rule	vr-trick-tried rule	--	--
@@ -62,7 +62,7 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "let|fret"	"light|fright"	--	--	false	true	true	false	net in the night	vc-let-light rule	vr-let-light rule	"let light" or "fret fright"	"The final solution is more than two words long. Add words so your action matches the room."
 
 a goodrhyme rule (this is the vc-turing-test rule):
-	unless player is in Croots Craving, unavailable;
+	unless player is in Croots Cravin, unavailable;
 	if sco-turing-test is true:
 		vcal "You perform a Turing Test on yourself, since you already administered one to [the pest]. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.";
 		already-done;
@@ -74,7 +74,7 @@ this is the vr-turing-test rule:
 	now sco-turing-test is true;
 
 a goodrhyme rule (this is the vc-whirring-west rule):
-	unless player is in Croots Craving, unavailable;
+	unless player is in Croots Cravin, unavailable;
 	ready;
 
 this is the vr-whirring-west rule:
@@ -476,7 +476,7 @@ this is the purring-pest-ping rule:
 	if pest-score is 1:
 		say "The [pest], its job (so to speak) done, disappears with a pop.";
 		moot purring pest;
-		now to-number of croots craving is -3;
+		now to-number of Croots Cravin is -3;
 	else:
 		say "The [pest], pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice[if sco-turing-test is false], the sort to show advanced intelligence or whatever for its own sake[end if].";
 
@@ -635,7 +635,7 @@ volume can't go that way notes
 
 table of noways
 noway-rm	noway-txt
-Croots Craving	"[if noun is west]That's the right[else]There's a[end if] direction to go, but you have to figure out why you should go that way and what to follow."
+Croots Cravin	"[if noun is west]That's the right[else]There's a[end if] direction to go, but you have to figure out why you should go that way and what to follow."
 
 volume homonyms
 

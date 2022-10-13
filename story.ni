@@ -40,28 +40,30 @@ after looking in a hubroom:
 	else:
 		say "You can't see it, but you know the [b]RICK RIDE[r] is just out of sight and ready to roll. It's never gonna [one of]give you up[or]let you down[or]run around and desert you[or]make you cry[or]say goodbye[or]tell a lie and hurt you[cycling].";
 
-book Croots Craving
+book Croots Cravin
 
-Croots Craving is a room. the player is in Croots Craving. "[b]BRUTES-BRAVING SUITS SAVING[r] is etched on the ground here.". printed name is "[']Croots-Craving"
+Croots Cravin is a room. printed name is "[']Croots-Cravin[']". "[b]BRUTES-BRAVING SUITS SAVING[r] is etched on the ground here."
 
-guess-table of croots craving is the table of croots craving guesses.
+the player is in Croots Cravin.
 
-the leet learner is a thing in Croots Craving.
+guess-table of croots Cravin is the table of croots Cravin guesses.
+
+the leet learner is a thing in Croots Cravin.
 
 chapter blurring blest purring pest
 
-the blurring blest purring pest is a rhymable in Croots Craving. printed name is "blurring-blest purring pest".
+the blurring blest purring pest is a rhymable in Croots Cravin. printed name is "blurring-blest purring pest".
 
 guess-table of blurring blest purring pest is table of blurring blest purring pest guesses.
 
 from-number of blurring blest purring pest is 11509. to-number of blurring blest purring pest is 5804.
 
-check going west in Croots Craving:
+check going west in Croots Cravin:
 	if sco-whirring-west is false, say "That seems like the right direction, but you'd like a clue. A sound, or something." instead;
 
 book Woe Wall
 
-Woe Wall is west of Croots Craving.
+Woe Wall is west of Croots Cravin.
 
 from-number of woe wall is 5304. to-number of woe wall is 5204.
 
@@ -201,7 +203,7 @@ book hint device stuff
 
 rule for supplying a missing noun when lling (this is the get readings from room rule):
 	say "You scan the area[one of]. This will suffice most of the time, though you may wish to [b]LL[r] a thing that doesn't jibe with its rhymes[or][stopping].";
-	if player is in croots craving:
+	if player is in croots Cravin:
 		say "You get an interesting reading when it flips to the BRUTES BRAVING SUITS SAVING text. The numbers blink from (0.50, 0.50) to (-0.50, -0.50) and back, as if it's clueless what should have been changed from, or to, what.";
 		if sco-whirring-west is false:
 			say "[line break]Perhaps you will get more meaningful information scanning the [pest].";

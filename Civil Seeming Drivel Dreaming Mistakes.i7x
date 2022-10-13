@@ -12,20 +12,24 @@ to current-table-note-x (tn - a table name):
 volume general guesses
 
 table of general good guesses
-mist-cmd(topic)	mist-rule	got-yet	leet-rule	mist-txt
+mist-regex (text)	mist-rule	got-yet	leet-rule	mist-txt
 "ride wrong"	--	false	--	"There is no fourth option for the guide gone, but you do have a chance for a heel turn at game's end."
 "side song"	--	false	--	"This is a no-frills text adventure. No music, no graphics, besides the middling-at-best cover art."
 
 volume room tables
 
-table of croots craving guesses
-mist-cmd(topic)	mist-rule	got-yet	leet-rule	mist-txt
-"coots cavin|caving"	--	false	--	"<CLEVER REJECT TEXT>"
-"hoots haven"	--	false	--	"<CLEVER REJECT TEXT>"
-"moots maven"	--	false	--	"<CLEVER REJECT TEXT>"
-"roots ravin|raving"	--	false	--	"<CLEVER REJECT TEXT>"
-"shoots shaving"	--	false	--	"<CLEVER REJECT TEXT>"
-"whoots|woots wavin|waving"	--	false	--	"<CLEVER REJECT TEXT>"
+table of Croots Cravin guesses
+mist-regex	mist-rule	got-yet	leet-rule	mist-txt
+"coots cavin|caving"	--	false	--	"You will defeat much scarier things than mere coots."
+"hoots haven"	--	false	--	"[i-believe]!"
+"moots maven"	--	false	--	"You will learn many useless things as you progress."
+"newts navin"	--	false	--	"'OH, BOY!' yells an extremely well-meaning gas station attendant. 'THIS GUY REALLY LOVES NEWTS!'"
+"poots pavin"	--	false	--	"You will figure enough silent but deadly things as you go through this adventure."
+"roots ravin|raving"	--	false	--	"[i-believe]!"
+"shoots shavin|shaving"	--	false	--	"There is no need to combine stereotypically masculine activites here."
+"whoots|woots wavin|waving"	--	false	--	"[i-believe]!"
+
+to say i-believe: say "Alas, you have no crowd to support you. But you can get this done! I believe in you"
 
 table of oil inc guesses
 mist-regex	mist-rule	got-yet	leet-rule	mist-txt
@@ -62,8 +66,8 @@ mist-regex	mist-rule	got-yet	leet-rule	mist-txt
 volume for core module compatibility
 
 table of first check rhymes
-mist-cmd(topic)	mist-rule	got-yet	leet-rule	mist-txt
-a topic	a rule	a truth state	a rule	text
+mist-regex	mist-cmd	mist-rule	got-yet	leet-rule	mist-txt
+a text	a topic	a rule	a truth state	a rule	text
 
 Civil Seeming Drivel Dreaming Mistakes ends here.
 

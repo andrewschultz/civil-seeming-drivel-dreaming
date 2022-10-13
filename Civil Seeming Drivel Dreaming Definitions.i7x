@@ -39,7 +39,7 @@ book definitions
 
 definition: a room (called rm) is available-from-here:
 	if rm is unvisited, no;
-	if rm is Croots Craving and player is not in Croots Craving, no;
+	if rm is Croots Cravin and player is not in Croots Cravin, no;
 	if player is in Forfeit Bore Bit, no;
 	if player is in Net, no;
 	yes;
