@@ -62,7 +62,7 @@ TSV:## minimum walkthrough	## walkthrough with all points	## walkthrough with al
 * main-thru
 
 @all
-#testcase-room-names-croots-craving
+#testcase-room-names-croots-cravin
 /^Croots Craving
 
 @!min
@@ -115,10 +115,12 @@ However, it's really dim, as if you don't need to do or think whatever there is 
 @all
 ##balance undos
 #testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
+#testcase-run-vr-whirring-west-rule-default
 >whirring west
 Ah, yes! You identify where the noise is coming from and what it is. You see a way out now. Perhaps there is a bit more you can do to show off, but you don't need to.
 The blurring-blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
 \\
+#testcase-run-vr-turing-test-rule-default
 >turing test
 You think up questions to ask the blurring-blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down.
 The blurring-blest purring pest, its job (so to speak) done, disappears with a pop.
@@ -135,11 +137,12 @@ The blurring-blest purring pest, its job (so to speak) done, disappears with a p
 
 @all
 #+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
+#+testcase-run-vr-turing-test-rule-default
 You think up questions to ask the blurring-blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down. You still don't have a way out of here, but maybe the pest can he;lp with that, too.
 The blurring-blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
 
 @rej
-#testcase-check-vc-turing-test-rule-if-pest-is-moot
+#testcase-check-vc-turing-test-rule-if-sco-turing-test-is-true
 >turing test
 You perform a Turing Test on yourself, since you already administered one to the blurring-blest purring pest. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
@@ -216,6 +219,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 {$REJECT2}
 \\
 #testcase-reject-start-table-of-verb-checks-vr-oh-all-rule
+#testcase-check-vc-oh-all-rule-if-player-is-not-in-woe-wall
 >oh all
 {$REJECT2}
 \\
@@ -290,6 +294,7 @@ by one point
 @all,rej
 {--rej}#testcase-check-vc-turing-test-rule-fallthrough
 {--rej}#testcase-check-vc-whirring-west-rule-fallthrough
+{--all}#+testcase-run-vr-whirring-west-rule-default
 {--all}#testcase-run-vr-whirring-west-rule-fallthrough
 {--all}#testcase-run-vr-turing-test-rule-fallthrough
 {--all}#+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
@@ -310,12 +315,12 @@ Your rhyming attempts bring up nothing.
 #####################this is just testing general rejects that would succeed in croots craving
 ====alphabetize on
 #testcase-reject-start-table-of-verb-checks-vr-whirring-west-rule
-#testcase-check-vc-turing-test-rule-unless-player-is-in-croots-craving
+#testcase-check-vc-turing-test-rule-unless-player-is-in-croots-cravin
 >turing test
 {$REJECT2}
 \\
 #testcase-reject-start-table-of-verb-checks-vr-turing-test-rule
-#testcase-check-vc-whirring-west-rule-unless-player-is-in-croots-craving
+#testcase-check-vc-whirring-west-rule-unless-player-is-in-croots-cravin
 >whirring west
 {$REJECT2}
 
@@ -414,7 +419,7 @@ There's no fight that needs a rallying cry yet.
 >mo maul
 There's no fight that needs a rallying cry yet.
 \\
-#testcase-check-vc-oh-all-rule-abide-by-the-pre-wall-fight-rule
+#testcase-check-vc-oh-all-rule-if-hubs-solved-<-4
 >oh all
 There's nothing urgent enough to bring everyone together from behind the Woe Wall.
 \\
@@ -500,11 +505,11 @@ You can TICK TIDE once you've made the slick slide navigable.
 >tick ztied
 {$YELLOWCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-10-rick
+#testcase-ha-half-table-of-verb-checks-24-rick
 >zrick ride
 {$YELLOWCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-10-ride
+#testcase-ha-half-table-of-verb-checks-24-ride
 >rick zride
 {$YELLOWCORE}
 
@@ -521,6 +526,7 @@ Aha! You see what was wrong with the slick slide. You see what to do. It's so tr
 >trick tried
 There was only one trick needed to get the slick slide to work.
 \\
+#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall
 >rick ride
 That would be a great way to get back here, once you've found a way down the slick slide.
 \\
@@ -641,19 +647,19 @@ You can summon CLONING CLAY once
 are more worth cloning.
 
 @ha
-#testcase-ha-half-table-of-verb-checks-13-eh
+#testcase-ha-half-table-of-verb-checks-12-eh
 >owning zeh
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-13-owning
+#testcase-ha-half-table-of-verb-checks-12-owning
 >zowning eh
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-14-clay
+#testcase-ha-half-table-of-verb-checks-13-clay
 >cloning zclay
 {$YELLOWCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-14-cloning
+#testcase-ha-half-table-of-verb-checks-13-cloning
 >zcloning clay
 {$YELLOWCORE}
 
@@ -771,27 +777,27 @@ You haven't done enough to summon three people, yet!
 You can summon the THRIVE THREE once Five-Fee-Contrive Country thrives three ways.
 
 @ha
-#testcase-ha-half-table-of-verb-checks-16-gee
+#testcase-ha-half-table-of-verb-checks-15-gee
 >jive zgee
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-16-jive
+#testcase-ha-half-table-of-verb-checks-15-jive
 >zjive gee
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-18-three
+#testcase-ha-half-table-of-verb-checks-17-three
 >thrive zthree
 {$YELLOWCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-18-thrive
+#testcase-ha-half-table-of-verb-checks-17-thrive
 >zthrive three
 {$YELLOWCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-19-we
+#testcase-ha-half-table-of-verb-checks-18-we
 >whyve zwe
 {$YELLOWCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-19-whyve
+#testcase-ha-half-table-of-verb-checks-18-whyve
 >zwhyve we
 {$YELLOWCORE}
 
@@ -939,43 +945,43 @@ by one point
 You figure there must be sickness to stamp out. There always is. The process of doing so is at least as important as the physical help.
 
 @ha
-#testcase-ha-half-table-of-verb-checks-20-brink
+#testcase-ha-half-table-of-verb-checks-19-brink
 >broil zbrink
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-20-broil
+#testcase-ha-half-table-of-verb-checks-19-broil
 >zbroil brink
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-21-link
->loyal zlink
+#testcase-ha-half-table-of-verb-checks-20-moil
+>zmoil mink
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-21-loyal
->zloyal link
+#testcase-ha-half-table-of-verb-checks-20-mink
+>moil zmink
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-22-rink
+#testcase-ha-half-table-of-verb-checks-21-rink
 >royal zrink
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-22-royal
+#testcase-ha-half-table-of-verb-checks-21-royal
 >zroyal rink
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-23-sink
+#testcase-ha-half-table-of-verb-checks-22-sink
 >soil zsink
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-23-soil
+#testcase-ha-half-table-of-verb-checks-22-soil
 >zsoil sink
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-24-fink
+#testcase-ha-half-table-of-verb-checks-23-fink
 >foil zfink
 {$YELLOWCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-24-foil
+#testcase-ha-half-table-of-verb-checks-23-foil
 >zfoil fink
 {$YELLOWCORE}
 
@@ -1074,11 +1080,11 @@ Already done. There must be another way to gain allies or weaken Oil, Inc.
 You can FOIL FINK now Oil, Inc. is weak enough and you've gained enough support.
 
 @ha
-#+testcase-ha-half-table-of-verb-checks-24-fink
+#+testcase-ha-half-table-of-verb-checks-23-fink
 >foil zfink
 {$GREENCORE}
 \\
-#+testcase-ha-half-table-of-verb-checks-24-foil
+#+testcase-ha-half-table-of-verb-checks-23-foil
 >zfoil fink
 {$GREENCORE}
 
@@ -1182,19 +1188,19 @@ You have no target at which to pitch a pie, yet.
 You can ask for a PIE PITCH once there's someone or something evil as a target.
 
 @ha
-#testcase-ha-half-table-of-verb-checks-11-lich
+#testcase-ha-half-table-of-verb-checks-10-lich
 >lie zlich
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-11-lie
+#testcase-ha-half-table-of-verb-checks-10-lie
 >zlie lich
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-12-pie
+#testcase-ha-half-table-of-verb-checks-11-pie
 >zpie pitch
 {$YELLOWCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-12-pitch
+#testcase-ha-half-table-of-verb-checks-11-pitch
 >pie zpitch
 {$YELLOWCORE}
 

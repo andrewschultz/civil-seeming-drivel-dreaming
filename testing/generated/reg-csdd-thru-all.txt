@@ -8,7 +8,7 @@
 
 * main-thru
 
-#testcase-room-names-croots-craving
+#testcase-room-names-croots-cravin
 /^Croots Craving
 
 >take learner
@@ -17,10 +17,12 @@ Taken.
 >au 2
 
 #testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
+#testcase-run-vr-whirring-west-rule-default
 >whirring west
 Ah, yes! You identify where the noise is coming from and what it is. You see a way out now. Perhaps there is a bit more you can do to show off, but you don't need to.
 The blurring-blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
 
+#testcase-run-vr-turing-test-rule-default
 >turing test
 You think up questions to ask the blurring-blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down.
 The blurring-blest purring pest, its job (so to speak) done, disappears with a pop.
@@ -33,12 +35,14 @@ The blurring-blest purring pest, its job (so to speak) done, disappears with a p
 >turing test
 
 #+testcase-run-vr-turing-test-rule-abide-by-the-purring-pest-ping-rule
+#+testcase-run-vr-turing-test-rule-default
 You think up questions to ask the blurring-blest purring pest, and surprisingly, it answers them okay at first, but once you get into detail, it breaks down. You still don't have a way out of here, but maybe the pest can he;lp with that, too.
 The blurring-blest purring pest, pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice, the sort to show advanced intelligence or whatever for its own sake.
 
 >whirring west
 by one point
 
+#+testcase-run-vr-whirring-west-rule-default
 #testcase-run-vr-whirring-west-rule-fallthrough
 #testcase-run-vr-turing-test-rule-fallthrough
 #+testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
