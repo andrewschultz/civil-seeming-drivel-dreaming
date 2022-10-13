@@ -93,7 +93,7 @@ this is the vc-yo-yall rule:
 this is the vr-yo-yall rule:
 	say "Some people pop out from behind the Woe Wall. [paul], their leader, introduces himself to you.";
 	now Po Paul is in Woe Wall;
-	now to-number of woe wall is 5405;
+	woe-all 5405;
 	now sco-yo-yall is true;
 
 this is the vc-stow-stall rule:
@@ -110,7 +110,7 @@ this is the vr-stow-stall rule:
 	say "With the help of [paul], you uncover an area with emergency supplies. It includes ... a slick slide! Everyone patches up the entrance afterwards, because there's lots of other stuff to be stowed for even later.[paragraph break]The slide seems a bit too slick at the moment for travel, though. How to fix it?";
 	now sco-stow-stall is true;
 	move slick slide to woe wall;
-	now to-number of woe wall is -5;
+	woe-all -5;
 
 a goodrhyme rule (this is the vc-trick-tried rule):
 	if slick slide is not fungible, unavailable;
@@ -464,7 +464,7 @@ a goodrhyme rule (this is the vc-war-wit rule):
 
 this is the vr-war-wit rule:
 	now sco-war-wit is true;
-	now to-number of woe wall is 5203;
+	woe-all 5203;
 	say "Yes! You see what to do, now. You make believe you still have the soldier toys and see the right strategy for repelling the enemy. They'll be toast now.";
 	move player to Woe Wall;
 
@@ -528,7 +528,16 @@ to rick-and-slide-check:
 	else:
 		say "You can take the [b]RICK RIDE[r] back now or try to pick up guess points if you want."; [?? what if no guess points left?]
 	declue-here;
-	if hubs-solved is 4 and to-number of woe wall is -5, now to-number of woe wall is 15813;
+	if hubs-solved is 4 and to-number of woe wall is -5, woe-all 15813;
+
+to woe-all (nu - a number):
+	now to-number of woe wall is nu;
+	if nu is -5:
+		now to-number of po paul is -6;
+		now to-number of throw thrall is -6;
+		continue the action;
+	now to-number of po paul is nu;
+	now to-number of throw thrall is nu;
 
 [clay abbreviations]
 
@@ -622,7 +631,6 @@ a roomwarp rule for a room (called myrm) (this is the slide-warp-check rule):
 		vcal "You've already solved that area!";
 		already-done;
 
-
 volume can't go that way notes
 
 table of noways
@@ -638,7 +646,6 @@ a thing	a rule	a topic	a text
 table of room homonyms
 loc	hom-rule (a rule)	myhom (topic)	custom-msg (text)
 woe wall	--	"whoa/whoah"	"You can't quite change woe like that."
-
 
 Civil Seeming Drivel Dreaming Tables ends here.
 
