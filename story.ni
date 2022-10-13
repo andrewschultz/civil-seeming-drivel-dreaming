@@ -107,9 +107,11 @@ book Sigh Sitch
 
 Sigh Sitch is a hubroom. printed name is "[if sco-pie-pitch is false](Sigh) Sitch[else]'Hi!' Hitch[end if]".
 
+guess-table of sigh sitch is the table of sigh sitch guesses.
+
 from-number of sigh sitch is 5405. to-number of sigh sitch is 5304.
 
-first-text of Sigh Sitch is "You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.".
+first-text of Sigh Sitch is "You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.[paragraph break]Of course, you are surrounded on all sides by a Die Ditch.".
 
 retreat-text of Sigh Sitch is "The bad guys can't strike first, but you don't see how to strike, so you retreat."
 
@@ -120,6 +122,10 @@ chapter witch
 The I Itch Why Witch is a person in Sigh Sitch. printed name is "I-Itch-Why Witch".
 
 from-number of i itch why witch is 10409. to-number of i itch why witch is 5304.
+
+chapter ditch
+
+the die ditch is scenery in Sigh Sitch. "It looks very dark and very deadly and very ubiquitous. You probably don't want to go near it."
 
 chapter lich
 
@@ -396,3 +402,17 @@ after reading a command: [ should this be moved to parser errors? ]
 			replace the regular expression "\W(in( the)?)\W" in X with " ";
 			now final-cmd-extra-words is true;
 			change the text of the player's command to X;
+	if player is in sitch and the player's command includes "bitch", abide by the you-deserve-to-lose rule;
+
+this is the you-deserve-to-lose rule:
+	if sco-lie-lich is false:
+		say "'I was waiting for the good guy. You seemed like it. But I guess I was wrong. Obviously someone better will come along.' The [witch] hits you with a painful spell.";
+	else if sco-pie-pitch is false:
+		say "'I thought you were on my side. Pity. You seemed like you had some magic I don't. But I've been fooled before. If the lich kills me, I'm taking you with.' You feel burning throughout your body.";
+	else:
+		say "After muttering this epithet, you're surprised to hear [the witch] again. 'I thought you were the good guy! But honestly. Using someone for your own goals, then talking about them like that behind their backs. Such a shame.' You feel frozen, then torn apart.";
+	say "[line break]'[']Bye, indeed!' you hear, expecting to wake up, but that epithet was not very woke, so you don't.[paragraph break]Can you blame her? I can't.";
+	say "[line break][i][bracket]Your score just went down by [core-score + 100] points.[close bracket][r]";
+	now core-score is -100;
+	force-status;
+	stop game abruptly;

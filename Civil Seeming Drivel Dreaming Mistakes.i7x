@@ -41,6 +41,21 @@ this is the oil-solved rule:
 	if sco-foil-fink is false, the rule succeeds;
 	the rule fails;
 
+guess-table of sigh sitch is the table of sigh sitch guesses.
+
+table of sigh sitch guesses
+mist-regex	mist-rule	got-yet	leet-rule	mist-txt
+"hi|high hitch"	lich-unbeaten rule	false	--	"You won't be able to catch enemies on a high hitch. You may need more action."
+"my mitch"	--	false	--	"You don't know anyone particularly burly named Mitch."
+"nigh niche"	--	false	--	"You find nowhere where you could hide from a perspective enemy or stuff them in there."
+"rye rich"	--	false	--	"You fail to change the scenario into a huge farm."
+"sty stitch"	--	false	--	"You fail to repair a sty or create a war base from which you can hand out stitches."
+"tie|ty titch"	--	false	--	"You must think bigger."
+
+this is the lich-unbeaten rule:
+	if sco-pie-pitch is false, the rule succeeds;
+	the rule fails;
+
 table of woe wall guesses
 mist-regex	mist-rule	got-yet	leet-rule	mist-txt
 "crow crawl"	--	false	--	"Crows that can't fly wouldn't be helpful."
