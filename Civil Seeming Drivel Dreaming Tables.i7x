@@ -31,13 +31,13 @@ table of verb checks
 w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	idid	best-room	check-rule	run-rule	wfull (topic)	think-advice (text)
 "turing"	"test"	"touring"	--	false	false	false	false	Croots Cravin	vc-turing-test rule	vr-turing-test rule	--
 "whirring"	"west"	--	--	false	false	true	false	Croots Cravin	vc-whirring-west rule	vr-whirring-west rule	--
-"yo"	"yall"	--	--	false	false	true	false	Woe Wall	vc-yo-yall rule	vr-yo-yall rule	-- [Woe Wall start]
-"stow"	"stall"	--	--	false	false	true	false	Woe Wall	vc-stow-stall rule	vr-stow-stall rule	--	"You can find the [b]STOW STALL[r] [once-now of vc-stow-stall rule] you've met people familiar with the area."
-"trick"	"tried"	--	--	false	false	true	false	Woe Wall	vc-trick-tried rule	vr-trick-tried rule	--	--
-"hick"	"hide|hied"	--	--	false	false	true	false	Woe Wall	vc-hick-hide rule	vr-hick-hide rule	--	"You can [b]HICK HIDE[r] [slick-nav]."
-"prick"	"pride"	--	--	false	false	true	false	Woe Wall	vc-prick-pride rule	vr-prick-pride rule	--	"You can [b]PRICK PRIDE[r] [slick-nav]."
-"sick"	"side"	"sic/sighed"	--	false	false	true	false	Woe Wall	vc-sick-side rule	vr-sick-side rule	--	"You can [b]SICK SIDE[r] [slick-nav]."
-"tick"	"tide|tied"	--	--	false	false	true	false	Woe Wall	vc-tick-tide rule	vr-tick-tide rule	--	"You can [b]TICK TIDE[r] [slick-nav]."
+"yo"	"yall"	--	--	false	false	true	false	WoeWall	vc-yo-yall rule	vr-yo-yall rule	-- [Woe Wall start]
+"stow"	"stall"	--	--	false	false	true	false	WoeWall	vc-stow-stall rule	vr-stow-stall rule	--	"You can find the [b]STOW STALL[r] [once-now of vc-stow-stall rule] you've met people familiar with the area."
+"trick"	"tried"	--	--	false	false	true	false	WoeWall	vc-trick-tried rule	vr-trick-tried rule	--	--
+"hick"	"hide|hied"	--	--	false	false	true	false	WoeWall	vc-hick-hide rule	vr-hick-hide rule	--	"You can [b]HICK HIDE[r] [slick-nav]."
+"prick"	"pride"	--	--	false	false	true	false	WoeWall	vc-prick-pride rule	vr-prick-pride rule	--	"You can [b]PRICK PRIDE[r] [slick-nav]."
+"sick"	"side"	"sic/sighed"	--	false	false	true	false	WoeWall	vc-sick-side rule	vr-sick-side rule	--	"You can [b]SICK SIDE[r] [slick-nav]."
+"tick"	"tide|tied"	--	--	false	false	true	false	WoeWall	vc-tick-tide rule	vr-tick-tide rule	--	"You can [b]TICK TIDE[r] [slick-nav]."
 "lie"	"lich"	--	--	false	true	true	false	sigh sitch	vc-lie-lich rule	vr-lie-lich rule	--	-- [Sigh Sitch start]
 "pie"	"pitch"	--	--	false	true	true	false	sigh sitch	vc-pie-pitch rule	vr-pie-pitch rule	--	"You can ask for a [b]PIE PITCH[r] [once-now of vc-pie-pitch rule] there's someone or something evil as a target."
 "owning"	"eh"	--	--	false	true	true	false	honing hey	vc-owning-eh rule	vr-owning-eh rule	--	--
@@ -52,11 +52,11 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "royal"	"rink"	--	--	false	true	true	false	oil inc	vc-royal-rink rule	vr-royal-rink rule	--	--
 "soil"	"sink"	--	--	false	true	true	false	oil inc	vc-soil-sink rule	vr-soil-sink rule	--	--
 "foil"	"fink"	--	--	false	true	true	false	oil inc	vc-foil-fink rule	vr-foil-fink rule	--	"You can [b]FOIL FINK[r] [once-now of vc-foil-fink rule] Oil, Inc. is weak enough and you've gained enough support."
-"rick"	"ride"	--	--	false	false	true	false	Woe Wall	vc-rick-ride rule	vr-rick-ride rule	--	"You can take a [b]RICK RIDE[r] [once-now of vc-rick-ride rule] you've taken a trip on the slick slide." [ this is pushed down here as otherwise JERKING JUMP bumps you back to Woe Wall ]
-"foe"	"fall"	--	--	false	true	true	false	woe wall	vc-foe-fall rule	vr-foe-fall rule	--	"You can cry [b]FOE FALL[r] [once-now of vc-foe-fall rule] combat is underway." [ this clearly seems the most intuitive of the 3 options IMHO. Thus, I put it at the top so the Lurking Lump picks it first. ]
-"mo"	"maul"	--	--	false	true	true	false	woe wall	vc-mo-maul rule	vr-mo-maul rule	--	"You can cry [b]MO MAUL[r] [once-now of vc-mo-maul rule] combat is underway."
-"bro"	"brawl"	--	--	false	true	true	false	woe wall	vc-bro-brawl rule	vr-bro-brawl rule	--	"You can cry [b]BRO BRAWL[r] [once-now of vc-bro-brawl rule] combat is underway."
-"oh"	"all"	--	--	false	true	true	false	woe wall	vc-oh-all rule	vr-oh-all rule	--	"You can cry [b]OH ALL[r] [once-now of vc-foe-fall rule] you have full leadership skills."
+"rick"	"ride"	--	--	false	false	true	false	WoeWall	vc-rick-ride rule	vr-rick-ride rule	--	"You can take a [b]RICK RIDE[r] [once-now of vc-rick-ride rule] you've taken a trip on the slick slide." [ this is pushed down here as otherwise JERKING JUMP bumps you back to Woe Wall ]
+"foe"	"fall"	--	--	false	true	true	false	WoeWall	vc-foe-fall rule	vr-foe-fall rule	--	"You can cry [b]FOE FALL[r] [once-now of vc-foe-fall rule] combat is underway." [ this clearly seems the most intuitive of the 3 options IMHO. Thus, I put it at the top so the Lurking Lump picks it first. ]
+"mo"	"maul"	--	--	false	true	true	false	WoeWall	vc-mo-maul rule	vr-mo-maul rule	--	"You can cry [b]MO MAUL[r] [once-now of vc-mo-maul rule] combat is underway."
+"bro"	"brawl"	--	--	false	true	true	false	WoeWall	vc-bro-brawl rule	vr-bro-brawl rule	--	"You can cry [b]BRO BRAWL[r] [once-now of vc-bro-brawl rule] combat is underway."
+"oh"	"all"	--	--	false	true	true	false	WoeWall	vc-oh-all rule	vr-oh-all rule	--	"You can cry [b]OH ALL[r] [once-now of vc-foe-fall rule] you have full leadership skills."
 "core"	"kit"	--	--	false	true	true	false	forfeit bore bit	vc-core-kit rule	vr-core-kit rule	--	--
 "war"	"wit"	--	--	false	true	true	false	forfeit bore bit	vc-war-wit rule	vr-war-wit rule	--	"You can learn [b]WAR WIT[r] [once-now of vc-war-wit rule] you are no longer in the depths of despair."
 "let|fret"	"light|fright"	--	--	false	true	true	false	net in the night	vc-let-light rule	vr-let-light rule	"let light" or "fret fright"	"The final solution is more than two words long. Add words so your action matches the room."
@@ -80,26 +80,26 @@ a goodrhyme rule (this is the vc-whirring-west rule):
 this is the vr-whirring-west rule:
 	say "Ah, yes! You identify where the noise is coming from and what it is. You see a way out now[if sco-turing-test is false]. Perhaps there is a bit more you can do to show off, but you don't need to[end if].";
 	abide by the purring-pest-ping rule;
-	now woe wall is mapped west of Croots Cravin;
-	now Croots Cravin is mapped east of woe wall;
+	now WoeWall is mapped west of Croots Cravin;
+	now Croots Cravin is mapped east of WoeWall;
 	now sco-whirring-west is true;
 	now to-number of blurring blest purring pest is -5604;
 
 this is the vc-yo-yall rule:
-	if player is not in woe wall, unavailable;
+	if player is not in WoeWall, unavailable;
 	if sco-yo-yall is true:
 		vcal "You already made contact behind the wall.";
 		already-done;
 	ready;
 
 this is the vr-yo-yall rule:
-	say "Some people pop out from behind the Woe Wall. [paul], their leader, introduces himself to you.";
-	now Po Paul is in Woe Wall;
+	say "Some people pop out from behind Woe Wall. [paul], their leader, introduces himself to you.";
+	now Po Paul is in WoeWall;
 	woe-all 5405;
 	now sco-yo-yall is true;
 
 this is the vc-stow-stall rule:
-	if player is not in woe wall, unavailable;
+	if player is not in WoeWall, unavailable;
 	if sco-yo-yall is false:
 		vcp "Perhaps there is one buried beyond the wall, but you have nobody to help you look for it.";
 		not-yet;
@@ -111,7 +111,7 @@ this is the vc-stow-stall rule:
 this is the vr-stow-stall rule:
 	say "With the help of [paul], you uncover an area with emergency supplies. It includes ... a slick slide! Everyone patches up the entrance afterwards, because there's lots of other stuff to be stowed for even later.[paragraph break]The slide seems a bit too slick at the moment for travel, though. How to fix it?";
 	now sco-stow-stall is true;
-	move slick slide to woe wall;
+	move slick slide to WoeWall;
 	woe-all -5;
 
 a goodrhyme rule (this is the vc-trick-tried rule):
@@ -387,7 +387,7 @@ a goodrhyme rule (this is the vc-foe-fall rule):
 
 a goodrhyme rule (this is the vc-rick-ride rule):
 	if slick slide is off-stage, unavailable;
-	if player is in Woe Wall:
+	if player is in WoeWall:
 		if hubs-solved is 4:
 			vcal "You can't escape the big fight!";
 			already-done;
@@ -404,10 +404,10 @@ a goodrhyme rule (this is the vc-rick-ride rule):
 this is the vr-rick-ride rule:
 	if sco-rick-ride is false, now to-number of slick slide is spare-slide-num;
 	now sco-rick-ride is true;
-	say "[one of]Yes! That must be the way back! A rick ride rolls up. You only get a brief glimpse of the driver, who is red-headed and wears a double-breasted blue blazer, white pants and white-and-blue striped shirt. He seems tall, with a deep voice. He takes you back to Woe Wall but stays out of sight. You know you'll be together forever, or at least until the end of this adventure.[or]You take the rick ride back to Woe Wall again...[stopping]";
+	say "[one of]Yes! That must be the way back! A rick ride rolls up. You only get a brief glimpse of the driver, who is red-headed and wears a double-breasted blue blazer, white pants and white-and-blue striped shirt. He seems tall, with a deep voice. He takes you back to WoeWall but stays out of sight. You know you'll be together forever, or at least until the end of this adventure.[or]You take the rick ride back to WoeWall again...[stopping]";
 	print-deferral;
-	move player to Woe Wall;
-	move slick slide to Woe Wall;
+	move player to WoeWall;
+	move slick slide to WoeWall;
 
 this is the vr-foe-fall rule:
 	now sco-foe-fall is true;
@@ -427,12 +427,12 @@ this is the vr-mo-maul rule:
 	abide by the big-battle-check rule;
 
 a goodrhyme rule (this is the vc-oh-all rule):
-	if player is not in woe wall, unavailable;
+	if player is not in WoeWall, unavailable;
 	if sco-yo-yall is false:
 		vcp "This would be a way to bring everyone fully together once you have their trust. But there is no everyone to bring together. How to greet them?";
 		not-yet;
 	if hubs-solved < 4:
-		vcp "There's nothing urgent enough to bring everyone together from behind the Woe Wall.";
+		vcp "There's nothing urgent enough to bring everyone together from behind Woe Wall.";
 		not-yet;
 	if forfeit bore bit is unvisited:
 		vcp "You don't feel you have enough leadership skills yet to unite everyone!";
@@ -470,7 +470,7 @@ this is the vr-war-wit rule:
 	now sco-war-wit is true;
 	woe-all 5203;
 	say "Yes! You see what to do, now. You make believe you still have the soldier toys and see the right strategy for repelling the enemy. They'll be toast now.";
-	move player to Woe Wall;
+	move player to WoeWall;
 
 chapter auxiliary rules
 
@@ -484,13 +484,13 @@ this is the purring-pest-ping rule:
 	else:
 		say "The [pest], pushed back a bit, crawls into a corner. Perhaps you can still use it for a bit of practice[if sco-turing-test is false], the sort to show advanced intelligence or whatever for its own sake[end if].";
 
-[woe wall stuff]
+[Woe Wall stuff]
 
 to say slick-nav: say "[if sco-trick-tried is false]once[else]now[end if] you've made the slick slide navigable"
 
 this is the slick-trick rule:
 	if slick slide is off-stage, unavailable;
-	if player is not in woe wall:
+	if player is not in WoeWall:
 		if sco-rick-ride is false and player is not in a hubroom, unavailable;
 	if sco-trick-tried is false:
 		vcp "The slide is so slippery, you can't even get on it to go down it. You'll need to fix that first.";
@@ -532,12 +532,12 @@ to rick-and-slide-check:
 	else:
 		say "You can take the [b]RICK RIDE[r] back now or try to pick up guess points if you want."; [?? what if no guess points left?]
 	declue-here;
-	if hubs-solved is 4 and to-number of woe wall is -5:
-		move throw thrall to woe wall;
+	if hubs-solved is 4 and to-number of WoeWall is -5:
+		move throw thrall to WoeWall;
 		woe-all 15813;
 
 to woe-all (nu - a number):
-	now to-number of woe wall is nu;
+	now to-number of WoeWall is nu;
 	if nu is -5:
 		now to-number of po paul is -6;
 		now to-number of throw thrall is -6;
@@ -577,14 +577,14 @@ to country-down (nu - a number):
 [end fight]
 
 this is the pre-wall-fight rule:
-	if player is not in woe wall, unavailable;
+	if player is not in WoeWall, unavailable;
 	if hubs-solved < 4:
 		vcp "There's no fight that needs a rallying cry yet.";
 		not-yet;
 
 this is the big-battle-check rule:
 	if forfeit bore bit is unvisited:
-		say "Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to the Woe Wall bums.";
+		say "Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to those Woe Wall bums.";
 		repeat through table of verb checks:
 			if check-rule entry is vc-mo-maul rule:
 				if player's command includes "maul", next;
@@ -624,11 +624,11 @@ this is the vr-let-light rule:
 the roomwarp rules are a room based rulebook. the roomwarp rules have outcomes already-done, not-yet and unavailable.
 
 a roomwarp rule for a room (called myrm) (this is the slide-warp-check rule):
-	unless player is in a hubroom or player is in Woe Wall, unavailable;
+	unless player is in a hubroom or player is in WoeWall, unavailable;
 	if player-room-allow-threshold is not nothing-left and to-number of myrm is -3:
 		vcal "You [if player-room-allow-threshold is bonus-left]feel no prod from the pride prong[else]hear the guide gong ring out[end if]. You've already taken care of what you needed there!";
 		already-done;
-	if player is in Woe Wall, make no decision;
+	if player is in WoeWall, make no decision;
 	if player is in a hubroom and in-jerk-jump is true, unavailable;
 	if player is in myrm:
 		vcal "You're already here[if sco-rick-ride is false], and also, you'd need a way to get back to Woe Wall before returning.[else]![end if]";
@@ -641,14 +641,14 @@ volume can't go that way notes
 
 table of noways
 noway-rm	noway-txt
-Bore Bit	"[if sco-core-kit is false]You need to scrounge for materials to get out of here[else]You need to plan before returning to the Woe Wall[end if]."
+Bore Bit	"[if sco-core-kit is false]You need to scrounge for materials to get out of here[else]You need to plan before returning to Woe Wall[end if]."
 Contrive Country	"You don't have time to explore[if clive klee is fungible]. Clive Klee might not let you, anyway[end if]."
 Croots Cravin	"[if sco-whirring-west is true]You already found the way west. It's the only exit[else][croots-dir] direction to go, but you have to figure out why you should go that way and what to follow[end if]."
 Honing Hey	"Trust me, the land beyond is even more miserable."
 Net in the Night	"But you're under a net, here! You're probably not getting out, either."
 Oil Inc	"You don't want to get lost in the [if doyle dink is moot]nice new place you helped blossom. You have a mission[else]urban hellscape Doyle Dink created[end if]."
 Sigh Sitch	"You really don't want to step into the Die Ditch. You [if lie lich is moot]can only return to Woe Wall[else if lie lich is fungible]really need to defeat the Lie Lich you summoned[else]need to figure what [the witch] needs[end if]."
-Woe Wall	"[if slick slide is off-stage]It's too treacherous and dark. Perhaps there are other places to visit via transport[else if throw thrall is in woe wall]You're in the middle of a battle[else]Directions can't take you anywhere. The slick slide, though, can[end if]."
+WoeWall	"[if slick slide is off-stage]It's too treacherous and dark. Perhaps there are other places to visit via transport[else if throw thrall is in WoeWall]You're in the middle of a battle[else]Directions can't take you anywhere. The slick slide, though, can[end if]."
 
 to say croots-dir: say "[if noun is west]That's the right[else]There's a[end if]"
 
@@ -660,7 +660,7 @@ a thing	a rule	a topic	a text
 
 table of room homonyms
 loc	hom-rule (a rule)	myhom (topic)	custom-msg (text)
-woe wall	--	"whoa/whoah"	"You can't quite change woe like that."
+WoeWall	--	"whoa/whoah"	"You can't quite change woe like that."
 
 Civil Seeming Drivel Dreaming Tables ends here.
 

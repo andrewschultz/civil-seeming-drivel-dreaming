@@ -28,7 +28,7 @@ this is the hub-from-to rule:
 	if noun is a hubroom or location of player is a hubroom, say "[if sco-rick-ride is false]You will need to summon transport[else]I'm going to make you take the rick explicitly[end if]." instead;
 
 this is the stuck-right-now rule:
-	if player is in woe wall and throw thrall is in woe wall, say "[list of visited rooms]: You can't skip out on this critical fight!" instead;
+	if player is in WoeWall and throw thrall is in WoeWall, say "You can't skip out on this critical fight!" instead;
 
 this is the flag bad goto from rule:
 	if player is in Forfeit Bore Bit, say "You need to think your way out of here and back to the battlefield." instead;
@@ -70,6 +70,8 @@ to decide which number is hubs-solved: decide on (boolval of sco-whyve-we) + (bo
 to decide which number is country-score: decide on (boolval of sco-ivy) + (boolval of sco-lively) + (boolval of sco-jive-gee);
 
 to decide which number is oil-inc-score: decide on (boolval of sco-broil-brink) + (boolval of sco-moil-mink) + (boolval of sco-royal-rink) + (boolval of sco-soil-sink) + (boolval of sco-foil-fink);
+
+to decide which number is slide-score: decide on (boolval of sco-sick-side) + (boolval of sco-hick-hide) + (boolval of sco-tick-tide) + (boolval of sco-prick-pride);
 
 section mostly VVFF dependent stuff with Dean Duggan
 

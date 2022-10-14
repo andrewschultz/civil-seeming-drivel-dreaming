@@ -70,15 +70,26 @@ from-number of blurring blest purring pest is 11509. to-number of blurring blest
 
 book Woe Wall
 
-Woe Wall is a room.
+WoeWall is a room. printed name is "Woe Wall". "A large woe wall [if sco-yo-yall is false]defends some people against something. They are too scared to come out without a friendly greeting[else if sco-stow-stall is false]must hide something important you haven't found yet[else]has that slide you uncovered next to it[end if]."
 
-from-number of woe wall is 5304. to-number of woe wall is 5204.
+from-number of WoeWall is 5304. to-number of WoeWall is 5204.
 
-guess-table of woe wall is table of woe wall guesses.
+guess-table of WoeWall is table of woe wall guesses.
+
+check going down in woe wall when slick slide is in woe wall:
+	if throw thrall is in woe wall, say "No sneaking out!" instead;
+	let slide-delt be slide-score - hubs-solved;
+	say "Given how the slick slide branches, you'll need to say where[if slide-delt > 1], as you have two areas to clear[else if slide-delt is 1], even though there's only one slide area you opened and need to solve[else]as you haven't explored every slide area yet[end if]." instead;
+
+chapter woe wall
+
+the woe wall is scenery in WoeWall. "It looks stable enough to hold against invaders, for now. You think you hear shifting behind it."
+
+from-number of Woe Wall is 5304. to-number of Woe Wall is 5204.
 
 chapter slick slide
 
-the slick slide is a rhymable. it is scenery.
+the slick slide is a rhymable. it is scenery. "It seems to branch out in the darkness. Four ways, in fact[if sco-trick-tried is false], but it's too gleamy and shiny to go down at the moment[end if].".
 
 from-number of slick slide is 5505. to-number of slick slide is 5505.
 
@@ -94,7 +105,7 @@ from-number of Po Paul is 5204. to-number of Po Paul is 5204.
 
 chapter Throw Thrall
 
-the throw thrall is a plural-named person.
+the throw thrall is a plural-named person. "The throw thrall is fighting with the outnumbered populace of Woe Wall! How to help the good guys?". description is "All manner of evil goons, dead and undead. They have numbers but seem leaderless. If only you found something motivational to say..."
 
 from-number of throw thrall is 5506. to-number of throw thrall is 5204.
 
