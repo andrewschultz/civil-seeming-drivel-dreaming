@@ -425,7 +425,7 @@ by one point
 
 #+testcase-goto-table-of-noways-bore-bit
 >w
-You need to plan before returning to the Woe Wall.
+You need to plan before returning to Woe Wall.
 
 >war wit
 by one point

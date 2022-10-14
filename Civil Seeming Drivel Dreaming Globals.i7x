@@ -58,7 +58,7 @@ sco-let-light is a truth state that varies.
 
 volume variables for cluing and such
 
-hint-trip-room is Croots Cravin.
+hint-trip-room is WoeWall.
 
 Civil Seeming Drivel Dreaming Globals ends here.
 

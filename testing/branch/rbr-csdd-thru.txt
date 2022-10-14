@@ -584,7 +584,7 @@ You can find the STOW STALL now you've met people familiar with the area.
 
 @all
 #testcase-run-vr-yo-yall-rule-default
-Some people pop out from behind the Woe Wall. Po' Paul, their leader, introduces himself to you.
+Some people pop out from behind Woe Wall. Po' Paul, their leader, introduces himself to you.
 
 @rej
 #testcase-check-vc-yo-yall-rule-fallthrough
@@ -640,7 +640,7 @@ There's no fight that needs a rallying cry yet.
 \\
 #testcase-check-vc-oh-all-rule-if-hubs-solved-<-4
 >oh all
-There's nothing urgent enough to bring everyone together from behind the Woe Wall.
+There's nothing urgent enough to bring everyone together from behind Woe Wall.
 \\
 #testcase-think-table-of-verb-checks-vc-bro-brawl-rule
 #testcase-think-table-of-verb-checks-vc-foe-fall-rule
@@ -1322,7 +1322,7 @@ You already asked this critical question successfully!
 You're already here!
 \\
 >tick tide
-You've already solved that area!
+You retreat to a scene of prior success.
 
 @gt
 #+testcase-goto-table-of-noways-contrive-country
@@ -1612,10 +1612,10 @@ You're done here. No need to dwell on past successes.
 You're already here!
 \\
 >hick hide
-You've already solved that area!
+You retreat to a scene of prior success.
 \\
 >tick tide
-You've already solved that area!
+You retreat to a scene of prior success.
 
 >rick ride
 
@@ -1789,13 +1789,13 @@ You already cast the spell to banish the lich!
 You're already here!
 \\
 >hick hide
-You've already solved that area!
+You retreat to a scene of prior success.
 \\
 >sick side
-You've already solved that area!
+You retreat to a scene of prior success.
 \\
 >tick tide
-You've already solved that area!
+You retreat to a scene of prior success.
 
 @gt
 #+testcase-goto-table-of-noways-sigh-sitch
@@ -1829,7 +1829,7 @@ You don't feel you have enough leadership skills yet to unite everyone!
 
 @hin
 >ll slide
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+Nothing comes up. You've changed the slick slide as much as you needed to.
 
 @rej
 #+testcase-think-table-of-verb-checks-vc-bro-brawl-rule
@@ -1928,7 +1928,7 @@ by one point
 {--all}#testcase-run-vr-foe-fall-rule-abide-by-the-big-battle-check-rule
 {--rej}#testcase-check-vc-foe-fall-rule-fallthrough
 You spring a battle cry, simple and effective! While it fails to discuss how the foe can fall, well, it still gives darn-good returns to scale for a measly seven letters.
-Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to the Woe Wall bums.
+Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to those Woe Wall bums.
 
 @all
 #testcase-run-vr-foe-fall-rule-default
@@ -2022,7 +2022,7 @@ You discover a core kit somewhere in the darkness here. It contains a book of af
 @gt
 #+testcase-goto-table-of-noways-bore-bit
 >w
-You need to plan before returning to the Woe Wall.
+You need to plan before returning to Woe Wall.
 
 @rej
 #testcase-check-vc-core-kit-rule-if-sco-core-kit-is-true

@@ -58,7 +58,7 @@ The blurring-blest purring pest, its job (so to speak) done, disappears with a p
 by one point
 
 #testcase-run-vr-yo-yall-rule-default
-Some people pop out from behind the Woe Wall. Po' Paul, their leader, introduces himself to you.
+Some people pop out from behind Woe Wall. Po' Paul, their leader, introduces himself to you.
 
 >stow stall
 by one point
@@ -300,7 +300,7 @@ by one point
 
 #testcase-run-vr-foe-fall-rule-abide-by-the-big-battle-check-rule
 You spring a battle cry, simple and effective! While it fails to discuss how the foe can fall, well, it still gives darn-good returns to scale for a measly seven letters.
-Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to the Woe Wall bums.
+Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to those Woe Wall bums.
 
 #testcase-run-vr-foe-fall-rule-default
 #testcase-room-names-forfeit-bore-bit

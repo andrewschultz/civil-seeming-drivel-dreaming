@@ -245,7 +245,7 @@ by one point
 !by one point
 
 >ll slide
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+Nothing comes up. You've changed the slick slide as much as you needed to.
 
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.33, 0.33.)

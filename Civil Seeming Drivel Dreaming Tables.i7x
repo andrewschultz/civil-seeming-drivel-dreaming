@@ -152,7 +152,7 @@ a goodrhyme rule (this is the vc-sick-side rule):
 	ready;
 
 this is the vr-sick-side rule:
-	if Oil Inc is unvisited, thing-decrease slick slide and 5505;
+	if Oil Inc is unvisited, thing-decrease slick slide and 5404;
 	now sco-sick-side is true;
 	slide-shift Oil Inc;
 
@@ -404,7 +404,7 @@ a goodrhyme rule (this is the vc-rick-ride rule):
 this is the vr-rick-ride rule:
 	if sco-rick-ride is false, now to-number of slick slide is spare-slide-num;
 	now sco-rick-ride is true;
-	say "[one of]Yes! That must be the way back! A rick ride rolls up. You only get a brief glimpse of the driver, who is red-headed and wears a double-breasted blue blazer, white pants and white-and-blue striped shirt. He seems tall, with a deep voice. He takes you back to WoeWall but stays out of sight. You know you'll be together forever, or at least until the end of this adventure.[or]You take the rick ride back to WoeWall again...[stopping]";
+	say "[one of]Yes! That must be the way back! A rick ride rolls up. You only get a brief glimpse of the driver, who is red-headed and wears a double-breasted blue blazer, white pants and white-and-blue striped shirt. He seems tall, with a deep voice. He takes you back to WoeWall but stays out of sight. You know you'll be together forever, or at least until the end of this adventure.[or]You take the rick ride back to Woe Wall again...[stopping]";
 	print-deferral;
 	move player to WoeWall;
 	move slick slide to WoeWall;

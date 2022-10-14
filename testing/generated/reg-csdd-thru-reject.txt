@@ -223,7 +223,7 @@ There's no fight that needs a rallying cry yet.
 
 #testcase-check-vc-oh-all-rule-if-hubs-solved-<-4
 >oh all
-There's nothing urgent enough to bring everyone together from behind the Woe Wall.
+There's nothing urgent enough to bring everyone together from behind Woe Wall.
 
 #testcase-think-table-of-verb-checks-vc-bro-brawl-rule
 #testcase-think-table-of-verb-checks-vc-foe-fall-rule
@@ -442,7 +442,7 @@ You already asked this critical question successfully!
 You're already here!
 
 >tick tide
-You've already solved that area!
+You retreat to a scene of prior success.
 
 >rick ride
 !by one point
@@ -552,10 +552,10 @@ You're done here. No need to dwell on past successes.
 You're already here!
 
 >hick hide
-You've already solved that area!
+You retreat to a scene of prior success.
 
 >tick tide
-You've already solved that area!
+You retreat to a scene of prior success.
 
 >rick ride
 
@@ -603,13 +603,13 @@ You already cast the spell to banish the lich!
 You're already here!
 
 >hick hide
-You've already solved that area!
+You retreat to a scene of prior success.
 
 >sick side
-You've already solved that area!
+You retreat to a scene of prior success.
 
 >tick tide
-You've already solved that area!
+You retreat to a scene of prior success.
 
 >rick ride
 !by one point
@@ -638,7 +638,7 @@ by one point
 
 #testcase-check-vc-foe-fall-rule-fallthrough
 You spring a battle cry, simple and effective! While it fails to discuss how the foe can fall, well, it still gives darn-good returns to scale for a measly seven letters.
-Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to the Woe Wall bums.
+Sadly, your battle cry wasn't enough for a quick victory. You are captured in a tense fight. Your army is still fighting, but your captors discuss how you don't look like much of a leader, this will still obviously be a crushing blow to those Woe Wall bums.
 
 #testcase-check-vc-rick-ride-rule-if-player-is-in-forfeit-or-player-is-in-net-in-the-night
 >rick ride
