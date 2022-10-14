@@ -20,14 +20,20 @@ definition: a direction (called d) is viable:
 	if the room d of location of the player is nowhere, no;
 	yes;
 
-this is the flag bad goto to rule: make no decision;
-	if noun is location of player, say "You're already there! Well, here." instead;
+this is the flag bad goto to rule:
+	if noun is Forfeit Bore Bit, say "You really don't want to go back!" instead;
+	abide by the hub-from-to rule;
+
+this is the hub-from-to rule:
+	if noun is a hubroom or location of player is a hubroom, say "[if sco-rick-ride is false]You will need to summon transport[else]I'm going to make you take the rick explicitly[end if]." instead;
 
 this is the stuck-right-now rule:
-	if player is in Forfeit Bore Bit, say "You need to think your way out of here." instead;
-	if player is in Net in the Night, say "You're stuck!" instead;
+	if player is in woe wall and throw thrall is in woe wall, say "[list of visited rooms]: You can't skip out on this critical fight!" instead;
 
-this is the flag bad goto from rule: make no decision;
+this is the flag bad goto from rule:
+	if player is in Forfeit Bore Bit, say "You need to think your way out of here and back to the battlefield." instead;
+	if player is in Net in the Night, say "There's no going back! There's only escape. There must be a way!" instead;
+	abide by the hub-from-to rule;
 
 volume Common or Universal file lead-ins
 
@@ -39,9 +45,6 @@ book definitions
 
 definition: a room (called rm) is available-from-here:
 	if rm is unvisited, no;
-	if rm is Croots Cravin and player is not in Croots Cravin, no;
-	if player is in Forfeit Bore Bit, no;
-	if player is in Net, no;
 	yes;
 
 book to decide whether

@@ -26,11 +26,87 @@ There's a direction to go, but you have to figure out why you should go that way
 >whirring west
 by one point
 
+#testcase-goto-tries-croots-cravin-croots-cravin
+>gt croots cravin
+You're already there! Well, here.
+
+#testcase-goto-tries-croots-cravin-five-fee-contrive-country
+>gt five fee contrive country
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-croots-cravin-forfeit-bore-bit
+>gt forfeit bore bit
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-croots-cravin-honing-hey-groaning-grey
+>gt honing hey groaning grey
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-croots-cravin-oil-inc
+>gt oil inc
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-croots-cravin-set-in-the-site-net-in-the-night
+>gt set in the site net in the night
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-croots-cravin-sigh-sitch
+>gt sigh sitch
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-croots-cravin-woe-wall
+>gt woe wall
+I couldn't parse that command. You don't need any more than two words long.
+
+>w
+>e
+
+#+testcase-goto-tries-croots-cravin-croots-cravin
+>gt woe wall
+!can't walk
+Woe Wall
+
+>undo
+
 >w
 
 #testcase-goto-table-of-noways-woe-wall
 >w
 It's too treacherous and dark. Perhaps there are other places to visit via transport.
+
+#testcase-goto-tries-woe-wall-croots-cravin
+>gt croots cravin
+'Croots-Cravin'
+!can't walk to
+>undo
+
+#testcase-goto-tries-woe-wall-five-fee-contrive-country
+>gt five fee contrive country
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-woe-wall-forfeit-bore-bit
+>gt forfeit bore bit
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-woe-wall-honing-hey-groaning-grey
+>gt honing hey groaning grey
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-woe-wall-oil-inc
+>gt oil inc
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-woe-wall-set-in-the-site-net-in-the-night
+>gt set in the site net in the night
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-woe-wall-sigh-sitch
+>gt sigh sitch
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-woe-wall-woe-wall
+>gt woe wall
+You're already there! Well, here.
 
 >yo yall
 by one point
@@ -52,6 +128,38 @@ by one point
 >w
 Trust me, the land beyond is even more miserable.
 
+#testcase-goto-tries-honing-hey-groaning-grey-croots-cravin
+>gt croots cravin
+You will need to summon transport.
+
+#testcase-goto-tries-honing-hey-groaning-grey-five-fee-contrive-country
+>gt five fee contrive country
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-honing-hey-groaning-grey-forfeit-bore-bit
+>gt forfeit bore bit
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-honing-hey-groaning-grey-honing-hey-groaning-grey
+>gt honing hey groaning grey
+You're already there! Well, here.
+
+#testcase-goto-tries-honing-hey-groaning-grey-oil-inc
+>gt oil inc
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-honing-hey-groaning-grey-set-in-the-site-net-in-the-night
+>gt set in the site net in the night
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-honing-hey-groaning-grey-sigh-sitch
+>gt sigh sitch
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-honing-hey-groaning-grey-woe-wall
+>gt woe wall
+You will need to summon transport.
+
 >owning eh
 by one point
 
@@ -67,6 +175,40 @@ by one point
 #testcase-goto-table-of-noways-contrive-country
 >w
 You don't have time to explore. Clive Klee might not let you, anyway.
+
+#testcase-goto-tries-five-fee-contrive-country-croots-cravin
+>gt croots cravin
+I'm going to make you take the rick explicitly.
+
+#testcase-goto-tries-five-fee-contrive-country-five-fee-contrive-country
+>gt five fee contrive country
+You're already there! Well, here.
+
+#testcase-goto-tries-five-fee-contrive-country-forfeit-bore-bit
+>gt forfeit bore bit
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-five-fee-contrive-country-honing-hey-groaning-grey
+>gt honing hey groaning grey
+I'm going to make you take the rick explicitly.
+
+>undo
+
+#testcase-goto-tries-five-fee-contrive-country-oil-inc
+>gt oil inc
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-five-fee-contrive-country-set-in-the-site-net-in-the-night
+>gt set in the site net in the night
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-five-fee-contrive-country-sigh-sitch
+>gt sigh sitch
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-five-fee-contrive-country-woe-wall
+>gt woe wall
+I'm going to make you take the rick explicitly.
 
 >ivy
 by one point
@@ -98,6 +240,38 @@ by one point
 >w
 You don't want to get lost in the urban hellscape Doyle Dink created.
 
+#testcase-goto-tries-oil-inc-croots-cravin
+>gt croots cravin
+I'm going to make you take the rick explicitly.
+
+#testcase-goto-tries-oil-inc-five-fee-contrive-country
+>gt five fee contrive country
+I'm going to make you take the rick explicitly.
+
+#testcase-goto-tries-oil-inc-forfeit-bore-bit
+>gt forfeit bore bit
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-oil-inc-honing-hey-groaning-grey
+>gt honing hey groaning grey
+I'm going to make you take the rick explicitly.
+
+#testcase-goto-tries-oil-inc-oil-inc
+>gt oil inc
+You're already there! Well, here.
+
+#testcase-goto-tries-oil-inc-set-in-the-site-net-in-the-night
+>gt set in the site net in the night
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-oil-inc-sigh-sitch
+>gt sigh sitch
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-oil-inc-woe-wall
+>gt woe wall
+I'm going to make you take the rick explicitly.
+
 >royal rink
 by one point
 
@@ -113,10 +287,6 @@ by one point
 >foil fink
 by one point
 
-#+testcase-goto-table-of-noways-oil-inc
->w
-You don't want to get lost in the nice new place you helped blossom. You have a mission.
-
 >rick ride
 
 >prick pride
@@ -125,6 +295,38 @@ by one point
 #testcase-goto-table-of-noways-sigh-sitch
 >w
 You really don't want to step into the Die Ditch. You need to figure what the I-Itch-Why Witch needs.
+
+#testcase-goto-tries-sigh-sitch-croots-cravin
+>gt croots cravin
+I'm going to make you take the rick explicitly.
+
+#testcase-goto-tries-sigh-sitch-five-fee-contrive-country
+>gt five fee contrive country
+I'm going to make you take the rick explicitly.
+
+#testcase-goto-tries-sigh-sitch-forfeit-bore-bit
+>gt forfeit bore bit
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-sigh-sitch-honing-hey-groaning-grey
+>gt honing hey groaning grey
+I'm going to make you take the rick explicitly.
+
+#testcase-goto-tries-sigh-sitch-oil-inc
+>gt oil inc
+I'm going to make you take the rick explicitly.
+
+#testcase-goto-tries-sigh-sitch-set-in-the-site-net-in-the-night
+>gt set in the site net in the night
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-sigh-sitch-sigh-sitch
+>gt sigh sitch
+You're already there! Well, here.
+
+#testcase-goto-tries-sigh-sitch-woe-wall
+>gt woe wall
+I'm going to make you take the rick explicitly.
 
 >lie lich
 by one point
@@ -147,12 +349,76 @@ You really don't want to step into the Die Ditch. You can only return to Woe Wal
 >w
 You're in the middle of a battle.
 
+#+testcase-goto-tries-woe-wall-croots-cravin
+>gt croots cravin
+You can't skip out on this critical fight!
+
+#+testcase-goto-tries-woe-wall-five-fee-contrive-country
+>gt five fee contrive country
+You can't skip out on this critical fight!
+
+#+testcase-goto-tries-woe-wall-forfeit-bore-bit
+>gt forfeit bore bit
+I couldn't parse that command. You don't need any more than two words long.
+
+#+testcase-goto-tries-woe-wall-honing-hey-groaning-grey
+>gt honing hey groaning grey
+You can't skip out on this critical fight!
+
+#+testcase-goto-tries-woe-wall-oil-inc
+>gt oil inc
+You can't skip out on this critical fight!
+
+#+testcase-goto-tries-woe-wall-set-in-the-site-net-in-the-night
+>gt set in the site net in the night
+I couldn't parse that command. You don't need any more than two words long.
+
+#+testcase-goto-tries-woe-wall-sigh-sitch
+>gt sigh sitch
+You can't skip out on this critical fight!
+
+#+testcase-goto-tries-woe-wall-woe-wall
+>gt woe wall
+You're already there! Well, here.
+
 >foe fall
 by one point
 
 #testcase-goto-table-of-noways-bore-bit
 >w
 You need to scrounge for materials to get out of here.
+
+#testcase-goto-tries-forfeit-bore-bit-croots-cravin
+>gt croots cravin
+You need to think your way out of here and back to the battlefield.
+
+#testcase-goto-tries-forfeit-bore-bit-five-fee-contrive-country
+>gt five fee contrive country
+You need to think your way out of here and back to the battlefield.
+
+#testcase-goto-tries-forfeit-bore-bit-forfeit-bore-bit
+>gt forfeit bore bit
+You're already there! Well, here.
+
+#testcase-goto-tries-forfeit-bore-bit-honing-hey-groaning-grey
+>gt honing hey groaning grey
+You need to think your way out of here and back to the battlefield.
+
+#testcase-goto-tries-forfeit-bore-bit-oil-inc
+>gt oil inc
+You need to think your way out of here and back to the battlefield.
+
+#testcase-goto-tries-forfeit-bore-bit-set-in-the-site-net-in-the-night
+>gt set in the site net in the night
+I couldn't parse that command. You don't need any more than two words long.
+
+#testcase-goto-tries-forfeit-bore-bit-sigh-sitch
+>gt sigh sitch
+You need to think your way out of here and back to the battlefield.
+
+#testcase-goto-tries-forfeit-bore-bit-woe-wall
+>gt woe wall
+You need to think your way out of here and back to the battlefield.
 
 >core kit
 by one point
@@ -170,12 +436,48 @@ by one point
 >bro brawl
 by one point
 
+#+testcase-goto-tries-woe-wall-forfeit-bore-bit
+>gt forfeit bore bit
+You can't skip out on this critical fight!
+
 >oh all
 by one point
 
 #testcase-goto-table-of-noways-net-in-the-night
 >w
 But you're under a net, here! You're probably not getting out, either.
+
+#testcase-goto-tries-set-in-the-site-net-in-the-night-croots-cravin
+>gt croots cravin
+There's no going back! There's only escape. There must be a way!
+
+#testcase-goto-tries-set-in-the-site-net-in-the-night-five-fee-contrive-country
+>gt five fee contrive country
+There's no going back! There's only escape. There must be a way!
+
+#testcase-goto-tries-set-in-the-site-net-in-the-night-forfeit-bore-bit
+>gt forfeit bore bit
+There's no going back! There's only escape. There must be a way!
+
+#testcase-goto-tries-set-in-the-site-net-in-the-night-honing-hey-groaning-grey
+>gt honing hey groaning grey
+There's no going back! There's only escape. There must be a way!
+
+#testcase-goto-tries-set-in-the-site-net-in-the-night-oil-inc
+>gt oil inc
+There's no going back! There's only escape. There must be a way!
+
+#testcase-goto-tries-set-in-the-site-net-in-the-night-set-in-the-site-net-in-the-night
+>gt net
+You're already there! Well, here.
+
+#testcase-goto-tries-set-in-the-site-net-in-the-night-sigh-sitch
+>gt sigh sitch
+There's no going back! There's only escape. There must be a way!
+
+#testcase-goto-tries-set-in-the-site-net-in-the-night-woe-wall
+>gt woe wall
+There's no going back! There's only escape. There must be a way!
 
 >let in the light
 by one point

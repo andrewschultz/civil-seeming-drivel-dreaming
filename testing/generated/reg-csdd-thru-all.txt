@@ -345,7 +345,7 @@ by one point
 The simplicity! The universality! It's so simple and universal, several members of the Throw Thrall defect, and several briefly consider attacking themselves! Fortunately, this is not necessary. You learned from your time in the Pore Pit, and you show you're not all sloganeering as you direct the troops this way and that. It's a rout!
 But sadly, you didn't continue the battle cry after the Throw Thrall defections. Their minds unfogged by your charisma, they realize they are close to capturing the leader. So they do. Again. You're thrown to somewhere different this time...
 
-#testcase-room-names-let-in-the-light-net-in-the-night
+#testcase-room-names-set-in-the-site-net-in-the-night
 /^Set-in-the-Site Net in the Night$
 
 #testcase-run-vr-let-light-rule-if-the-player's-command-includes-fright
