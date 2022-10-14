@@ -71,6 +71,16 @@ Taken.
 
 >au 2
 
+@gong
+>guide gong
+(disabling later explanation of GUIDE GONG, etc., but it will still be in VERBS)
+You are now repelled by a guide gong if you try to go down a path where you have nothing game-critical to do in any branches.
+
+@prong
+>pride prong
+(disabling later explanation of GUIDE GONG, etc., but it will still be in VERBS)
+You are now blocked from paths where no branches contain any point-scoring activities, critical or bonus.
+
 @gt
 #testcase-goto-table-of-noways-croots-cravin
 >w
@@ -173,6 +183,21 @@ The blurring-blest purring pest can't be used for self-motivation.
 #ttc-table-of-blurring-blest-purring-pest-guesses-stirrings-test
 >stirrings test
 The blurring-blest purring pest can't be used for self-motivation.
+
+@gong,prong
+##balance undos
+>whirring west
+by one point
+\\
+>w
+\\
+>e
+{--gong}A guide gong rings to notify you that you don't need to go back through 'Croots-Cravin'.
+{--prong}The pride-prong you summoned earlier pokes you to go and see what's ahead, even if it might not be critical to your quest.
+\\
+>undo
+>undo
+>undo
 
 @hin
 >ll pest
@@ -427,6 +452,10 @@ Woe Wall
 >undo
 
 >w
+
+@prong,gong
+>e
+A guide gong rings to notify you that you don't need to go back through 'Croots-Cravin'.
 
 @all
 #testcase-room-names-woe-wall
@@ -761,6 +790,30 @@ That would be a great way to get back here, once you've found a way down the sli
 >think
 You can take a RICK RIDE once you've taken a trip on the slick slide.
 
+@prong,gong
+##balance undos
+>prick pride
+by one point
+\\
+>lie lich
+by one point
+\\
+>pie pitch
+by one point
+\\
+>rick ride
+by one point
+\\
+>prick pride
+{--gong}You hear the guide gong ring out. You've already taken care of what you needed there!
+{--prong}You feel no prod from the pride prong. You've already taken care of what you needed there!
+\\
+>undo
+>undo
+>undo
+>undo
+>undo
+
 @all
 ##balance undos
 >sick side
@@ -1043,6 +1096,11 @@ Woe Wall
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, -0.66.)
 
+@prong,gong
+>tick tide
+{--prong}You feel no prod from the pride prong. You've already taken care of what you needed there!
+{--gong}You hear the guide gong ring out. You've already taken care of what you needed there!
+
 >hick hide
 by one point
 
@@ -1281,6 +1339,11 @@ Woe Wall
 @hin
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+
+@prong,gong
+>hick hide
+{--prong}You feel no prod from the pride prong. You've already taken care of what you needed there!
+{--gong}You hear the guide gong ring out. You've already taken care of what you needed there!
 
 >sick side
 by one point
@@ -1555,6 +1618,11 @@ You've already solved that area!
 You've already solved that area!
 
 >rick ride
+
+@prong,gong
+>sick side
+{--prong}You feel no prod from the pride prong. You've already taken care of what you needed there!
+{--gong}You hear the guide gong ring out. You've already taken care of what you needed there!
 
 >prick pride
 by one point

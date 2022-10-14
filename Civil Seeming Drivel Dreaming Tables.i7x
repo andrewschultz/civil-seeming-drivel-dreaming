@@ -502,7 +502,6 @@ to print-deferral: if location of player is a hubroom and to-number of location 
 
 to slide-shift (rm - a hubroom):
 	print-deferral;
-	if sco-rick-ride is false, move slick slide to rm;
 	say "[line break]";
 	if rm is unvisited:
 		say "[first-text of rm]";
@@ -511,6 +510,7 @@ to slide-shift (rm - a hubroom):
 	else:
 		say "[second-text of rm]";
 	say "[line break]";
+	if sco-rick-ride is false, move slick slide to rm;
 	move player to rm;
 
 to thing-decrease (th - a thing) and (nu - a number):
@@ -624,8 +624,11 @@ this is the vr-let-light rule:
 the roomwarp rules are a room based rulebook. the roomwarp rules have outcomes already-done, not-yet and unavailable.
 
 a roomwarp rule for a room (called myrm) (this is the slide-warp-check rule):
+	unless player is in a hubroom or player is in Woe Wall, unavailable;
+	if player-room-allow-threshold is not nothing-left and to-number of myrm is -3:
+		vcal "You [if player-room-allow-threshold is bonus-left]feel no prod from the pride prong[else]hear the guide gong ring out[end if]. You've already taken care of what you needed there!";
+		already-done;
 	if player is in Woe Wall, make no decision;
-	unless player is in a hubroom, unavailable;
 	if player is in a hubroom and in-jerk-jump is true, unavailable;
 	if player is in myrm:
 		vcal "You're already here[if sco-rick-ride is false], and also, you'd need a way to get back to Woe Wall before returning.[else]![end if]";
@@ -633,9 +636,6 @@ a roomwarp rule for a room (called myrm) (this is the slide-warp-check rule):
 	if sco-rick-ride is false:
 		vcp "You'll need to find transport back to Woe Wall first to take the slide there.";
 		not-yet;
-	if to-number of myrm is -3:
-		vcal "You've already solved that area!";
-		already-done;
 
 volume can't go that way notes
 
@@ -643,12 +643,14 @@ table of noways
 noway-rm	noway-txt
 Bore Bit	"[if sco-core-kit is false]You need to scrounge for materials to get out of here[else]You need to plan before returning to the Woe Wall[end if]."
 Contrive Country	"You don't have time to explore[if clive klee is fungible]. Clive Klee might not let you, anyway[end if]."
-Croots Cravin	"[if noun is west]That's the right[else]There's a[end if] direction to go, but you have to figure out why you should go that way and what to follow."
+Croots Cravin	"[if sco-whirring-west is true]You already found the way west. It's the only exit[else][croots-dir] direction to go, but you have to figure out why you should go that way and what to follow[end if]."
 Honing Hey	"Trust me, the land beyond is even more miserable."
 Net in the Night	"But you're under a net, here! You're probably not getting out, either."
 Oil Inc	"You don't want to get lost in the [if doyle dink is moot]nice new place you helped blossom. You have a mission[else]urban hellscape Doyle Dink created[end if]."
 Sigh Sitch	"You really don't want to step into the Die Ditch. You [if lie lich is moot]can only return to Woe Wall[else if lie lich is fungible]really need to defeat the Lie Lich you summoned[else]need to figure what [the witch] needs[end if]."
 Woe Wall	"[if slick slide is off-stage]It's too treacherous and dark. Perhaps there are other places to visit via transport[else if throw thrall is in woe wall]You're in the middle of a battle[else]Directions can't take you anywhere. The slick slide, though, can[end if]."
+
+to say croots-dir: say "[if noun is west]That's the right[else]There's a[end if]"
 
 volume homonyms
 

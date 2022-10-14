@@ -76,8 +76,6 @@ from-number of woe wall is 5304. to-number of woe wall is 5204.
 
 guess-table of woe wall is table of woe wall guesses.
 
-check going east in Woe Wall: say "There's no way back to [Croots]." instead;
-
 chapter slick slide
 
 the slick slide is a rhymable. it is scenery.
@@ -239,6 +237,15 @@ report lling Clive Klee:
 	note-odd-display;
 
 book actual hints
+
+volume gong rules and verbs ( see common file for gong core code)
+
+this-gong-rule of croots cravin is gong-cravin rule.
+
+this is the gong-cravin rule:
+	if sco-whirring-west is false, uncompleted;
+	if sco-turing-test is false, llp-remaining;
+	completed;
 
 volume subverting verbs
 

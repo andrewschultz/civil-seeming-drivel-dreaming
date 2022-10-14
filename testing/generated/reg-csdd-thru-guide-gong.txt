@@ -1,0 +1,166 @@
+## reg-csdd-thru-guide-gong.txt
+## GENERATOR FILE: rbr-csdd-thru.txt
+
+## walkthrough testing guide gong
+
+** game: /home/andrew/prt/debug-civil-seeming-drivel-dreaming.z8
+** interpreter: /home/andrew/prt/dfrotz -m -w5000 -h25
+
+* main-thru
+
+>take learner
+Taken.
+
+>au 2
+
+>guide gong
+(disabling later explanation of GUIDE GONG, etc., but it will still be in VERBS)
+You are now repelled by a guide gong if you try to go down a path where you have nothing game-critical to do in any branches.
+
+>whirring west
+by one point
+
+>w
+
+>e
+A guide gong rings to notify you that you don't need to go back through 'Croots-Cravin'.
+
+>undo
+>undo
+>undo
+
+>turing test
+
+>whirring west
+by one point
+
+>w
+
+>e
+A guide gong rings to notify you that you don't need to go back through 'Croots-Cravin'.
+
+>yo yall
+by one point
+
+>stow stall
+by one point
+
+>trick tried
+by one point
+
+>prick pride
+by one point
+
+>lie lich
+by one point
+
+>pie pitch
+by one point
+
+>rick ride
+by one point
+
+>prick pride
+You hear the guide gong ring out. You've already taken care of what you needed there!
+
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+
+>owning eh
+by one point
+
+>cloning clay
+by one point
+
+>rick ride
+by one point
+
+>tick tide
+You hear the guide gong ring out. You've already taken care of what you needed there!
+
+>hick hide
+by one point
+
+>ivy
+by one point
+
+>lively
+by one point
+
+>jive gee
+by one point
+
+>thrive three
+by one point
+
+>whyve we
+by one point
+
+>rick ride
+!by one point
+
+>hick hide
+You hear the guide gong ring out. You've already taken care of what you needed there!
+
+>sick side
+by one point
+
+>royal rink
+by one point
+
+>soil sink
+by one point
+
+>broil brink
+by one point
+
+>moil mink
+by one point
+
+>foil fink
+by one point
+
+>rick ride
+
+>sick side
+You hear the guide gong ring out. You've already taken care of what you needed there!
+
+>prick pride
+by one point
+
+>lie lich
+by one point
+
+>pie pitch
+by one point
+
+>rick ride
+!by one point
+
+>foe fall
+by one point
+
+>core kit
+by one point
+
+>war wit
+by one point
+
+>mo maul
+by one point
+
+>bro brawl
+by one point
+
+>oh all
+by one point
+
+>let in the light
+by one point
+

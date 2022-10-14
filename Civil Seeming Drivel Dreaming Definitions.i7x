@@ -57,6 +57,10 @@ to decide whether rhyme-mechanism-known:
 	if current-score > 0, yes;
 	no;
 
+to decide whether (r1 - a room) and (r2 - a room) are gong-adjacent:
+	if r1 is adjacent to r2, yes;
+	no;
+
 book to decide what/which number
 
 to decide which number is pest-score: decide on (boolval of sco-whirring-west) + (boolval of sco-turing-test);
