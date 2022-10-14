@@ -39,7 +39,7 @@ to say i-believe: say "Alas, you have no crowd to support you. But you can get t
 
 table of honing hey guesses
 mist-regex(topic)	mist-rule	got-yet	leet-rule	mist-txt
-"boning bay"	--	false	--	"Well, that might give thrills but not lasting happiness."
+"boning bay"	--	false	--	"Learning to clean fish so people don't choke on the bones might give thrills but not lasting happiness."
 "loaning lay|ley"	--	false	--	"You don't need a supernatural lender or backer. You can do this on your own!"
 "phoning fey|fay"	--	false	--	"If there is a fey area, you'll be able to communicate much more telepathically."
 "stoning stay"	--	false	--	"This [if sco-owning-eh is false]is[else]was[end if] only a place for verbal brutality, not physical."

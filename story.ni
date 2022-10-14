@@ -134,6 +134,8 @@ book Honing Hey Groaning Grey
 
 Honing Hey Groaning Grey is a hubroom. printed name is "[if sco-cloning-clay is false]Honing (Hey) Groaning, Grey[else]Koan-ing, [']K?[end if]".
 
+guess-table of honing hey is the table of honing hey guesses.
+
 from-number of honing hey groaning grey is 11407. to-number of honing hey groaning grey is 5602.
 
 Moaning Mae is a person in Honing Hey.
@@ -153,6 +155,8 @@ second-text of Honing Hey is "You feel more positive. This time, you'll help [mm
 book Five Fee Contrive Country
 
 Five Fee Contrive Country is a hubroom. printed name is "[if sco-whyve-we is false]Five-Fee-Contrive Country[else]Strives Tree[end if]".
+
+guess-table of contrive country is the table of contrive country guesses.
 
 first-text of Contrive Country is "You dream of sticking it to elitists who look down on rural types as you take the slick slide. And what do you know? You find such a person, at the end!";
 
