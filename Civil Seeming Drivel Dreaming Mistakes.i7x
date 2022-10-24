@@ -69,7 +69,7 @@ this is the lich-unbeaten rule:
 	if sco-pie-pitch is false, the rule succeeds;
 	the rule fails;
 
-table of woe wall guesses
+table of woewall guesses
 mist-regex	mist-rule	got-yet	leet-rule	mist-txt
 "crow crawl"	--	false	--	"Crows that can't fly wouldn't be helpful."
 "dough|doe|doh doll"	--	false	--	"Summoning a doll on a night like this can't end well."

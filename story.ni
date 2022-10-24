@@ -74,7 +74,7 @@ WoeWall is a room. printed name is "Woe Wall". "A large woe wall [if sco-yo-yall
 
 from-number of WoeWall is 5304. to-number of WoeWall is 5204.
 
-guess-table of WoeWall is table of woe wall guesses.
+guess-table of WoeWall is table of woewall guesses.
 
 check going down in woe wall when slick slide is in woe wall:
 	if throw thrall is in woe wall, say "No sneaking out!" instead;
