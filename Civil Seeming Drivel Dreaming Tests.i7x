@@ -10,21 +10,21 @@ test r1f with "take ll/turing test/whirring west/w".
 
 test r2 with "yo yall/stow stall/trick tried".
 
-test r3 with "prick pride/lie lich/pie pitch/rick ride".
+test rh1 with "prick pride/lie lich/pie pitch/rick ride".
 
-test r4 with "tick tide/owning eh/cloning clay/rick ride".
+test rh2 with "tick tide/owning eh/cloning clay/rick ride".
 
-test r5 with "hick hide/ivy/lively/jive gee/thrive three/whyve we/rick ride".
+test rh3 with "hick hide/ivy/lively/jive gee/thrive three/whyve we/rick ride".
 
-test r6 with "sick side/moil mink/broil brink/royal rink/soil sink/foil fink/rick ride".
+test rh4 with "sick side/moil mink/broil brink/royal rink/soil sink/foil fink/rick ride".
 
-test r7 with "foe fall/core kit/war wit/oh all/let in the light".
+test r3 with "foe fall/core kit/war wit/oh all/let in the light".
 
-test r7f with "foe fall/core kit/war wit/bro brawl/mo maul/oh all/let in the light".
+test r3f with "foe fall/core kit/war wit/bro brawl/mo maul/oh all/let in the light".
 
-test wb with "test r1/test r2/test r3/test r4/test r5/test r6/test r7".
+test wb with "test r1/test r2/test rh1/test rh2/test rh3/test rh4/test r3".
 
-test wf with "test r1f/test r2/test r3/test r4/test r5/test r6/test r7f".
+test wf with "test r1f/test r2/test rh1/test rh2/test rh3/test rh4/test r3f".
 
 Civil Seeming Drivel Dreaming Tests ends here.
 
