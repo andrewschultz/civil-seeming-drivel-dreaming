@@ -101,7 +101,11 @@ spare-slide-num is a number that varies.
 
 chapter Po' Paul
 
-Po Paul is a person. printed name is "Po['] Paul".
+Po Paul is a person. printed name is "Po['] Paul". "[if hubs-solved is 4]Po['] Paul has risen to the occasion! He is doing what he can to lead both people from behind the Woe Wall and entities you summoned to help[else]Po['] Paul is here, trying not to look hangdog and [entry (hubs-solved + 1) in paul-look-list] succeeding[end if]."
+
+paul-look-list is a list of text variable. paul-look-list is { "in no way", "barely", "somewhat", "almost" }.
+
+description of Po Paul is "[if hubs-solved is 4]Confidently leading his group of charges into action! Everything's moving so fast, you can't tell [the witch] from the moil mink from [mmdd] from Contrive-Country allies.[paragraph break]He's doing the best he can, but he still needs help from you[else]He looks like the least sad of the lot. He gazes hopefully back at you, wondering what more you can do[end if]."
 
 from-number of Po Paul is 5204. to-number of Po Paul is 5204.
 
@@ -453,7 +457,7 @@ this is the you-deserve-to-lose rule:
 		say "'I thought you were on my side. Pity. You seemed like you had some magic I don't. But I've been fooled before. If the lich kills me, I'm taking you with.' You feel burning throughout your body.";
 	else:
 		say "After muttering this epithet, you're surprised to hear [the witch] again. 'I thought you were the good guy! But honestly. Using someone for your own goals, then talking about them like that behind their backs. Such a shame.' You feel frozen, then torn apart.";
-	say "[line break]'[']Bye, indeed!' you hear, expecting to wake up, but that epithet was not very woke, so you don't.[paragraph break]Can you blame her? I can't.";
+	say "[line break]'[']Bye, indeed!' you hear.[paragraph break]After showing how woke you weren't, you still expect to wake up, but you don't.[paragraph break]She didn't even give you the chance to call her sweetie and tell her to relax. How rude!";
 	say "[line break][i][bracket]Your score just went down by [core-score + 100] points.[close bracket][r]";
 	now core-score is -100;
 	force-status;
