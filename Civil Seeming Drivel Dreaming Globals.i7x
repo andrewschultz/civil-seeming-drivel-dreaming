@@ -12,7 +12,9 @@ core-max is 28.
 
 max-bonus is 3.
 
-volume scoring variables
+volume game state variables
+
+chapter scoring variables
 
 sco-turing-test is a truth state that varies.
 sco-whirring-west is a truth state that varies.
@@ -55,6 +57,12 @@ sco-core-kit is a truth state that varies.
 sco-war-wit is a truth state that varies.
 
 sco-let-light is a truth state that varies.
+
+chapter game flags
+
+sigh-sitch-jump is a truth state that varies.
+
+wall-fight-note is a truth state that varies.
 
 volume variables for cluing and such
 

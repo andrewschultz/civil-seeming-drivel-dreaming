@@ -404,7 +404,12 @@ a goodrhyme rule (this is the vc-rick-ride rule):
 this is the vr-rick-ride rule:
 	if sco-rick-ride is false, now to-number of slick slide is spare-slide-num;
 	now sco-rick-ride is true;
-	say "[one of]Yes! That must be the way back! A rick ride rolls up. You only get a brief glimpse of the driver, who is red-headed and wears a double-breasted blue blazer, white pants and white-and-blue striped shirt. He seems tall, with a deep voice. He takes you back to WoeWall but stays out of sight. You know you'll be together forever, or at least until the end of this adventure.[or]You take the rick ride back to Woe Wall again...[stopping]";
+	say "[one of]Yes! That must be the way back! You give a cry for help! A rick ride rolls up. You only get a brief glimpse of the driver, who is red-headed and wears a double-breasted blue blazer, white pants and white-and-blue striped shirt. He seems tall, with a deep voice. You know you'll be together forever, or at least until the end of this adventure. The rick ride leaps into the air, headed back to the Woe Wall, staying out of sight.[or]The rick ride leaps back in the air to Woe Wall again...[stopping]";
+	if player is in Sigh Sitch and sigh-sitch-jump is false:
+		now sigh-sitch-jump is true;
+		say "[line break]Once you leave the Die Ditch, you realize it would take a strong, strong man to execute such a jump...";
+	if wall-fight-note is false and hubs-solved is 4:
+		say "[line break]The enemy has attacked! Po['] Paul is trying his best to organize the citizens of the Woe Wall, along with some of the people you helped along the way. But they need your leadership!";
 	print-deferral;
 	move player to WoeWall;
 	move slick slide to WoeWall;
