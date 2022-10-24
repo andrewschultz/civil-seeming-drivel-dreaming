@@ -27,10 +27,12 @@ include Civil Seeming Drivel Dreaming Tests by Andrew Schultz.
 volume when play begins
 
 when play begins:
-	say "Of course you always save the bad Halloween candy for last. And you only buy it on November 1st. Last year, though, you messed up. You didn't get to the store soon enough![paragraph break]You needed to make space in your cupboard, so you ate it ... too much, in fact. The result was a sugar coma and actual sleep, and a weird dream...";
+	say "Of course you always save the bad Halloween candy for last. You buy your stash on November 1st, when the bargains hit. Last year, though, you messed up. You didn't get to the store soon enough![paragraph break]And now it's close to that time, again. Oh, the mediocre candy you ate to make space in your cupboard! The result was first a sugar coma, then actual sleep, then a weird dream...";
 	wfas;
 
 volume rooms
+
+check going up when player is in a hubroom: say "The slick slide isn't the way back. [if sco-rick-ride is true][b]RICK RIDE[r] it is[else]There must be another way[end if]." instead;
 
 chapter general hubrooms
 
@@ -143,7 +145,7 @@ from-number of lie lich is 5304. to-number of lie lich is 5305.
 
 book Honing Hey Groaning Grey
 
-Honing Hey Groaning Grey is a hubroom. printed name is "[if sco-cloning-clay is false]Honing (Hey) Groaning, Grey[else]Koan-ing, [']K?[end if]".
+Honing Hey Groaning Grey is a hubroom. printed name is "[if sco-cloning-clay is false]Honing (Hey) Groaning, Grey[else]Koan-ing, [']K?[end if]". "[if sco-owning-eh is true]Misery, misery, misery. It pervades everything[else if sco-cloning-clay is false]It's not especially cheery here, but you have a sense you'll be able to do what you need[else]The gray emptiness all around now leaves you satisfied you did what you needed to here[end if]."
 
 guess-table of honing hey is the table of honing hey guesses.
 
