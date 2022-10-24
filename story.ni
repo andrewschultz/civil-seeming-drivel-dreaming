@@ -111,13 +111,13 @@ from-number of throw thrall is 5506. to-number of throw thrall is 5204.
 
 book Sigh Sitch
 
-Sigh Sitch is a hubroom. printed name is "[if sco-pie-pitch is false](Sigh) Sitch[else]'Hi!' Hitch[end if]".
+Sigh Sitch is a hubroom. printed name is "[if sco-pie-pitch is false](Sigh) Sitch[else]'Hi!' Hitch[end if]". "[if sco-pie-pitch is true]Though the [b]DIE[r] ditch is gone, you don't want to go too far afield. There's nothing to do. At least you're safe from enemies[else]A [b]DIE[r] ditch surrounds you on all sides[else if sco-lie-lich is true]Looks like you're stuck in combat here[else]It certainly makes you sigh there's no way out, but at least you don't have to walk through an interminable dream-maze[end if].".
 
 guess-table of sigh sitch is the table of sigh sitch guesses.
 
 from-number of sigh sitch is 5405. to-number of sigh sitch is 5304.
 
-first-text of Sigh Sitch is "You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.[paragraph break]Of course, you are surrounded on all sides by a Die Ditch.".
+first-text of Sigh Sitch is "You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.".
 
 retreat-text of Sigh Sitch is "The bad guys can't strike first, but you don't see how to strike, so you retreat."
 
@@ -125,13 +125,15 @@ second-text of Sigh Sitch is "You and [the witch] should come through this time.
 
 chapter witch
 
-The I Itch Why Witch is a person in Sigh Sitch. printed name is "I-Itch-Why Witch".
+The I Itch Why Witch is a person in Sigh Sitch. printed name is "I-Itch-Why Witch". description is "She looks a bit grumpy but not mean. She'd like an excuse to defeat evil, which would make her less grumpy.". "[one of]'Oh! Hi! I'm an [witch]. Apparently some yet-unnamed evil to defeat lurks nearby, and I know I can, and it knows, too. So I can't summon it. Also, um, yeah, don't say it, eh? Um ... you know. I deserve better.' (She does. Even if she weren't on your side.) 'And please don't tell me to smile more. Defeating bad guys would give me an actual [b]REASON[r] to smile more.'[or]The [witch] waits here for you to [if sco-lie-lich is false]summon an enemy[else]cast a spell to get things started[end if].[stopping]"
 
 from-number of i itch why witch is 10409. to-number of i itch why witch is 5304.
 
 chapter ditch
 
 the die ditch is scenery in Sigh Sitch. "It looks very dark and very deadly and very ubiquitous. You probably don't want to go near it."
+
+from-number of die ditch is 10305. to-number of die ditch is 5304.
 
 chapter lich
 

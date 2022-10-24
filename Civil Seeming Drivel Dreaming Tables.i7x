@@ -174,6 +174,7 @@ a goodrhyme rule (this is the vc-lie-lich rule):
 	ready;
 
 this is the vr-lie-lich rule:
+	now to-number of die ditch is 5305;
 	now to-number of sigh sitch is 5305;
 	now to-number of i itch why witch is 5305;
 	now sco-lie-lich is true;
@@ -196,6 +197,7 @@ this is the vr-pie-pitch rule:
 	now sco-pie-pitch is true;
 	say "Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.";
 	moot lie lich;
+	moot die ditch;
 	rick-and-slide-check;
 
 a goodrhyme rule (this is the vc-owning-eh rule):
