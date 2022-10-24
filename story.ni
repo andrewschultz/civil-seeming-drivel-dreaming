@@ -167,7 +167,26 @@ second-text of Honing Hey is "You feel more positive. This time, you'll help [mm
 
 book Five Fee Contrive Country
 
-Five Fee Contrive Country is a hubroom. printed name is "[if sco-whyve-we is false]Five-Fee-Contrive Country[else]Strives Tree[end if]".
+Five Fee Contrive Country is a hubroom. printed name is "[if sco-whyve-we is false]Five-Fee-Contrive Country[else]Strives Tree[end if]". description is "Everything's just [if sco-whyve-we is true]less[else]so[end if] garish here now[country-vs-oil]."
+
+to say country-vs-oil:
+	if player is in contrive country and oil inc is unvisited, continue the action;
+	if player is in oil inc and contrive country is unvisited, continue the action;
+	say ". The ubercapitalistic [helladj of location of player] hellscape here is in stark contrast to the [helladj of other-hellscape], and you're not sure which is more nightmarish"
+
+to say helladj of (hr - a hubroom):
+	if hr is oil inc:
+		say "dreary";
+	else if hr is contrive country:
+		say "garish";
+	else:
+		say "(dystopian adjective here)"
+
+to decide which room is other-hellscape:
+	if player is in contrive country, decide on oil inc;
+	if player is in contrive country, decide on oil inc;
+	say "(bug in hellscape detection code)";
+	decide on WoeWall;
 
 guess-table of contrive country is the table of contrive country guesses.
 
@@ -191,7 +210,7 @@ the strives tree is scenery. "It's quite tall, and it's a symbol of how not to l
 
 book Oil Inc
 
-Oil Inc is a hubroom. printed name is "[if sco-foil-fink is false]Oil, Inc.[else]Loyal Link[end if]". "Your average run-of-the-mill urban dystopia here. The hypercapitalistic oppression running amok here is so obvious I don't even need to describe it, man. It would just bring everyone down further. But maybe you can change that!"
+Oil Inc is a hubroom. printed name is "[if sco-foil-fink is false]Oil, Inc.[else]Loyal Link[end if]". "[if sco-foil-fink is false]With Oil, Inc. destroyed, there's nothing left to do here.[else]Your average run-of-the-mill extra-depersonalizing urban dystopia here[country-vs-oil]. The corporate oppression is so repressive, it's even expressing my freedom to describe it, man. Maybe you can change that![end if]"
 
 understand "loyal/link" and "loyal link" as oil inc when sco-foil-fink is true.
 
