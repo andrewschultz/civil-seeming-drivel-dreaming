@@ -6,6 +6,12 @@ the story description is "Am (Oh!) Sham-Show".
 
 the story headline is "Prime Pro-Rhyme Row entry 4".
 
+release along with cover art.
+
+release along with a website.
+
+release along with the "parchment" interpreter.
+
 include Trivial Niceties by Andrew Schultz.
 
 include Prime Pro Rhyme Row Common by Andrew Schultz.
@@ -27,7 +33,7 @@ include Civil Seeming Drivel Dreaming Tests by Andrew Schultz.
 volume when play begins
 
 when play begins:
-	say "Of course you always save the bad Halloween candy for last. You buy your stash on November 1st, when the bargains hit. Last year, though, you messed up. You didn't get to the store soon enough![paragraph break]And now it's close to that time, again. Oh, the mediocre candy you ate to make space in your cupboard! The result was first a sugar coma, then actual sleep, then a weird dream...";
+	say "Of course you always save the bad Halloween candy for last. You buy your stash on November 1st, when the bargains hit, right when the stores open. Last year, though, you messed up. You didn't get to the store soon enough! It was a combination of things. You didn't feel like you deserved such great bargains. Perhaps you were ripping off people who might enjoy the candy more--in particular, kids of families who couldn't trick-or-treat so easily or who needed the bargains earlier than you did. What if you got sick of it? Weren't you getting bored of this? Aren't you too old? You'll get enough discounted candy after Christmas, anyway. And so forth.[paragraph break]And now it's close to that time, again. Your fear of missing out has overcome your guilt over pigging out. Oh, the mediocre candy you ate to make space in your cupboard to prepare for this watershed event! The result was first a sugar coma, then actual sleep, then a weird dream...";
 	wfas;
 
 volume rooms
@@ -72,7 +78,7 @@ from-number of blurring blest purring pest is 11509. to-number of blurring blest
 
 book Woe Wall
 
-WoeWall is a room. printed name is "Woe Wall". "A large woe wall [if sco-yo-yall is false]defends some people against something. They are too scared to come out without a friendly greeting[else if sco-stow-stall is false]must hide something important you haven't found yet[else]has that slide you uncovered next to it[end if]."
+WoeWall is a room. printed name is "Woe Wall". "A large woe wall [if sco-yo-yall is false]defends some people against something. They are too scared to come out without a friendly greeting[else if sco-stow-stall is false]must hide something important you haven't found yet[else]has that slide you uncovered next to it[end if].". hint-trip-room is WoeWall.
 
 from-number of WoeWall is 5304. to-number of WoeWall is 5204.
 
@@ -111,7 +117,7 @@ from-number of Po Paul is 5204. to-number of Po Paul is 5204.
 
 chapter Throw Thrall
 
-the throw thrall is a plural-named person. "The throw thrall is fighting with the outnumbered populace of Woe Wall! How to help the good guys?". description is "All manner of evil goons, dead and undead. They have numbers but seem leaderless. If only you found something motivational to say..."
+the throw thrall is a plural-named person. "The throw thrall is fighting with the outnumbered populace of Woe Wall!". description is "All manner of evil goons, dead and undead. They have numbers but seem leaderless and mindless. If only you had something [if forfeit is visited]else [end if]motivational and double-plus-leadershippy to say..."
 
 from-number of throw thrall is 5506. to-number of throw thrall is 5204.
 
@@ -171,7 +177,7 @@ second-text of Honing Hey is "You feel more positive. This time, you'll help [mm
 
 book Five Fee Contrive Country
 
-Five Fee Contrive Country is a hubroom. printed name is "[if sco-whyve-we is false]Five-Fee-Contrive Country[else]Strives Tree[end if]". description is "Everything's just [if sco-whyve-we is true]less[else]so[end if] garish here now[country-vs-oil]."
+Five Fee Contrive Country is a hubroom. printed name is "[if sco-whyve-we is false]Five-Fee-Contrive Country[else]Strives Tree[end if]". description is "[if sco-whyve-we is true]It's much nicer here now, what with the strives tree blooming[else]Everything's just so garish here now, offending your sensibilities somethin['] turrible[country-vs-oil][end if]."
 
 to say country-vs-oil:
 	if player is in contrive country and oil inc is unvisited, continue the action;
@@ -233,6 +239,12 @@ chapter Doyle Dink
 Doyle Dink is a person in Oil Inc. "[one of]A man here introduces himself as Doyle Dink, philanthropist, entrepeneur, etc. He points out this place is all his, and he had to overcome having a stupid name to get it, so if you can't overcome whatever silly things were thrown in your path, you don't deserve much. and you should be impressed with it. Oh, and him, too, if you'd be so kind[or]Doyle Dink seems slightly upset you're not as impressed with his vision of peak capitalism as you should be[stopping]."
 
 from-number of doyle dink is 5504. to-number of doyle dink is 21917.
+
+chapter moil mink
+
+the moil mink is a thing. "The moil mink scurries around here, not quite bothering Doyle Dink enough by itself.". description is "It's big and can obviously mess up the plans of all sorts of cartoonishly evil people who hate animals!"
+
+from-number of moil mink is 5404. to-number of moil mink is 21917.
 
 book Forfeit Bore Bit
 
@@ -457,7 +469,7 @@ this is the you-deserve-to-lose rule:
 		say "'I thought you were on my side. Pity. You seemed like you had some magic I don't. But I've been fooled before. If the lich kills me, I'm taking you with.' You feel burning throughout your body.";
 	else:
 		say "After muttering this epithet, you're surprised to hear [the witch] again. 'I thought you were the good guy! But honestly. Using someone for your own goals, then talking about them like that behind their backs. Such a shame.' You feel frozen, then torn apart.";
-	say "[line break]'[']Bye, indeed!' you hear.[paragraph break]After showing how woke you weren't, you still expect to wake up, but you don't.[paragraph break]She didn't even give you the chance to call her sweetie and tell her to relax. How rude!";
+	say "[line break]'[']Bye, indeed!' you hear.[paragraph break]After showing how woke you weren't, you still expect to wake up, but you don't.[paragraph break]She didn't even give you the chance to call her sweetie and tell her not to get over-emotional. How rude!";
 	say "[line break][i][bracket]Your score just went down by [core-score + 100] points.[close bracket][r]";
 	now core-score is -100;
 	force-status;
