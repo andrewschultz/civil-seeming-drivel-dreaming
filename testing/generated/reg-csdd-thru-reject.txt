@@ -85,7 +85,7 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 #testcase-reject-start-table-of-verb-checks-vr-oh-all-rule
-#testcase-check-vc-oh-all-rule-if-player-is-not-in-woe-wall
+#testcase-check-vc-oh-all-rule-if-player-is-not-in-woewall
 >oh all
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
@@ -120,7 +120,7 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 >soil sink
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
-#testcase-check-vc-stow-stall-rule-if-player-is-not-in-woe-wall
+#testcase-check-vc-stow-stall-rule-if-player-is-not-in-woewall
 #testcase-reject-start-table-of-verb-checks-vr-stow-stall-rule
 >stow stall
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
@@ -149,7 +149,7 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 >whyve we
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
-#testcase-check-vc-yo-yall-rule-if-player-is-not-in-woe-wall
+#testcase-check-vc-yo-yall-rule-if-player-is-not-in-woewall
 #testcase-reject-start-table-of-verb-checks-vr-yo-yall-rule
 >yo yall
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
@@ -271,7 +271,7 @@ Aha! You see what was wrong with the slick slide. You see what to do. It's so tr
 >trick tried
 There was only one trick needed to get the slick slide to work.
 
-#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall
+#testcase-check-vc-rick-ride-rule-if-player-is-in-woewall
 >rick ride
 That would be a great way to get back here, once you've found a way down the slick slide.
 
@@ -351,7 +351,7 @@ You'll need to find transport back to Woe Wall first to take the slide there.
 >rick ride
 by one point
 
-#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall-if-number-of-visited-hubrooms->-0
+#testcase-check-vc-rick-ride-rule-if-player-is-in-woewall-if-number-of-visited-hubrooms->-0
 >rick ride
 The rick ride is only for transport back here.
 
@@ -615,9 +615,9 @@ You retreat to a scene of prior success.
 !by one point
 
 #testcase-check-vc-rick-ride-rule-fallthrough
-You take the rick ride back to Woe Wall again...
+The rick ride leaps back in the air to Woe Wall again...
 
-#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall-if-hubs-solved-is-4
+#testcase-check-vc-rick-ride-rule-if-player-is-in-woewall-if-hubs-solved-is-4
 >rick ride
 You can't escape the big fight!
 

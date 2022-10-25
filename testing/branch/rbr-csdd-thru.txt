@@ -63,7 +63,7 @@ TSV:## minimum walkthrough	## walkthrough with all points	## walkthrough with al
 
 @all
 #testcase-room-names-croots-cravin
-/^'Croots-Cravin'$
+`'Croots-Cravin'
 
 @!min
 >take learner
@@ -459,7 +459,7 @@ A guide gong rings to notify you that you don't need to go back through 'Croots-
 
 @all
 #testcase-room-names-woewall
-/^Woe Wall$
+`Woe Wall
 
 @rej
 #####################this is just testing general rejects that would succeed in croots craving
@@ -897,7 +897,7 @@ by one point
 
 @all
 #testcase-room-names-honing-hey-groaning-grey
-/^Honing \(Hey\) Groaning, Grey$
+`Honing (Hey) Groaning, Grey
 
 @all,rej
 {--rej}#testcase-check-vc-tick-tide-rule-fallthrough
@@ -1044,7 +1044,8 @@ This was only a place for verbal brutality, not physical.
 by one point
 
 @all
-/^Koan-ing, 'K\?$
+#+testcase-room-names-honing-hey-groaning-grey
+`Koan-ing, 'K?
 
 @all,rej
 {--rej}#testcase-check-vc-cloning-clay-rule-fallthrough
@@ -1106,7 +1107,7 @@ by one point
 
 @all
 #testcase-room-names-five-fee-contrive-country
-/^Five-Fee-Contrive Country$
+`Five-Fee-Contrive Country
 
 @all,rej
 {--rej}#testcase-check-vc-hick-hide-rule-fallthrough
@@ -1310,7 +1311,8 @@ by one point
 Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He gives up. If people can't appreciate his small business initiative, he'll go elsewhere! And he does. Where he stood, a Strives Tree sprouts quickly. It feels out of place here, and yet, it doesn't.
 
 @all
-/^Strives Tree$
+#+testcase-room-names-five-fee-contrive-country
+`Strives Tree
 
 @rej
 #testcase-check-vc-whyve-we-rule-if-sco-whyve-we-is-true
@@ -1350,7 +1352,7 @@ by one point
 
 @all
 #testcase-room-names-oil-inc
-/^Oil, Inc\.$
+`Oil, Inc.
 
 @all,rej
 {--rej}#testcase-check-vc-sick-side-rule-fallthrough
@@ -1579,7 +1581,8 @@ Already done. There must be another way to gain allies or weaken Oil, Inc.
 by one point
 
 @all
-/^Loyal Link$
+#+testcase-room-names-oil-inc
+`Loyal Link
 
 @all,rej
 {--rej}#testcase-check-vc-foil-fink-rule-fallthrough
@@ -1639,7 +1642,7 @@ DEBUG: can't see any such thing error.
 
 @all
 #testcase-room-names-sigh-sitch
-/^\(Sigh\) Sitch$
+`(Sigh) Sitch
 
 @all,rej
 {--rej}#testcase-check-vc-prick-pride-rule-fallthrough
@@ -1772,7 +1775,8 @@ You can ask for a PIE PITCH now there's someone or something evil as a target.
 by one point
 
 @all
-/^"Hi!" Hitch$
+#+testcase-room-names-sigh-sitch
+`"Hi!" Hitch
 
 @all,rej
 {--rej}#testcase-check-vc-pie-pitch-rule-fallthrough
@@ -1811,12 +1815,19 @@ You really don't want to step into the Die Ditch. You can only return to Woe Wal
 !by one point
 
 @all
-Woe Wall
+#testcase-run-vr-rick-ride-rule-fallthrough
+#testcase-run-vr-rick-ride-rule-if-player-is-in-sigh-sitch-and-sigh-sitch-jump-is-false
+Once you leave the Die Ditch, you realize it would take a strong, strong man to execute such a jump...
+`Woe Wall
 
 @all,rej
 {--rej}#testcase-check-vc-rick-ride-rule-fallthrough
 {--all}#testcase-run-vr-rick-ride-rule-default
-You take the rick ride back to Woe Wall again...
+The rick ride leaps back in the air to Woe Wall again...
+
+@all
+#testcase-run-vr-rick-ride-rule-if-wall-fight-note-is-false-and-hubs-solved-is-4
+The enemy has attacked! Po' Paul is trying his best to organize the citizens of the Woe Wall, along with some of the people you helped along the way. But they need your leadership!
 
 @rej
 #testcase-check-vc-rick-ride-rule-if-player-is-in-woewall-if-hubs-solved-is-4
@@ -1933,7 +1944,7 @@ Sadly, your battle cry wasn't enough for a quick victory. You are captured in a 
 @all
 #testcase-run-vr-foe-fall-rule-default
 #testcase-room-names-forfeit-bore-bit
-/^"Forfeit, Bore" Bit$
+`"Forfeit, Bore" Bit
 
 @gt
 #testcase-goto-table-of-noways-bore-bit
@@ -2012,7 +2023,7 @@ by one point
 
 @all
 #+testcase-room-names-forfeit-bore-bit
-/^Pore Pit$
+`Pore Pit
 
 @all,rej
 {--rej}#testcase-check-vc-core-kit-rule-fallthrough
@@ -2141,7 +2152,7 @@ But sadly, you didn't continue the battle cry after the Throw Thrall defections.
 
 @all
 #testcase-room-names-set-in-the-site-net-in-the-night
-/^Set-in-the-Site Net in the Night$
+`Set-in-the-Site Net in the Night
 
 @gt
 #testcase-goto-table-of-noways-net-in-the-night

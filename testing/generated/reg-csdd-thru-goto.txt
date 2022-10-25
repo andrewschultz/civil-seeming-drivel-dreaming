@@ -54,7 +54,7 @@ I couldn't parse that command. You don't need any more than two words long.
 >gt sigh sitch
 I couldn't parse that command. You don't need any more than two words long.
 
-#testcase-goto-tries-croots-cravin-woe-wall
+#testcase-goto-tries-croots-cravin-woewall
 >gt woe wall
 I couldn't parse that command. You don't need any more than two words long.
 
@@ -70,41 +70,41 @@ Woe Wall
 
 >w
 
-#testcase-goto-table-of-noways-woe-wall
+#testcase-goto-table-of-noways-woewall
 >w
 It's too treacherous and dark. Perhaps there are other places to visit via transport.
 
-#testcase-goto-tries-woe-wall-croots-cravin
+#testcase-goto-tries-woewall-croots-cravin
 >gt croots cravin
 'Croots-Cravin'
 !can't walk to
 >undo
 
-#testcase-goto-tries-woe-wall-five-fee-contrive-country
+#testcase-goto-tries-woewall-five-fee-contrive-country
 >gt five fee contrive country
 I couldn't parse that command. You don't need any more than two words long.
 
-#testcase-goto-tries-woe-wall-forfeit-bore-bit
+#testcase-goto-tries-woewall-forfeit-bore-bit
 >gt forfeit bore bit
 I couldn't parse that command. You don't need any more than two words long.
 
-#testcase-goto-tries-woe-wall-honing-hey-groaning-grey
+#testcase-goto-tries-woewall-honing-hey-groaning-grey
 >gt honing hey groaning grey
 I couldn't parse that command. You don't need any more than two words long.
 
-#testcase-goto-tries-woe-wall-oil-inc
+#testcase-goto-tries-woewall-oil-inc
 >gt oil inc
 I couldn't parse that command. You don't need any more than two words long.
 
-#testcase-goto-tries-woe-wall-set-in-the-site-net-in-the-night
+#testcase-goto-tries-woewall-set-in-the-site-net-in-the-night
 >gt set in the site net in the night
 I couldn't parse that command. You don't need any more than two words long.
 
-#testcase-goto-tries-woe-wall-sigh-sitch
+#testcase-goto-tries-woewall-sigh-sitch
 >gt sigh sitch
 I couldn't parse that command. You don't need any more than two words long.
 
-#testcase-goto-tries-woe-wall-woe-wall
+#testcase-goto-tries-woewall-woewall
 >gt woe wall
 You're already there! Well, here.
 
@@ -117,7 +117,7 @@ by one point
 >trick tried
 by one point
 
-#+testcase-goto-table-of-noways-woe-wall
+#+testcase-goto-table-of-noways-woewall
 >w
 Directions can't take you anywhere. The slick slide, though, can.
 
@@ -156,7 +156,7 @@ I couldn't parse that command. You don't need any more than two words long.
 >gt sigh sitch
 I couldn't parse that command. You don't need any more than two words long.
 
-#testcase-goto-tries-honing-hey-groaning-grey-woe-wall
+#testcase-goto-tries-honing-hey-groaning-grey-woewall
 >gt woe wall
 You will need to summon transport.
 
@@ -206,7 +206,7 @@ I couldn't parse that command. You don't need any more than two words long.
 >gt sigh sitch
 I couldn't parse that command. You don't need any more than two words long.
 
-#testcase-goto-tries-five-fee-contrive-country-woe-wall
+#testcase-goto-tries-five-fee-contrive-country-woewall
 >gt woe wall
 I'm going to make you take the rick explicitly.
 
@@ -268,7 +268,7 @@ I couldn't parse that command. You don't need any more than two words long.
 >gt sigh sitch
 I couldn't parse that command. You don't need any more than two words long.
 
-#testcase-goto-tries-oil-inc-woe-wall
+#testcase-goto-tries-oil-inc-woewall
 >gt woe wall
 I'm going to make you take the rick explicitly.
 
@@ -324,7 +324,7 @@ I couldn't parse that command. You don't need any more than two words long.
 >gt sigh sitch
 You're already there! Well, here.
 
-#testcase-goto-tries-sigh-sitch-woe-wall
+#testcase-goto-tries-sigh-sitch-woewall
 >gt woe wall
 I'm going to make you take the rick explicitly.
 
@@ -345,39 +345,39 @@ You really don't want to step into the Die Ditch. You can only return to Woe Wal
 >rick ride
 !by one point
 
-#+testcase-goto-table-of-noways-woe-wall
+#+testcase-goto-table-of-noways-woewall
 >w
 You're in the middle of a battle.
 
-#+testcase-goto-tries-woe-wall-croots-cravin
+#+testcase-goto-tries-woewall-croots-cravin
 >gt croots cravin
 You can't skip out on this critical fight!
 
-#+testcase-goto-tries-woe-wall-five-fee-contrive-country
+#+testcase-goto-tries-woewall-five-fee-contrive-country
 >gt five fee contrive country
 You can't skip out on this critical fight!
 
-#+testcase-goto-tries-woe-wall-forfeit-bore-bit
+#+testcase-goto-tries-woewall-forfeit-bore-bit
 >gt forfeit bore bit
 I couldn't parse that command. You don't need any more than two words long.
 
-#+testcase-goto-tries-woe-wall-honing-hey-groaning-grey
+#+testcase-goto-tries-woewall-honing-hey-groaning-grey
 >gt honing hey groaning grey
 You can't skip out on this critical fight!
 
-#+testcase-goto-tries-woe-wall-oil-inc
+#+testcase-goto-tries-woewall-oil-inc
 >gt oil inc
 You can't skip out on this critical fight!
 
-#+testcase-goto-tries-woe-wall-set-in-the-site-net-in-the-night
+#+testcase-goto-tries-woewall-set-in-the-site-net-in-the-night
 >gt set in the site net in the night
 I couldn't parse that command. You don't need any more than two words long.
 
-#+testcase-goto-tries-woe-wall-sigh-sitch
+#+testcase-goto-tries-woewall-sigh-sitch
 >gt sigh sitch
 You can't skip out on this critical fight!
 
-#+testcase-goto-tries-woe-wall-woe-wall
+#+testcase-goto-tries-woewall-woewall
 >gt woe wall
 You're already there! Well, here.
 
@@ -416,7 +416,7 @@ I couldn't parse that command. You don't need any more than two words long.
 >gt sigh sitch
 You need to think your way out of here and back to the battlefield.
 
-#testcase-goto-tries-forfeit-bore-bit-woe-wall
+#testcase-goto-tries-forfeit-bore-bit-woewall
 >gt woe wall
 You need to think your way out of here and back to the battlefield.
 
@@ -436,7 +436,7 @@ by one point
 >bro brawl
 by one point
 
-#+testcase-goto-tries-woe-wall-forfeit-bore-bit
+#+testcase-goto-tries-woewall-forfeit-bore-bit
 >gt forfeit bore bit
 You can't skip out on this critical fight!
 
@@ -475,7 +475,7 @@ You're already there! Well, here.
 >gt sigh sitch
 There's no going back! There's only escape. There must be a way!
 
-#testcase-goto-tries-set-in-the-site-net-in-the-night-woe-wall
+#testcase-goto-tries-set-in-the-site-net-in-the-night-woewall
 >gt woe wall
 There's no going back! There's only escape. There must be a way!
 

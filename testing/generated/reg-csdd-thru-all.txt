@@ -9,7 +9,7 @@
 * main-thru
 
 #testcase-room-names-croots-cravin
-/^'Croots-Cravin'$
+`'Croots-Cravin'
 
 >take learner
 Taken.
@@ -51,8 +51,8 @@ The blurring-blest purring pest, its job (so to speak) done, disappears with a p
 
 >w
 
-#testcase-room-names-woe-wall
-/^Woe Wall$
+#testcase-room-names-woewall
+`Woe Wall
 
 >yo yall
 by one point
@@ -134,7 +134,7 @@ You feel more positive. This time, you'll help
 by one point
 
 #testcase-room-names-honing-hey-groaning-grey
-/^Honing \(Hey\) Groaning, Grey$
+`Honing (Hey) Groaning, Grey
 
 #testcase-run-vr-tick-tide-rule-default
 You're ready to face a whole tide of pestilence. It doesn't seem too bad. But there's a lot of complaining. You don't see any bugs, yet, but you do see two prime suspects.
@@ -150,7 +150,8 @@ You commence a small heart-to-heart with
 >cloning clay
 by one point
 
-/^Koan-ing, 'K\?$
+#+testcase-room-names-honing-hey-groaning-grey
+`Koan-ing, 'K?
 
 #testcase-run-vr-cloning-clay-rule-default
 /You discover some cloning clay, and (Moaning Mae and Droning Dre|Droning Dre and Moaning Mae) spend time pouring their life essence into thousands of tiny golems\. You watch as they both fade, their spirits no longer tormented\. Your work here is done\.
@@ -164,7 +165,7 @@ Woe Wall
 by one point
 
 #testcase-room-names-five-fee-contrive-country
-/^Five-Fee-Contrive Country$
+`Five-Fee-Contrive Country
 
 #testcase-run-vr-hick-hide-rule-default
 You dream of sticking it to elitists who look down on rural types as you take the slick slide. And what do you know? You find such a person, at the end!
@@ -199,7 +200,8 @@ by one point
 #testcase-run-vr-whyve-we-rule-default
 Your questioning, with the Thrive Three's backing, drives Clive Klee over the edge. He gives up. If people can't appreciate his small business initiative, he'll go elsewhere! And he does. Where he stood, a Strives Tree sprouts quickly. It feels out of place here, and yet, it doesn't.
 
-/^Strives Tree$
+#+testcase-room-names-five-fee-contrive-country
+`Strives Tree
 
 >rick ride
 !by one point
@@ -210,7 +212,7 @@ Woe Wall
 by one point
 
 #testcase-room-names-oil-inc
-/^Oil, Inc\.$
+`Oil, Inc.
 
 #testcase-run-vr-sick-side-rule-default
 You figure there must be sickness to stamp out. There always is. The process of doing so is at least as important as the physical help.
@@ -242,7 +244,8 @@ A large mink appears and begins racing around. It looks like it can do damage wh
 >foil fink
 by one point
 
-/^Loyal Link$
+#+testcase-room-names-oil-inc
+`Loyal Link
 
 #testcase-run-vr-foil-fink-rule-default
 You've done enough damage to Doyle Dink and Oil, Inc. that enough people not only support you but also believe it's worth the risk to finish the job. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!
@@ -253,7 +256,7 @@ You've done enough damage to Doyle Dink and Oil, Inc. that enough people not onl
 by one point
 
 #testcase-room-names-sigh-sitch
-/^\(Sigh\) Sitch$
+`(Sigh) Sitch
 
 #testcase-run-vr-prick-pride-rule-default
 You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.
@@ -268,7 +271,8 @@ But that bit about how the most powerful and spectacular spells can't disarm it?
 >pie pitch
 by one point
 
-/^"Hi!" Hitch$
+#+testcase-room-names-sigh-sitch
+`"Hi!" Hitch
 
 #testcase-run-vr-pie-pitch-rule-default
 Ha-ha! You think for a minute and realize that while powerful spells can't affect the lich, silly ones can. And this one does. Quick consultations with the witch lead to a decisive fight. The lich dissolves in a stream of wailing.
@@ -276,10 +280,16 @@ Ha-ha! You think for a minute and realize that while powerful spells can't affec
 >rick ride
 !by one point
 
-Woe Wall
+#testcase-run-vr-rick-ride-rule-fallthrough
+#testcase-run-vr-rick-ride-rule-if-player-is-in-sigh-sitch-and-sigh-sitch-jump-is-false
+Once you leave the Die Ditch, you realize it would take a strong, strong man to execute such a jump...
+`Woe Wall
 
 #testcase-run-vr-rick-ride-rule-default
-You take the rick ride back to Woe Wall again...
+The rick ride leaps back in the air to Woe Wall again...
+
+#testcase-run-vr-rick-ride-rule-if-wall-fight-note-is-false-and-hubs-solved-is-4
+The enemy has attacked! Po' Paul is trying his best to organize the citizens of the Woe Wall, along with some of the people you helped along the way. But they need your leadership!
 
 #testcase-run-vr-bro-brawl-rule-abide-by-the-big-battle-check-rule
 >bro brawl
@@ -304,13 +314,13 @@ Sadly, your battle cry wasn't enough for a quick victory. You are captured in a 
 
 #testcase-run-vr-foe-fall-rule-default
 #testcase-room-names-forfeit-bore-bit
-/^"Forfeit, Bore" Bit$
+`"Forfeit, Bore" Bit
 
 >core kit
 by one point
 
 #+testcase-room-names-forfeit-bore-bit
-/^Pore Pit$
+`Pore Pit
 
 #testcase-run-vr-core-kit-rule-default
 You discover a core kit somewhere in the darkness here. It contains a book of affirmations, some soldier toys to plan strategies and also tools you can use to climb up to somewhere less awful. So you do. But you drop the book in the process. Pity. Some of the ideas would've made you a lot more content once you woke up. That's life!
@@ -346,7 +356,7 @@ The simplicity! The universality! It's so simple and universal, several members 
 But sadly, you didn't continue the battle cry after the Throw Thrall defections. Their minds unfogged by your charisma, they realize they are close to capturing the leader. So they do. Again. You're thrown to somewhere different this time...
 
 #testcase-room-names-set-in-the-site-net-in-the-night
-/^Set-in-the-Site Net in the Night$
+`Set-in-the-Site Net in the Night
 
 #testcase-run-vr-let-light-rule-if-the-player's-command-includes-fright
 >fret in the fright

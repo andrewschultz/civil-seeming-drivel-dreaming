@@ -88,31 +88,31 @@ by one point
 
 >w
 
-#ttc-table-of-woe-wall-guesses-crow-crawl
+#ttc-table-of-woewall-guesses-crow-crawl
 >crow crawl
 Crows that can't fly wouldn't be helpful.
 
-#ttc-table-of-woe-wall-guesses-dough-doe-doh-doll
+#ttc-table-of-woewall-guesses-dough-doe-doh-doll
 >dough doll
 Summoning a doll on a night like this can't end well.
 
-#ttc-table-of-woe-wall-guesses-go-gaul
+#ttc-table-of-woewall-guesses-go-gaul
 >go gaul
 Alas, neither Asterix nor Obelix appears to help you fight.
 
-#ttc-table-of-woe-wall-guesses-ho-hall-haul
+#ttc-table-of-woewall-guesses-ho-hall-haul
 >ho haul
 You don't need to transport anything or build a hall for the woe wall.
 
-#ttc-table-of-woe-wall-guesses-show-shawl
+#ttc-table-of-woewall-guesses-show-shawl
 >show shawl
 No fancy clothes are needed.
 
-#ttc-table-of-woe-wall-guesses-so-saul
+#ttc-table-of-woewall-guesses-so-saul
 >so saul
 You don't need will, and you don't need McGill.
 
-#ttc-table-of-woe-wall-guesses-toe-tall
+#ttc-table-of-woewall-guesses-toe-tall
 >toe tall
 No giant appears to crush anyone.
 
