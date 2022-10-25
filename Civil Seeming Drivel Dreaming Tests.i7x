@@ -26,6 +26,34 @@ test wb with "test r1/test r2/test rh1/test rh2/test rh3/test rh4/test r3".
 
 test wf with "test r1f/test r2/test rh1/test rh2/test rh3/test rh4/test r3f".
 
+volume test commands
+
+chapter stoning
+
+stoning is an action out of world.
+
+understand the command "ston" as something new.
+
+understand "ston" as stoning.
+
+carry out stoning:
+	say "Slide test is [if testing-slide is true]already[else]now[end if] on.";
+	now testing-slide is true;
+	the rule succeeds;
+
+chapter stoffing
+
+stoffing is an action out of world.
+
+understand the command "stoff" as something new.
+
+understand "stoff" as stoffing.
+
+carry out stoffing:
+	say "Slide test is [if testing-slide is true]already[else]now[end if] off.";
+	now testing-slide is false;
+	the rule succeeds;
+
 Civil Seeming Drivel Dreaming Tests ends here.
 
 ---- DOCUMENTATION ----

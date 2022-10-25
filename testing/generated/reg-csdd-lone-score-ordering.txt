@@ -27,8 +27,12 @@ by one point
 >trick tried
 by one point
 
-#>{include} _slick_slide_all
->{include} _slick_slide_1
+>ston
+
+>{include} _slick_slide_all
+#>{include} _slick_slide_1
+
+>stoff
 
 # the path through Sigh Sitch is forced
 
@@ -68,8 +72,8 @@ by one point
 
 >hick hide
 
->{include} _contrive_country_all
-#>{include} _contrive_country_1
+#>{include} _contrive_country_all
+>{include} _contrive_country_1
 
 >rick ride
 !by one point
@@ -84,10 +88,550 @@ by one point
 
 * _slick_slide_all
 
->;test
-Noted.
+#################### hick hide/prick pride/sick side/tick tide start
+#0/1/2/3
+>hick hide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, -0.66.)
+>undo
+
+>prick pride
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>sick side
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>tick tide
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;0132
+>undo
 
 >undo
+>undo
+
+>tick tide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>sick side
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;0213
+>undo
+
+>undo
+>undo
+>undo
+
+>sick side
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+>undo
+
+>prick pride
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>tick tide
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;0231
+>undo
+
+>undo
+>undo
+
+>tick tide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+>undo
+
+>prick pride
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;0312
+>undo
+
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+>undo
+
+>prick pride
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>sick side
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;0321
+>undo
+
+>undo
+>undo
+
+>sick side
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+>undo
+
+>prick pride
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;1023
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>prick pride
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>sick side
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>tick tide
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;1032
+>undo
+
+>undo
+>undo
+
+>tick tide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>sick side
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;1203
+>undo
+
+>undo
+>undo
+>undo
+
+>sick side
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>tick tide
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;1230
+>undo
+
+>undo
+>undo
+
+>tick tide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;1302
+>undo
+
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>sick side
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;1320
+>undo
+
+>undo
+>undo
+
+>sick side
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;2013
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>sick side
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, -0.66.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+>undo
+
+>prick pride
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>tick tide
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;2031
+>undo
+
+>undo
+>undo
+
+>tick tide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+>undo
+
+>prick pride
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;2103
+>undo
+
+>undo
+>undo
+>undo
+
+>prick pride
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>tick tide
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;2130
+>undo
+
+>undo
+>undo
+
+>tick tide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;2301
+>undo
+
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+>undo
+
+>prick pride
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;2310
+>undo
+
+>undo
+>undo
+
+>prick pride
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;3012
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, -0.66.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+>undo
+
+>prick pride
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>sick side
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;3021
+>undo
+
+>undo
+>undo
+
+>sick side
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+>undo
+
+>prick pride
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;3102
+>undo
+
+>undo
+>undo
+>undo
+
+>prick pride
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>sick side
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;3120
+>undo
+
+>undo
+>undo
+
+>sick side
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;3201
+>undo
+
+>undo
+>undo
+>undo
+
+>sick side
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+>undo
+
+>prick pride
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>;3210
+>undo
+
+>undo
+>undo
+
+>prick pride
+by one point
+>ll slide
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>hick hide
+by one point
+>ll slide
+Nothing comes up. You've changed the slick slide as much as you needed to.
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+#################### hick hide/prick pride/sick side/tick tide end
 
 * _slick_slide_1
 

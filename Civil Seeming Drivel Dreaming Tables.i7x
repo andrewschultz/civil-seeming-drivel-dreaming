@@ -513,6 +513,7 @@ to print-deferral: if location of player is a hubroom and to-number of location 
 
 to slide-shift (rm - a hubroom):
 	print-deferral;
+	if testing-slide is true, continue the action;
 	say "[line break]";
 	if rm is unvisited:
 		say "[first-text of rm]";
@@ -527,7 +528,7 @@ to slide-shift (rm - a hubroom):
 to thing-decrease (th - a thing) and (nu - a number):
 	decrease to-number of th by nu;
 	if to-number of th is 0, now to-number of th is -4;
-	if sco-rick-ride is false and th is slick slide:
+	if sco-rick-ride is false and th is slick slide and testing-slide is false:
 		now spare-slide-num is to-number of slick slide;
 		now to-number of slick slide is 5404;
 

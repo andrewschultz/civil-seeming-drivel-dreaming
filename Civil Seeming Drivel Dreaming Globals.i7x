@@ -64,6 +64,10 @@ sigh-sitch-jump is a truth state that varies.
 
 wall-fight-note is a truth state that varies.
 
+chapter testing flags that must be in release
+
+testing-slide is a truth state that varies.
+
 volume variables for cluing and such
 
 hint-trip-room is WoeWall.
