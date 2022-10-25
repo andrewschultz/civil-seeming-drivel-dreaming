@@ -27,8 +27,8 @@ by one point
 >trick tried
 by one point
 
->{include} _slick_slide_all
-#>{include} _slick_slide_1
+#>{include} _slick_slide_all
+>{include} _slick_slide_1
 
 # the path through Sigh Sitch is forced
 
@@ -60,8 +60,8 @@ by one point
 
 >sick side
 
->{include} _oil_inc_all
-#>{include} _oil_inc_1
+#>{include} _oil_inc_all
+>{include} _oil_inc_1
 
 >rick ride
 !by one point
@@ -76,9 +76,6 @@ by one point
 
 >{include} _battle_paths_all
 #>{include} _battle_paths_1
-
->oh all
-by one point
 
 >let in the light
 by one point
@@ -3840,65 +3837,70 @@ by one point
 * _battle_paths_all
 
 #################### bro brawl/core kit/war wit/foe fall/mo maul start
-#0/1/2/3/4
->bro brawl
-and bonus
->ll
-WRONG
+
+>;bfm
 >undo
+
+>bro brawl
+!bonus
+by one point
+"Forfeit, Bore" Bit
 
 >core kit
-and bonus
->ll
-WRONG
->undo
+by one point
 
 >war wit
-and bonus
->ll
-WRONG
->undo
+by one point
 
 >foe fall
 and bonus
+by one point
+
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 >undo
 
 >mo maul
 and bonus
+by one point
+
 >ll
-WRONG
->undo
-
->;01243
->undo
-
->undo
->undo
->undo
-
->mo maul
-and bonus
->ll
-WRONG
->undo
-
->foe fall
-and bonus
->ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 >undo
 
 >oh all
 by one point
 Net in the Night
-
->undo
->;31204
 >undo
 
+>;bmf
 >undo
+
+>undo
+>undo
+
+>mo maul
+and bonus
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>foe fall
+and bonus
+
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+>undo
+
+>oh all
+by one point
+Net in the Night
+>undo
+
+>undo
+>;fbm
+
 >undo
 >undo
 >undo
@@ -3906,68 +3908,66 @@ Net in the Night
 >undo
 
 >foe fall
-and bonus
->ll
-WRONG
->undo
+
+!bonus
+by one point
+"Forfeit, Bore" Bit
 
 >core kit
-and bonus
->ll
-WRONG
->undo
+by one point
 
 >war wit
-and bonus
->ll
-WRONG
->undo
+by one point
 
 >bro brawl
 and bonus
+by one point
+
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 >undo
 
 >mo maul
 and bonus
+by one point
+
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 >undo
 
 >oh all
 by one point
 Net in the Night
-
->undo
->;31240
 >undo
 
+>;fmb
 >undo
+
 >undo
 >undo
 
 >mo maul
+by one point
 and bonus
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 >undo
 
 >bro brawl
+by one point
 and bonus
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 >undo
 
 >oh all
 by one point
 Net in the Night
-
->undo
->;41203
 >undo
 
+>;mbf
 >undo
+
 >undo
 >undo
 >undo
@@ -3975,57 +3975,52 @@ Net in the Night
 >undo
 
 >mo maul
-and bonus
->ll
-WRONG
->undo
+by one point
+!and bonus
 
 >core kit
-and bonus
->ll
-WRONG
->undo
+by one point
 
 >war wit
-and bonus
->ll
-WRONG
->undo
+by one point
 
 >bro brawl
+by one point
 and bonus
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 >undo
 
 >foe fall
+by one point
 and bonus
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 >undo
 
 >oh all
 by one point
 Net in the Night
-
->undo
->;41230
 >undo
 
+>;mfb
 >undo
+
 >undo
 >undo
 
 >foe fall
+by one point
 and bonus
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 >undo
 
 >bro brawl
+by one point
 and bonus
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 >undo
 
 >oh all
@@ -4054,7 +4049,4 @@ by one point
 by one point
 
 >oh all
-by one point
-
->let in the light
 by one point
