@@ -226,7 +226,7 @@ understand "loyal/link" and "loyal link" as oil inc when sco-foil-fink is true.
 
 guess-table of Oil Inc is table of oil inc guesses.
 
-from-number of oil inc is 5303. to-number of oil inc is 21917.
+from-number of oil inc is 5303. to-number of oil inc is 21817.
 
 first-text of oil inc is "You figure there must be sickness to stamp out. There always is. The process of doing so is at least as important as the physical help."
 
@@ -238,13 +238,13 @@ chapter Doyle Dink
 
 Doyle Dink is a person in Oil Inc. "[one of]A man here introduces himself as Doyle Dink, philanthropist, entrepeneur, etc. He points out this place is all his, and he had to overcome having a stupid name to get it, so if you can't overcome whatever silly things were thrown in your path, you don't deserve much. and you should be impressed with it. Oh, and him, too, if you'd be so kind[or]Doyle Dink seems slightly upset you're not as impressed with his vision of peak capitalism as you should be[stopping]."
 
-from-number of doyle dink is 5504. to-number of doyle dink is 21917.
+from-number of doyle dink is 5504. to-number of doyle dink is 21817.
 
 chapter moil mink
 
 the moil mink is a thing. "The moil mink scurries around here, not quite bothering Doyle Dink enough by itself.". description is "It's big and can obviously mess up the plans of all sorts of cartoonishly evil people who hate animals!"
 
-from-number of moil mink is 5404. to-number of moil mink is 21917.
+from-number of moil mink is 5404. to-number of moil mink is 21817.
 
 book Forfeit Bore Bit
 
@@ -267,7 +267,7 @@ volume hint stuff
 book hint device stuff
 
 rule for supplying a missing noun when lling (this is the get readings from room rule):
-	say "You scan the area[one of]. This will suffice most of the time, though you may wish to [b]LL[r] a thing that doesn't jibe with its rhymes[or][stopping].";
+	say "You scan the area[one of]. This will suffice most of the time, though you may wish to [b]LL[r] a thing that doesn't jibe with the location's rhymes[or][stopping].";
 	if player is in croots Cravin:
 		say "You get an interesting reading when it flips to the BRUTES BRAVING SUITS SAVING text. The numbers blink from (0.50, 0.50) to (-0.50, -0.50) and back, as if it's clueless what should have been changed from, or to, what.";
 		if sco-whirring-west is false:
@@ -285,6 +285,10 @@ to note-odd-display: if sco-ivy is false or sco-lively is false, say "The displa
 
 report lling Clive Klee:
 	note-odd-display;
+
+report lling woewall when slick slide is in woewall:
+	say "Here you may wish to [b]LL SLIDE[r].";
+	continue the action;
 
 book actual hints
 

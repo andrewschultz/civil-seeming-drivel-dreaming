@@ -13,6 +13,11 @@
 >whirring west
 by one point
 
+>take leet learner
+Taken.
+
+>w
+
 >yo yall
 by one point
 
@@ -22,7 +27,10 @@ by one point
 >trick tried
 by one point
 
-#>{include} _slick_slide_all
+>{include} _slick_slide_all
+#>{include} _slick_slide_1
+
+# the path through Sigh Sitch is forced
 
 >prick pride
 by one point
@@ -36,6 +44,8 @@ by one point
 >rick ride
 by one point
 
+# the path through Honing Hey is forced
+
 >tick tide
 by one point
 
@@ -48,11 +58,15 @@ by one point
 >rick ride
 !by one point
 
-#>{include} _oil_inc_all
->{include} _oil_inc_1
+>sick side
+
+>{include} _oil_inc_all
+#>{include} _oil_inc_1
 
 >rick ride
 !by one point
+
+>hick hide
 
 #>{include} _contrive_country_all
 >{include} _contrive_country_1
@@ -73,617 +87,57 @@ by one point
 
 * _slick_slide_all
 
-# SLICK SLIDE PERMUTATIONS
+>;test
+Noted.
 
-#################### hick hide/prick pride/sick side/tick tide/rick ride start
-
->04123
->hick hide
-by one point
->ll
-WRONG
->undo
-
->rick ride
-by one point
->ll
-WRONG
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
-YAY
->04132
->undo
->undo
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
-YAY
->04213
->undo
->undo
->undo
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
-YAY
->04231
->undo
->undo
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
-YAY
->04312
->undo
->undo
->undo
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
-YAY
->04321
->undo
->undo
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
-YAY
->14023
->undo
->undo
->undo
->undo
->undo
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
->rick ride
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
-YAY
->14032
->undo
->undo
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
-YAY
->14203
->undo
->undo
->undo
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
-YAY
->14230
->undo
->undo
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
-YAY
->14302
->undo
->undo
->undo
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
-YAY
->14320
->undo
->undo
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
-YAY
->24013
->undo
->undo
->undo
 >undo
->undo
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
->rick ride
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
-YAY
->24031
->undo
->undo
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
-YAY
->24103
->undo
->undo
->undo
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
-YAY
->24130
->undo
->undo
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
-YAY
->24301
->undo
->undo
->undo
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
-YAY
->24310
->undo
->undo
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
-YAY
->34012
->undo
->undo
->undo
->undo
->undo
->undo
-
->tick tide
-by one point
->ll
-WRONG
->undo
-
->rick ride
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
-YAY
->34021
->undo
->undo
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
-YAY
->34102
->undo
->undo
->undo
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
 
->sick side
-by one point
->ll
-WRONG
->undo
-
-YAY
->34120
->undo
->undo
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
-YAY
->34201
->undo
->undo
->undo
->undo
-
->sick side
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
-YAY
->34210
->undo
->undo
->undo
-
->prick pride
-by one point
->ll
-WRONG
->undo
-
->hick hide
-by one point
->ll
-WRONG
->undo
+* _slick_slide_1
 
-YAY
+>;test
+Noted.
 
->undo
->undo
->undo
 >undo
 
 #################### hick hide/prick pride/sick side/tick tide/rick ride end
+
+* _oil_inc_all
 
 #################### broil brink/soil sink/moil mink/royal rink/foil fink start
 #0/1/2/3/4
 >broil brink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.33, 1.00.)
 >undo
 
 >soil sink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.50, 1.00.)
 >undo
 
 >moil mink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.00.)
 >undo
 
 >royal rink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
->01324
+>;01243
 >undo
+
 >undo
 >undo
 >undo
@@ -691,112 +145,25 @@ WRONG
 >royal rink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >moil mink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
+
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
-YAY
->02134
->undo
->undo
->undo
->undo
+>;02134
 >undo
 
->moil mink
-by one point
->ll
-WRONG
->undo
-
->soil sink
-by one point
->ll
-WRONG
->undo
-
->royal rink
-by one point
->ll
-WRONG
->undo
-
->foil fink
-by one point
->ll
-WRONG
->undo
-
-YAY
->02314
->undo
->undo
->undo
->undo
-
->royal rink
-by one point
->ll
-WRONG
->undo
-
->soil sink
-by one point
->ll
-WRONG
->undo
-
->foil fink
-by one point
->ll
-WRONG
->undo
-
-YAY
->03124
->undo
->undo
->undo
->undo
->undo
-
->royal rink
-by one point
->ll
-WRONG
->undo
-
->soil sink
-by one point
->ll
-WRONG
->undo
-
->moil mink
-by one point
->ll
-WRONG
->undo
-
->foil fink
-by one point
->ll
-WRONG
->undo
-
-YAY
->03214
 >undo
 >undo
 >undo
@@ -805,24 +172,112 @@ YAY
 >moil mink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.50, 1.00.)
 >undo
 
 >soil sink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.00.)
+>undo
+
+>royal rink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
-YAY
->10234
+>;02314
 >undo
+
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>soil sink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>foil fink
+by one point
+>ll
+Nothing comes up. The general area here has been changed enough.
+>undo
+
+>;03124
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>soil sink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>moil mink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>foil fink
+by one point
+>ll
+Nothing comes up. The general area here has been changed enough.
+>undo
+
+>;03214
+>undo
+
+>undo
+>undo
+>undo
+
+>moil mink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>soil sink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>foil fink
+by one point
+>ll
+Nothing comes up. The general area here has been changed enough.
+>undo
+
+>;10234
+>undo
+
 >undo
 >undo
 >undo
@@ -832,93 +287,38 @@ YAY
 >soil sink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.66, 1.33.)
+
 >undo
 
 >broil brink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.50, 1.00.)
+
 >undo
 
 >moil mink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.00.)
 >undo
 
 >royal rink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
-YAY
->10324
->undo
->undo
->undo
+>;10324
 >undo
 
->royal rink
-by one point
->ll
-WRONG
->undo
-
->moil mink
-by one point
->ll
-WRONG
->undo
-
->foil fink
-by one point
->ll
-WRONG
->undo
-
-YAY
->12034
->undo
->undo
->undo
->undo
->undo
-
->moil mink
-by one point
->ll
-WRONG
->undo
-
->broil brink
-by one point
->ll
-WRONG
->undo
-
->royal rink
-by one point
->ll
-WRONG
->undo
-
->foil fink
-by one point
->ll
-WRONG
->undo
-
-YAY
->12304
->undo
 >undo
 >undo
 >undo
@@ -926,24 +326,81 @@ YAY
 >royal rink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
->broil brink
+>moil mink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
-YAY
->13024
+>;12034
 >undo
+
+>undo
+>undo
+>undo
+>undo
+
+>moil mink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.50.)
+>undo
+
+>broil brink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.00.)
+>undo
+
+>royal rink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>foil fink
+by one point
+>ll
+Nothing comes up. The general area here has been changed enough.
+>undo
+
+>;12304
+>undo
+
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 2.00.)
+>undo
+
+>broil brink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>foil fink
+by one point
+>ll
+Nothing comes up. The general area here has been changed enough.
+>undo
+
+>;13024
+>undo
+
 >undo
 >undo
 >undo
@@ -952,30 +409,30 @@ YAY
 >royal rink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.50, 1.50.)
 >undo
 
 >broil brink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >moil mink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
-YAY
->13204
+>;13204
 >undo
+
 >undo
 >undo
 >undo
@@ -983,24 +440,24 @@ YAY
 >moil mink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 2.00.)
 >undo
 
 >broil brink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
-YAY
->20134
+>;20134
 >undo
+
 >undo
 >undo
 >undo
@@ -1010,36 +467,36 @@ YAY
 >moil mink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.66, 1.33.)
 >undo
 
 >broil brink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.50, 1.00.)
 >undo
 
 >soil sink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.00.)
 >undo
 
 >royal rink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
-YAY
->20314
+>;20314
 >undo
+
 >undo
 >undo
 >undo
@@ -1047,112 +504,24 @@ YAY
 >royal rink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >soil sink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
-YAY
->21034
->undo
->undo
->undo
->undo
+>;21034
 >undo
 
->soil sink
-by one point
->ll
-WRONG
->undo
-
->broil brink
-by one point
->ll
-WRONG
->undo
-
->royal rink
-by one point
->ll
-WRONG
->undo
-
->foil fink
-by one point
->ll
-WRONG
->undo
-
-YAY
->21304
->undo
->undo
->undo
->undo
-
->royal rink
-by one point
->ll
-WRONG
->undo
-
->broil brink
-by one point
->ll
-WRONG
->undo
-
->foil fink
-by one point
->ll
-WRONG
->undo
-
-YAY
->23014
->undo
->undo
->undo
->undo
->undo
-
->royal rink
-by one point
->ll
-WRONG
->undo
-
->broil brink
-by one point
->ll
-WRONG
->undo
-
->soil sink
-by one point
->ll
-WRONG
->undo
-
->foil fink
-by one point
->ll
-WRONG
->undo
-
-YAY
->23104
 >undo
 >undo
 >undo
@@ -1161,24 +530,112 @@ YAY
 >soil sink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.50.)
 >undo
 
 >broil brink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.00.)
+>undo
+
+>royal rink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
-YAY
->30124
+>;21304
 >undo
+
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 2.00.)
+>undo
+
+>broil brink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>foil fink
+by one point
+>ll
+Nothing comes up. The general area here has been changed enough.
+>undo
+
+>;23014
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.50, 1.50.)
+>undo
+
+>broil brink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>soil sink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>foil fink
+by one point
+>ll
+Nothing comes up. The general area here has been changed enough.
+>undo
+
+>;23104
+>undo
+
+>undo
+>undo
+>undo
+
+>soil sink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 2.00.)
+>undo
+
+>broil brink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>foil fink
+by one point
+>ll
+Nothing comes up. The general area here has been changed enough.
+>undo
+
+>;30124
+>undo
+
 >undo
 >undo
 >undo
@@ -1188,36 +645,36 @@ YAY
 >royal rink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.33, 1.33.)
 >undo
 
 >broil brink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >soil sink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >moil mink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
-YAY
->30214
+>;30214
 >undo
+
 >undo
 >undo
 >undo
@@ -1225,112 +682,24 @@ YAY
 >moil mink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >soil sink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
-YAY
->31024
->undo
->undo
->undo
->undo
+>;31024
 >undo
 
->soil sink
-by one point
->ll
-WRONG
->undo
-
->broil brink
-by one point
->ll
-WRONG
->undo
-
->moil mink
-by one point
->ll
-WRONG
->undo
-
->foil fink
-by one point
->ll
-WRONG
->undo
-
-YAY
->31204
->undo
->undo
->undo
->undo
-
->moil mink
-by one point
->ll
-WRONG
->undo
-
->broil brink
-by one point
->ll
-WRONG
->undo
-
->foil fink
-by one point
->ll
-WRONG
->undo
-
-YAY
->32014
->undo
->undo
->undo
->undo
->undo
-
->moil mink
-by one point
->ll
-WRONG
->undo
-
->broil brink
-by one point
->ll
-WRONG
->undo
-
->soil sink
-by one point
->ll
-WRONG
->undo
-
->foil fink
-by one point
->ll
-WRONG
->undo
-
-YAY
->32104
 >undo
 >undo
 >undo
@@ -1339,22 +708,109 @@ YAY
 >soil sink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.50, 1.50.)
 >undo
 
 >broil brink
 by one point
 >ll
-WRONG
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>moil mink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 >undo
 
 >foil fink
 by one point
 >ll
-WRONG
+Nothing comes up. The general area here has been changed enough.
 >undo
 
-YAY
+>;31204
+>undo
+
+>undo
+>undo
+>undo
+
+>moil mink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 2.00.)
+>undo
+
+>broil brink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>foil fink
+by one point
+>ll
+Nothing comes up. The general area here has been changed enough.
+>undo
+
+>;32014
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>moil mink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.50, 1.50.)
+>undo
+
+>broil brink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>soil sink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>foil fink
+by one point
+>ll
+Nothing comes up. The general area here has been changed enough.
+>undo
+
+>;32104
+>undo
+
+>undo
+>undo
+>undo
+
+>soil sink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 2.00.)
+>undo
+
+>broil brink
+by one point
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
+>undo
+
+>foil fink
+by one point
+>ll
+Nothing comes up. The general area here has been changed enough.
+>undo
+
 #################### broil brink/soil sink/moil mink/royal rink/foil fink end
 
 * _oil_inc_1
@@ -1408,7 +864,9 @@ by one point
 WRONG
 >undo
 
->01243
+>;01243
+>undo
+
 >undo
 >undo
 >undo
@@ -1426,558 +884,9 @@ WRONG
 >undo
 
 YAY
->01324
+>;01324
 >undo
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->01342
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->01423
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->01432
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->02134
->undo
->undo
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->02143
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->02314
->undo
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->02341
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->02413
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->02431
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->03124
->undo
->undo
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->03142
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->03214
->undo
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->03241
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->03412
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->03421
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->04123
->undo
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->04132
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->04213
->undo
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->04231
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->04312
->undo
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->04321
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->10234
->undo
->undo
->undo
->undo
->undo
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->10243
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
 
-YAY
->10324
 >undo
 >undo
 >undo
@@ -2002,7 +911,9 @@ WRONG
 >undo
 
 YAY
->10342
+>;01342
+>undo
+
 >undo
 >undo
 >undo
@@ -2020,7 +931,9 @@ WRONG
 >undo
 
 YAY
->10423
+>;01423
+>undo
+
 >undo
 >undo
 >undo
@@ -2045,7 +958,9 @@ WRONG
 >undo
 
 YAY
->10432
+>;01432
+>undo
+
 >undo
 >undo
 >undo
@@ -2063,7 +978,9 @@ WRONG
 >undo
 
 YAY
->12034
+>;02134
+>undo
+
 >undo
 >undo
 >undo
@@ -2071,421 +988,6 @@ YAY
 >undo
 
 >jive g
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->12043
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->12304
->undo
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->12340
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->12403
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->12430
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->13024
->undo
->undo
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->13042
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->13204
->undo
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->13240
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->13402
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->13420
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->14023
->undo
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->14032
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->14203
->undo
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->14230
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->14302
->undo
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->14320
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->20134
->undo
->undo
->undo
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->ivy
 by one point
 >ll
 WRONG
@@ -2510,7 +1012,9 @@ WRONG
 >undo
 
 YAY
->20143
+>;02143
+>undo
+
 >undo
 >undo
 >undo
@@ -2528,7 +1032,9 @@ WRONG
 >undo
 
 YAY
->20314
+>;02314
+>undo
+
 >undo
 >undo
 >undo
@@ -2553,7 +1059,9 @@ WRONG
 >undo
 
 YAY
->20341
+>;02341
+>undo
+
 >undo
 >undo
 >undo
@@ -2571,7 +1079,9 @@ WRONG
 >undo
 
 YAY
->20413
+>;02413
+>undo
+
 >undo
 >undo
 >undo
@@ -2596,7 +1106,9 @@ WRONG
 >undo
 
 YAY
->20431
+>;02431
+>undo
+
 >undo
 >undo
 >undo
@@ -2614,143 +1126,9 @@ WRONG
 >undo
 
 YAY
->21034
->undo
->undo
->undo
->undo
+>;03124
 >undo
 
->lively
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->21043
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->21304
->undo
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->21340
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->21403
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->21430
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->23014
 >undo
 >undo
 >undo
@@ -2758,285 +1136,6 @@ YAY
 >undo
 
 >thrive three
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->23041
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->23104
->undo
->undo
->undo
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->23140
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->23401
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->23410
->undo
->undo
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->24013
->undo
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->24031
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->24103
->undo
->undo
->undo
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
-YAY
->24130
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->24301
->undo
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->24310
->undo
->undo
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->30124
->undo
->undo
->undo
->undo
->undo
->undo
-
->thrive three
-by one point
->ll
-WRONG
->undo
-
->ivy
 by one point
 >ll
 WRONG
@@ -3061,7 +1160,9 @@ WRONG
 >undo
 
 YAY
->30142
+>;03142
+>undo
+
 >undo
 >undo
 >undo
@@ -3079,7 +1180,9 @@ WRONG
 >undo
 
 YAY
->30214
+>;03214
+>undo
+
 >undo
 >undo
 >undo
@@ -3104,7 +1207,9 @@ WRONG
 >undo
 
 YAY
->30241
+>;03241
+>undo
+
 >undo
 >undo
 >undo
@@ -3122,7 +1227,9 @@ WRONG
 >undo
 
 YAY
->30412
+>;03412
+>undo
+
 >undo
 >undo
 >undo
@@ -3147,7 +1254,9 @@ WRONG
 >undo
 
 YAY
->30421
+>;03421
+>undo
+
 >undo
 >undo
 >undo
@@ -3165,279 +1274,9 @@ WRONG
 >undo
 
 YAY
->31024
->undo
->undo
->undo
->undo
+>;04123
 >undo
 
->lively
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->31042
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->31204
->undo
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->31240
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->31402
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->31420
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->32014
->undo
->undo
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->32041
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->32104
->undo
->undo
->undo
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
-YAY
->32140
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->32401
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->32410
->undo
->undo
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->34012
 >undo
 >undo
 >undo
@@ -3445,149 +1284,6 @@ YAY
 >undo
 
 >whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->34021
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->34102
->undo
->undo
->undo
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
-YAY
->34120
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->34201
->undo
->undo
->undo
->undo
-
->jive g
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
-YAY
->34210
->undo
->undo
->undo
-
->lively
-by one point
->ll
-WRONG
->undo
-
->ivy
-by one point
->ll
-WRONG
->undo
-
-YAY
->40123
->undo
->undo
->undo
->undo
->undo
->undo
-
->whyve we
-by one point
->ll
-WRONG
->undo
-
->ivy
 by one point
 >ll
 WRONG
@@ -3612,7 +1308,9 @@ WRONG
 >undo
 
 YAY
->40132
+>;04132
+>undo
+
 >undo
 >undo
 >undo
@@ -3630,7 +1328,9 @@ WRONG
 >undo
 
 YAY
->40213
+>;04213
+>undo
+
 >undo
 >undo
 >undo
@@ -3655,7 +1355,9 @@ WRONG
 >undo
 
 YAY
->40231
+>;04231
+>undo
+
 >undo
 >undo
 >undo
@@ -3673,7 +1375,9 @@ WRONG
 >undo
 
 YAY
->40312
+>;04312
+>undo
+
 >undo
 >undo
 >undo
@@ -3698,7 +1402,9 @@ WRONG
 >undo
 
 YAY
->40321
+>;04321
+>undo
+
 >undo
 >undo
 >undo
@@ -3716,7 +1422,10 @@ WRONG
 >undo
 
 YAY
->41023
+>;10234
+>undo
+
+>undo
 >undo
 >undo
 >undo
@@ -3747,8 +1456,110 @@ by one point
 WRONG
 >undo
 
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
 YAY
->41032
+>;10243
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;10324
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;10342
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;10423
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;10432
+>undo
+
 >undo
 >undo
 >undo
@@ -3766,7 +1577,359 @@ WRONG
 >undo
 
 YAY
->41203
+>;12034
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;12043
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;12304
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;12340
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;12403
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;12430
+>undo
+
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;13024
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;13042
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;13204
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;13240
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;13402
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;13420
+>undo
+
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;14023
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;14032
+>undo
+
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;14203
+>undo
+
 >undo
 >undo
 >undo
@@ -3791,7 +1954,9 @@ WRONG
 >undo
 
 YAY
->41230
+>;14230
+>undo
+
 >undo
 >undo
 >undo
@@ -3809,7 +1974,9 @@ WRONG
 >undo
 
 YAY
->41302
+>;14302
+>undo
+
 >undo
 >undo
 >undo
@@ -3834,7 +2001,9 @@ WRONG
 >undo
 
 YAY
->41320
+>;14320
+>undo
+
 >undo
 >undo
 >undo
@@ -3852,7 +2021,1510 @@ WRONG
 >undo
 
 YAY
->42013
+>;20134
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;20143
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;20314
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;20341
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;20413
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;20431
+>undo
+
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;21034
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;21043
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;21304
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;21340
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;21403
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;21430
+>undo
+
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;23014
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;23041
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;23104
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;23140
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;23401
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;23410
+>undo
+
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;24013
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;24031
+>undo
+
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;24103
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;24130
+>undo
+
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;24301
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;24310
+>undo
+
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;30124
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;30142
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;30214
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;30241
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;30412
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;30421
+>undo
+
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;31024
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;31042
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;31204
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;31240
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;31402
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;31420
+>undo
+
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;32014
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;32041
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;32104
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;32140
+>undo
+
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;32401
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;32410
+>undo
+
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;34012
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;34021
+>undo
+
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;34102
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;34120
+>undo
+
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;34201
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;34210
+>undo
+
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;40123
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;40132
+>undo
+
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;40213
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;40231
+>undo
+
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;40312
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;40321
+>undo
+
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;41023
+>undo
+
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;41032
+>undo
+
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;41203
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;41230
+>undo
+
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;41302
+>undo
+
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;41320
+>undo
+
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>;42013
+>undo
+
 >undo
 >undo
 >undo
@@ -3884,7 +3556,9 @@ WRONG
 >undo
 
 YAY
->42031
+>;42031
+>undo
+
 >undo
 >undo
 >undo
@@ -3902,7 +3576,9 @@ WRONG
 >undo
 
 YAY
->42103
+>;42103
+>undo
+
 >undo
 >undo
 >undo
@@ -3927,7 +3603,9 @@ WRONG
 >undo
 
 YAY
->42130
+>;42130
+>undo
+
 >undo
 >undo
 >undo
@@ -3945,7 +3623,9 @@ WRONG
 >undo
 
 YAY
->42301
+>;42301
+>undo
+
 >undo
 >undo
 >undo
@@ -3970,7 +3650,9 @@ WRONG
 >undo
 
 YAY
->42310
+>;42310
+>undo
+
 >undo
 >undo
 >undo
@@ -3988,7 +3670,9 @@ WRONG
 >undo
 
 YAY
->43012
+>;43012
+>undo
+
 >undo
 >undo
 >undo
@@ -4020,7 +3704,9 @@ WRONG
 >undo
 
 YAY
->43021
+>;43021
+>undo
+
 >undo
 >undo
 >undo
@@ -4038,7 +3724,9 @@ WRONG
 >undo
 
 YAY
->43102
+>;43102
+>undo
+
 >undo
 >undo
 >undo
@@ -4063,7 +3751,9 @@ WRONG
 >undo
 
 YAY
->43120
+>;43120
+>undo
+
 >undo
 >undo
 >undo
@@ -4081,7 +3771,9 @@ WRONG
 >undo
 
 YAY
->43201
+>;43201
+>undo
+
 >undo
 >undo
 >undo
@@ -4106,7 +3798,9 @@ WRONG
 >undo
 
 YAY
->43210
+>;43210
+>undo
+
 >undo
 >undo
 >undo
@@ -4177,7 +3871,9 @@ and bonus
 WRONG
 >undo
 
->01243
+>;01243
+>undo
+
 >undo
 >undo
 >undo
@@ -4199,7 +3895,9 @@ by one point
 Net in the Night
 
 >undo
->31204
+>;31204
+>undo
+
 >undo
 >undo
 >undo
@@ -4242,7 +3940,9 @@ by one point
 Net in the Night
 
 >undo
->31240
+>;31240
+>undo
+
 >undo
 >undo
 >undo
@@ -4264,7 +3964,9 @@ by one point
 Net in the Night
 
 >undo
->41203
+>;41203
+>undo
+
 >undo
 >undo
 >undo
@@ -4307,7 +4009,9 @@ by one point
 Net in the Night
 
 >undo
->41230
+>;41230
+>undo
+
 >undo
 >undo
 >undo

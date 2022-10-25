@@ -325,7 +325,7 @@ a goodrhyme rule (this is the vc-moil-mink rule):
 this is the vr-moil-mink rule:
 	now sco-moil-mink is true;
 	say "A large mink appears and begins racing around. It looks like it can do damage when the time comes.";
-	oil-inc-decrease 5504;
+	oil-inc-decrease 5404;
 
 a goodrhyme rule (this is the vc-royal-rink rule):
 	abide by the oil-inc-basics rule;
@@ -357,13 +357,14 @@ a goodrhyme rule (this is the vc-foil-fink rule):
 		vcp "You're not ready yet. You need more support!";
 		not-yet;
 	if sco-foil-fink is true:
-		vcal "You already foiled the fink and rescued people from Oil, Inc.!";
+		vcal "You already foiled the fink and rescued the masses from Oil, Inc.'s socioeconomic clutches and stuff!";
 		already-done;
 	ready;
 
 this is the vr-foil-fink rule:
 	now to-number of oil inc is -3;
 	moot doyle dink;
+	moot moil mink;
 	now sco-foil-fink is true;
 	say "You've done enough damage to Doyle Dink and Oil, Inc. that enough people not only support you but also believe it's worth the risk to finish the job. You make up an impromptu speech about the little guy winning out and so forth. It's actually pretty bad, so bad Doyle Dink gives up immediately and runs away. Serendipity!";
 	rick-and-slide-check;
@@ -414,7 +415,10 @@ this is the vr-rick-ride rule:
 		say "[line break]The enemy has attacked! Po['] Paul is trying his best to organize the citizens of the Woe Wall, along with some of the people you helped along the way. But they need your leadership!";
 	print-deferral;
 	move player to WoeWall;
-	move slick slide to WoeWall;
+	if hubs-solved is 4:
+		moot slick slide;
+	else:
+		move slick slide to WoeWall;
 
 this is the vr-foe-fall rule:
 	now sco-foe-fall is true;
@@ -562,6 +566,7 @@ to oil-inc-decrease (nu - a number):
 	decrease to-number of oil inc by nu;
 	if to-number of oil inc is 0, now to-number of oil inc is 5404;
 	now to-number of Doyle Dink is to-number of oil inc;
+	now to-number of moil mink is to-number of oil inc;
 
 a goodrhyme rule (this is the oil-inc-basics rule):
 	if player is not in oil inc, unavailable;
