@@ -322,7 +322,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 {$REJECT2}
 \\
 #testcase-reject-start-table-of-verb-checks-vr-oh-all-rule
-#testcase-check-vc-oh-all-rule-if-player-is-not-in-woe-wall
+#testcase-check-vc-oh-all-rule-if-player-is-not-in-woewall
 >oh all
 {$REJECT2}
 \\
@@ -357,7 +357,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >soil sink
 {$REJECT2}
 \\
-#testcase-check-vc-stow-stall-rule-if-player-is-not-in-woe-wall
+#testcase-check-vc-stow-stall-rule-if-player-is-not-in-woewall
 #testcase-reject-start-table-of-verb-checks-vr-stow-stall-rule
 >stow stall
 {$REJECT2}
@@ -386,7 +386,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >whyve we
 {$REJECT2}
 \\
-#testcase-check-vc-yo-yall-rule-if-player-is-not-in-woe-wall
+#testcase-check-vc-yo-yall-rule-if-player-is-not-in-woewall
 #testcase-reject-start-table-of-verb-checks-vr-yo-yall-rule
 >yo yall
 {$REJECT2}
@@ -437,7 +437,7 @@ You're already there! Well, here.
 >gt sigh sitch
 {$REJECT}
 \\
-#testcase-goto-tries-croots-cravin-woe-wall
+#testcase-goto-tries-croots-cravin-woewall
 >gt woe wall
 {$REJECT}
 \\
@@ -458,7 +458,7 @@ Woe Wall
 A guide gong rings to notify you that you don't need to go back through 'Croots-Cravin'.
 
 @all
-#testcase-room-names-woe-wall
+#testcase-room-names-woewall
 /^Woe Wall$
 
 @rej
@@ -475,7 +475,7 @@ A guide gong rings to notify you that you don't need to go back through 'Croots-
 {$REJECT2}
 
 @gt
-#testcase-goto-table-of-noways-woe-wall
+#testcase-goto-table-of-noways-woewall
 >w
 It's too treacherous and dark. Perhaps there are other places to visit via transport.
 
@@ -488,37 +488,37 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 WRONG
 
 @gt
-#testcase-goto-tries-woe-wall-croots-cravin
+#testcase-goto-tries-woewall-croots-cravin
 >gt croots cravin
 'Croots-Cravin'
 !can't walk to
 >undo
 \\
-#testcase-goto-tries-woe-wall-five-fee-contrive-country
+#testcase-goto-tries-woewall-five-fee-contrive-country
 >gt five fee contrive country
 {$REJECT}
 \\
-#testcase-goto-tries-woe-wall-forfeit-bore-bit
+#testcase-goto-tries-woewall-forfeit-bore-bit
 >gt forfeit bore bit
 {$REJECT}
 \\
-#testcase-goto-tries-woe-wall-honing-hey-groaning-grey
+#testcase-goto-tries-woewall-honing-hey-groaning-grey
 >gt honing hey groaning grey
 {$REJECT}
 \\
-#testcase-goto-tries-woe-wall-oil-inc
+#testcase-goto-tries-woewall-oil-inc
 >gt oil inc
 {$REJECT}
 \\
-#testcase-goto-tries-woe-wall-set-in-the-site-net-in-the-night
+#testcase-goto-tries-woewall-set-in-the-site-net-in-the-night
 >gt set in the site net in the night
 {$REJECT}
 \\
-#testcase-goto-tries-woe-wall-sigh-sitch
+#testcase-goto-tries-woewall-sigh-sitch
 >gt sigh sitch
 {$REJECT}
 \\
-#testcase-goto-tries-woe-wall-woe-wall
+#testcase-goto-tries-woewall-woewall
 >gt woe wall
 You're already there! Well, here.
 
@@ -541,31 +541,31 @@ You can find the STOW STALL once you've met people familiar with the area.
 {$GREENCORE}
 
 @mis
-#ttc-table-of-woe-wall-guesses-crow-crawl
+#ttc-table-of-woewall-guesses-crow-crawl
 >crow crawl
 Crows that can't fly wouldn't be helpful.
 \\
-#ttc-table-of-woe-wall-guesses-dough-doe-doh-doll
+#ttc-table-of-woewall-guesses-dough-doe-doh-doll
 >dough doll
 Summoning a doll on a night like this can't end well.
 \\
-#ttc-table-of-woe-wall-guesses-go-gaul
+#ttc-table-of-woewall-guesses-go-gaul
 >go gaul
 Alas, neither Asterix nor Obelix appears to help you fight.
 \\
-#ttc-table-of-woe-wall-guesses-ho-hall-haul
+#ttc-table-of-woewall-guesses-ho-hall-haul
 >ho haul
 You don't need to transport anything or build a hall for the woe wall.
 \\
-#ttc-table-of-woe-wall-guesses-show-shawl
+#ttc-table-of-woewall-guesses-show-shawl
 >show shawl
 No fancy clothes are needed.
 \\
-#ttc-table-of-woe-wall-guesses-so-saul
+#ttc-table-of-woewall-guesses-so-saul
 >so saul
 You don't need will, and you don't need McGill.
 \\
-#ttc-table-of-woe-wall-guesses-toe-tall
+#ttc-table-of-woewall-guesses-toe-tall
 >toe tall
 No giant appears to crush anyone.
 
@@ -782,7 +782,7 @@ Aha! You see what was wrong with the slick slide. You see what to do. It's so tr
 >trick tried
 There was only one trick needed to get the slick slide to work.
 \\
-#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall
+#testcase-check-vc-rick-ride-rule-if-player-is-in-woewall
 >rick ride
 That would be a great way to get back here, once you've found a way down the slick slide.
 \\
@@ -872,7 +872,7 @@ You feel more positive. This time, you'll help
 >undo
 
 @gt
-#+testcase-goto-table-of-noways-woe-wall
+#+testcase-goto-table-of-noways-woewall
 >w
 Directions can't take you anywhere. The slick slide, though, can.
 
@@ -999,7 +999,7 @@ You're already there! Well, here.
 >gt sigh sitch
 {$REJECT}
 \\
-#testcase-goto-tries-honing-hey-groaning-grey-woe-wall
+#testcase-goto-tries-honing-hey-groaning-grey-woewall
 >gt woe wall
 You will need to summon transport.
 
@@ -1081,7 +1081,7 @@ You'll need to find transport back to Woe Wall first to take the slide there.
 by one point
 
 @rej
-#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall-if-number-of-visited-hubrooms->-0
+#testcase-check-vc-rick-ride-rule-if-player-is-in-woewall-if-number-of-visited-hubrooms->-0
 >rick ride
 The rick ride is only for transport back here.
 \\
@@ -1161,7 +1161,7 @@ I'm going to make you take the rick explicitly.
 >gt sigh sitch
 {$REJECT}
 \\
-#testcase-goto-tries-five-fee-contrive-country-woe-wall
+#testcase-goto-tries-five-fee-contrive-country-woewall
 >gt woe wall
 I'm going to make you take the rick explicitly.
 
@@ -1390,7 +1390,7 @@ You're already there! Well, here.
 >gt sigh sitch
 {$REJECT}
 \\
-#testcase-goto-tries-oil-inc-woe-wall
+#testcase-goto-tries-oil-inc-woewall
 >gt woe wall
 I'm going to make you take the rick explicitly.
 
@@ -1731,7 +1731,7 @@ I'm going to make you take the rick explicitly.
 >gt sigh sitch
 You're already there! Well, here.
 \\
-#testcase-goto-tries-sigh-sitch-woe-wall
+#testcase-goto-tries-sigh-sitch-woewall
 >gt woe wall
 I'm going to make you take the rick explicitly.
 
@@ -1819,7 +1819,7 @@ Woe Wall
 You take the rick ride back to Woe Wall again...
 
 @rej
-#testcase-check-vc-rick-ride-rule-if-player-is-in-woe-wall-if-hubs-solved-is-4
+#testcase-check-vc-rick-ride-rule-if-player-is-in-woewall-if-hubs-solved-is-4
 >rick ride
 You can't escape the big fight!
 \\
@@ -1885,39 +1885,39 @@ Forfeit, Bore
 {$GREENCORE}
 
 @gt
-#+testcase-goto-table-of-noways-woe-wall
+#+testcase-goto-table-of-noways-woewall
 >w
 You're in the middle of a battle.
 \\
-#+testcase-goto-tries-woe-wall-croots-cravin
+#+testcase-goto-tries-woewall-croots-cravin
 >gt croots cravin
 You can't skip out on this critical fight!
 \\
-#+testcase-goto-tries-woe-wall-five-fee-contrive-country
+#+testcase-goto-tries-woewall-five-fee-contrive-country
 >gt five fee contrive country
 You can't skip out on this critical fight!
 \\
-#+testcase-goto-tries-woe-wall-forfeit-bore-bit
+#+testcase-goto-tries-woewall-forfeit-bore-bit
 >gt forfeit bore bit
 {$REJECT}
 \\
-#+testcase-goto-tries-woe-wall-honing-hey-groaning-grey
+#+testcase-goto-tries-woewall-honing-hey-groaning-grey
 >gt honing hey groaning grey
 You can't skip out on this critical fight!
 \\
-#+testcase-goto-tries-woe-wall-oil-inc
+#+testcase-goto-tries-woewall-oil-inc
 >gt oil inc
 You can't skip out on this critical fight!
 \\
-#+testcase-goto-tries-woe-wall-set-in-the-site-net-in-the-night
+#+testcase-goto-tries-woewall-set-in-the-site-net-in-the-night
 >gt set in the site net in the night
 {$REJECT}
 \\
-#+testcase-goto-tries-woe-wall-sigh-sitch
+#+testcase-goto-tries-woewall-sigh-sitch
 >gt sigh sitch
 You can't skip out on this critical fight!
 \\
-#+testcase-goto-tries-woe-wall-woe-wall
+#+testcase-goto-tries-woewall-woewall
 >gt woe wall
 You're already there! Well, here.
 
@@ -1968,7 +1968,7 @@ You need to think your way out of here and back to the battlefield.
 >gt sigh sitch
 You need to think your way out of here and back to the battlefield.
 \\
-#testcase-goto-tries-forfeit-bore-bit-woe-wall
+#testcase-goto-tries-forfeit-bore-bit-woewall
 >gt woe wall
 You need to think your way out of here and back to the battlefield.
 
@@ -2109,7 +2109,7 @@ You already exhorted the troops this way!
 You already exhorted the troops this way!
 
 @gt
-#+testcase-goto-tries-woe-wall-forfeit-bore-bit
+#+testcase-goto-tries-woewall-forfeit-bore-bit
 >gt forfeit bore bit
 You can't skip out on this critical fight!
 
@@ -2205,7 +2205,7 @@ You're already there! Well, here.
 >gt sigh sitch
 There's no going back! There's only escape. There must be a way!
 \\
-#testcase-goto-tries-set-in-the-site-net-in-the-night-woe-wall
+#testcase-goto-tries-set-in-the-site-net-in-the-night-woewall
 >gt woe wall
 There's no going back! There's only escape. There must be a way!
 
