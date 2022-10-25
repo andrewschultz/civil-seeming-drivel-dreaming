@@ -1,0 +1,4356 @@
+## reg-csdd-lone-score-ordering.txt
+## GENERATOR FILE: rbr-lljj-lone-score-ordering.txt
+
+## checking wins and leet learner scoring with all possibilities
+
+** game: /home/andrew/prt/debug-civil-seeming-drivel-dreaming.z8
+** interpreter: /home/andrew/prt/dfrotz -m -w5000 -h25
+
+* main-thru
+
+>au 2
+
+>whirring west
+by one point
+
+>yo yall
+by one point
+
+>stow stall
+by one point
+
+>trick tried
+by one point
+
+#>{include} _slick_slide_all
+
+>prick pride
+by one point
+
+>lie lich
+by one point
+
+>pie pitch
+by one point
+
+>rick ride
+by one point
+
+>tick tide
+by one point
+
+>owning eh
+by one point
+
+>cloning clay
+by one point
+
+>rick ride
+!by one point
+
+#>{include} _oil_inc_all
+>{include} _oil_inc_1
+
+>rick ride
+!by one point
+
+#>{include} _contrive_country_all
+>{include} _contrive_country_1
+
+>rick ride
+!by one point
+
+>{include} _battle_paths_all
+#>{include} _battle_paths_1
+
+>oh all
+by one point
+
+>let in the light
+by one point
+
+###############################################################################subroutines below
+
+* _slick_slide_all
+
+# SLICK SLIDE PERMUTATIONS
+
+#################### hick hide/prick pride/sick side/tick tide/rick ride start
+
+>04123
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+>rick ride
+by one point
+>ll
+WRONG
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>04132
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>04213
+>undo
+>undo
+>undo
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>04231
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>04312
+>undo
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>04321
+>undo
+>undo
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>14023
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+>rick ride
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>14032
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>14203
+>undo
+>undo
+>undo
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>14230
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>14302
+>undo
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>14320
+>undo
+>undo
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>24013
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+>rick ride
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>24031
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>24103
+>undo
+>undo
+>undo
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>24130
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>24301
+>undo
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>24310
+>undo
+>undo
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>34012
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>tick tide
+by one point
+>ll
+WRONG
+>undo
+
+>rick ride
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>34021
+>undo
+>undo
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>34102
+>undo
+>undo
+>undo
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>34120
+>undo
+>undo
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>34201
+>undo
+>undo
+>undo
+>undo
+
+>sick side
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>34210
+>undo
+>undo
+>undo
+
+>prick pride
+by one point
+>ll
+WRONG
+>undo
+
+>hick hide
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+
+>undo
+>undo
+>undo
+>undo
+
+#################### hick hide/prick pride/sick side/tick tide/rick ride end
+
+#################### broil brink/soil sink/moil mink/royal rink/foil fink start
+#0/1/2/3/4
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+>01324
+>undo
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>02134
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>02314
+>undo
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>03124
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>03214
+>undo
+>undo
+>undo
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>10234
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>10324
+>undo
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>12034
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>12304
+>undo
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>13024
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>13204
+>undo
+>undo
+>undo
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>20134
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>20314
+>undo
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>21034
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>21304
+>undo
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>23014
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>23104
+>undo
+>undo
+>undo
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>30124
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>royal rink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>30214
+>undo
+>undo
+>undo
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>31024
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>31204
+>undo
+>undo
+>undo
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>32014
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>moil mink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>32104
+>undo
+>undo
+>undo
+>undo
+
+>soil sink
+by one point
+>ll
+WRONG
+>undo
+
+>broil brink
+by one point
+>ll
+WRONG
+>undo
+
+>foil fink
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+#################### broil brink/soil sink/moil mink/royal rink/foil fink end
+
+* _oil_inc_1
+
+>broil brink
+by one point
+
+>soil sink
+by one point
+
+>royal rink
+by one point
+
+>moil mink
+by one point
+
+>foil fink
+by one point
+
+* _contrive_country_all
+
+#################### ivy/lively/jive g/thrive three/whyve we start
+#0/1/2/3/4
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>01243
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>01324
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>01342
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>01423
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>01432
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>02134
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>02143
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>02314
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>02341
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>02413
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>02431
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>03124
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>03142
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>03214
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>03241
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>03412
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>03421
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>04123
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>04132
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>04213
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>04231
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>04312
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>04321
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>10234
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>10243
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>10324
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>10342
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>10423
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>10432
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>12034
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>12043
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>12304
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>12340
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>12403
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>12430
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>13024
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>13042
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>13204
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>13240
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>13402
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>13420
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>14023
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>14032
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>14203
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>14230
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>14302
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>14320
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>20134
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>20143
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>20314
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>20341
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>20413
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>20431
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>21034
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>21043
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>21304
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>21340
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>21403
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>21430
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>23014
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>23041
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>23104
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>23140
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>23401
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>23410
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>24013
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>24031
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>24103
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>24130
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>24301
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>24310
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>30124
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>30142
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>30214
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>30241
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>30412
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>30421
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>31024
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>31042
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>31204
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>31240
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>31402
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>31420
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>32014
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>32041
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>32104
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>32140
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>32401
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>32410
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>34012
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>34021
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>34102
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>34120
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>34201
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>34210
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>40123
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>whyve we
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>40132
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>40213
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>40231
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>40312
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>40321
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>41023
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>41032
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>41203
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>41230
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>41302
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>41320
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>42013
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>42031
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>42103
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>42130
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>42301
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>42310
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>43012
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>thrive three
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>43021
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>43102
+>undo
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>43120
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>43201
+>undo
+>undo
+>undo
+>undo
+
+>jive g
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+>43210
+>undo
+>undo
+>undo
+
+>lively
+by one point
+>ll
+WRONG
+>undo
+
+>ivy
+by one point
+>ll
+WRONG
+>undo
+
+YAY
+#################### ivy/lively/jive g/thrive three/whyve we end
+
+* _contrive_country_1
+
+>ivy
+by one point
+
+>lively
+by one point
+
+>jive gee
+by one point
+
+>thrive three
+by one point
+
+>whyve we
+by one point
+
+* _battle_paths_all
+
+#################### bro brawl/core kit/war wit/foe fall/mo maul start
+#0/1/2/3/4
+>bro brawl
+and bonus
+>ll
+WRONG
+>undo
+
+>core kit
+and bonus
+>ll
+WRONG
+>undo
+
+>war wit
+and bonus
+>ll
+WRONG
+>undo
+
+>foe fall
+and bonus
+>ll
+WRONG
+>undo
+
+>mo maul
+and bonus
+>ll
+WRONG
+>undo
+
+>01243
+>undo
+>undo
+>undo
+
+>mo maul
+and bonus
+>ll
+WRONG
+>undo
+
+>foe fall
+and bonus
+>ll
+WRONG
+>undo
+
+>oh all
+by one point
+Net in the Night
+
+>undo
+>31204
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>foe fall
+and bonus
+>ll
+WRONG
+>undo
+
+>core kit
+and bonus
+>ll
+WRONG
+>undo
+
+>war wit
+and bonus
+>ll
+WRONG
+>undo
+
+>bro brawl
+and bonus
+>ll
+WRONG
+>undo
+
+>mo maul
+and bonus
+>ll
+WRONG
+>undo
+
+>oh all
+by one point
+Net in the Night
+
+>undo
+>31240
+>undo
+>undo
+>undo
+
+>mo maul
+and bonus
+>ll
+WRONG
+>undo
+
+>bro brawl
+and bonus
+>ll
+WRONG
+>undo
+
+>oh all
+by one point
+Net in the Night
+
+>undo
+>41203
+>undo
+>undo
+>undo
+>undo
+>undo
+>undo
+
+>mo maul
+and bonus
+>ll
+WRONG
+>undo
+
+>core kit
+and bonus
+>ll
+WRONG
+>undo
+
+>war wit
+and bonus
+>ll
+WRONG
+>undo
+
+>bro brawl
+and bonus
+>ll
+WRONG
+>undo
+
+>foe fall
+and bonus
+>ll
+WRONG
+>undo
+
+>oh all
+by one point
+Net in the Night
+
+>undo
+>41230
+>undo
+>undo
+>undo
+
+>foe fall
+and bonus
+>ll
+WRONG
+>undo
+
+>bro brawl
+and bonus
+>ll
+WRONG
+>undo
+
+>oh all
+by one point
+Net in the Night
+
+# end UNDO trimmed
+
+#################### bro brawl/core kit/war wit/foe fall/mo maul end
+
+* _battle_paths_1
+
+>bro brawl
+by one point
+
+>core kit
+by one point
+
+>war wit
+by one point
+
+>foe fall
+by one point
+
+>mo maul
+by one point
+
+>oh all
+by one point
+
+>let in the light
+by one point
