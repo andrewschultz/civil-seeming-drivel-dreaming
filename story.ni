@@ -78,7 +78,13 @@ from-number of blurring blest purring pest is 11509. to-number of blurring blest
 
 book Woe Wall
 
-WoeWall is a room. printed name is "Woe Wall". "A large woe wall [if sco-yo-yall is false]defends some people against something. They are too scared to come out without a friendly greeting[else if sco-stow-stall is false]must hide something important you haven't found yet[else]has that slide you uncovered next to it[end if].". hint-trip-room is WoeWall.
+WoeWall is a room. printed name is "[if sco-oh-all is false]Woe Wall[else]Co-Call[end if]". "[woe-wall-which].".
+
+to say woe-wall-which:
+	if sco-oh-all is true:
+		say "You hear calling from two directions: north and west, you guess. Either way could work. But you have nothing to do here";
+		continue the action;
+	say "A large woe wall [if sco-yo-yall is false]defends some people against something. They are too scared to come out without a friendly greeting[else if sco-stow-stall is false]must hide something important you haven't found yet[else]has that slide you uncovered next to it[end if]"
 
 from-number of WoeWall is 5304. to-number of WoeWall is 5204.
 
@@ -120,6 +126,18 @@ chapter Throw Thrall
 the throw thrall is a plural-named person. "The throw thrall is fighting with the outnumbered populace of Woe Wall!". description is "All manner of evil goons, dead and undead. They have numbers but seem leaderless and mindless. If only you had something [if forfeit is visited]else [end if]motivational and double-plus-leadershippy to say..."
 
 from-number of throw thrall is 5506. to-number of throw thrall is 5204.
+
+chapter mapper mummy
+
+the mapper mummy is a person. "The mapper mummy shambles towards you very slowly. Every few seconds, it pulls out a map, studies it, and draws in something else before putting the map back. This makes the mummy even slower! So you can probably just outrun it. But it would be nice to get rid of for good.". description is "It's more annoying than spooky. You almost feel sorry for it. Not sorry enough to let it catch you."
+
+from-number of mapper mummy is 5605. to-number of mapper mummy is 5605.
+
+chapter bump boast gump ghost
+
+the bump boast gump ghost is a person. printed name of gump ghost is "bump-boast gump-ghost". "The bump-boast gump-ghost continues to try to bump you and fist-bump you. It's pretty obvious it's harmless, but like [the mummy], man, what a nuisance!". description of gump ghost is "What you can see of [the ghost] isn't particularly evil, but its grin is a bit big, and it does mumble on about what a great undead it is, one of the nicest undeads you'll meet!"
+
+from-number of bump boast gump ghost is 10810. to-number of bump boast gump ghost is 5405.
 
 book Sigh Sitch
 

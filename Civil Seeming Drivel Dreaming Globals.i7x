@@ -10,7 +10,7 @@ the release number is 1.
 
 core-max is 28.
 
-max-bonus is 3.
+max-bonus is 5.
 
 volume game state variables
 
@@ -55,6 +55,10 @@ sco-oh-all is a truth state that varies.
 
 sco-core-kit is a truth state that varies.
 sco-war-wit is a truth state that varies.
+
+sco-dapper-dummy is a truth state that varies.
+
+sco-rump-roast is a truth state that varies.
 
 sco-let-light is a truth state that varies.
 

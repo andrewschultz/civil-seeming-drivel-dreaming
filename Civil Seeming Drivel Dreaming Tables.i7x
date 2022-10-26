@@ -59,6 +59,8 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "oh"	"all"	--	--	false	true	true	false	WoeWall	vc-oh-all rule	vr-oh-all rule	--	"You can cry [b]OH ALL[r] [once-now of vc-foe-fall rule] you have full leadership skills."
 "core"	"kit"	--	--	false	true	true	false	forfeit bore bit	vc-core-kit rule	vr-core-kit rule	--	--
 "war"	"wit"	--	--	false	true	true	false	forfeit bore bit	vc-war-wit rule	vr-war-wit rule	--	"You can learn [b]WAR WIT[r] [once-now of vc-war-wit rule] you are no longer in the depths of despair."
+"dapper"	"dummy"	--	--	false	true	false	false	--	vc-dapper-dummy rule	vr-dapper-dummy rule	--	--
+"rump"	"roast"	--	--	false	true	false	false	--	vc-rump-roast rule	vr-rump-roast rule	--	--
 "let|fret"	"light|fright"	--	--	false	true	true	false	net in the night	vc-let-light rule	vr-let-light rule	"let light" or "fret fright"	"The final solution is more than two words long. Add words so your action matches the room."
 
 a goodrhyme rule (this is the vc-turing-test rule):
@@ -453,8 +455,11 @@ a goodrhyme rule (this is the vc-oh-all rule):
 this is the vr-oh-all rule:
 	now sco-oh-all is true;
 	say "The simplicity! The universality! It's so simple and universal, several members of the Throw Thrall defect, and several briefly consider attacking themselves! Fortunately, this is not necessary. You learned from your time in the Pore Pit, and you show you're not all sloganeering as you direct the troops this way and that. It's a rout!";
-	say "[line break]But sadly, you didn't continue the battle cry after the Throw Thrall defections. Their minds unfogged by your charisma, they realize they are close to capturing the leader. So they do. Again. You're thrown to somewhere different this time...";
-	move player to Net in the Night;
+	say "[line break]And what a celebration there is! Once it's over, however, the Woe Wall and your friends dissolve into mist. You seem alone, except ... except ... a mapper mmummy starts shambling your way!";
+	move mapper mummy to WoeWall;
+	moot woe wall;
+	moot throw thrall;
+	moot po paul;
 
 a goodrhyme rule (this is the vc-core-kit rule):
 	if player is not in forfeit bore bit, unavailable;
@@ -482,6 +487,31 @@ this is the vr-war-wit rule:
 	woe-all 5203;
 	say "Yes! You see what to do, now. You make believe you still have the soldier toys and see the right strategy for repelling the enemy. They'll be toast now.";
 	move player to WoeWall;
+
+a goodrhyme rule (this is the vc-dapper-dummy rule):
+	if mapper mummy is not in location of player, unavailable;
+	if sco-dapper-dummy is true:
+		vcal "You already got rid of the mapper mummy!";
+		already-done;
+	ready;
+
+this is the vr-dapper-dummy rule:
+	now sco-dapper-dummy is true;
+	say "Pop! The mapper mummy disappears, replaced by something that is quite frankly more annoying and definitely faster. They bound over to you and make small talk about a great party they're going to, and they'd love to have you along, but really, you're not dressed for it.[paragraph break]Suddenly, the dapper dummy runs away! You're happy about this, until you realized the reason for it: a bump-boast gump-ghost has even more to say. They don't seem harmful, again, but perhaps you'll want to get rid of them on general principles.";
+	moot mapper mummy;
+	move gump ghost to WoeWall;
+
+a goodrhyme rule (this is the vc-rump-roast rule):
+	if bump boast gump ghost is not in location of player, unavailable;
+	if sco-rump-roast is true:
+		vcal "You already did this!";
+		already-done;
+	ready;
+
+this is the vr-rump-roast rule:
+	now sco-rump-roast is true;
+	say "Pop! The bump-boast gump ghost swirls around and gets more opaque as it gets smaller. It becomes a rump roast that seems to talk about how it must taste good, so you'd better eat it, and you feel weirded out enough by it that you turn away. When you turn back, it's gone, but on the bright side, that's one less undead thing to worry about.";
+	moot bump boast gump ghost;
 
 chapter auxiliary rules
 

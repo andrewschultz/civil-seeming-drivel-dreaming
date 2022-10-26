@@ -18,13 +18,15 @@ test rh3 with "hick hide/ivy/lively/jive gee/thrive three/whyve we/rick ride".
 
 test rh4 with "sick side/moil mink/broil brink/royal rink/soil sink/foil fink/rick ride".
 
-test r3 with "foe fall/core kit/war wit/oh all/let in the light".
+test r3 with "foe fall/core kit/war wit/oh all"
 
-test r3f with "foe fall/core kit/war wit/bro brawl/mo maul/oh all/let in the light".
+test r4 with "let in the light".
 
-test wb with "test r1/test r2/test rh1/test rh2/test rh3/test rh4/test r3".
+test r4f with "dapper dummy/rump roast/let in the light".
 
-test wf with "test r1f/test r2/test rh1/test rh2/test rh3/test rh4/test r3f".
+test wb with "test r1/test r2/test rh1/test rh2/test rh3/test rh4/test r3/test r4".
+
+test wf with "test r1f/test r2/test rh1/test rh2/test rh3/test rh4/test r3/test r4f".
 
 volume test commands
 
