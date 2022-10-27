@@ -556,3 +556,22 @@ this is the you-deserve-to-lose rule:
 	now core-score is -100;
 	force-status;
 	stop game abruptly;
+
+volume map indexing
+
+index map with WoeWall mapped west of Croots Cravin.
+
+index map with Sigh Sitch mapped north of WoeWall.
+index map with Honing Hey mapped south of WoeWall.
+index map with Oil Inc mapped east of Sigh Sitch.
+index map with Contrive Country mapped east of Honing Hey.
+
+index map with Bore Bit mapped west of WoeWall.
+
+index map with Spun Spool mapped north of Bore Bit.
+index map with Free Fright mapped south of Bore Bit.
+
+index map with Net in the Night mapped west of Bore Bit.
+
+index map with Gazy Gap mapped north of Net in the Night.
+index map with Hidey House mapped south of Net in the Night.

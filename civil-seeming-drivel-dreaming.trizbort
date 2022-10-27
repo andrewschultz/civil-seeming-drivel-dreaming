@@ -13,33 +13,55 @@
 			<dock index="0" id="1" port="e" />
 			<dock index="1" id="2" port="w" />
 		</line>
-		<room id="4" name="(Sigh) Sitch" subtitle="" x="-288" y="64" w="96" h="64" region="Slide" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
-			<objects custom="yes" customRight="-44" customDown="0">I-Itch-Why Witch</objects>
+		<room id="4" name="(Sigh) Sitch" subtitle="" x="32" y="-192" w="96" h="64" region="Slide" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+			<objects at="n" custom="yes" customRight="-44" customDown="0">I-Itch-Why Witch</objects>
 		</room>
-		<room id="5" name="Five-Fee-Contrive Country" subtitle="" x="-128" y="64" w="96" h="64" region="Slide" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+		<room id="5" name="Five-Fee-Contrive Country" subtitle="" x="192" y="64" w="96" h="64" region="Slide" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
 			<objects custom="yes" customRight="-32" customDown="0">Clive Klee|(Strives Tree)</objects>
 		</room>
-		<room id="6" name="Oil, Inc." subtitle="" x="32" y="64" w="96" h="64" region="Slide" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
-		<room id="7" name="Honing (Hey) Groaning, Grey" subtitle="" x="192" y="64" w="96" h="64" region="Slide" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
+		<room id="6" name="Oil, Inc." subtitle="" x="192" y="-192" w="96" h="64" region="Slide" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="7" name="Honing (Hey) Groaning, Grey" subtitle="" x="32" y="64" w="96" h="64" region="Slide" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0">
 			<objects custom="yes" customRight="-32" customDown="0">Moaning Mae|Droning Dre</objects>
 		</room>
-		<room id="8" name="Forfeit-Bore Bit" subtitle="Pore Pit" x="32" y="-192" w="96" h="64" region="Post-Slide" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
-		<room id="9" name="Set-in-the-Site Net in the Night" subtitle="" x="192" y="-192" w="96" h="64" region="Post-Slide" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" isEndRoom="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="8" name="Forfeit-Bore Bit" subtitle="Pore Pit" x="-96" y="-64" w="64" h="64" region="Post-Slide" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="9" name="Set-in-the-Site Net in the Night" subtitle="" x="-288" y="-64" w="96" h="64" region="Post-Slide" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" isEndRoom="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
 		<line id="10" name="" description="" style="dashed">
-			<dock index="0" id="1" port="w" />
-			<dock index="1" id="4" port="n" />
+			<dock index="0" id="1" port="n" />
+			<dock index="1" id="4" port="s" />
 		</line>
 		<line id="11" name="" description="" style="dashed">
-			<dock index="0" id="1" port="sw" />
-			<dock index="1" id="5" port="ne" />
+			<dock index="0" id="1" port="se" />
+			<dock index="1" id="5" port="nw" />
 		</line>
 		<line id="12" name="" description="" style="dashed">
-			<dock index="0" id="1" port="s" />
-			<dock index="1" id="6" port="n" />
+			<dock index="0" id="1" port="ne" />
+			<dock index="1" id="6" port="sw" />
 		</line>
 		<line id="13" name="" description="" style="dashed">
-			<dock index="0" id="1" port="se" />
-			<dock index="1" id="7" port="nw" />
+			<dock index="0" id="1" port="s" />
+			<dock index="1" id="7" port="n" />
+		</line>
+		<room id="14" name="Mesprise Premises" subtitle="" x="-128" y="-192" w="96" h="64" region="NoRegion" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="15" name="" description="" style="dashed" flow="oneWay">
+			<dock index="0" id="1" port="wnw" />
+			<dock index="1" id="14" port="e" />
+		</line>
+		<room id="16" name="Mesprise Premises" subtitle="" x="-128" y="64" w="96" h="64" region="NoRegion" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="17" name="" description="" style="dashed" flow="oneWay">
+			<dock index="0" id="1" port="wsw" />
+			<dock index="1" id="16" port="e" />
+		</line>
+		<line id="18" name="" description="" style="dashed" flow="oneWay">
+			<dock index="0" id="14" port="w" />
+			<dock index="1" id="9" port="ene" />
+		</line>
+		<line id="19" name="" description="" style="dashed">
+			<dock index="0" id="14" port="ssw" />
+			<dock index="1" id="16" port="nnw" />
+		</line>
+		<line id="20" name="" description="" style="dashed" flow="oneWay">
+			<dock index="0" id="16" port="w" />
+			<dock index="1" id="9" port="ese" />
 		</line>
 	</map>
 	<settings>
