@@ -86,13 +86,9 @@ Finally, ask Clive the question that will make him run away.
 
 > WHYVE WE (1)
 
-You are ready for the final showdown, now! You just need a rallying cry. They can occur in either order.
+You are ready for the final showdown, now! You just need a rallying cry. There are three, and you only need one.
 
 > FOE FALL (1)
-
-And now the order to fight.
-
-> BRO BRAWL (1)
 
 Oh no! You were totally captured and taken away! To the Forfeit-Bore Bit! You need something that will heal your soul and get you back to basics.
 
@@ -102,11 +98,23 @@ You need to focus on battle strategy before going back there.
 
 > WAR WIT (1)
 
-Now for the other cry.
+The other two cries are unifiying, and they get you a bonus point, but this one wins the battle:
 
-> MO MAUL (1)
+> OH ALL (1)
 
-Alas ... after the victory party, you wind up abducted and trapped, with nobody to help you. The set-in-the-site net in the night!
+You can go either way. North's slightly easier.
+
+A done-duel gun ghoul!
+
+> PUN POOL (1)
+
+Now to transform the ghoul.
+
+> FUN FOOL (1)
+
+You can now detour to the south. Or...
+
+> W
 
 You can actually give up here, or you can win.
 
