@@ -360,7 +360,11 @@ The simplicity! The universality! It's so simple and universal, several members 
 bonus
 by one point
 
->n
+>rump roast
+bonus
+by one point
+
+>s
 
 `Free Fright
 
@@ -370,7 +374,7 @@ by one point
 >rewrite
 by one point
 
->s
+>n
 
 `Spun Spool
 

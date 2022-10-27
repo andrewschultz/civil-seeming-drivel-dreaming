@@ -331,6 +331,7 @@ a goodrhyme rule (this is the vc-moil-mink rule):
 this is the vr-moil-mink rule:
 	now sco-moil-mink is true;
 	say "A large mink appears and begins racing around. It looks like it can do damage when the time comes.";
+	move moil mink to oil inc;
 	oil-inc-decrease 5404;
 
 a goodrhyme rule (this is the vc-royal-rink rule):
@@ -643,6 +644,7 @@ to rick-and-slide-check:
 
 to woe-all (nu - a number):
 	now to-number of WoeWall is nu;
+	now to-number of Woe Wall is nu;
 	if nu is -5:
 		now to-number of po paul is -6;
 		now to-number of throw thrall is -6;

@@ -92,7 +92,7 @@ There's a direction to go, but you have to figure out why you should go that way
 
 @hin
 >ll
-You scan the area. This will suffice most of the time, though you may wish to LL a thing that doesn't jibe with its rhymes.
+You scan the area. This will suffice most of the time, though you may wish to LL a thing that doesn't jibe with the location's rhymes.
 You get an interesting reading when it flips to the BRUTES BRAVING SUITS SAVING text. The numbers blink from (0.50, 0.50) to (-0.50, -0.50) and back, as if it's clueless what should have been changed from, or to, what.
 Perhaps you will get more meaningful information scanning the blurring-blest purring pest.
 
@@ -200,6 +200,7 @@ by one point
 >undo
 
 @hin
+#testcase-values-from-number-of-blurring-blest-purring-pest-is-11509
 >ll pest
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
 !it's really dim
@@ -208,6 +209,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >whirring west
 by one point
 \\
+#+testcase-values-from-number-of-blurring-blest-purring-pest-is-11509
 >ll pest
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.50, -0.50.)
 However, it's really dim, as if you don't need to do or think whatever there is to do or think.
@@ -250,6 +252,7 @@ The blurring-blest purring pest, pushed back a bit, crawls into a corner. Perhap
 You perform a Turing Test on yourself, since you already administered one to the blurring-blest purring pest. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
 
 @hin
+#+testcase-values-from-number-of-blurring-blest-purring-pest-is-11509
 >ll pest
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
 
@@ -480,7 +483,12 @@ A guide gong rings to notify you that you don't need to go back through 'Croots-
 It's too treacherous and dark. Perhaps there are other places to visit via transport.
 
 @hin
+#testcase-values-from-number-of-woewall-is-5304
 >ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
+\\
+#testcase-values-from-number-of-woe-wall-is-5304
+>ll woe wall
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
 @hom
@@ -622,6 +630,7 @@ You already found the stall.
 >ll
 The leet learner makes a weird noise, as if it's about to find something, but then it doesn't. Maybe there's something to do here a bit later.
 \\
+#testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 
@@ -877,6 +886,7 @@ You feel more positive. This time, you'll help
 Directions can't take you anywhere. The slick slide, though, can.
 
 @hin
+#+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.75, -0.75.)
 
@@ -915,12 +925,15 @@ You can take a RICK RIDE now you've taken a trip on the slick slide.
 Trust me, the land beyond is even more miserable.
 
 @hin
+#testcase-values-from-number-of-honing-hey-groaning-grey-is-11407
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.50.)
 \\
+#testcase-values-from-number-of-moaning-mae-is-5703
 >ll moaning mae
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 \\
+#testcase-values-from-number-of-droning-dre-is-5703
 >ll droning dre
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
@@ -1007,12 +1020,15 @@ You will need to summon transport.
 by one point
 
 @hin
+#+testcase-values-from-number-of-honing-hey-groaning-grey-is-11407
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
 \\
+#+testcase-values-from-number-of-moaning-mae-is-5703
 >ll moaning mae
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
 \\
+#+testcase-values-from-number-of-droning-dre-is-5703
 >ll droning dre
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
 
@@ -1205,9 +1221,11 @@ No, laughing bees wouldn't do the trick.
 It's not cold enough for crafty skiers to swoop by.
 
 @hin
+#testcase-values-from-number-of-five-fee-contrive-country-is-11210
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.66, -3.00.)
 \\
+#testcase-values-from-number-of-clive-klee-is-5504
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.66, -2.00.)
 
@@ -1225,9 +1243,11 @@ Five-Fee-Contrive Country is now filled with vegetation!
 You already vegetatified Five-Fee-Contrive Country!
 
 @hin
+#+testcase-values-from-number-of-five-fee-contrive-country-is-11210
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.00, -2.50.)
 \\
+#+testcase-values-from-number-of-clive-klee-is-5504
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.50.)
 
@@ -1245,10 +1265,12 @@ Five-Fee-Contrive Country now seems more populated.
 But Five-Fee-Contrive Country is already populated enough.
 
 @hin
+#+testcase-values-from-number-of-five-fee-contrive-country-is-11210
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.00, -2.00.)
 !You must supply a noun
 \\
+#+testcase-values-from-number-of-clive-klee-is-5504
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
@@ -1272,9 +1294,11 @@ You can say WHYVE WE once you have allies to outnumber Clive Klee.
 You can summon the THRIVE THREE now Five-Fee-Contrive Country thrives three ways.
 
 @hin
+#+testcase-values-from-number-of-five-fee-contrive-country-is-11210
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 \\
+#+testcase-values-from-number-of-clive-klee-is-5504
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 
@@ -1296,9 +1320,11 @@ You already summoned the Thrive Three!
 You can say WHYVE WE now you have allies to outnumber Clive Klee.
 
 @hin
+#+testcase-values-from-number-of-five-fee-contrive-country-is-11210
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -3.00.)
 \\
+#+testcase-values-from-number-of-clive-klee-is-5504
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -2.00.)
 
@@ -1451,11 +1477,13 @@ You reflect that the true loyal links are the more concrete double-rhymes you co
 But Oil, Inc. is about ruining animals, and you should be against that.
 
 @hin
+#testcase-values-from-number-of-oil-inc-is-5303
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.75, 1.25.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.50, 1.25.)
 \\
+#testcase-values-from-number-of-doyle-dink-is-5504
 >ll doyle dink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.25, 0.25.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, 0.25.)
 
 @rej
 #testcase-check-vc-foil-fink-rule-if-oil-inc-score-<-4
@@ -1480,11 +1508,13 @@ A big ol' royal rink pops up in the middle of the dystopian landscape. Worse, it
 People already have a place where they can assemble!
 
 @hin
+#+testcase-values-from-number-of-oil-inc-is-5303
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.66, 1.33.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.33, 1.33.)
 \\
+#+testcase-values-from-number-of-doyle-dink-is-5504
 >ll doyle dink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.33, 0.33.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, 0.33.)
 
 >soil sink
 by one point
@@ -1501,11 +1531,13 @@ The soil collapses under the most hideous of workhouses and takes along an almos
 You already destroyed the most oppressive parts of Oil, Inc.'s dark and dreary skyline!
 
 @hin
+#+testcase-values-from-number-of-oil-inc-is-5303
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.50.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.50, 1.50.)
 \\
+#+testcase-values-from-number-of-doyle-dink-is-5504
 >ll doyle dink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, 0.50.)
 
 >broil brink
 by one point
@@ -1521,11 +1553,13 @@ You foment an undercurrent of constructive discontent in the populace. Nothing t
 People are already mad, but not bursting. That's probably for the best!
 
 @hin
+#+testcase-values-from-number-of-oil-inc-is-5303
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.00.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 \\
+#+testcase-values-from-number-of-doyle-dink-is-5504
 >ll doyle dink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
 >moil mink
 by one point
@@ -1554,11 +1588,17 @@ You can FOIL FINK now Oil, Inc. is weak enough and you've gained enough support.
 {$GREENCORE}
 
 @hin
+#+testcase-values-from-number-of-oil-inc-is-5303
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 \\
+#+testcase-values-from-number-of-doyle-dink-is-5504
 >ll doyle dink
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
+\\
+#testcase-values-from-number-of-moil-mink-is-5404
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 
 @rej
 #testcase-check-vc-soil-sink-rule-abide-by-the-oil-inc-basics-rule
@@ -1657,6 +1697,19 @@ You have no target at which to pitch a pie, yet.
 #testcase-think-table-of-verb-checks-vc-pie-pitch-rule
 >think
 You can ask for a PIE PITCH once there's someone or something evil as a target.
+
+@hint
+#testcase-values-from-number-of-sigh-sitch-is-5405
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+\\
+#testcase-values-from-number-of-die-ditch-is-10305
+>ll die ditch
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -1.00.)
+\\
+#testcase-values-from-number-of-i-itch-why-witch-is-10409
+>ll why witch
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, -0.50.)
 
 @gt
 #testcase-goto-table-of-noways-sigh-sitch
@@ -1771,6 +1824,23 @@ You already summoned one lie lich, and two lies won't cancel each other out!
 >think
 You can ask for a PIE PITCH now there's someone or something evil as a target.
 
+@hint
+#+testcase-values-from-number-of-sigh-sitch-is-5405
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
+\\
+#+testcase-values-from-number-of-die-ditch-is-10305
+>ll die ditch
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+\\
+#+testcase-values-from-number-of-i-itch-why-witch-is-10409
+>ll why witch
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.50.)
+\\
+#testcase-values-from-number-of-lie-lich-is-5304
+>ll lie lich
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
+
 >pie pitch
 by one point
 
@@ -1800,6 +1870,11 @@ You retreat to a scene of prior success.
 \\
 >tick tide
 You retreat to a scene of prior success.
+
+@hint
+#+testcase-values-from-number-of-sigh-sitch-is-5405
+>ll
+Nothing comes up. The general area here has been changed enough.
 
 @gt
 #+testcase-goto-table-of-noways-sigh-sitch
@@ -1840,7 +1915,7 @@ You don't feel you have enough leadership skills yet to unite everyone!
 
 @hin
 >ll slide
-Nothing comes up. You've changed the slick slide as much as you needed to.
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 @rej
 #+testcase-think-table-of-verb-checks-vc-bro-brawl-rule
@@ -1852,8 +1927,21 @@ You can cry FOE FALL now combat is underway.
 You can cry MO MAUL now combat is underway.
 
 @hin
+#+testcase-values-from-number-of-woewall-is-5304
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.33, 0.33.)
+\\
+#+testcase-values-from-number-of-woe-wall-is-5304
+>ll woe wall
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.33, 0.33.)
+\\
+#testcase-values-from-number-of-throw-thrall-is-5506
+>ll throw thrall
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.33, -1.66.)
+\\
+#testcase-values-from-number-of-po-paul-is-5204
+>ll po paul
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.66, 0.33.)
 
 @all
 #testcase-run-vr-bro-brawl-rule-abide-by-the-big-battle-check-rule
@@ -2006,6 +2094,7 @@ You're beyond the rick's help here. You must find a way out on your own.
 {$YELLOWCORE}
 
 @hin
+#testcase-values-from-number-of-forfeit-bore-bit-is-10707
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
 
@@ -2045,6 +2134,7 @@ You already found a core kit. Cork it!
 You can learn WAR WIT now you are no longer in the depths of despair.
 
 @hin
+#+testcase-values-from-number-of-forfeit-bore-bit-is-10707
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
@@ -2105,6 +2195,14 @@ You spring a battle cry, simple and effective! While "bro" doesn't feel as inclu
 @hin
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+\\
+#+testcase-values-from-number-of-throw-thrall-is-5506
+>ll throw thrall
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-3.00, -3.00.)
+\\
+#+testcase-values-from-number-of-po-paul-is-5204
+>ll po paul
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -1.00.)
 
 @rej
 #testcase-check-vc-bro-brawl-rule-if-sco-bro-brawl-is-true
@@ -2144,6 +2242,12 @@ The simplicity! The universality! It's so simple and universal, several members 
 >zdapper dummy
 {$GREENBONUS}
 
+@hint
+#testcase-values-from-number-of-mapper-mummy-is-5605
+>ll mummy
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+However, it's really dim, as if you don't need to do or think whatever there is to do or think.
+
 @!min
 >dapper dummy
 bonus
@@ -2158,10 +2262,30 @@ by one point
 >rump zroast
 {$GREENBONUS}
 
->n
+@hint
+#testcase-values-from-number-of-bump-boast-gump-ghost-is-10810
+>ll ghost
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+However, it's really dim, as if you don't need to do or think whatever there is to do or think.
+
+@!min
+>rump roast
+bonus
+by one point
+
+>s
 
 @all
 `Free Fright
+
+@hint
+#testcase-values-from-number-of-free-fright-is-5406
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+\\
+#testcase-values-from-number-of-wee-wight-is-10711
+>ll wee wight
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
 
 @ha
 #testcase-ha-half-table-of-verb-checks-33-see
@@ -2176,11 +2300,20 @@ The HA HALF button lights up on your Leet Learner.
 >see sight
 by one point
 
+@hint
+#+testcase-values-from-number-of-free-fright-is-5406
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.00, -1.00.)
+\\
+#+testcase-values-from-number-of-wee-wight-is-10711
+>ll wee wight
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.50, -0.50.)
+
 >rewrite
 by one point
 
 @!min
->s
+>n
 
 @all
 `Spun Spool
@@ -2202,6 +2335,15 @@ by one point
 >zpun pool
 {$YELLOWCORE}
 
+@hint
+#testcase-values-from-number-of-spun-spool-is-5405
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+\\
+#testcase-values-from-number-of-done-duel-gun-ghoul-is-10709
+>ll ghoul
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+
 @!min
 >pun pool
 by one point
@@ -2209,6 +2351,15 @@ by one point
 @all
 >x pun pool
 WRONG
+
+@hint
+#+testcase-values-from-number-of-spun-spool-is-5405
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+\\
+#+testcase-values-from-number-of-done-duel-gun-ghoul-is-10709
+>ll ghoul
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
 
 @!min
 >fun fool
@@ -2236,6 +2387,11 @@ by one point
 @all
 #testcase-room-names-set-in-the-site-net-in-the-night
 `Set-in-the-Site Net in the Night
+
+@hint
+#testcase-values-from-number-of-net-in-the-night-is-10609
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
 
 @gt
 #testcase-goto-table-of-noways-net-in-the-night
@@ -2302,10 +2458,6 @@ There's no going back! There's only escape. There must be a way!
 #testcase-goto-tries-set-in-the-site-net-in-the-night-woewall
 >gt woe wall
 There's no going back! There's only escape. There must be a way!
-
-@hin
->ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.50.)
 
 @rej
 #testcase-reject-end-table-of-verb-checks-vr-bro-brawl-rule

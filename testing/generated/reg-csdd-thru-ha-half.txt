@@ -366,7 +366,11 @@ The HA HALF button on your Leet Learner lights up green. Very dim, though. Perha
 >rump zroast
 The HA HALF button on your Leet Learner lights up green. Very dim, though. Perhaps this is a rhyme you don't strictly need to figure to win.
 
->n
+>rump roast
+bonus
+by one point
+
+>s
 
 #testcase-ha-half-table-of-verb-checks-33-see
 >see zsight
@@ -383,7 +387,7 @@ by one point
 >rewrite
 by one point
 
->s
+>n
 
 #testcase-ha-half-table-of-verb-checks-35-fool
 >fun zfool

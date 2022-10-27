@@ -133,13 +133,13 @@ chapter mapper mummy
 
 the mapper mummy is a person. "The mapper mummy shambles towards you very slowly. Every few seconds, it pulls out a map, studies it, and draws in something else before putting the map back. This makes the mummy even slower! So you can probably just outrun it. But it would be nice to get rid of for good.". description is "It's more annoying than spooky. You almost feel sorry for it. Not sorry enough to let it catch you."
 
-from-number of mapper mummy is 5605. to-number of mapper mummy is 5605.
+from-number of mapper mummy is 5605. to-number of mapper mummy is -5605.
 
 chapter bump boast gump ghost
 
 the bump boast gump ghost is a person. printed name of gump ghost is "bump-boast gump-ghost". "The bump-boast gump-ghost continues to try to bump you and fist-bump you. It's pretty obvious it's harmless, but like [the mummy], man, what a nuisance!". description of gump ghost is "What you can see of [the ghost] isn't particularly evil, but its grin is a bit big, and it does mumble on about what a great undead it is, one of the nicest undeads you'll meet!"
 
-from-number of bump boast gump ghost is 10810. to-number of bump boast gump ghost is 5405.
+from-number of bump boast gump ghost is 10810. to-number of bump boast gump ghost is -5405.
 
 book Sigh Sitch
 
@@ -165,7 +165,7 @@ chapter ditch
 
 the die ditch is scenery in Sigh Sitch. "It looks very dark and very deadly and very ubiquitous. You probably don't want to go near it."
 
-from-number of die ditch is 10305. to-number of die ditch is 5304.
+from-number of die ditch is 5305. to-number of die ditch is 5304.
 
 chapter lich
 
@@ -280,7 +280,6 @@ from-number of free fright is 5406. to-number of free fright is 5305.
 
 this is the wight-here rule:
 	if wee wight is not moot, say "You still need to get by [the wight]." instead;
-	move-to-site instead;
 
 check going west in Free Fright:
 	abide by the wight-here rule;
@@ -288,7 +287,6 @@ check going west in Free Fright:
 check going north in Free Fright:
 	abide by the wight-here rule;
 	if gun ghoul is moot, say "No going back." instead;
-	move player to spun spool instead;
 
 chapter wee wight
 
@@ -302,7 +300,6 @@ Spun Spool is a room. "You can see passage west [if sco-re-write is true]but not
 
 this is the ghoul-here rule:
 	if gun ghoul is not moot, say "You still need to get by [the ghoul]." instead;
-	move-to-site instead;
 
 check going west in spun spool:
 	abide by the ghoul-here rule;
@@ -317,16 +314,15 @@ the done duel gun ghoul is a person in Spun Spool.
 
 from-number of spun spool is 5405. to-number of spun spool is 5304.
 
-from-number of done duel gun ghoul is 10709. to-number of done duel gun ghoul is 10709.
+from-number of done duel gun ghoul is 10709. to-number of done duel gun ghoul is 5304.
 
 book Set in the Site Net in the Night
 
-to move-to-site:
-	move player to net in the night;
+check going to net in the night: say "Freedom! Well, you think, until you are snared.";
 
 Set in the Site Net in the Night is a room. printed name is "Set-in-the-Site Net in the Night". "'Don't mind me,' you fret, telepathically guilt-tripping anyone within a twelve-mile radius. 'I deserved it, for my moment of inattention. I probably had more attention than a schlep like me earned, anyway, and I guess this is my rightful punishment. I don't deserve, like, a simple way out,' you mumble to yourself, while of course deep down you believe the complete opposite."
 
-from-number of Net in the Night is 10609. to-number of Net in the Night is 5306.
+from-number of Net in the Night is 10609. to-number of Net in the Night is 5305.
 
 volume verbs
 

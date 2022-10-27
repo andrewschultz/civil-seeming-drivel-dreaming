@@ -165,7 +165,11 @@ by one point
 bonus
 by one point
 
->n
+>rump roast
+bonus
+by one point
+
+>s
 
 >see sight
 by one point
@@ -173,7 +177,7 @@ by one point
 >rewrite
 by one point
 
->s
+>n
 
 >pun pool
 by one point

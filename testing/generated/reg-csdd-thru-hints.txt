@@ -14,10 +14,11 @@ Taken.
 >au 2
 
 >ll
-You scan the area. This will suffice most of the time, though you may wish to LL a thing that doesn't jibe with its rhymes.
+You scan the area. This will suffice most of the time, though you may wish to LL a thing that doesn't jibe with the location's rhymes.
 You get an interesting reading when it flips to the BRUTES BRAVING SUITS SAVING text. The numbers blink from (0.50, 0.50) to (-0.50, -0.50) and back, as if it's clueless what should have been changed from, or to, what.
 Perhaps you will get more meaningful information scanning the blurring-blest purring pest.
 
+#testcase-values-from-number-of-blurring-blest-purring-pest-is-11509
 >ll pest
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
 !it's really dim
@@ -25,6 +26,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >whirring west
 by one point
 
+#+testcase-values-from-number-of-blurring-blest-purring-pest-is-11509
 >ll pest
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.50, -0.50.)
 However, it's really dim, as if you don't need to do or think whatever there is to do or think.
@@ -34,6 +36,7 @@ However, it's really dim, as if you don't need to do or think whatever there is 
 
 >turing test
 
+#+testcase-values-from-number-of-blurring-blest-purring-pest-is-11509
 >ll pest
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
 
@@ -45,7 +48,12 @@ Your rhyming attempts bring up nothing.
 
 >w
 
+#testcase-values-from-number-of-woewall-is-5304
 >ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
+
+#testcase-values-from-number-of-woe-wall-is-5304
+>ll woe wall
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
 >yo yall
@@ -60,36 +68,44 @@ by one point
 >ll
 The leet learner makes a weird noise, as if it's about to find something, but then it doesn't. Maybe there's something to do here a bit later.
 
+#testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 
 >trick tried
 by one point
 
+#+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.75, -0.75.)
 
 >tick tide
 by one point
 
+#testcase-values-from-number-of-honing-hey-groaning-grey-is-11407
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.50.)
 
+#testcase-values-from-number-of-moaning-mae-is-5703
 >ll moaning mae
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
+#testcase-values-from-number-of-droning-dre-is-5703
 >ll droning dre
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
 >owning eh
 by one point
 
+#+testcase-values-from-number-of-honing-hey-groaning-grey-is-11407
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
 
+#+testcase-values-from-number-of-moaning-mae-is-5703
 >ll moaning mae
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
 
+#+testcase-values-from-number-of-droning-dre-is-5703
 >ll droning dre
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
 
@@ -112,46 +128,56 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >hick hide
 by one point
 
+#testcase-values-from-number-of-five-fee-contrive-country-is-11210
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.66, -3.00.)
 
+#testcase-values-from-number-of-clive-klee-is-5504
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.66, -2.00.)
 
 >ivy
 by one point
 
+#+testcase-values-from-number-of-five-fee-contrive-country-is-11210
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.00, -2.50.)
 
+#+testcase-values-from-number-of-clive-klee-is-5504
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.50.)
 
 >lively
 by one point
 
+#+testcase-values-from-number-of-five-fee-contrive-country-is-11210
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.00, -2.00.)
 !You must supply a noun
 
+#+testcase-values-from-number-of-clive-klee-is-5504
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
 >jive gee
 by one point
 
+#+testcase-values-from-number-of-five-fee-contrive-country-is-11210
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 
+#+testcase-values-from-number-of-clive-klee-is-5504
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 
 >thrive three
 by one point
 
+#+testcase-values-from-number-of-five-fee-contrive-country-is-11210
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -3.00.)
 
+#+testcase-values-from-number-of-clive-klee-is-5504
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -2.00.)
 
@@ -167,47 +193,61 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >sick side
 by one point
 
+#testcase-values-from-number-of-oil-inc-is-5303
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.75, 1.25.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.50, 1.25.)
 
+#testcase-values-from-number-of-doyle-dink-is-5504
 >ll doyle dink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.25, 0.25.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, 0.25.)
 
 >royal rink
 by one point
 
+#+testcase-values-from-number-of-oil-inc-is-5303
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.66, 1.33.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.33, 1.33.)
 
+#+testcase-values-from-number-of-doyle-dink-is-5504
 >ll doyle dink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.33, 0.33.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, 0.33.)
 
 >soil sink
 by one point
 
+#+testcase-values-from-number-of-oil-inc-is-5303
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.50.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.50, 1.50.)
 
+#+testcase-values-from-number-of-doyle-dink-is-5504
 >ll doyle dink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, 0.50.)
 
 >broil brink
 by one point
 
+#+testcase-values-from-number-of-oil-inc-is-5303
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (2.00, 1.00.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 
+#+testcase-values-from-number-of-doyle-dink-is-5504
 >ll doyle dink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
 >moil mink
 by one point
 
+#+testcase-values-from-number-of-oil-inc-is-5303
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 
+#+testcase-values-from-number-of-doyle-dink-is-5504
 >ll doyle dink
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
+
+#testcase-values-from-number-of-moil-mink-is-5404
+>ll moil mink
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 
 >foil fink
 by one point
@@ -226,6 +266,18 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll slide
 DEBUG: can't see any such thing error.
 
+#testcase-values-from-number-of-sigh-sitch-is-5405
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+#testcase-values-from-number-of-die-ditch-is-10305
+>ll die ditch
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -1.00.)
+
+#testcase-values-from-number-of-i-itch-why-witch-is-10409
+>ll why witch
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, -0.50.)
+
 >lie lich
 by one point
 
@@ -238,27 +290,62 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll lich
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
 
+#+testcase-values-from-number-of-sigh-sitch-is-5405
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
+
+#+testcase-values-from-number-of-die-ditch-is-10305
+>ll die ditch
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+
+#+testcase-values-from-number-of-i-itch-why-witch-is-10409
+>ll why witch
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.50.)
+
+#testcase-values-from-number-of-lie-lich-is-5304
+>ll lie lich
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
+
 >pie pitch
 by one point
+
+#+testcase-values-from-number-of-sigh-sitch-is-5405
+>ll
+Nothing comes up. The general area here has been changed enough.
 
 >rick ride
 !by one point
 
 >ll slide
-Nothing comes up. You've changed the slick slide as much as you needed to.
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
+#+testcase-values-from-number-of-woewall-is-5304
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.33, 0.33.)
+
+#+testcase-values-from-number-of-woe-wall-is-5304
+>ll woe wall
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.33, 0.33.)
+
+#testcase-values-from-number-of-throw-thrall-is-5506
+>ll throw thrall
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.33, -1.66.)
+
+#testcase-values-from-number-of-po-paul-is-5204
+>ll po paul
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.66, 0.33.)
 
 >foe fall
 by one point
 
+#testcase-values-from-number-of-forfeit-bore-bit-is-10707
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.50, -0.50.)
 
 >core kit
 by one point
 
+#+testcase-values-from-number-of-forfeit-bore-bit-is-10707
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
@@ -280,33 +367,88 @@ by one point
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
+#+testcase-values-from-number-of-throw-thrall-is-5506
+>ll throw thrall
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-3.00, -3.00.)
+
+#+testcase-values-from-number-of-po-paul-is-5204
+>ll po paul
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -1.00.)
+
 >oh all
 by one point
+
+#testcase-values-from-number-of-mapper-mummy-is-5605
+>ll mummy
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+However, it's really dim, as if you don't need to do or think whatever there is to do or think.
 
 >dapper dummy
 bonus
 by one point
 
->n
+#testcase-values-from-number-of-bump-boast-gump-ghost-is-10810
+>ll ghost
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+However, it's really dim, as if you don't need to do or think whatever there is to do or think.
 
->see sight
-by one point
-
->rewrite
+>rump roast
+bonus
 by one point
 
 >s
 
+#testcase-values-from-number-of-free-fright-is-5406
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+#testcase-values-from-number-of-wee-wight-is-10711
+>ll wee wight
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+
+>see sight
+by one point
+
+#+testcase-values-from-number-of-free-fright-is-5406
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.00, -1.00.)
+
+#+testcase-values-from-number-of-wee-wight-is-10711
+>ll wee wight
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.50, -0.50.)
+
+>rewrite
+by one point
+
+>n
+
+#testcase-values-from-number-of-spun-spool-is-5405
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+#testcase-values-from-number-of-done-duel-gun-ghoul-is-10709
+>ll ghoul
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+
 >pun pool
 by one point
+
+#+testcase-values-from-number-of-spun-spool-is-5405
+>ll
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
+
+#+testcase-values-from-number-of-done-duel-gun-ghoul-is-10709
+>ll ghoul
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
 
 >fun fool
 by one point
 
 >w
 
+#testcase-values-from-number-of-net-in-the-night-is-10609
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.50.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
 
 >let in the light
 by one point
