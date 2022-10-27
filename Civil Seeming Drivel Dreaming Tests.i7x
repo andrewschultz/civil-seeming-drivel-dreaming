@@ -20,13 +20,19 @@ test rh4 with "sick side/moil mink/broil brink/royal rink/soil sink/foil fink/ri
 
 test r3 with "foe fall/core kit/war wit/oh all"
 
-test r4 with "let in the light".
+test r41 with "s/see sight/rewrite/w/let in the light"
 
-test r4f with "dapper dummy/rump roast/let in the light".
+test r42 with "n/pun pool/fun fool/w/let in the light"
 
-test wb with "test r1/test r2/test rh1/test rh2/test rh3/test rh4/test r3/test r4".
+test r4f1 with "dapper dummy/rump roast/s/see sight/rewrite/n/pun pool/fun fool/w/let in the light".
 
-test wf with "test r1f/test r2/test rh1/test rh2/test rh3/test rh4/test r3/test r4f".
+test r4f2 with "dapper dummy/rump roast/n/pun pool/fun fool/s/see sight/rewrite/w/let in the light".
+
+test wb1 with "test r1/test r2/test rh1/test rh2/test rh3/test rh4/test r3/test r41".
+test wb2 with "test r1/test r2/test rh1/test rh2/test rh3/test rh4/test r3/test r42".
+
+test wf1 with "test r1f/test r2/test rh1/test rh2/test rh3/test rh4/test r3/test r4f1".
+test wf2 with "test r1f/test r2/test rh1/test rh2/test rh3/test rh4/test r3/test r4f2".
 
 volume test commands
 
