@@ -57,8 +57,13 @@ sco-core-kit is a truth state that varies.
 sco-war-wit is a truth state that varies.
 
 sco-dapper-dummy is a truth state that varies.
-
 sco-rump-roast is a truth state that varies.
+
+sco-see-sight is a truth state that varies.
+sco-re-write is a truth state that varies.
+
+sco-fun-fool is a truth state that varies.
+sco-pun-pool is a truth state that varies.
 
 sco-let-light is a truth state that varies.
 

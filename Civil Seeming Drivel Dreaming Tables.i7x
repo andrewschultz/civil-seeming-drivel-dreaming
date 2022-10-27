@@ -61,6 +61,10 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "war"	"wit"	--	--	false	true	true	false	forfeit bore bit	vc-war-wit rule	vr-war-wit rule	--	"You can learn [b]WAR WIT[r] [once-now of vc-war-wit rule] you are no longer in the depths of despair."
 "dapper"	"dummy"	--	--	false	true	false	false	--	vc-dapper-dummy rule	vr-dapper-dummy rule	--	--
 "rump"	"roast"	--	--	false	true	false	false	--	vc-rump-roast rule	vr-rump-roast rule	--	--
+"see"	"sight"	--	--	false	true	true	false	free fright	vc-see-sight rule	vr-see-sight rule	--	--
+"rewrite"	--	--	--	false	true	true	false	free fright	vc-re-write rule	vr-re-write rule	--	--
+"fun"	"fool"	--	--	false	true	true	false	Spun Spool	vc-fun-fool rule	vr-fun-fool rule	--	--
+"pun"	"pool"	--	--	false	true	true	false	Spun Spool	vc-pun-pool rule	vr-pun-pool rule	--	--
 "let|fret"	"light|fright"	--	--	false	true	true	false	net in the night	vc-let-light rule	vr-let-light rule	"let light" or "fret fright"	"The final solution is more than two words long. Add words so your action matches the room."
 
 a goodrhyme rule (this is the vc-turing-test rule):
@@ -455,11 +459,18 @@ a goodrhyme rule (this is the vc-oh-all rule):
 this is the vr-oh-all rule:
 	now sco-oh-all is true;
 	say "The simplicity! The universality! It's so simple and universal, several members of the Throw Thrall defect, and several briefly consider attacking themselves! Fortunately, this is not necessary. You learned from your time in the Pore Pit, and you show you're not all sloganeering as you direct the troops this way and that. It's a rout!";
-	say "[line break]And what a celebration there is! Once it's over, however, the Woe Wall and your friends dissolve into mist. You seem alone, except ... except ... a mapper mmummy starts shambling your way!";
+	say "[line break]And what a celebration there is! Once it's over, however, the Woe Wall and your friends dissolve into mist. You seem alone, except ... except ... a mapper mummy starts shambling your way! Fortunately, you can now walk away to the west or north, if it's that annoying.";
 	move mapper mummy to WoeWall;
 	moot woe wall;
 	moot throw thrall;
 	moot po paul;
+	now free fright is mapped south of woewall;
+	now spun spool is mapped north of free fright;
+	now net in the night is mapped west of free fright;
+	now spun spool is mapped north of woewall;
+	now free fright is mapped south of spun spool;
+	now net in the night is mapped west of spun spool;
+	print-the-loc;
 
 a goodrhyme rule (this is the vc-core-kit rule):
 	if player is not in forfeit bore bit, unavailable;
@@ -512,6 +523,58 @@ this is the vr-rump-roast rule:
 	now sco-rump-roast is true;
 	say "Pop! The bump-boast gump ghost swirls around and gets more opaque as it gets smaller. It becomes a rump roast that seems to talk about how it must taste good, so you'd better eat it, and you feel weirded out enough by it that you turn away. When you turn back, it's gone, but on the bright side, that's one less undead thing to worry about.";
 	moot bump boast gump ghost;
+
+a goodrhyme rule (this is the vc-see-sight rule):
+	abide by the wight-check rule;
+	if sco-see-sight is true:
+		vcal "You already showed [the wight] something! Now they need to focus on their impressions.";
+		already-done;
+	ready;
+
+this is the vr-see-sight rule:
+	now sco-see-sight is true;
+	say "You show [the wight] ways to be scary. You paint images in its mind. It whips out a notebook, jots down some ideas, then waits for more. It needs a way to know it's nailed down what you said!";
+	now to-number of free fright is 5205;
+	now to-number of wee wight is 5205;
+
+a goodrhyme rule (this is the vc-re-write rule):
+	abide by the wight-check rule;
+	if sco-see-sight is false:
+		vcp "Yes, that's a good idea, once [the wight] has some ideas!";
+		not-yet;
+	ready;
+
+this is the vr-re-write rule:
+	now sco-re-write is true;
+	say "The wee wight takes its notebook back out and scribbles and nods its head! It sees how to be more scary in the future, for the next person. You just hope the wight isn't too scary and winds up, like, level-draining and lawful-good adventurers that pass through. You'd feel bad about that.";
+	check-post-call-ways;
+	moot wee wight;
+
+a goodrhyme rule (this is the vc-fun-fool rule):
+	abide by the ghoul-check rule;
+	if sco-pun-pool is false:
+		vcp "Unfortunately, right now [ghoul]'s idea of fun is physically violent! How could you change this?";
+		not-yet;
+	if sco-fun-fool is true:
+		vcal "You have already altered [the ghoul]'s priority in afterlife!";
+		already-done;
+	ready;
+
+this is the vr-fun-fool rule:
+	now sco-fun-fool is true;
+	say "The [ghoul] relaxes a bit. Maybe too much. Definitely too much. It drops its weapons and jumps into the pool, with predictable results! It and the pool consume each other.";
+	moot gun ghoul;
+
+a goodrhyme rule (this is the vc-pun-pool rule):
+	abide by the ghoul-check rule;
+	if sco-pun-pool is true:
+		vcal "You already created a pun pool!";
+		already-done;
+	ready;
+
+this is the vr-pun-pool rule:
+	now sco-pun-pool is true;
+	say "A big ol['] pun pool -- bubbling like alphabet soup -- begins bubbling up. The [ghoul] looks interested, despite itself.";
 
 chapter auxiliary rules
 
@@ -661,6 +724,32 @@ this is the vr-let-light rule:
 	process the score and thinking changes rule;
 	end the story finally saying "SPOOKY SPITE, FLUKY FLIGHT";
 	follow the shutdown rules;
+
+[free fright]
+
+this is the wight-check rule:
+	if player is not in free fright, unavailable;
+	if wee wight is moot:
+		vcal "The [wight] is in the past. You will want to move on.";
+		already-done;
+
+[spun spool]
+
+this is the ghoul-check rule:
+	if player is not in spun spool, unavailable;
+	if gun ghoul is moot:
+		vcal "The [ghoul] is in the past. You will want to move on.";
+		already-done;
+
+[checking if you won]
+
+to check-post-call-ways:
+	if mapper mummy is not moot:
+		say "Oh no! With one undead dispelled, that mapper mummy shambles into view[one of][or] again[stopping]! They should be easy to outrun, though.";
+		move mapper mummy to location of player;
+	else if gump ghost is not moot:
+		say "Oh no! With one undead dispelled, that [ghost] floats back into view[one of][or] again[stopping]! They are only a nuisance, though.";
+		move gump ghost to location of player;
 
 [super general flexible rule]
 

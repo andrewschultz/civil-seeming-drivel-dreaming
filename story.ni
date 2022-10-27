@@ -82,7 +82,7 @@ WoeWall is a room. printed name is "[if sco-oh-all is false]Woe Wall[else]Co-Cal
 
 to say woe-wall-which:
 	if sco-oh-all is true:
-		say "You hear calling from two directions: north and west, you guess. Either way could work. But you have nothing to do here";
+		say "You hear calling from opposite directions: north and south. They both seem the same. But you have nothing to do for yourself here, really";
 		continue the action;
 	say "A large woe wall [if sco-yo-yall is false]defends some people against something. They are too scared to come out without a friendly greeting[else if sco-stow-stall is false]must hide something important you haven't found yet[else]has that slide you uncovered next to it[end if]"
 
@@ -94,6 +94,8 @@ check going down in woe wall when slick slide is in woe wall:
 	if throw thrall is in woe wall, say "No sneaking out!" instead;
 	let slide-delt be slide-score - hubs-solved;
 	say "Given how the slick slide branches, you'll need to say where[if slide-delt > 1], as you have two areas to clear[else if slide-delt is 1], even though there's only one slide area you opened and need to solve[else]as you haven't explored every slide area yet[end if]." instead;
+
+check going east in woe wall when sco-oh-all is true: say "The way back to [croots] has disappeared into mist." instead;
 
 chapter woe wall
 
@@ -270,7 +272,57 @@ Forfeit Bore Bit is a room. printed name is "[if sco-core-kit is false]'Forfeit,
 
 from-number of Forfeit Bore Bit is 10707. to-number of Forfeit Bore Bit is 5403.
 
+book Free Fright
+
+Free Fright is a room. "You can see passage west [if sco-fun-fool is true]but not back south or east[else]and soith but not back east[end if] here."
+
+from-number of free fright is 5406. to-number of free fright is 5305.
+
+this is the wight-here rule:
+	if wee wight is not moot, say "You still need to get by [the wight]." instead;
+	move-to-site instead;
+
+check going west in Free Fright:
+	abide by the wight-here rule;
+
+check going north in Free Fright:
+	abide by the wight-here rule;
+	if gun ghoul is moot, say "No going back." instead;
+	move player to spun spool instead;
+
+chapter wee wight
+
+the plea plight wee wight is a person in Free Fright. "[one of]A poor small [wight] stands here. It tries to scare you and utterly fails. It doesn't really want to! That's not its job! Then it starts crying. You tend to believe it.[or]The [wight] still pouts here. How to help it?[stopping]"
+
+from-number of wee wight is 10711. to-number of free fright is 5305.
+
+book spun spool
+
+Spun Spool is a room. "You can see passage west [if sco-re-write is true]but not back north or east[else]and north but not back east[end if] here."
+
+this is the ghoul-here rule:
+	if gun ghoul is not moot, say "You still need to get by [the ghoul]." instead;
+	move-to-site instead;
+
+check going west in spun spool:
+	abide by the ghoul-here rule;
+
+check going south in spun spool:
+	abide by the ghoul-here rule;
+	if wee wight is moot, say "No going back." instead;
+
+chapter gun ghoul
+
+the done duel gun ghoul is a person in Spun Spool.
+
+from-number of spun spool is 5405. to-number of spun spool is 5304.
+
+from-number of done duel gun ghoul is 10709. to-number of done duel gun ghoul is 10709.
+
 book Set in the Site Net in the Night
+
+to move-to-site:
+	move player to net in the night;
 
 Set in the Site Net in the Night is a room. printed name is "Set-in-the-Site Net in the Night". "'Don't mind me,' you fret, telepathically guilt-tripping anyone within a twelve-mile radius. 'I deserved it, for my moment of inattention. I probably had more attention than a schlep like me earned, anyway, and I guess this is my rightful punishment. I don't deserve, like, a simple way out,' you mumble to yourself, while of course deep down you believe the complete opposite."
 
@@ -299,7 +351,15 @@ rule for supplying a missing noun when lling (this is the get readings from room
 		continue the action;
 	reject the player's command;
 
-to note-odd-display: if sco-ivy is false or sco-lively is false, say "The display's acting oddly, as if the numbers are almost trying to squish together or something.";
+to note-odd-display:
+	if one-word-solution, say "The display's acting oddly, as if the numbers are almost trying to squish together or something.";
+
+to decide whether one-word-solution:
+	if player is in contrive country:
+		if sco-ivy is false or sco-lively is false, yes;
+	else if player is in free fright:
+		if sco-re-write is false and sco-see-sight is true, yes;
+	no;
 
 report lling Clive Klee:
 	note-odd-display;
