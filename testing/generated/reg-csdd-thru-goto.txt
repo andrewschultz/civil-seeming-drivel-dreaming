@@ -443,6 +443,28 @@ You can't skip out on this critical fight!
 >oh all
 by one point
 
+>dapper dummy
+bonus
+by one point
+
+>n
+
+>see sight
+by one point
+
+>rewrite
+by one point
+
+>s
+
+>pun pool
+by one point
+
+>fun fool
+by one point
+
+>w
+
 #testcase-goto-table-of-noways-net-in-the-night
 >w
 But you're under a net, here! You're probably not getting out, either.

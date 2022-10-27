@@ -353,7 +353,37 @@ by one point
 
 #testcase-run-vr-oh-all-rule-default
 The simplicity! The universality! It's so simple and universal, several members of the Throw Thrall defect, and several briefly consider attacking themselves! Fortunately, this is not necessary. You learned from your time in the Pore Pit, and you show you're not all sloganeering as you direct the troops this way and that. It's a rout!
-But sadly, you didn't continue the battle cry after the Throw Thrall defections. Their minds unfogged by your charisma, they realize they are close to capturing the leader. So they do. Again. You're thrown to somewhere different this time...
+
+`Co-Call
+
+>dapper dummy
+bonus
+by one point
+
+>n
+
+`Free Fright
+
+>see sight
+by one point
+
+>rewrite
+by one point
+
+>s
+
+`Spun Spool
+
+>pun pool
+by one point
+
+>x pun pool
+WRONG
+
+>fun fool
+by one point
+
+>w
 
 #testcase-room-names-set-in-the-site-net-in-the-night
 `Set-in-the-Site Net in the Night

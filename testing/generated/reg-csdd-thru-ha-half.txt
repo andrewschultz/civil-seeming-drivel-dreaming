@@ -142,7 +142,7 @@ by one point
 >hick hide
 by one point
 
-#testcase-ha-half-table-of-verb-checks-15-gee
+#testcase-ha-half-table-of-verb-checks-15-g-gee
 >jive zgee
 The HA HALF button on your Leet Learner lights up green.
 
@@ -346,19 +346,82 @@ The HA HALF button on your Leet Learner lights up green.
 >oh all
 by one point
 
-#testcase-ha-half-table-of-verb-checks-31-let-fret
+#testcase-ha-half-table-of-verb-checks-31-dapper
+>dapper zdummy
+The HA HALF button on your Leet Learner lights up green. Very dim, though. Perhaps this is a rhyme you don't strictly need to figure to win.
+
+#testcase-ha-half-table-of-verb-checks-31-dummy
+>zdapper dummy
+The HA HALF button on your Leet Learner lights up green. Very dim, though. Perhaps this is a rhyme you don't strictly need to figure to win.
+
+>dapper dummy
+bonus
+by one point
+
+#testcase-ha-half-table-of-verb-checks-32-roast
+>zrump roast
+The HA HALF button on your Leet Learner lights up green. Very dim, though. Perhaps this is a rhyme you don't strictly need to figure to win.
+
+#testcase-ha-half-table-of-verb-checks-32-rump
+>rump zroast
+The HA HALF button on your Leet Learner lights up green. Very dim, though. Perhaps this is a rhyme you don't strictly need to figure to win.
+
+>n
+
+#testcase-ha-half-table-of-verb-checks-33-see
+>see zsight
+The HA HALF button on your Leet Learner lights up green.
+
+#testcase-ha-half-table-of-verb-checks-33-sight
+>zsee sight
+The HA HALF button lights up on your Leet Learner.
+The HA HALF button on your Leet Learner lights up green.
+
+>see sight
+by one point
+
+>rewrite
+by one point
+
+>s
+
+#testcase-ha-half-table-of-verb-checks-35-fool
+>fun zfool
+The HA HALF button on your Leet Learner lights up green.
+
+#testcase-ha-half-table-of-verb-checks-35-fun
+>zfun fool
+The HA HALF button on your Leet Learner lights up green.
+
+#testcase-ha-half-table-of-verb-checks-36-pool
+>pun zpool
+The HA HALF button on your Leet Learner lights up yellow.
+
+#testcase-ha-half-table-of-verb-checks-36-pun
+>zpun pool
+The HA HALF button on your Leet Learner lights up yellow.
+
+>pun pool
+by one point
+
+>fun fool
+by one point
+
+>w
+
+#testcase-ha-half-table-of-verb-checks-37-let-fret
 >let zlight
 The HA HALF button on your Leet Learner lights up green.
 
-#+testcase-ha-half-table-of-verb-checks-31-let-fret
+#+testcase-ha-half-table-of-verb-checks-37-let-fret
 >fret zfright
 The HA HALF button on your Leet Learner lights up green.
 
-#testcase-ha-half-table-of-verb-checks-31-light-fright
+#testcase-ha-half-table-of-verb-checks-37-light-fright
 >zlet light
 The HA HALF button on your Leet Learner lights up green.
 
-#+testcase-ha-half-table-of-verb-checks-31-light-fright
+#+testcase-ha-half-table-of-verb-checks-37-light-fright
 >zfret fright
 The HA HALF button on your Leet Learner lights up green.
 

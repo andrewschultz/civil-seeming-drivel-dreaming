@@ -1167,7 +1167,7 @@ I'm going to make you take the rick explicitly.
 I'm going to make you take the rick explicitly.
 
 @ha
-#testcase-ha-half-table-of-verb-checks-15-gee
+#testcase-ha-half-table-of-verb-checks-15-g-gee
 >jive zgee
 {$GREENCORE}
 \\
@@ -2131,22 +2131,105 @@ by one point
 {--rej}#testcase-check-vc-oh-all-rule-fallthrough
 {--all}#testcase-run-vr-oh-all-rule-default
 The simplicity! The universality! It's so simple and universal, several members of the Throw Thrall defect, and several briefly consider attacking themselves! Fortunately, this is not necessary. You learned from your time in the Pore Pit, and you show you're not all sloganeering as you direct the troops this way and that. It's a rout!
-But sadly, you didn't continue the battle cry after the Throw Thrall defections. Their minds unfogged by your charisma, they realize they are close to capturing the leader. So they do. Again. You're thrown to somewhere different this time...
+
+@all
+`Co-Call
 
 @ha
-#testcase-ha-half-table-of-verb-checks-31-let-fret
+#testcase-ha-half-table-of-verb-checks-31-dapper
+>dapper zdummy
+{$GREENBONUS}
+\\
+#testcase-ha-half-table-of-verb-checks-31-dummy
+>zdapper dummy
+{$GREENBONUS}
+
+@!min
+>dapper dummy
+bonus
+by one point
+
+@ha
+#testcase-ha-half-table-of-verb-checks-32-roast
+>zrump roast
+{$GREENBONUS}
+\\
+#testcase-ha-half-table-of-verb-checks-32-rump
+>rump zroast
+{$GREENBONUS}
+
+>n
+
+@all
+`Free Fright
+
+@ha
+#testcase-ha-half-table-of-verb-checks-33-see
+>see zsight
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-33-sight
+>zsee sight
+The HA HALF button lights up on your Leet Learner.
+{$GREENCORE}
+
+>see sight
+by one point
+
+>rewrite
+by one point
+
+@!min
+>s
+
+@all
+`Spun Spool
+
+@ha
+#testcase-ha-half-table-of-verb-checks-35-fool
+>fun zfool
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-35-fun
+>zfun fool
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-36-pool
+>pun zpool
+{$YELLOWCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-36-pun
+>zpun pool
+{$YELLOWCORE}
+
+@!min
+>pun pool
+by one point
+
+@all
+>x pun pool
+WRONG
+
+@!min
+>fun fool
+by one point
+
+>w
+
+@ha
+#testcase-ha-half-table-of-verb-checks-37-let-fret
 >let zlight
 {$GREENCORE}
 \\
-#+testcase-ha-half-table-of-verb-checks-31-let-fret
+#+testcase-ha-half-table-of-verb-checks-37-let-fret
 >fret zfright
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-31-light-fright
+#testcase-ha-half-table-of-verb-checks-37-light-fright
 >zlet light
 {$GREENCORE}
 \\
-#+testcase-ha-half-table-of-verb-checks-31-light-fright
+#+testcase-ha-half-table-of-verb-checks-37-light-fright
 >zfret fright
 {$GREENCORE}
 

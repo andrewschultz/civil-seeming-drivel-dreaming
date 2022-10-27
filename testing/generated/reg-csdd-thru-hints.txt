@@ -283,6 +283,28 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >oh all
 by one point
 
+>dapper dummy
+bonus
+by one point
+
+>n
+
+>see sight
+by one point
+
+>rewrite
+by one point
+
+>s
+
+>pun pool
+by one point
+
+>fun fool
+by one point
+
+>w
+
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.50.)
 
