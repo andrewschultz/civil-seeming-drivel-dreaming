@@ -277,6 +277,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >core kit
 {$REJECT2}
 \\
+#testcase-reject-end-table-of-verb-checks-vr-dapper-dummy-rule
+#testcase-check-vc-dapper-dummy-rule-if-mapper-mummy-is-not-in-location-of-player
+>dapper dummy
+{$REJECT2}
+\\
 #testcase-reject-start-table-of-verb-checks-vr-foe-fall-rule
 >foe fall
 {$REJECT2}
@@ -284,6 +289,10 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 #testcase-check-vc-foil-fink-rule-if-player-is-not-in-oil-inc
 #testcase-reject-start-table-of-verb-checks-vr-foil-fink-rule
 >foil fink
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-fun-fool-rule
+>fun fool
 {$REJECT2}
 \\
 #testcase-reject-start-table-of-verb-checks-vr-hick-hide-rule
@@ -343,6 +352,14 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >prick pride
 {$REJECT2}
 \\
+#testcase-reject-end-table-of-verb-checks-vr-pun-pool-rule
+>pun pool
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-re-write-rule
+>rewrite
+{$REJECT1}
+\\
 #testcase-check-vc-rick-ride-rule-if-slick-slide-is-off-stage
 #testcase-reject-start-table-of-verb-checks-vr-rick-ride-rule
 >rick ride
@@ -350,6 +367,15 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 \\
 #testcase-reject-start-table-of-verb-checks-vr-royal-rink-rule
 >royal rink
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-rump-roast-rule
+#testcase-check-vc-rump-roast-rule-if-bump-boast-gump-ghost-is-not-in-location-of-player
+>rump roast
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-see-sight-rule
+>see sight
 {$REJECT2}
 \\
 #testcase-reject-start-table-of-verb-checks-vr-sick-side-rule
@@ -1632,7 +1658,8 @@ You've done enough damage to Doyle Dink and Oil, Inc. that enough people not onl
 @rej
 #testcase-check-vc-foil-fink-rule-if-sco-foil-fink-is-true
 >foil fink
-You already foiled the fink and rescued people from Oil, Inc.!
+#OK-APOSTROPHE
+You already foiled the fink and rescued the masses from Oil, Inc.'s socioeconomic clutches and stuff!
 \\
 #+testcase-check-vc-soil-sink-rule-abide-by-the-oil-inc-basics-rule
 >soil sink
@@ -1703,7 +1730,7 @@ You can ask for a PIE PITCH once there's someone or something evil as a target.
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 \\
-#testcase-values-from-number-of-die-ditch-is-10305
+#testcase-values-from-number-of-die-ditch-is-5305
 >ll die ditch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -1.00.)
 \\
@@ -1829,7 +1856,7 @@ You can ask for a PIE PITCH now there's someone or something evil as a target.
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 \\
-#+testcase-values-from-number-of-die-ditch-is-10305
+#+testcase-values-from-number-of-die-ditch-is-5305
 >ll die ditch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 \\
@@ -1912,6 +1939,11 @@ You can't escape the big fight!
 #testcase-check-vc-oh-all-rule-if-forfeit-bore-bit-is-unvisited
 >oh all
 You don't feel you have enough leadership skills yet to unite everyone!
+
+@all
+#testcase-run-vr-rick-ride-rule-if-hubs-solved-is-4
+>x slide
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 @hin
 >ll slide
@@ -2253,6 +2285,12 @@ However, it's really dim, as if you don't need to do or think whatever there is 
 bonus
 by one point
 
+@rej,all
+#testcase-check-vc-dapper-dummy-rule-fallthrough
+#testcase-run-vr-dapper-dummy-rule-default
+Pop! The mapper mummy disappears, replaced by something that is quite frankly more annoying and definitely faster. They bound over to you and make small talk about a great party they're going to, and they'd love to have you along, but really, you're not dressed for it.
+Suddenly, the dapper dummy runs away! You're happy about this, until you realized the reason for it: a bump-boast gump-ghost has even more to say. They don't seem harmful, again, but perhaps you'll want to get rid of them on general principles.
+
 @ha
 #testcase-ha-half-table-of-verb-checks-32-roast
 >zrump roast
@@ -2272,6 +2310,11 @@ However, it's really dim, as if you don't need to do or think whatever there is 
 >rump roast
 bonus
 by one point
+
+@rej,all
+#testcase-check-vc-rump-roast-rule-fallthrough
+#testcase-run-vr-rump-roast-rule-default
+Pop! The bump-boast gump ghost swirls around and gets more opaque as it gets smaller. It becomes a rump roast that seems to talk about how it must taste good, so you'd better eat it, and you feel weirded out enough by it that you turn away. When you turn back, it's gone, but on the bright side, that's one less undead thing to worry about.
 
 >s
 
@@ -2297,8 +2340,23 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 The HA HALF button lights up on your Leet Learner.
 {$GREENCORE}
 
+@rej
+#testcase-check-vc-re-write-rule-if-sco-see-sight-is-false
+>rewrite
+Yes, that will be a nice thing for the plea-plight wee wight to do once they've got some ideas worth rewriting!
+
 >see sight
 by one point
+
+@rej,all
+#testcase-check-vc-see-sight-rule-fallthrough
+#testcase-run-vr-see-sight-rule-default
+You show the plea-plight wee wight ways to be scary. You paint images in its mind. It whips out a notebook, jots down some ideas, then waits for more. It needs a way to know it's nailed down what you said!
+
+@rej
+#testcase-check-vc-see-sight-rule-if-sco-see-sight-is-true
+>see sight
+You already showed the plea-plight wee wight something! Now they need to focus on expressing their impressions.
 
 @hint
 #+testcase-values-from-number-of-free-fright-is-5406
@@ -2311,6 +2369,20 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 
 >rewrite
 by one point
+
+@rej,all
+#testcase-check-vc-re-write-rule-fallthrough
+#testcase-run-vr-re-write-rule-default
+The plea-plight wee wight takes its notebook back out and scribbles and nods its head! It sees how to be more scary in the future, for the next person. You advise it of proper priorities in the afterlife--perhaps it's best not to, like, level-draining lawful-good adventurers that pass through. You'd feel bad about that.
+
+@rej
+#testcase-check-vc-re-write-rule-abide-by-the-wight-check-rule
+>rewrite
+The plea-plight wee wight is in the past. You will want to move on.
+\\
+#testcase-check-vc-see-sight-rule-abide-by-the-wight-check-rule
+>see sight
+The plea-plight wee wight is in the past. You will want to move on.
 
 @!min
 >n
@@ -2344,9 +2416,24 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll ghoul
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
 
+@rej
+#testcase-check-vc-fun-fool-rule-if-sco-pun-pool-is-false
+>fun fool
+Unfortunately, right now, the done-duel gun ghoul's idea of fun is physically violent! How could you change this?
+
 @!min
 >pun pool
 by one point
+
+@rej,all
+#testcase-check-vc-pun-pool-rule-fallthrough
+#testcase-run-vr-pun-pool-rule-default
+A big ol' pun pool -- bubbling like alphabet soup -- begins bubbling up. The done-duel gun ghoul looks interested, despite itself.
+
+@rej
+#testcase-check-vc-pun-pool-rule-if-sco-pun-pool-is-true
+>pun pool
+You already created a pun pool!
 
 @all
 >x pun pool
@@ -2364,6 +2451,20 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 @!min
 >fun fool
 by one point
+
+@rej,all
+{--rej}#testcase-check-vc-fun-fool-rule-fallthrough
+{--all}#testcase-run-vr-fun-fool-rule-default
+The done-duel gun ghoul relaxes a bit. Maybe too much. Definitely too much. It drops its weapons and jumps into the pool, with predictable results! It and the pool consume each other.
+
+@rej
+#testcase-check-vc-fun-fool-rule-abide-by-the-ghoul-check-rule
+>fun fool
+The done-duel gun ghoul is in the past. You will want to move on.
+\\
+#testcase-check-vc-pun-pool-rule-abide-by-the-ghoul-check-rule
+>pun pool
+The done-duel gun ghoul is in the past. You will want to move on.
 
 >w
 
@@ -2476,12 +2577,20 @@ There's no going back! There's only escape. There must be a way!
 >core kit
 {$REJECT2}
 \\
+#testcase-reject-start-table-of-verb-checks-vr-dapper-dummy-rule
+>dapper dummy
+{$REJECT2}
+\\
 #testcase-reject-end-table-of-verb-checks-vr-foe-fall-rule
 >foe fall
 {$REJECT2}
 \\
 #testcase-reject-end-table-of-verb-checks-vr-foil-fink-rule
 >foil fink
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-fun-fool-rule
+>fun fool
 {$REJECT2}
 \\
 #testcase-reject-end-table-of-verb-checks-vr-hick-hide-rule
@@ -2528,6 +2637,14 @@ There's no going back! There's only escape. There must be a way!
 >prick pride
 {$REJECT2}
 \\
+#testcase-reject-start-table-of-verb-checks-vr-pun-pool-rule
+>pun pool
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-re-write-rule
+>rewrite
+{$REJECT1A}
+\\
 #testcase-reject-end-table-of-verb-checks-vr-rick-ride-rule
 >rick ride
 You're beyond the rick's help here. You must find a way out on your own.
@@ -2535,6 +2652,14 @@ You're beyond the rick's help here. You must find a way out on your own.
 \\
 #testcase-reject-end-table-of-verb-checks-vr-royal-rink-rule
 >royal rink
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-rump-roast-rule
+>rump roast
+{$REJECT2}
+\\
+#testcase-reject-start-table-of-verb-checks-vr-see-sight-rule
+>see sight
 {$REJECT2}
 \\
 #testcase-reject-end-table-of-verb-checks-vr-sick-side-rule

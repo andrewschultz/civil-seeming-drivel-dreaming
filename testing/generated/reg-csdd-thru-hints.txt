@@ -270,7 +270,7 @@ DEBUG: can't see any such thing error.
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
-#testcase-values-from-number-of-die-ditch-is-10305
+#testcase-values-from-number-of-die-ditch-is-5305
 >ll die ditch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -1.00.)
 
@@ -294,7 +294,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
-#+testcase-values-from-number-of-die-ditch-is-10305
+#+testcase-values-from-number-of-die-ditch-is-5305
 >ll die ditch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 

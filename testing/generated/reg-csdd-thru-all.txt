@@ -291,6 +291,10 @@ The rick ride leaps back in the air to Woe Wall again...
 #testcase-run-vr-rick-ride-rule-if-wall-fight-note-is-false-and-hubs-solved-is-4
 The enemy has attacked! Po' Paul is trying his best to organize the citizens of the Woe Wall, along with some of the people you helped along the way. But they need your leadership!
 
+#testcase-run-vr-rick-ride-rule-if-hubs-solved-is-4
+>x slide
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
 #testcase-run-vr-bro-brawl-rule-abide-by-the-big-battle-check-rule
 >bro brawl
 by one point
@@ -360,9 +364,18 @@ The simplicity! The universality! It's so simple and universal, several members 
 bonus
 by one point
 
+#testcase-check-vc-dapper-dummy-rule-fallthrough
+#testcase-run-vr-dapper-dummy-rule-default
+Pop! The mapper mummy disappears, replaced by something that is quite frankly more annoying and definitely faster. They bound over to you and make small talk about a great party they're going to, and they'd love to have you along, but really, you're not dressed for it.
+Suddenly, the dapper dummy runs away! You're happy about this, until you realized the reason for it: a bump-boast gump-ghost has even more to say. They don't seem harmful, again, but perhaps you'll want to get rid of them on general principles.
+
 >rump roast
 bonus
 by one point
+
+#testcase-check-vc-rump-roast-rule-fallthrough
+#testcase-run-vr-rump-roast-rule-default
+Pop! The bump-boast gump ghost swirls around and gets more opaque as it gets smaller. It becomes a rump roast that seems to talk about how it must taste good, so you'd better eat it, and you feel weirded out enough by it that you turn away. When you turn back, it's gone, but on the bright side, that's one less undead thing to worry about.
 
 >s
 
@@ -371,8 +384,16 @@ by one point
 >see sight
 by one point
 
+#testcase-check-vc-see-sight-rule-fallthrough
+#testcase-run-vr-see-sight-rule-default
+You show the plea-plight wee wight ways to be scary. You paint images in its mind. It whips out a notebook, jots down some ideas, then waits for more. It needs a way to know it's nailed down what you said!
+
 >rewrite
 by one point
+
+#testcase-check-vc-re-write-rule-fallthrough
+#testcase-run-vr-re-write-rule-default
+The plea-plight wee wight takes its notebook back out and scribbles and nods its head! It sees how to be more scary in the future, for the next person. You advise it of proper priorities in the afterlife--perhaps it's best not to, like, level-draining lawful-good adventurers that pass through. You'd feel bad about that.
 
 >n
 
@@ -381,11 +402,18 @@ by one point
 >pun pool
 by one point
 
+#testcase-check-vc-pun-pool-rule-fallthrough
+#testcase-run-vr-pun-pool-rule-default
+A big ol' pun pool -- bubbling like alphabet soup -- begins bubbling up. The done-duel gun ghoul looks interested, despite itself.
+
 >x pun pool
 WRONG
 
 >fun fool
 by one point
+
+#testcase-run-vr-fun-fool-rule-default
+The done-duel gun ghoul relaxes a bit. Maybe too much. Definitely too much. It drops its weapons and jumps into the pool, with predictable results! It and the pool consume each other.
 
 >w
 

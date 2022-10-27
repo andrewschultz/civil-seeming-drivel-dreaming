@@ -37,6 +37,11 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 >core kit
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
+#testcase-reject-end-table-of-verb-checks-vr-dapper-dummy-rule
+#testcase-check-vc-dapper-dummy-rule-if-mapper-mummy-is-not-in-location-of-player
+>dapper dummy
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
 #testcase-reject-start-table-of-verb-checks-vr-foe-fall-rule
 >foe fall
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
@@ -44,6 +49,10 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 #testcase-check-vc-foil-fink-rule-if-player-is-not-in-oil-inc
 #testcase-reject-start-table-of-verb-checks-vr-foil-fink-rule
 >foil fink
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-reject-end-table-of-verb-checks-vr-fun-fool-rule
+>fun fool
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 #testcase-reject-start-table-of-verb-checks-vr-hick-hide-rule
@@ -103,6 +112,14 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 >prick pride
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
+#testcase-reject-end-table-of-verb-checks-vr-pun-pool-rule
+>pun pool
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-reject-end-table-of-verb-checks-vr-re-write-rule
+>rewrite
+Most special commands are more than one word. VERBS will give a list of useful, non-puzzle-solving verbs.
+
 #testcase-check-vc-rick-ride-rule-if-slick-slide-is-off-stage
 #testcase-reject-start-table-of-verb-checks-vr-rick-ride-rule
 >rick ride
@@ -110,6 +127,15 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 
 #testcase-reject-start-table-of-verb-checks-vr-royal-rink-rule
 >royal rink
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-reject-end-table-of-verb-checks-vr-rump-roast-rule
+#testcase-check-vc-rump-roast-rule-if-bump-boast-gump-ghost-is-not-in-location-of-player
+>rump roast
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-reject-end-table-of-verb-checks-vr-see-sight-rule
+>see sight
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 #testcase-reject-start-table-of-verb-checks-vr-sick-side-rule
@@ -529,7 +555,7 @@ You've done enough damage to Doyle Dink and Oil, Inc. that enough people not onl
 
 #testcase-check-vc-foil-fink-rule-if-sco-foil-fink-is-true
 >foil fink
-You already foiled the fink and rescued people from Oil, Inc.!
+You already foiled the fink and rescued the masses from Oil, Inc.'s socioeconomic clutches and stuff!
 
 #+testcase-check-vc-soil-sink-rule-abide-by-the-oil-inc-basics-rule
 >soil sink
@@ -710,25 +736,81 @@ The simplicity! The universality! It's so simple and universal, several members 
 bonus
 by one point
 
+#testcase-check-vc-dapper-dummy-rule-fallthrough
+#testcase-run-vr-dapper-dummy-rule-default
+Pop! The mapper mummy disappears, replaced by something that is quite frankly more annoying and definitely faster. They bound over to you and make small talk about a great party they're going to, and they'd love to have you along, but really, you're not dressed for it.
+Suddenly, the dapper dummy runs away! You're happy about this, until you realized the reason for it: a bump-boast gump-ghost has even more to say. They don't seem harmful, again, but perhaps you'll want to get rid of them on general principles.
+
 >rump roast
 bonus
 by one point
 
+#testcase-check-vc-rump-roast-rule-fallthrough
+#testcase-run-vr-rump-roast-rule-default
+Pop! The bump-boast gump ghost swirls around and gets more opaque as it gets smaller. It becomes a rump roast that seems to talk about how it must taste good, so you'd better eat it, and you feel weirded out enough by it that you turn away. When you turn back, it's gone, but on the bright side, that's one less undead thing to worry about.
+
 >s
+
+#testcase-check-vc-re-write-rule-if-sco-see-sight-is-false
+>rewrite
+Yes, that will be a nice thing for the plea-plight wee wight to do once they've got some ideas worth rewriting!
 
 >see sight
 by one point
 
+#testcase-check-vc-see-sight-rule-fallthrough
+#testcase-run-vr-see-sight-rule-default
+You show the plea-plight wee wight ways to be scary. You paint images in its mind. It whips out a notebook, jots down some ideas, then waits for more. It needs a way to know it's nailed down what you said!
+
+#testcase-check-vc-see-sight-rule-if-sco-see-sight-is-true
+>see sight
+You already showed the plea-plight wee wight something! Now they need to focus on expressing their impressions.
+
 >rewrite
 by one point
 
+#testcase-check-vc-re-write-rule-fallthrough
+#testcase-run-vr-re-write-rule-default
+The plea-plight wee wight takes its notebook back out and scribbles and nods its head! It sees how to be more scary in the future, for the next person. You advise it of proper priorities in the afterlife--perhaps it's best not to, like, level-draining lawful-good adventurers that pass through. You'd feel bad about that.
+
+#testcase-check-vc-re-write-rule-abide-by-the-wight-check-rule
+>rewrite
+The plea-plight wee wight is in the past. You will want to move on.
+
+#testcase-check-vc-see-sight-rule-abide-by-the-wight-check-rule
+>see sight
+The plea-plight wee wight is in the past. You will want to move on.
+
 >n
+
+#testcase-check-vc-fun-fool-rule-if-sco-pun-pool-is-false
+>fun fool
+Unfortunately, right now, the done-duel gun ghoul's idea of fun is physically violent! How could you change this?
 
 >pun pool
 by one point
 
+#testcase-check-vc-pun-pool-rule-fallthrough
+#testcase-run-vr-pun-pool-rule-default
+A big ol' pun pool -- bubbling like alphabet soup -- begins bubbling up. The done-duel gun ghoul looks interested, despite itself.
+
+#testcase-check-vc-pun-pool-rule-if-sco-pun-pool-is-true
+>pun pool
+You already created a pun pool!
+
 >fun fool
 by one point
+
+#testcase-check-vc-fun-fool-rule-fallthrough
+The done-duel gun ghoul relaxes a bit. Maybe too much. Definitely too much. It drops its weapons and jumps into the pool, with predictable results! It and the pool consume each other.
+
+#testcase-check-vc-fun-fool-rule-abide-by-the-ghoul-check-rule
+>fun fool
+The done-duel gun ghoul is in the past. You will want to move on.
+
+#testcase-check-vc-pun-pool-rule-abide-by-the-ghoul-check-rule
+>pun pool
+The done-duel gun ghoul is in the past. You will want to move on.
 
 >w
 
@@ -766,12 +848,20 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 >core kit
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
+#testcase-reject-start-table-of-verb-checks-vr-dapper-dummy-rule
+>dapper dummy
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
 #testcase-reject-end-table-of-verb-checks-vr-foe-fall-rule
 >foe fall
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 #testcase-reject-end-table-of-verb-checks-vr-foil-fink-rule
 >foil fink
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-reject-start-table-of-verb-checks-vr-fun-fool-rule
+>fun fool
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 #testcase-reject-end-table-of-verb-checks-vr-hick-hide-rule
@@ -818,6 +908,14 @@ Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, 
 >prick pride
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
+#testcase-reject-start-table-of-verb-checks-vr-pun-pool-rule
+>pun pool
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-reject-start-table-of-verb-checks-vr-re-write-rule
+>rewrite
+Most special commands are more than one word, because of the rhyme-pairs involved. VERBS will give a list of useful, non-puzzle-solving verbs.
+
 #testcase-reject-end-table-of-verb-checks-vr-rick-ride-rule
 >rick ride
 You're beyond the rick's help here. You must find a way out on your own.
@@ -825,6 +923,14 @@ You're beyond the rick's help here. You must find a way out on your own.
 
 #testcase-reject-end-table-of-verb-checks-vr-royal-rink-rule
 >royal rink
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-reject-start-table-of-verb-checks-vr-rump-roast-rule
+>rump roast
+Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+
+#testcase-reject-start-table-of-verb-checks-vr-see-sight-rule
+>see sight
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
 #testcase-reject-end-table-of-verb-checks-vr-sick-side-rule

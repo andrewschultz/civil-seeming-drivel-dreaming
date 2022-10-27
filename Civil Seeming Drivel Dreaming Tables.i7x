@@ -364,7 +364,7 @@ a goodrhyme rule (this is the vc-foil-fink rule):
 		vcp "You're not ready yet. You need more support!";
 		not-yet;
 	if sco-foil-fink is true:
-		vcal "You already foiled the fink and rescued the masses from Oil, Inc.'s socioeconomic clutches and stuff!";
+		vcal "You already foiled the fink and rescued the masses from Oil, Inc.[']s socioeconomic clutches and stuff!";
 		already-done;
 	ready;
 
@@ -502,9 +502,6 @@ this is the vr-war-wit rule:
 
 a goodrhyme rule (this is the vc-dapper-dummy rule):
 	if mapper mummy is not in location of player, unavailable;
-	if sco-dapper-dummy is true:
-		vcal "You already got rid of the mapper mummy!";
-		already-done;
 	ready;
 
 this is the vr-dapper-dummy rule:
@@ -515,9 +512,6 @@ this is the vr-dapper-dummy rule:
 
 a goodrhyme rule (this is the vc-rump-roast rule):
 	if bump boast gump ghost is not in location of player, unavailable;
-	if sco-rump-roast is true:
-		vcal "You already did this!";
-		already-done;
 	ready;
 
 this is the vr-rump-roast rule:
@@ -528,7 +522,7 @@ this is the vr-rump-roast rule:
 a goodrhyme rule (this is the vc-see-sight rule):
 	abide by the wight-check rule;
 	if sco-see-sight is true:
-		vcal "You already showed [the wight] something! Now they need to focus on their impressions.";
+		vcal "You already showed [the wight] something! Now they need to focus on expressing their impressions.";
 		already-done;
 	ready;
 
@@ -541,24 +535,21 @@ this is the vr-see-sight rule:
 a goodrhyme rule (this is the vc-re-write rule):
 	abide by the wight-check rule;
 	if sco-see-sight is false:
-		vcp "Yes, that's a good idea, once [the wight] has some ideas!";
+		vcp "Yes, that will be a nice thing for [the wight] to do once they've got some ideas worth rewriting!";
 		not-yet;
 	ready;
 
 this is the vr-re-write rule:
 	now sco-re-write is true;
-	say "The wee wight takes its notebook back out and scribbles and nods its head! It sees how to be more scary in the future, for the next person. You just hope the wight isn't too scary and winds up, like, level-draining and lawful-good adventurers that pass through. You'd feel bad about that.";
+	say "The [wight] takes its notebook back out and scribbles and nods its head! It sees how to be more scary in the future, for the next person. You advise it of proper priorities in the afterlife--perhaps it's best not to, like, level-draining lawful-good adventurers that pass through. You'd feel bad about that.";	
 	check-post-call-ways;
 	moot wee wight;
 
 a goodrhyme rule (this is the vc-fun-fool rule):
 	abide by the ghoul-check rule;
 	if sco-pun-pool is false:
-		vcp "Unfortunately, right now [ghoul]'s idea of fun is physically violent! How could you change this?";
+		vcp "Unfortunately, right now, [the ghoul]'s idea of fun is physically violent! How could you change this?";
 		not-yet;
-	if sco-fun-fool is true:
-		vcal "You have already altered [the ghoul]'s priority in afterlife!";
-		already-done;
 	ready;
 
 this is the vr-fun-fool rule:

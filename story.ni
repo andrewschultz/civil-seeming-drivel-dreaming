@@ -278,19 +278,20 @@ Free Fright is a room. "You can see passage west [if sco-fun-fool is true]but no
 
 from-number of free fright is 5406. to-number of free fright is 5305.
 
-this is the wight-here rule:
-	if wee wight is not moot, say "You still need to get by [the wight]." instead;
+this is the check-blocking-undeads rule:
+	if number of undeads in location of player > 0, say "You still need to get by [the random undead in location of player]." instead;
+	if number of moot undeads is 2, say "No going back." instead;
 
 check going west in Free Fright:
-	abide by the wight-here rule;
+	abide by the check-blocking-undeads rule;
 
 check going north in Free Fright:
-	abide by the wight-here rule;
+	abide by the check-blocking-undeads rule;
 	if gun ghoul is moot, say "No going back." instead;
 
 chapter wee wight
 
-the plea plight wee wight is a person in Free Fright. "[one of]A poor small [wight] stands here. It tries to scare you and utterly fails. It doesn't really want to! That's not its job! Then it starts crying. You tend to believe it.[or]The [wight] still pouts here. How to help it?[stopping]"
+the plea plight wee wight is a person in Free Fright. "[one of]A poor small [wight] stands here. It tries to scare you and utterly fails. It doesn't really want to! That's not its job! Then it starts crying. You tend to believe it.[or]The [wight] still pouts here. How to help it?[stopping]". printed name is "plea-plight wee wight".
 
 from-number of wee wight is 10711. to-number of free fright is 5305.
 
@@ -302,15 +303,14 @@ this is the ghoul-here rule:
 	if gun ghoul is not moot, say "You still need to get by [the ghoul]." instead;
 
 check going west in spun spool:
-	abide by the ghoul-here rule;
+	abide by the check-blocking-undeads rule;
 
 check going south in spun spool:
-	abide by the ghoul-here rule;
-	if wee wight is moot, say "No going back." instead;
+	abide by the check-blocking-undeads rule;
 
 chapter gun ghoul
 
-the done duel gun ghoul is a person in Spun Spool.
+the done duel gun ghoul is a person in Spun Spool. printed name is "done-duel gun ghoul".
 
 from-number of spun spool is 5405. to-number of spun spool is 5304.
 

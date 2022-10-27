@@ -12,6 +12,8 @@ a hubroom has text called retreat-text.
 
 a hubroom has text called second-text.
 
+an undead is a kind of person.
+
 volume gotoing
 
 to decide whether (di - a direction) is blocked: no;

@@ -54,8 +54,6 @@ this is the oil-solved rule:
 	if sco-foil-fink is false, the rule succeeds;
 	the rule fails;
 
-guess-table of sigh sitch is the table of sigh sitch guesses.
-
 table of sigh sitch guesses
 mist-regex	mist-rule	got-yet	leet-rule	mist-txt
 "hi|high hitch"	lich-unbeaten rule	false	--	"You won't be able to catch enemies on a high hitch. You may need more action."
