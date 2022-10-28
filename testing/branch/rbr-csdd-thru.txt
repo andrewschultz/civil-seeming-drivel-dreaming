@@ -74,8 +74,10 @@ Taken.
 @all
 >gonear night
 \\
+#testcase-run-vr-let-light-rule-if-cur-bonus-is-max-bonus
 >let in the light
 by one point
+MISSED
 \\
 >missed
 You could've given the blurring-blest purring pest a TURING TEST.
@@ -1230,7 +1232,7 @@ I'm going to make you take the rick explicitly.
 I'm going to make you take the rick explicitly.
 
 @ha
-#testcase-ha-half-table-of-verb-checks-15-g-gee
+#testcase-ha-half-table-of-verb-checks-15-gee-g
 >jive zgee
 {$GREENCORE}
 \\
@@ -2307,8 +2309,8 @@ bonus
 by one point
 
 @rej,all
-#testcase-check-vc-dapper-dummy-rule-fallthrough
-#testcase-run-vr-dapper-dummy-rule-default
+{--rej}#testcase-check-vc-dapper-dummy-rule-fallthrough
+{--all}#testcase-run-vr-dapper-dummy-rule-default
 Pop! The mapper mummy disappears, replaced by something that is quite frankly more annoying and definitely faster. They bound over to you and make small talk about a great party they're going to, and they'd love to have you along, but really, you're not dressed for it.
 Suddenly, the dapper dummy runs away! You're happy about this, until you realized the reason for it: a bump-boast gump-ghost has even more to say. They don't seem harmful, again, but perhaps you'll want to get rid of them on general principles.
 
@@ -2361,8 +2363,8 @@ bonus
 by one point
 
 @rej,all
-#testcase-check-vc-rump-roast-rule-fallthrough
-#testcase-run-vr-rump-roast-rule-default
+{--rej}#testcase-check-vc-rump-roast-rule-fallthrough
+{--all}#testcase-run-vr-rump-roast-rule-default
 Pop! The bump-boast gump ghost swirls around and gets more opaque as it gets smaller. It becomes a rump roast that seems to talk about how it must taste good, so you'd better eat it, and you feel weirded out enough by it that you turn away. When you turn back, it's gone, but on the bright side, that's one less undead thing to worry about.
 
 >s
@@ -2397,8 +2399,8 @@ Yes, that will be a nice thing for the plea-plight wee wight to do once they've 
 by one point
 
 @rej,all
-#testcase-check-vc-see-sight-rule-fallthrough
-#testcase-run-vr-see-sight-rule-default
+{--rej}#testcase-check-vc-see-sight-rule-fallthrough
+{--all}#testcase-run-vr-see-sight-rule-default
 You show the plea-plight wee wight ways to be scary. You paint images in its mind. It whips out a notebook, jots down some ideas, then waits for more. It needs a way to know it's nailed down what you said!
 
 @rej
@@ -2419,8 +2421,8 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 by one point
 
 @rej,all
-#testcase-check-vc-re-write-rule-fallthrough
-#testcase-run-vr-re-write-rule-default
+{--rej}#testcase-check-vc-re-write-rule-fallthrough
+{--all}#testcase-run-vr-re-write-rule-default
 The plea-plight wee wight takes its notebook back out and scribbles and nods its head! It sees how to be more scary in the future, for the next person. You advise it of proper priorities in the afterlife--perhaps it's best not to, like, level-draining lawful-good adventurers that pass through. You'd feel bad about that.
 
 @rej
@@ -2490,8 +2492,8 @@ Unfortunately, right now, the done-duel gun ghoul's idea of fun is physically vi
 by one point
 
 @rej,all
-#testcase-check-vc-pun-pool-rule-fallthrough
-#testcase-run-vr-pun-pool-rule-default
+{--rej}#testcase-check-vc-pun-pool-rule-fallthrough
+{--all}#testcase-run-vr-pun-pool-rule-default
 A big ol' pun pool -- bubbling like alphabet soup -- begins bubbling up. The done-duel gun ghoul looks interested, despite itself.
 
 @rej
@@ -2787,6 +2789,7 @@ You let in the light and then some! With nothing left to be done, you wake up. H
 
 @all
 #testcase-run-vr-let-light-rule-follow-the-shutdown-rules
+#+testcase-run-vr-let-light-rule-if-cur-bonus-is-max-bonus
 Would you like to
 !MISSED
 

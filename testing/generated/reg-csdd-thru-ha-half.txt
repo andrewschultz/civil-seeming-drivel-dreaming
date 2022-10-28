@@ -142,7 +142,7 @@ by one point
 >hick hide
 by one point
 
-#testcase-ha-half-table-of-verb-checks-15-g-gee
+#testcase-ha-half-table-of-verb-checks-15-gee-g
 >jive zgee
 The HA HALF button on your Leet Learner lights up green.
 
