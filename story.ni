@@ -78,7 +78,7 @@ from-number of blurring blest purring pest is 11509. to-number of blurring blest
 
 book Woe Wall
 
-WoeWall is a room. printed name is "[if sco-oh-all is false]Woe Wall[else]Co-Call[end if]". "[woe-wall-which].".
+WoeWall is a room. printed name is "[if sco-oh-all is false]Woe Wall[else]Co-Call[end if]". "[woe-wall-which].". understand "woe/wall" and "woe wall" as WoeWall when free fright is visited or spun spool is visited.
 
 to say woe-wall-which:
 	if sco-oh-all is true:
@@ -274,20 +274,20 @@ from-number of Forfeit Bore Bit is 10707. to-number of Forfeit Bore Bit is 5403.
 
 book Free Fright
 
-Free Fright is a room. "You can see passage west [if sco-fun-fool is true]but not back south or east[else]and soith but not back east[end if] here."
+Free Fright is a room. "Passage leads west[if sco-fun-fool is false] and north[end if] in this barren area."
 
 from-number of free fright is 5406. to-number of free fright is 5305.
 
 this is the check-blocking-undeads rule:
 	if number of undeads in location of player > 0, say "You still need to get by [the random undead in location of player]." instead;
 	if number of moot undeads is 2, say "No going back." instead;
+	if noun is not west, flip-bonus-core 2; [you moved legally but not to the final room and now must to take out the other undead to win]
 
 check going west in Free Fright:
 	abide by the check-blocking-undeads rule;
 
 check going north in Free Fright:
 	abide by the check-blocking-undeads rule;
-	if gun ghoul is moot, say "No going back." instead;
 
 chapter wee wight
 

@@ -16,6 +16,26 @@ Taken.
 
 >au 2
 
+>gonear night
+
+>let in the light
+by one point
+
+>missed
+You could've given the blurring-blest purring pest a TURING TEST.
+You could've gone south from Spun Spool to deal with a plea-plight wee wight.
+You could've gone north from Free Fright to deal with a done-duel gun ghoul.
+You could've made the mapper mummy a DAPPER DUMMY, revealing another undead I'll spoil if you type MISSED again.
+
+>missed
+You could've given the blurring-blest purring pest a TURING TEST.
+You could've gone south from Spun Spool to deal with a plea-plight wee wight.
+You could've gone north from Free Fright to deal with a done-duel gun ghoul.
+You could've made the mapper mummy a DAPPER DUMMY, revealing a bump-boast gump-ghost.
+
+>undo
+>undo
+
 #testcase-run-vr-whirring-west-rule-abide-by-the-purring-pest-ping-rule
 #testcase-run-vr-whirring-west-rule-default
 >whirring west
@@ -293,7 +313,7 @@ The enemy has attacked! Po' Paul is trying his best to organize the citizens of 
 
 #testcase-run-vr-rick-ride-rule-if-hubs-solved-is-4
 >x slide
-Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+You see nothing here like that. Or there may be, but it's a small part of something more prominent. Civil Seeming Drivel Dreaming tries not to force you to look into any items too much.
 
 #testcase-run-vr-bro-brawl-rule-abide-by-the-big-battle-check-rule
 >bro brawl
@@ -369,6 +389,33 @@ by one point
 Pop! The mapper mummy disappears, replaced by something that is quite frankly more annoying and definitely faster. They bound over to you and make small talk about a great party they're going to, and they'd love to have you along, but really, you're not dressed for it.
 Suddenly, the dapper dummy runs away! You're happy about this, until you realized the reason for it: a bump-boast gump-ghost has even more to say. They don't seem harmful, again, but perhaps you'll want to get rid of them on general principles.
 
+# we can't quite balance undos here since UNDO doesn't recognize MISSED
+>n
+
+>pun pool
+by one point
+
+>fun fool
+by one point
+
+>w
+
+>let in the light
+by one point
+
+>missed
+!TURING TEST.
+You could've gone south from Spun Spool to deal with a plea-plight wee wight.
+!north from Free Fright
+!DAPPER DUMMY
+RUMP ROAST
+
+>undo
+>undo
+>undo
+>undo
+>undo
+
 >rump roast
 bonus
 by one point
@@ -395,6 +442,21 @@ by one point
 #testcase-run-vr-re-write-rule-default
 The plea-plight wee wight takes its notebook back out and scribbles and nods its head! It sees how to be more scary in the future, for the next person. You advise it of proper priorities in the afterlife--perhaps it's best not to, like, level-draining lawful-good adventurers that pass through. You'd feel bad about that.
 
+>w
+
+>let in the light
+by one point
+
+>missed
+!TURING TEST
+!plea-plight wee wight
+You could've gone north from Free Fright to deal with a done-duel gun ghoul.
+!DAPPER DUMMY
+!RUMP ROAST
+
+>undo
+>undo
+
 >n
 
 `Spun Spool
@@ -407,7 +469,7 @@ by one point
 A big ol' pun pool -- bubbling like alphabet soup -- begins bubbling up. The done-duel gun ghoul looks interested, despite itself.
 
 >x pun pool
-WRONG
+Just looking at the pun pool, you remember some really awful ones and some good ones. You also see a really brilliant and new one you won't remember when you wake up. C'est la vie.
 
 >fun fool
 by one point
@@ -442,3 +504,5 @@ You let in the light and then some! With nothing left to be done, you wake up. H
 
 #testcase-run-vr-let-light-rule-follow-the-shutdown-rules
 Would you like to
+!MISSED
+

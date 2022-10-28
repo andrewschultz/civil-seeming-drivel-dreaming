@@ -71,6 +71,27 @@ Taken.
 
 >au 2
 
+@all
+>gonear night
+\\
+>let in the light
+by one point
+\\
+>missed
+You could've given the blurring-blest purring pest a TURING TEST.
+You could've gone south from Spun Spool to deal with a plea-plight wee wight.
+You could've gone north from Free Fright to deal with a done-duel gun ghoul.
+You could've made the mapper mummy a DAPPER DUMMY, revealing another undead I'll spoil if you type MISSED again.
+\\
+>missed
+You could've given the blurring-blest purring pest a TURING TEST.
+You could've gone south from Spun Spool to deal with a plea-plight wee wight.
+You could've gone north from Free Fright to deal with a done-duel gun ghoul.
+You could've made the mapper mummy a DAPPER DUMMY, revealing a bump-boast gump-ghost.
+\\
+>undo
+>undo
+
 @gong
 >guide gong
 (disabling later explanation of GUIDE GONG, etc., but it will still be in VERBS)
@@ -1943,7 +1964,7 @@ You don't feel you have enough leadership skills yet to unite everyone!
 @all
 #testcase-run-vr-rick-ride-rule-if-hubs-solved-is-4
 >x slide
-Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
+You see nothing here like that. Or there may be, but it's a small part of something more prominent. Civil Seeming Drivel Dreaming tries not to force you to look into any items too much.
 
 @hin
 >ll slide
@@ -2300,6 +2321,34 @@ Suddenly, the dapper dummy runs away! You're happy about this, until you realize
 >rump zroast
 {$GREENBONUS}
 
+@all
+# we can't quite balance undos here since UNDO doesn't recognize MISSED
+>n
+\\
+>pun pool
+by one point
+\\
+>fun fool
+by one point
+\\
+>w
+\\
+>let in the light
+by one point
+\\
+>missed
+!TURING TEST.
+You could've gone south from Spun Spool to deal with a plea-plight wee wight.
+!north from Free Fright
+!DAPPER DUMMY
+RUMP ROAST
+\\
+>undo
+>undo
+>undo
+>undo
+>undo
+
 @hint
 #testcase-values-from-number-of-bump-boast-gump-ghost-is-10810
 >ll ghost
@@ -2337,7 +2386,6 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 \\
 #testcase-ha-half-table-of-verb-checks-33-sight
 >zsee sight
-The HA HALF button lights up on your Leet Learner.
 {$GREENCORE}
 
 @rej
@@ -2384,6 +2432,22 @@ The plea-plight wee wight is in the past. You will want to move on.
 >see sight
 The plea-plight wee wight is in the past. You will want to move on.
 
+@all
+>w
+\\
+>let in the light
+by one point
+\\
+>missed
+!TURING TEST
+!plea-plight wee wight
+You could've gone north from Free Fright to deal with a done-duel gun ghoul.
+!DAPPER DUMMY
+!RUMP ROAST
+\\
+>undo
+>undo
+
 @!min
 >n
 
@@ -2393,19 +2457,19 @@ The plea-plight wee wight is in the past. You will want to move on.
 @ha
 #testcase-ha-half-table-of-verb-checks-35-fool
 >fun zfool
-{$GREENCORE}
+{$YELLOWCORE}
 \\
 #testcase-ha-half-table-of-verb-checks-35-fun
 >zfun fool
-{$GREENCORE}
+{$YELLOWCORE}
 \\
 #testcase-ha-half-table-of-verb-checks-36-pool
 >pun zpool
-{$YELLOWCORE}
+{$GREENCORE}
 \\
 #testcase-ha-half-table-of-verb-checks-36-pun
 >zpun pool
-{$YELLOWCORE}
+{$GREENCORE}
 
 @hint
 #testcase-values-from-number-of-spun-spool-is-5405
@@ -2437,7 +2501,7 @@ You already created a pun pool!
 
 @all
 >x pun pool
-WRONG
+Just looking at the pun pool, you remember some really awful ones and some good ones. You also see a really brilliant and new one you won't remember when you wake up. C'est la vie.
 
 @hint
 #+testcase-values-from-number-of-spun-spool-is-5405
@@ -2724,3 +2788,5 @@ You let in the light and then some! With nothing left to be done, you wake up. H
 @all
 #testcase-run-vr-let-light-rule-follow-the-shutdown-rules
 Would you like to
+!MISSED
+

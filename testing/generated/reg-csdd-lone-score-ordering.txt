@@ -29,8 +29,8 @@ by one point
 
 >ston
 
->{include} _slick_slide_all
-#>{include} _slick_slide_1
+#>{include} _slick_slide_all
+>{include} _slick_slide_1
 
 >stoff
 
@@ -80,6 +80,11 @@ by one point
 
 #>{include} _battle_paths_all
 >{include} _battle_paths_1
+
+>{include} _final_path_left
+#>{include} _final_path_1
+
+>w
 
 >let in the light
 by one point
@@ -1828,3 +1833,103 @@ by one point
 
 >oh all
 by one point
+
+* _final_path_left
+
+>;no bonus points
+>undo
+
+>{include} _ghoul
+>{include} _check_end
+>{include} _wight
+>{include} _check_end
+
+>{include} _undo3
+>{include} _undo3
+
+>;mummy-ghost-1-2
+>undo
+
+>dapper dummy
+>rump roast
+>{include} _ghoul
+>{include} _check_end
+>{include} _wight
+>{include} _check_end
+>{include} _undo3
+>{include} _undo3
+
+>undo
+
+>;mummy-1-ghost-2
+>undo
+
+>n
+>pun pool
+by one point
+>fun fool
+by one point
+>rump roast
+by one point
+>{include} _check_end
+>{include} _wight
+>{include} _check_end
+>{include} _undo3
+>{include} _undo3
+>undo
+>undo
+
+>;mummy-1-2-ghost
+>undo
+
+>n
+>pun pool
+by one point
+>fun fool
+by one point
+>dapper dummy
+by one point
+>rump roast
+by one point
+>{include} _check_end
+>{include} _wight
+>{include} _check_end
+>{include} _undo3
+
+* _final_path_1
+
+>s
+>see sight
+by one point
+>rewrite
+by one point
+>w
+Net in the Night
+
+* _wight
+
+>s
+>see sight
+by one point
+>rewrite
+by one point
+
+* _ghoul
+
+>n
+>pun pool
+by one point
+>fun fool
+by one point
+
+* _check_end
+
+>w
+Net in the Night
+>undo
+
+* _undo3
+
+>undo
+>undo
+>undo

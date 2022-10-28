@@ -378,7 +378,6 @@ The HA HALF button on your Leet Learner lights up green.
 
 #testcase-ha-half-table-of-verb-checks-33-sight
 >zsee sight
-The HA HALF button lights up on your Leet Learner.
 The HA HALF button on your Leet Learner lights up green.
 
 >see sight
@@ -391,19 +390,19 @@ by one point
 
 #testcase-ha-half-table-of-verb-checks-35-fool
 >fun zfool
-The HA HALF button on your Leet Learner lights up green.
+The HA HALF button on your Leet Learner lights up yellow.
 
 #testcase-ha-half-table-of-verb-checks-35-fun
 >zfun fool
-The HA HALF button on your Leet Learner lights up green.
+The HA HALF button on your Leet Learner lights up yellow.
 
 #testcase-ha-half-table-of-verb-checks-36-pool
 >pun zpool
-The HA HALF button on your Leet Learner lights up yellow.
+The HA HALF button on your Leet Learner lights up green.
 
 #testcase-ha-half-table-of-verb-checks-36-pun
 >zpun pool
-The HA HALF button on your Leet Learner lights up yellow.
+The HA HALF button on your Leet Learner lights up green.
 
 >pun pool
 by one point
