@@ -28,12 +28,14 @@ You could've given the blurring-blest purring pest a TURING TEST.
 You could've gone south from Spun Spool to deal with a plea-plight wee wight.
 You could've gone north from Free Fright to deal with a done-duel gun ghoul.
 You could've made the mapper mummy a DAPPER DUMMY, revealing another undead I'll spoil if you type MISSED again.
+You could've took time to FRET IN (THE) FRIGHT near the end before busting out for good.
 
 >missed
 You could've given the blurring-blest purring pest a TURING TEST.
 You could've gone south from Spun Spool to deal with a plea-plight wee wight.
 You could've gone north from Free Fright to deal with a done-duel gun ghoul.
 You could've made the mapper mummy a DAPPER DUMMY, revealing a bump-boast gump-ghost.
+You could've took time to FRET IN (THE) FRIGHT near the end before busting out for good.
 
 >undo
 >undo
@@ -410,7 +412,17 @@ You could've gone south from Spun Spool to deal with a plea-plight wee wight.
 !north from Free Fright
 !DAPPER DUMMY
 RUMP ROAST
+FRET IN (THE) FRIGHT
 
+>undo
+>fret in fright
+by one point
+bonus
+>let in light
+by one point
+>missed
+RUMP ROAST
+!FRET IN (THE) FRIGHT
 >undo
 >undo
 >undo
@@ -451,6 +463,7 @@ by one point
 You could've gone north from Free Fright to deal with a done-duel gun ghoul.
 !DAPPER DUMMY
 !RUMP ROAST
+FRET IN (THE) FRIGHT
 
 >undo
 >undo
@@ -479,13 +492,20 @@ The done-duel gun ghoul relaxes a bit. Maybe too much. Definitely too much. It d
 #testcase-room-names-set-in-the-site-net-in-the-night
 `Set-in-the-Site Net in the Night
 
-#testcase-run-vr-let-light-rule-if-the-player's-command-includes-fright
->fret in the fright
-You give up at the final moment. Too bad. But you still, like, learned lessons and stuff. And it was only a dream. Nevertheless, you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.
-Your score just went up by one point.
-*** SPOOKY SPITE, FLUKY FLIGHT ***
+>let in the light
+by one point
+
+>missed
+FRET
 
 >undo
+
+>fret in the fright
+by one point
+bonus
+
+#testcase-run-vr-fret-fright-rule-default
+You look for ways to give up completely, but you fail even at that. Boy, when you're in a slump, you're in a slump!
 
 >let in the light
 by one point
@@ -496,7 +516,8 @@ just went up
 #testcase-run-vr-let-light-rule-default
 #testcase-run-vr-let-light-rule-fallthrough
 Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. It all makes more sense now. Your teacher was smarter than you thought.
-You let in the light and then some! With nothing left to be done, you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.
+You let in the light and then some! With nothing left to be done, you wake up from this bizarre nightmare to a world where somehow Herschel Walker, Kari Lake and Dr. Oz are pretty much guaranteed of getting 40% of the vote in a statewide election.
+But hey, Halloween candy will be on sale today! And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.
 *** SPOOKY SPITE, FLUKY FLIGHT ***
 
 #testcase-run-vr-let-light-rule-follow-the-shutdown-rules

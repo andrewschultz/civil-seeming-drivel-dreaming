@@ -62,10 +62,11 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "dapper"	"dummy"	--	--	false	true	false	false	--	vc-dapper-dummy rule	vr-dapper-dummy rule	--	--
 "rump"	"roast"	--	--	false	true	false	false	--	vc-rump-roast rule	vr-rump-roast rule	--	--
 "see"	"sight"	--	--	false	true	true	false	free fright	vc-see-sight rule	vr-see-sight rule	--	--
-"rewrite"	--	--	--	false	true	true	false	free fright	vc-re-write rule	vr-re-write rule	--	--
+"rewrite"	--	--	--	false	true	true	false	free fright	vc-re-write rule	vr-re-write rule	"rewrite" or "re write"	--
 "fun"	"fool"	--	--	false	true	true	false	Spun Spool	vc-fun-fool rule	vr-fun-fool rule	--	--
 "pun"	"pool"	--	--	false	true	true	false	Spun Spool	vc-pun-pool rule	vr-pun-pool rule	--	--
-"let|fret"	"light|fright"	--	--	false	true	true	false	net in the night	vc-let-light rule	vr-let-light rule	"let light" or "fret fright"	"The final solution is more than two words long. Add words so your action matches the room."
+"fret"	"fright"	--	--	false	true	false	false	net in the night	vc-fret-fright rule	vr-fret-fright rule	--	"[b]FRET FRIGHT[r] is the right idea if you want to wallow a bit, but there's a word or two to add!"
+"let"	"light"	--	--	false	true	true	false	net in the night	vc-let-light rule	vr-let-light rule	--	"The final solution is more than two words long. Add words to [b]LET LIGHT[r] so your action matches the room."
 
 a goodrhyme rule (this is the vc-turing-test rule):
 	unless player is in Croots Cravin, unavailable;
@@ -571,6 +572,40 @@ this is the vr-pun-pool rule:
 	say "A big ol['] pun pool -- bubbling like alphabet soup -- begins bubbling up. The [ghoul] looks interested, despite itself.";
 	move pun pool to spun spool;
 
+a goodrhyme rule (this is the vc-fret-fright rule):
+	if player is not in net in the night, unavailable;
+	if sco-fret-fright is true:
+		vcal "Don't wallow. There's a way to move on!";
+		already-done;
+	if final-cmd-extra-words is false:
+		vcp "I'm going to be pedantic here and tell you not to throw out the small words.";
+		semi-pass;
+	ready;
+
+this is the vr-fret-fright rule:
+	say "You look for ways to give up completely, but you fail even at that. Boy, when you're in a slump, you're in a slump!";
+	now sco-fret-fright is true;
+
+a goodrhyme rule (this is the vc-let-light rule):
+	if player is not in net in the night, unavailable;
+	if final-cmd-extra-words is false:
+		vcp "I'm going to be pedantic here and tell you not to throw out the small words.";
+		semi-pass;
+	ready;
+
+this is the vr-let-light rule:
+	now sco-let-light is true;
+	say "Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. It all makes more sense now. Your teacher was smarter than you thought.";
+	say "[line break]You let in the light and then some! With nothing left to be done, you wake up from this bizarre nightmare to a world where somehow Herschel Walker, Kari Lake and Dr. Oz are pretty much guaranteed of getting 40% of the vote in a statewide election.";
+	say "[line break]But hey, halloween candy will be on sale today! And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.";
+	up-reg;
+	process the score and thinking changes rule;
+	end the story finally saying "SPOOKY SPITE, FLUKY FLIGHT";
+	if cur-bonus is max-bonus:
+		choose row with final response rule of show-misses rule in the Table of Final Question Options;
+		blank out the whole row; [don't let the player see MISSED if they got everything]
+	follow the shutdown rules;
+
 chapter auxiliary rules
 
 [initial room]
@@ -700,30 +735,6 @@ this is the big-battle-check rule:
 		move player to Forfeit Bore Bit;
 	else:
 		say "Your charges appear even more, uh, charged!";
-
-a goodrhyme rule (this is the vc-let-light rule):
-	if player is not in net in the night, unavailable;
-	if final-cmd-extra-words is false:
-		vcp "I'm going to be pedantic here and tell you not to throw out the small words.";
-		semi-pass;
-	ready;
-
-this is the vr-let-light rule:
-	now sco-let-light is true;
-	if the player's command includes "fright":
-		say "You give up at the final moment. Too bad. But you still, like, learned lessons and stuff. And it was only a dream. Nevertheless";
-	else:
-		say "Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. It all makes more sense now. Your teacher was smarter than you thought.";
-		say "[line break]You let in the light and then some! With nothing left to be done";
-	say ", you wake up from this bizarre nightmare to a world where somehow Herschel Walker, Kari Lake and Dr. Oz are pretty much guaranteed of getting 40% of the vote in a statewide election.";
-	say "[line break]Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.";
-	up-reg;
-	process the score and thinking changes rule;
-	end the story finally saying "SPOOKY SPITE, FLUKY FLIGHT";
-	if cur-bonus is max-bonus:
-		choose row with final response rule of show-misses rule in the Table of Final Question Options;
-		blank out the whole row; [don't let the player see MISSED if they got everything]
-	follow the shutdown rules;
 
 chapter auxiliary stuff
 

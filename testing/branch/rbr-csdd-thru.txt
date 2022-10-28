@@ -84,12 +84,14 @@ You could've given the blurring-blest purring pest a TURING TEST.
 You could've gone south from Spun Spool to deal with a plea-plight wee wight.
 You could've gone north from Free Fright to deal with a done-duel gun ghoul.
 You could've made the mapper mummy a DAPPER DUMMY, revealing another undead I'll spoil if you type MISSED again.
+You could've took time to FRET IN (THE) FRIGHT near the end before busting out for good.
 \\
 >missed
 You could've given the blurring-blest purring pest a TURING TEST.
 You could've gone south from Spun Spool to deal with a plea-plight wee wight.
 You could've gone north from Free Fright to deal with a done-duel gun ghoul.
 You could've made the mapper mummy a DAPPER DUMMY, revealing a bump-boast gump-ghost.
+You could've took time to FRET IN (THE) FRIGHT near the end before busting out for good.
 \\
 >undo
 >undo
@@ -312,6 +314,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 #testcase-check-vc-foil-fink-rule-if-player-is-not-in-oil-inc
 #testcase-reject-start-table-of-verb-checks-vr-foil-fink-rule
 >foil fink
+{$REJECT2}
+\\
+#testcase-check-vc-fret-fright-rule-if-player-is-not-in-net-in-the-night
+#testcase-reject-start-table-of-verb-checks-vr-fret-fright-rule
+>fret fright
 {$REJECT2}
 \\
 #testcase-reject-end-table-of-verb-checks-vr-fun-fool-rule
@@ -2344,7 +2351,17 @@ You could've gone south from Spun Spool to deal with a plea-plight wee wight.
 !north from Free Fright
 !DAPPER DUMMY
 RUMP ROAST
+FRET IN (THE) FRIGHT
 \\
+>undo
+>fret in fright
+by one point
+bonus
+>let in light
+by one point
+>missed
+RUMP ROAST
+!FRET IN (THE) FRIGHT
 >undo
 >undo
 >undo
@@ -2446,6 +2463,7 @@ by one point
 You could've gone north from Free Fright to deal with a done-duel gun ghoul.
 !DAPPER DUMMY
 !RUMP ROAST
+FRET IN (THE) FRIGHT
 \\
 >undo
 >undo
@@ -2513,6 +2531,10 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 #+testcase-values-from-number-of-done-duel-gun-ghoul-is-10709
 >ll ghoul
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
+\\
+#testcase-values-from-number-of-pun-pool-is-5304
+>ll pool
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 
 @!min
 >fun fool
@@ -2535,20 +2557,20 @@ The done-duel gun ghoul is in the past. You will want to move on.
 >w
 
 @ha
-#testcase-ha-half-table-of-verb-checks-37-let-fret
+#testcase-ha-half-table-of-verb-checks-37-fret
+>fret zfright
+{$GREENBONUS}
+\\
+#testcase-ha-half-table-of-verb-checks-37-fright
+>zfret fright
+{$GREENCORE}
+\\
+#testcase-ha-half-table-of-verb-checks-38-let
 >let zlight
 {$GREENCORE}
 \\
-#+testcase-ha-half-table-of-verb-checks-37-let-fret
->fret zfright
-{$GREENCORE}
-\\
-#testcase-ha-half-table-of-verb-checks-37-light-fright
+#testcase-ha-half-table-of-verb-checks-38-light
 >zlet light
-{$GREENCORE}
-\\
-#+testcase-ha-half-table-of-verb-checks-37-light-fright
->zfret fright
 {$GREENCORE}
 
 @all
@@ -2567,31 +2589,53 @@ But you're under a net, here! You're probably not getting out, either.
 
 @rej
 #testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
->fret fright
-I'm going to be pedantic here and tell you not to throw out the small words.
-!by one point
-\\
-#+testcase-check-vc-let-light-rule-if-final-cmd-extra-words-is-false
 >let light
 I'm going to be pedantic here and tell you not to throw out the small words.
 !by one point
 \\
 #testcase-think-table-of-verb-checks-vc-let-light-rule
 >think
-The final solution is more than two words long. Add words so your action matches the room.
+The final solution is more than two words long. Add words to LET LIGHT so your action matches the room.
 \\
 #+testcase-check-vc-rick-ride-rule-if-player-is-in-forfeit-or-player-is-in-net-in-the-night
 >rick ride
 You're beyond the rick's help here. You must find a way out on your own.
+\\
+#testcase-check-vc-fret-fright-rule-if-final-cmd-extra-words-is-false
+>fret fright
+I'm going to be pedantic here and tell you not to throw out the small words.
+\\
+#testcase-think-table-of-verb-checks-vc-fret-fright-rule
+>think
+FRET FRIGHT is the right idea if you want to wallow a bit, but there's a word or two to add!
 
 @all
-#testcase-run-vr-let-light-rule-if-the-player's-command-includes-fright
->fret in the fright
-You give up at the final moment. Too bad. But you still, like, learned lessons and stuff. And it was only a dream. Nevertheless, you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.
-Your score just went up by one point.
-*** SPOOKY SPITE, FLUKY FLIGHT ***
+>let in the light
+by one point
+\\
+>missed
+FRET
 \\
 >undo
+
+@!min
+>fret in the fright
+by one point
+bonus
+
+@rej,all
+{--rej}#testcase-check-vc-fret-fright-rule-fallthrough
+{--all}#testcase-run-vr-fret-fright-rule-default
+You look for ways to give up completely, but you fail even at that. Boy, when you're in a slump, you're in a slump!
+
+@rej
+#testcase-check-vc-fret-fright-rule-if-sco-fret-fright-is-true
+>fret fright
+Don't wallow. There's a way to move on!
+\\
+#+testcase-check-vc-fret-fright-rule-if-sco-fret-fright-is-true
+>fret in the fright
+Don't wallow. There's a way to move on!
 
 @goto
 #testcase-goto-tries-set-in-the-site-net-in-the-night-croots-cravin
@@ -2784,7 +2828,8 @@ just went up
 {--all}#testcase-run-vr-let-light-rule-default
 {--all}#testcase-run-vr-let-light-rule-fallthrough
 Dang right you've read your Ibsen, baby. Even if you only had to for Junior-year English. And even if it seemed pointless at the time, and you only dashed off the themes the teacher wanted to read about to get a good-enough grade. It all makes more sense now. Your teacher was smarter than you thought.
-You let in the light and then some! With nothing left to be done, you wake up. Halloween candy will be on sale today. And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.
+You let in the light and then some! With nothing left to be done, you wake up from this bizarre nightmare to a world where somehow Herschel Walker, Kari Lake and Dr. Oz are pretty much guaranteed of getting 40% of the vote in a statewide election.
+But hey, Halloween candy will be on sale today! And you're going to get to the store early. The good stuff is still there! But so is the icky stuff. Hoovering up the good stuff, you neglect the icky stuff until you reflect that you might not have had such interesting dreams without it. No, you'll take it all. Just ration it out every month. You feel very lucky. You suspect most people need to plan expensive vacations or take hallucinogens to have the sort of dreams you had. You'd like them more frequently. But not too often. That'd be weird.
 *** SPOOKY SPITE, FLUKY FLIGHT ***
 
 @all

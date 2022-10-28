@@ -102,9 +102,13 @@ The other two cries are unifiying, and they get you a bonus point, but this one 
 
 > OH ALL (1)
 
-You can go either way. North's slightly easier.
+The mummy can be disposed of, as can the ghost that follows it. But they're optional. One of them reappears if it's not dispelled yet when you clear either of the final two areas.
 
-A done-duel gun ghoul!
+From here, you can go either way. North's slightly easier. So let's go north!
+
+> N
+
+A done-duel gun ghoul! Don't let it keep you down.
 
 > PUN POOL (1)
 
@@ -116,6 +120,6 @@ You can now detour to the south. Or...
 
 > W
 
-You can actually give up here, or you can win.
+You can actually sort of give up here for a bonus point, or you can just win straight out.
 
 > LET IN THE LIGHT (1)

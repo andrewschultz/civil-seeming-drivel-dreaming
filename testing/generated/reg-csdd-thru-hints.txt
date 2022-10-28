@@ -441,6 +441,10 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll ghoul
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
 
+#testcase-values-from-number-of-pun-pool-is-5304
+>ll pool
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
+
 >fun fool
 by one point
 
@@ -449,6 +453,10 @@ by one point
 #testcase-values-from-number-of-net-in-the-night-is-10609
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.50.)
+
+>fret in the fright
+by one point
+bonus
 
 >let in the light
 by one point

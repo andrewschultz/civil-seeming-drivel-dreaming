@@ -412,21 +412,25 @@ by one point
 
 >w
 
-#testcase-ha-half-table-of-verb-checks-37-let-fret
+#testcase-ha-half-table-of-verb-checks-37-fret
+>fret zfright
+The HA HALF button on your Leet Learner lights up green. Very dim, though. Perhaps this is a rhyme you don't strictly need to figure to win.
+
+#testcase-ha-half-table-of-verb-checks-37-fright
+>zfret fright
+The HA HALF button on your Leet Learner lights up green.
+
+#testcase-ha-half-table-of-verb-checks-38-let
 >let zlight
 The HA HALF button on your Leet Learner lights up green.
 
-#+testcase-ha-half-table-of-verb-checks-37-let-fret
->fret zfright
-The HA HALF button on your Leet Learner lights up green.
-
-#testcase-ha-half-table-of-verb-checks-37-light-fright
+#testcase-ha-half-table-of-verb-checks-38-light
 >zlet light
 The HA HALF button on your Leet Learner lights up green.
 
-#+testcase-ha-half-table-of-verb-checks-37-light-fright
->zfret fright
-The HA HALF button on your Leet Learner lights up green.
+>fret in the fright
+by one point
+bonus
 
 >let in the light
 by one point

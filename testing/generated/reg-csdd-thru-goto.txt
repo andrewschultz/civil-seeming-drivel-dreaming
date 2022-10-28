@@ -473,6 +473,10 @@ by one point
 >w
 But you're under a net, here! You're probably not getting out, either.
 
+>fret in the fright
+by one point
+bonus
+
 #testcase-goto-tries-set-in-the-site-net-in-the-night-croots-cravin
 >gt croots cravin
 There's no going back! There's only escape. There must be a way!

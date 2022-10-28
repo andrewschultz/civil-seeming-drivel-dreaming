@@ -10,7 +10,7 @@ the release number is 1.
 
 core-max is 30.
 
-max-bonus is 7. [ turing test, 2 of 3 of bro brawl/foe fall/mo maul, dapper dummy, rump roast, and going both north and south before NitN ]
+max-bonus is 8. [ turing test, 2 of 3 of bro brawl/foe fall/mo maul, dapper dummy, rump roast, and going both north and south before NitN, FRET IN FRIGHT ]
 
 volume game state variables
 
@@ -65,6 +65,7 @@ sco-re-write is a truth state that varies.
 sco-fun-fool is a truth state that varies.
 sco-pun-pool is a truth state that varies.
 
+sco-fret-fright is a truth state that varies.
 sco-let-light is a truth state that varies.
 
 chapter game flags
