@@ -297,7 +297,7 @@ from-number of wee wight is 10711. to-number of free fright is 5305.
 
 book spun spool
 
-Spun Spool is a room. "You can see passage west [if sco-re-write is true]but not back north or east[else]and north but not back east[end if] here."
+Spun Spool is a room. "Passage leads west[if sco-re-write is false] and south[end if] in this barren area[if pun pool is in spun pool]. The pun pool you summoned also bubbles here[end if]."
 
 this is the ghoul-here rule:
 	if gun ghoul is not moot, say "You still need to get by [the ghoul]." instead;
@@ -315,6 +315,14 @@ the done duel gun ghoul is a person in Spun Spool. printed name is "done-duel gu
 from-number of spun spool is 5405. to-number of spun spool is 5304.
 
 from-number of done duel gun ghoul is 10709. to-number of done duel gun ghoul is 5304.
+
+chapter pun pool
+
+the pun pool is scenery. "Just looking at the pun pool, you remember some really awful ones and some good ones. You also see a really brilliant and new one you won't remember when you wake up. C'est la vie."
+
+check entering pun pool: say "You prefer dry humor, right? Of course you do! That's why you're playing [this-game]!" instead;
+
+from-number of pun pool is 5304. to-number of pun pool is 5304.
 
 book Set in the Site Net in the Night
 

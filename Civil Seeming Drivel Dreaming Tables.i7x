@@ -555,7 +555,9 @@ a goodrhyme rule (this is the vc-fun-fool rule):
 this is the vr-fun-fool rule:
 	now sco-fun-fool is true;
 	say "The [ghoul] relaxes a bit. Maybe too much. Definitely too much. It drops its weapons and jumps into the pool, with predictable results! It and the pool consume each other.";
+	check-post-call-ways;
 	moot gun ghoul;
+	moot pun pool;
 
 a goodrhyme rule (this is the vc-pun-pool rule):
 	abide by the ghoul-check rule;
@@ -567,6 +569,7 @@ a goodrhyme rule (this is the vc-pun-pool rule):
 this is the vr-pun-pool rule:
 	now sco-pun-pool is true;
 	say "A big ol['] pun pool -- bubbling like alphabet soup -- begins bubbling up. The [ghoul] looks interested, despite itself.";
+	move pun pool to spun spool;
 
 chapter auxiliary rules
 
