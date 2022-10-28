@@ -561,6 +561,24 @@ this is the you-deserve-to-lose rule:
 	force-status;
 	stop game abruptly;
 
+volume end of game
+
+Table of Final Question Options (continued)
+final question wording	only if victorious	topic	final response rule		final response activity
+"see the points you [b]MISSED[r]"	true	"missed/misses"	show-misses rule	--
+
+this is the show-misses rule:
+	if sco-turing-test is false, say "You could've given [the pest] a [b]TURING TEST[r].";
+	if sco-foe-fall is false, say "You could've yelled [b]FOE FALL[r] as a battle cry.";
+	if sco-mo-maul is false, say "You could've yelled [b]MO MAUL[r] as a battle cry.";
+	if sco-bro-brawl is false, say "You could've yelled [b]BRO BRAWL[r] as a battle cry.";
+	if free fright is unvisited, say "You could've gone south from Spun Spool to deal with a [wight].";
+	if spun spool is unvisited, say "You could've gone north from Free Fright to deal with a [ghoul].";
+	if sco-dapper-dummy is false:
+		say "You could've made the mapper mummy a [b]DAPPER DUMMY[r], revealing [one of]another undead I'll spoil if you type [b]MISSED[r] again[or]a [ghost][stopping].";
+	else if sco-rump-roast is false:
+		say "You could've made a [b]RUMP ROAST[r] from [the ghost].";
+
 volume map indexing
 
 index map with WoeWall mapped west of Croots Cravin.

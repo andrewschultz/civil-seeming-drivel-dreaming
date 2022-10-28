@@ -8,9 +8,9 @@ the release number is 1.
 
 [entry-in-series is 4.]
 
-core-max is 28.
+core-max is 30.
 
-max-bonus is 5.
+max-bonus is 7. [ turing test, 2 of 3 of bro brawl/foe fall/mo maul, dapper dummy, rump roast, and going both north and south before NitN ]
 
 volume game state variables
 

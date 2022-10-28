@@ -719,7 +719,12 @@ this is the vr-let-light rule:
 	up-reg;
 	process the score and thinking changes rule;
 	end the story finally saying "SPOOKY SPITE, FLUKY FLIGHT";
+	if cur-bonus is max-bonus:
+		choose row with final response rule of show-misses rule in the Table of Final Question Options;
+		blank out the whole row; [don't let the player see MISSED if they got everything]
 	follow the shutdown rules;
+
+chapter auxiliary stuff
 
 [free fright]
 
