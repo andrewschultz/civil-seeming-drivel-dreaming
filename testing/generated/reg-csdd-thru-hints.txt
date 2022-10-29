@@ -13,6 +13,7 @@ Taken.
 
 >au 2
 
+#null testcase
 >ll
 You scan the area. This will suffice most of the time, though you may wish to LL a thing that doesn't jibe with the location's rhymes.
 You get an interesting reading when it flips to the BRUTES BRAVING SUITS SAVING text. The numbers blink from (0.50, 0.50) to (-0.50, -0.50) and back, as if it's clueless what should have been changed from, or to, what.
@@ -43,6 +44,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >whirring west
 by one point
 
+#+testcase-values-from-number-of-blurring-blest-purring-pest-is-11509
 >ll pest
 Your rhyming attempts bring up nothing.
 
@@ -59,12 +61,14 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >yo yall
 by one point
 
+#+testcase-values-from-number-of-woewall-is-5304
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 
 >stow stall
 by one point
 
+#+testcase-values-from-number-of-woewall-is-5304
 >ll
 The leet learner makes a weird noise, as if it's about to find something, but then it doesn't. Maybe there's something to do here a bit later.
 
@@ -113,15 +117,18 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 by one point
 
 #this will be slightly different from the others.
+#+testcase-values-from-number-of-honing-hey-groaning-grey-is-11407
 >ll
 Nothing comes up. The general area here has been changed enough.
 
+#+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
 >rick ride
 by one point
 
+#+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, -0.66.)
 
@@ -187,6 +194,7 @@ by one point
 >rick ride
 !by one point
 
+#+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
 
@@ -257,12 +265,15 @@ by one point
 >prick pride
 by one point
 
+#testcase-values-from-number-of-die-ditch-is-5305
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
+#testcase-values-from-number-of-i-itch-why-witch-is-10409
 >ll witch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, -0.50.)
 
+#+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 DEBUG: can't see any such thing error.
 
@@ -270,23 +281,26 @@ DEBUG: can't see any such thing error.
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
-#testcase-values-from-number-of-die-ditch-is-5305
+#+testcase-values-from-number-of-die-ditch-is-5305
 >ll die ditch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -1.00.)
 
-#testcase-values-from-number-of-i-itch-why-witch-is-10409
+#+testcase-values-from-number-of-i-itch-why-witch-is-10409
 >ll why witch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, -0.50.)
 
 >lie lich
 by one point
 
+#+testcase-values-from-number-of-sigh-sitch-is-5405
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
+#+testcase-values-from-number-of-i-itch-why-witch-is-10409
 >ll witch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.50.)
 
+#testcase-values-from-number-of-lie-lich-is-5304
 >ll lich
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
 
@@ -302,7 +316,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll why witch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.50.)
 
-#testcase-values-from-number-of-lie-lich-is-5304
+#+testcase-values-from-number-of-lie-lich-is-5304
 >ll lie lich
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
 
@@ -316,6 +330,7 @@ Nothing comes up. The general area here has been changed enough.
 >rick ride
 !by one point
 
+#+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
@@ -352,18 +367,21 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >war wit
 by one point
 
+#+testcase-values-from-number-of-woe-wall-is-5304
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
 >mo maul
 by one point
 
+#+testcase-values-from-number-of-woe-wall-is-5304
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
 >bro brawl
 by one point
 
+#+testcase-values-from-number-of-woewall-is-5304
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 

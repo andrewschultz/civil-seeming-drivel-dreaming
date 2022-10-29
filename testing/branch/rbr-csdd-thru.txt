@@ -138,6 +138,7 @@ That's the right direction to go, but you have to figure out why you should go t
 There's a direction to go, but you have to figure out why you should go that way and what to follow.
 
 @hin
+#null testcase
 >ll
 You scan the area. This will suffice most of the time, though you may wish to LL a thing that doesn't jibe with the location's rhymes.
 You get an interesting reading when it flips to the BRUTES BRAVING SUITS SAVING text. The numbers blink from (0.50, 0.50) to (-0.50, -0.50) and back, as if it's clueless what should have been changed from, or to, what.
@@ -486,6 +487,7 @@ Ah, yes! You identify where the noise is coming from and what it is. You see a w
 The blurring-blest purring pest, its job (so to speak) done, disappears with a pop.
 
 @hin
+#+testcase-values-from-number-of-blurring-blest-purring-pest-is-11509
 >ll pest
 Your rhyming attempts bring up nothing.
 
@@ -702,6 +704,7 @@ You already made contact behind the wall.
 {$GREENCORE}
 
 @hin
+#+testcase-values-from-number-of-woewall-is-5304
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 1.00.)
 
@@ -724,6 +727,7 @@ You already found the stall.
 Nothing. But you don't need to talk to anyone to win, or get all the points, or whatever.
 
 @hin
+#+testcase-values-from-number-of-woewall-is-5304
 >ll
 The leet learner makes a weird noise, as if it's about to find something, but then it doesn't. Maybe there's something to do here a bit later.
 \\
@@ -999,6 +1003,13 @@ You can PRICK PRIDE now you've made the slick slide navigable.
 You can SICK SIDE now you've made the slick slide navigable.
 You can TICK TIDE now you've made the slick slide navigable.
 
+@alt
+#testcase-alt-words-table-of-verb-checks-9-tide-tied
+>tick tied
+by one point
+\\
+>undo
+
 >tick tide
 by one point
 
@@ -1187,9 +1198,11 @@ You take time to reflect on your own faults.
 
 @hin
 #this will be slightly different from the others.
+#+testcase-values-from-number-of-honing-hey-groaning-grey-is-11407
 >ll
 Nothing comes up. The general area here has been changed enough.
 \\
+#+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
@@ -1217,6 +1230,7 @@ The rick ride is only for transport back here.
 Woe Wall
 
 @hin
+#+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, -0.66.)
 
@@ -1224,6 +1238,13 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >tick tide
 {--prong}You feel no prod from the pride prong. You've already taken care of what you needed there!
 {--gong}You hear the guide gong ring out. You've already taken care of what you needed there!
+
+@alt
+#testcase-alt-words-table-of-verb-checks-6-hide-hied
+>hick hied
+by one point
+\\
+>undo
 
 >hick hide
 by one point
@@ -1386,6 +1407,13 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
+@alt
+#testcase-alt-words-table-of-verb-checks-15-gee-g
+>jive g
+by one point
+\\
+>undo
+
 >jive gee
 by one point
 
@@ -1477,6 +1505,7 @@ You don't have time to explore.
 Woe Wall
 
 @hin
+#+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
 
@@ -1789,12 +1818,15 @@ You retreat to a scene of prior success.
 by one point
 
 @hin
+#testcase-values-from-number-of-die-ditch-is-5305
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 \\
+#testcase-values-from-number-of-i-itch-why-witch-is-10409
 >ll witch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, -0.50.)
 \\
+#+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 DEBUG: can't see any such thing error.
 
@@ -1821,11 +1853,11 @@ You can ask for a PIE PITCH once there's someone or something evil as a target.
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 \\
-#testcase-values-from-number-of-die-ditch-is-5305
+#+testcase-values-from-number-of-die-ditch-is-5305
 >ll die ditch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -1.00.)
 \\
-#testcase-values-from-number-of-i-itch-why-witch-is-10409
+#+testcase-values-from-number-of-i-itch-why-witch-is-10409
 >ll why witch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, -0.50.)
 
@@ -1929,12 +1961,15 @@ But that bit about how the most powerful and spectacular spells can't disarm it?
 You really don't want to step into the Die Ditch. You really need to defeat the Lie Lich you summoned.
 
 @hin
+#+testcase-values-from-number-of-sigh-sitch-is-5405
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 \\
+#+testcase-values-from-number-of-i-itch-why-witch-is-10409
 >ll witch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.50.)
 \\
+#testcase-values-from-number-of-lie-lich-is-5304
 >ll lich
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
 
@@ -1960,7 +1995,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll why witch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, 0.50.)
 \\
-#testcase-values-from-number-of-lie-lich-is-5304
+#+testcase-values-from-number-of-lie-lich-is-5304
 >ll lie lich
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
 
@@ -2047,6 +2082,7 @@ You don't feel you have enough leadership skills yet to unite everyone!
 You see nothing here like that. Or there may be, but it's a small part of something more prominent. Civil Seeming Drivel Dreaming tries not to force you to look into any items too much.
 
 @hin
+#+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
 Your rhyming attempts bring up nothing. Or, if you tried a standard verb--well, Civil Seeming Drivel Dreaming has eliminated a lot of them, so you can focus on the puzzle verbs. VERBS will give a list of useful, non-puzzle-solving verbs.
 
@@ -2295,6 +2331,7 @@ Woe Wall
 Yes! You see what to do, now. You make believe you still have the soldier toys and see the right strategy for repelling the enemy. They'll be toast now.
 
 @hint
+#+testcase-values-from-number-of-woe-wall-is-5304
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
@@ -2309,6 +2346,7 @@ You spring a battle cry, simple and effective! While it's relatively obvious tha
 Your charges appear even more, uh, charged!
 
 @hint
+#+testcase-values-from-number-of-woe-wall-is-5304
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
@@ -2331,6 +2369,7 @@ You spring a battle cry, simple and effective! While "bro" doesn't feel as inclu
 {$GREENCORE}
 
 @hin
+#+testcase-values-from-number-of-woewall-is-5304
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 \\

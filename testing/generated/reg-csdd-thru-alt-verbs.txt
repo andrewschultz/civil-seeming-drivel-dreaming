@@ -1,0 +1,165 @@
+## reg-csdd-thru-alt-verbs.txt
+## GENERATOR FILE: rbr-csdd-thru.txt
+
+## walkthrough with altverb tests
+
+** game: /home/andrew/prt/debug-civil-seeming-drivel-dreaming.z8
+** interpreter: /home/andrew/prt/dfrotz -m -w5000 -h25
+
+* main-thru
+
+>take learner
+Taken.
+
+>au 2
+
+>turing test
+
+>whirring west
+by one point
+
+>w
+
+>yo yall
+by one point
+
+>stow stall
+by one point
+
+>trick tried
+by one point
+
+#testcase-alt-words-table-of-verb-checks-9-tide-tied
+>tick tied
+by one point
+
+>undo
+
+>tick tide
+by one point
+
+>owning eh
+by one point
+
+>cloning clay
+by one point
+
+>rick ride
+by one point
+
+#testcase-alt-words-table-of-verb-checks-6-hide-hied
+>hick hied
+by one point
+
+>undo
+
+>hick hide
+by one point
+
+>ivy
+by one point
+
+>lively
+by one point
+
+#testcase-alt-words-table-of-verb-checks-15-gee-g
+>jive g
+by one point
+
+>undo
+
+>jive gee
+by one point
+
+>thrive three
+by one point
+
+>whyve we
+by one point
+
+>rick ride
+!by one point
+
+>sick side
+by one point
+
+>royal rink
+by one point
+
+>soil sink
+by one point
+
+>broil brink
+by one point
+
+>moil mink
+by one point
+
+>foil fink
+by one point
+
+>rick ride
+
+>prick pride
+by one point
+
+>lie lich
+by one point
+
+>pie pitch
+by one point
+
+>rick ride
+!by one point
+
+>foe fall
+by one point
+
+>core kit
+by one point
+
+>war wit
+by one point
+
+>mo maul
+by one point
+
+>bro brawl
+by one point
+
+>oh all
+by one point
+
+>dapper dummy
+bonus
+by one point
+
+>rump roast
+bonus
+by one point
+
+>s
+
+>see sight
+by one point
+
+>rewrite
+by one point
+
+>n
+
+>pun pool
+by one point
+
+>fun fool
+by one point
+
+>w
+
+>fret in the fright
+by one point
+bonus
+
+>let in the light
+by one point
+
