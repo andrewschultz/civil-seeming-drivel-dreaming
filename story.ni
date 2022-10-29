@@ -297,7 +297,7 @@ from-number of wee wight is 10711. to-number of free fright is 5305.
 
 book spun spool
 
-Spun Spool is a room. "Passage leads west[if sco-re-write is false] and south[end if] in this barren area[if pun pool is in spun pool]. The pun pool you summoned also bubbles here[end if]."
+Spun Spool is a room. "Passage leads west[if sco-re-write is false] and south[end if] in this barren area[if pun pool is in spun spool]. The pun pool you summoned also bubbles here[end if]."
 
 this is the ghoul-here rule:
 	if gun ghoul is not moot, say "You still need to get by [the ghoul]." instead;
@@ -328,7 +328,7 @@ book Set in the Site Net in the Night
 
 check going to net in the night: say "Freedom! Well, you think, until you are snared.";
 
-Set in the Site Net in the Night is a room. printed name is "Set-in-the-Site Net in the Night". "'Don't mind me,' you fret, telepathically guilt-tripping anyone within a twelve-mile radius. 'I deserved it, for my moment of inattention. I probably had more attention than a schlep like me earned, anyway, and I guess this is my rightful punishment. I don't deserve, like, a simple way out,' you mumble to yourself, while of course deep down you believe the complete opposite."
+Set in the Site Net in the Night is a room. printed name is "Set-in-the-Site Net in the Night". "[if sco-fret-fright is false]You can feel the net around you, but it's so dark. Part of you wants to sort of give up before busting out. But you need to bust out.[else]'Don't mind me,' you fret, telepathically guilt-tripping anyone within a twelve-mile radius. 'I deserved it, for my moment of inattention. I probably had more attention than a schlep like me earned, anyway, and I guess this is my rightful punishment. I don't deserve, like, a simple way out,' you mumble to yourself, while of course deep down you believe the complete opposite.[end if]"
 
 from-number of Net in the Night is 10609. to-number of Net in the Night is 5305.
 
@@ -383,11 +383,30 @@ this is the gong-cravin rule:
 	if sco-turing-test is false, llp-remaining;
 	completed;
 
+volume standard and action verbs
+
+carry out talktoing:
+	if noun is the player, say "'Mild, me? Wild! Whee!' you say, to pep yourself up." instead;
+	if player is in WoeWall and throw thrall is in WoeWall, say "Save your voice for exhorting the troops!" instead;
+	if noun is woe wall, say "[if sco-yo-yall is false]You need to say something specific to find who's behind there[else]Alas, nobody behind the Woe Wall can help right now. They're on your side, and that's good enough for now[end if]." instead;
+	if noun is Po Paul, say "You assure Paul you'll figure out what's going on here." instead;
+	if noun is purring pest, say "A warn-was-borne buzz. Dialogue isn't the way to go, here." instead;
+	if noun is Doyle Dink, say "He might give a smarm-smug harm-hug." instead;
+	if noun is Clive Klee, say "You won't convince Clive of anything with general chatter. But a big question at the end might get rid of him." instead;
+	if noun is Lie Lich, say "Diplomacy won't work." instead;
+	if noun is why witch, say "Now's not the time for small talk." instead;
+	if noun is Droning Dre or noun is Moaning Mae, say "[if sco-owning-eh is false]You need to address a specific way for [noun] to improve[else]You need to do something specific to augment [noun][end if]." instead;
+	if noun is mapper mummy, say "It seems to say, telepathically, 'Sling! Slobber! Cling! Clobber!'" instead;
+	if noun is gump ghost, say "It doesn't need an excuse to talk more." instead;
+	say "Nothing. But you don't need to talk to anyone to win, or get all the points, or whatever." instead;
+
 volume subverting verbs
 
 check swearing obscenely: say "Sneak-snivel? Seek CIVIL!" instead;
 
 carry out xyzzying: say "Trope-tread: dope?! DEAD." instead;
+
+book jerkjumping
 
 check jerkingjumping when player is in a hubroom and sco-rick-ride is true:
 	if to-number of location of player is -3, say "Wait a minute. You're done here. You should really just take the [b]RICK RIDE[r] back." instead;
@@ -578,6 +597,7 @@ this is the show-misses rule:
 		say "You could've made the mapper mummy a [b]DAPPER DUMMY[r], revealing [one of]another undead I'll spoil if you type [b]MISSED[r] again[or]a [ghost][stopping].";
 	else if sco-rump-roast is false:
 		say "You could've made a [b]RUMP ROAST[r] from [the ghost].";
+	if sco-fret-fright is false, say "You could've took time to [b]FRET IN (THE) FRIGHT[r] near the end before busting out for good."
 
 volume map indexing
 

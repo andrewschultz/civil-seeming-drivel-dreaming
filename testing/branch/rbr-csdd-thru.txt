@@ -71,6 +71,28 @@ Taken.
 
 >au 2
 
+@verbs
+#testcase-mainverbs-check-swearing-obscenely-default
+>damn
+Sneak-snivel? Seek CIVIL!
+\\
+#testcase-mainverbs-carry-out-xyzzying-default
+>xyzzy
+Trope-tread: dope?! DEAD.
+(Cross-promotion: why, yes, Very Vile Fairy File, Quite Queer Night Near, Low-Key Learny Jokey Journey and Civil-Seeming Drivel Dreaming, the other three entries in the Prime Pro-Rhyme Row series, have different and equally "witty" XYZZY responses. Of course they do!)
+\\
+>xyzzy
+Trope-tread: dope?! DEAD.
+!Cross-promotion
+\\
+#testcase-mainverbs-carry-out-talktoing-if-noun-is-purring-pest
+>t pest
+A warn-was-borne buzz. Dialogue isn't the way to go, here.
+\\
+#testcase-mainverbs-carry-out-talktoing-if-noun-is-the-player
+>t me
+"Mild, me? Wild! Whee!" you say, to pep yourself up.
+
 @all
 >gonear night
 \\
@@ -638,8 +660,22 @@ No giant appears to crush anyone.
 >oh all
 This would be a way to bring everyone fully together once you have their trust. But there is no everyone to bring together. How to greet them?
 
+@verbs
+#testcase-mainverbs-carry-out-talktoing-if-noun-is-woe-wall
+>t woe wall
+You need to say something specific to find who's behind there.
+
 >yo yall
 by one point
+
+@verbs
+#+testcase-mainverbs-carry-out-talktoing-if-noun-is-woe-wall
+>t woe wall
+Alas, nobody behind the Woe Wall can help right now. They're on your side, and that's good enough for now.
+\\
+#testcase-mainverbs-carry-out-talktoing-if-noun-is-po-paul
+>t po paul
+You assure Paul you'll figure out what's going on here.
 
 @rej
 #+testcase-think-table-of-verb-checks-vc-stow-stall-rule
@@ -681,6 +717,11 @@ The slide seems a bit too slick at the moment for travel, though. How to fix it?
 #testcase-check-vc-stow-stall-rule-if-sco-stow-stall-is-true
 >stow stall
 You already found the stall.
+
+@verbs
+#testcase-mainverbs-carry-out-talktoing-fallthrough
+>t slick slide
+Nothing. But you don't need to talk to anyone to win, or get all the points, or whatever.
 
 @hin
 >ll
@@ -993,6 +1034,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll droning dre
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
+@verbs
+#testcase-mainverbs-carry-out-talktoing-if-noun-is-droning-dre-or-noun-is-moaning-mae
+>t droning dre
+You need to address a specific way for Droning Dre to improve.
+
 @rej
 #testcase-check-vc-cloning-clay-rule-if-sco-owning-eh-is-false
 >cloning clay
@@ -1093,6 +1139,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >think
 You can summon CLONING CLAY now
 are more worth cloning.
+
+@verbs
+#+testcase-mainverbs-carry-out-talktoing-if-noun-is-droning-dre-or-noun-is-moaning-mae
+>t moaning mae
+You need to do something specific to augment Moaning Mae.
 
 @all
 {--rej}#testcase-check-vc-owning-eh-rule-fallthrough
@@ -1275,6 +1326,11 @@ No, laughing bees wouldn't do the trick.
 #ttc-table-of-contrive-country-guesses-skive-ski
 >skive ski
 It's not cold enough for crafty skiers to swoop by.
+
+@ver
+#testcase-mainverbs-carry-out-talktoing-if-noun-is-clive-klee
+>t clive
+You won't convince Clive of anything with general chatter. But a big question at the end might get rid of him.
 
 @hin
 #testcase-values-from-number-of-five-fee-contrive-country-is-11210
@@ -1541,6 +1597,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll doyle dink
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, 0.25.)
 
+@verbs
+#testcase-mainverbs-carry-out-talktoing-if-noun-is-doyle-dink
+>t doyle dink
+He might give a smarm-smug harm-hug.
+
 @rej
 #testcase-check-vc-foil-fink-rule-if-oil-inc-score-<-4
 >foil fink
@@ -1768,6 +1829,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll why witch
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (1.00, -0.50.)
 
+@verbs
+#testcase-mainverbs-carry-out-talktoing-if-noun-is-why-witch
+>t why witch
+Now's not the time for small talk.
+
 @gt
 #testcase-goto-table-of-noways-sigh-sitch
 >w
@@ -1897,6 +1963,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 #testcase-values-from-number-of-lie-lich-is-5304
 >ll lie lich
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 1.00.)
+
+@verbs
+#testcase-mainverbs-carry-out-talktoing-if-noun-is-lie-lich
+>t lie lich
+Diplomacy won't work.
 
 >pie pitch
 by one point
@@ -2081,6 +2152,11 @@ You can't skip out on this critical fight!
 #+testcase-goto-tries-woewall-woewall
 >gt woe wall
 You're already there! Well, here.
+
+@verbs
+#testcase-mainverbs-carry-out-talktoing-if-player-is-in-woewall-and-throw-thrall-is-in-woewall
+>t throw thrall
+Save your voice for exhorting the troops!
 
 >foe fall
 by one point
@@ -2284,6 +2360,11 @@ You already exhorted the troops this way!
 >gt forfeit bore bit
 You can't skip out on this critical fight!
 
+@verbs
+#+testcase-mainverbs-carry-out-talktoing-if-player-is-in-woewall-and-throw-thrall-is-in-woewall
+>t po paul
+Save your voice for exhorting the troops!
+
 >oh all
 by one point
 
@@ -2309,6 +2390,11 @@ The simplicity! The universality! It's so simple and universal, several members 
 >ll mummy
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 However, it's really dim, as if you don't need to do or think whatever there is to do or think.
+
+@verbs
+#testcase-mainverbs-carry-out-talktoing-if-noun-is-mapper-mummy
+>t mapper mummy
+It seems to say, telepathically, "Sling! Slobber! Cling! Clobber!"
 
 @!min
 >dapper dummy
@@ -2373,6 +2459,11 @@ RUMP ROAST
 >ll ghost
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, 0.00.)
 However, it's really dim, as if you don't need to do or think whatever there is to do or think.
+
+@verbs
+#testcase-mainverbs-carry-out-talktoing-if-noun-is-gump-ghost
+>t gump ghost
+It doesn't need an excuse to talk more.
 
 @!min
 >rump roast

@@ -846,7 +846,7 @@ You look for ways to give up completely, but you fail even at that. Boy, when yo
 >fret fright
 Don't wallow. There's a way to move on!
 
-#testcase-check-vc-fret-fright-rule-if-sco-fret-fright-is-true
+#+testcase-check-vc-fret-fright-rule-if-sco-fret-fright-is-true
 >fret in the fright
 Don't wallow. There's a way to move on!
 
