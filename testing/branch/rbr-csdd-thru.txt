@@ -315,17 +315,17 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >broil brink
 {$REJECT2}
 \\
-#testcase-check-vc-cloning-clay-rule-if-player-is-not-in-honing-hey
 #testcase-reject-start-table-of-verb-checks-vr-cloning-clay-rule
+#testcase-check-vc-cloning-clay-rule-if-player-is-not-in-honing-hey
 >cloning clay
 {$REJECT2}
 \\
-#testcase-check-vc-core-kit-rule-if-player-is-not-in-forfeit-bore-bit
 #testcase-reject-start-table-of-verb-checks-vr-core-kit-rule
+#testcase-check-vc-core-kit-rule-if-player-is-not-in-forfeit-bore-bit
 >core kit
 {$REJECT2}
 \\
-#testcase-reject-end-table-of-verb-checks-vr-dapper-dummy-rule
+#testcase-reject-start-table-of-verb-checks-vr-dapper-dummy-rule
 #testcase-check-vc-dapper-dummy-rule-if-mapper-mummy-is-not-in-location-of-player
 >dapper dummy
 {$REJECT2}
@@ -334,17 +334,17 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >foe fall
 {$REJECT2}
 \\
-#testcase-check-vc-foil-fink-rule-if-player-is-not-in-oil-inc
 #testcase-reject-start-table-of-verb-checks-vr-foil-fink-rule
+#testcase-check-vc-foil-fink-rule-if-player-is-not-in-oil-inc
 >foil fink
 {$REJECT2}
 \\
-#testcase-check-vc-fret-fright-rule-if-player-is-not-in-net-in-the-night
 #testcase-reject-start-table-of-verb-checks-vr-fret-fright-rule
+#testcase-check-vc-fret-fright-rule-if-player-is-not-in-net-in-the-night
 >fret fright
 {$REJECT2}
 \\
-#testcase-reject-end-table-of-verb-checks-vr-fun-fool-rule
+#testcase-reject-start-table-of-verb-checks-vr-fun-fool-rule
 >fun fool
 {$REJECT2}
 \\
@@ -352,8 +352,8 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >hick hide
 {$REJECT2}
 \\
-#testcase-check-vc-ivy-rule-if-player-is-not-in-contrive-country
 #testcase-reject-start-table-of-verb-checks-vr-ivy-rule
+#testcase-check-vc-ivy-rule-if-player-is-not-in-contrive-country
 >ivy
 {$REJECT1}
 \\
@@ -362,19 +362,18 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >jive gee
 {$REJECT2}
 \\
-#testcase-check-vc-let-light-rule-if-player-is-not-in-net-in-the-night
 #testcase-reject-start-table-of-verb-checks-vr-let-light-rule
+#testcase-check-vc-let-light-rule-if-player-is-not-in-net-in-the-night
 >let light
 {$REJECT2}
 \\
-#testcase-check-vc-lie-lich-rule-if-player-is-not-in-sigh-sitch
 #testcase-reject-start-table-of-verb-checks-vr-lie-lich-rule
+#testcase-check-vc-lie-lich-rule-if-player-is-not-in-sigh-sitch
 >lie lich
 {$REJECT2}
 \\
-{$REJECT2}
-#testcase-check-vc-lively-rule-if-player-is-not-in-contrive-country
 #testcase-reject-start-table-of-verb-checks-vr-lively-rule
+#testcase-check-vc-lively-rule-if-player-is-not-in-contrive-country
 >lively
 {$REJECT1}
 \\
@@ -391,13 +390,13 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >oh all
 {$REJECT2}
 \\
-#testcase-check-vc-owning-eh-rule-if-player-is-not-in-honing-hey
 #testcase-reject-start-table-of-verb-checks-vr-owning-eh-rule
+#testcase-check-vc-owning-eh-rule-if-player-is-not-in-honing-hey
 >owning eh
 {$REJECT2}
 \\
-#testcase-check-vc-pie-pitch-rule-if-player-is-not-in-sigh-sitch
 #testcase-reject-start-table-of-verb-checks-vr-pie-pitch-rule
+#testcase-check-vc-pie-pitch-rule-if-player-is-not-in-sigh-sitch
 >pie pitch
 {$REJECT2}
 \\
@@ -405,16 +404,16 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >prick pride
 {$REJECT2}
 \\
-#testcase-reject-end-table-of-verb-checks-vr-pun-pool-rule
+#testcase-reject-start-table-of-verb-checks-vr-pun-pool-rule
 >pun pool
 {$REJECT2}
 \\
-#testcase-reject-end-table-of-verb-checks-vr-re-write-rule
+#testcase-reject-start-table-of-verb-checks-vr-re-write-rule
 >rewrite
 {$REJECT1}
 \\
-#testcase-check-vc-rick-ride-rule-if-slick-slide-is-off-stage
 #testcase-reject-start-table-of-verb-checks-vr-rick-ride-rule
+#testcase-check-vc-rick-ride-rule-if-slick-slide-is-off-stage
 >rick ride
 {$REJECT2}
 \\
@@ -422,12 +421,12 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >royal rink
 {$REJECT2}
 \\
-#testcase-reject-end-table-of-verb-checks-vr-rump-roast-rule
+#testcase-reject-start-table-of-verb-checks-vr-rump-roast-rule
 #testcase-check-vc-rump-roast-rule-if-bump-boast-gump-ghost-is-not-in-location-of-player
 >rump roast
 {$REJECT2}
 \\
-#testcase-reject-end-table-of-verb-checks-vr-see-sight-rule
+#testcase-reject-start-table-of-verb-checks-vr-see-sight-rule
 >see sight
 {$REJECT2}
 \\
@@ -439,13 +438,13 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >soil sink
 {$REJECT2}
 \\
-#testcase-check-vc-stow-stall-rule-if-player-is-not-in-woewall
 #testcase-reject-start-table-of-verb-checks-vr-stow-stall-rule
+#testcase-check-vc-stow-stall-rule-if-player-is-not-in-woewall
 >stow stall
 {$REJECT2}
 \\
-#testcase-check-vc-thrive-three-rule-if-player-is-not-in-contrive-country
 #testcase-reject-start-table-of-verb-checks-vr-thrive-three-rule
+#testcase-check-vc-thrive-three-rule-if-player-is-not-in-contrive-country
 >thrive three
 {$REJECT2}
 \\
@@ -453,8 +452,8 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >tick tide
 {$REJECT2}
 \\
-#testcase-check-vc-trick-tried-rule-if-slick-slide-is-not-fungible
 #testcase-reject-start-table-of-verb-checks-vr-trick-tried-rule
+#testcase-check-vc-trick-tried-rule-if-slick-slide-is-not-fungible
 >trick tried
 {$REJECT2}
 \\
@@ -468,10 +467,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >whyve we
 {$REJECT2}
 \\
-#testcase-check-vc-yo-yall-rule-if-player-is-not-in-woewall
 #testcase-reject-start-table-of-verb-checks-vr-yo-yall-rule
+#testcase-check-vc-yo-yall-rule-if-player-is-not-in-woewall
 >yo yall
 {$REJECT2}
+====alphabetize off
 
 >whirring west
 by one point
@@ -547,15 +547,16 @@ A guide gong rings to notify you that you don't need to go back through 'Croots-
 @rej
 #####################this is just testing general rejects that would succeed in croots craving
 ====alphabetize on
-#testcase-reject-start-table-of-verb-checks-vr-whirring-west-rule
+#testcase-reject-start-table-of-verb-checks-vr-turing-test-rule
 #testcase-check-vc-turing-test-rule-unless-player-is-in-croots-cravin
 >turing test
 {$REJECT2}
 \\
-#testcase-reject-start-table-of-verb-checks-vr-turing-test-rule
+#testcase-reject-start-table-of-verb-checks-vr-whirring-west-rule
 #testcase-check-vc-whirring-west-rule-unless-player-is-in-croots-cravin
 >whirring west
 {$REJECT2}
+====alphabetize off
 
 @gt
 #testcase-goto-table-of-noways-woewall
@@ -2801,6 +2802,7 @@ There's no going back! There's only escape. There must be a way!
 There's no going back! There's only escape. There must be a way!
 
 @rej
+====alphabetize on
 #testcase-reject-end-table-of-verb-checks-vr-bro-brawl-rule
 >bro brawl
 {$REJECT2}
@@ -2817,7 +2819,7 @@ There's no going back! There's only escape. There must be a way!
 >core kit
 {$REJECT2}
 \\
-#testcase-reject-start-table-of-verb-checks-vr-dapper-dummy-rule
+#testcase-reject-end-table-of-verb-checks-vr-dapper-dummy-rule
 >dapper dummy
 {$REJECT2}
 \\
@@ -2829,7 +2831,7 @@ There's no going back! There's only escape. There must be a way!
 >foil fink
 {$REJECT2}
 \\
-#testcase-reject-start-table-of-verb-checks-vr-fun-fool-rule
+#testcase-reject-end-table-of-verb-checks-vr-fun-fool-rule
 >fun fool
 {$REJECT2}
 \\
@@ -2853,12 +2855,12 @@ There's no going back! There's only escape. There must be a way!
 >lively
 {$REJECT1A}
 \\
-#testcase-reject-end-table-of-verb-checks-vr-moil-mink-rule
->moil mink
-{$REJECT2}
-\\
 #testcase-reject-end-table-of-verb-checks-vr-mo-maul-rule
 >mo maul
+{$REJECT2}
+\\
+#testcase-reject-end-table-of-verb-checks-vr-moil-mink-rule
+>moil mink
 {$REJECT2}
 \\
 #testcase-reject-end-table-of-verb-checks-vr-oh-all-rule
@@ -2877,11 +2879,11 @@ There's no going back! There's only escape. There must be a way!
 >prick pride
 {$REJECT2}
 \\
-#testcase-reject-start-table-of-verb-checks-vr-pun-pool-rule
+#testcase-reject-end-table-of-verb-checks-vr-pun-pool-rule
 >pun pool
 {$REJECT2}
 \\
-#testcase-reject-start-table-of-verb-checks-vr-re-write-rule
+#testcase-reject-end-table-of-verb-checks-vr-re-write-rule
 >rewrite
 {$REJECT1A}
 \\
@@ -2894,11 +2896,11 @@ You're beyond the rick's help here. You must find a way out on your own.
 >royal rink
 {$REJECT2}
 \\
-#testcase-reject-start-table-of-verb-checks-vr-rump-roast-rule
+#testcase-reject-end-table-of-verb-checks-vr-rump-roast-rule
 >rump roast
 {$REJECT2}
 \\
-#testcase-reject-start-table-of-verb-checks-vr-see-sight-rule
+#testcase-reject-end-table-of-verb-checks-vr-see-sight-rule
 >see sight
 {$REJECT2}
 \\
@@ -2945,6 +2947,7 @@ You're beyond the rick's help here. You must find a way out on your own.
 #testcase-reject-end-table-of-verb-checks-vr-yo-yall-rule
 >yo yall
 {$REJECT2}
+====alphabetize off
 
 >let in the light
 by one point
