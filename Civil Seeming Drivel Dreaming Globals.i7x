@@ -6,7 +6,7 @@ volume scoring and meta variable numbers
 
 the release number is 1.
 
-[entry-in-series is 4.]
+entry-in-series is 4.
 
 core-max is 30.
 

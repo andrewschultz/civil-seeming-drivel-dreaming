@@ -400,7 +400,24 @@ carry out talktoing:
 	if noun is gump ghost, say "It doesn't need an excuse to talk more." instead;
 	say "Nothing. But you don't need to talk to anyone to win, or get all the points, or whatever." instead;
 
-volume subverting verbs
+volume subverting meta verbs
+
+book about
+
+carry out abouting:
+	say "[this-game] is the fourth entry in the [pprr] series. The others are [other-ones]. The idea slipped in at the start of August 2022, while I was tackling [lljj]. There were some spare ideas, and the name for the second room popped up. Then the first room's name popped up when it was college football season. Since [lljj] had a hub structure, I wondered how it would work for smaller games.[paragraph break]There were enough moving parts that, despite having code-generating scripts, there was no way I'd get a Petite Mort entry in under four hours. So I got this.[paragraph break]https://github.com/andrewschultz/civil-seeming-drivel-dreaming is a site where you can report issues.";
+
+book credits
+
+carry out creditsing:
+	say "Thanks to my testers.";
+	say "Thanks to Ruber Eaglenest for holding EctoComp yet again and hosting a Grand Guignol division.";
+
+book annoying stuff
+
+the block attacking rule is not listed in any rulebook.
+
+check attacking: say "You're in a dream. One-on-one violence never works here." instead;
 
 check swearing obscenely: say "Sneak-snivel? Seek CIVIL!" instead;
 
