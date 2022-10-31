@@ -675,6 +675,7 @@ to woe-all (nu - a number):
 	now to-number of WoeWall is nu;
 	now to-number of Woe Wall is nu;
 	if nu is -5:
+		now to-number of woe wall is -6;
 		now to-number of po paul is -6;
 		now to-number of throw thrall is -6;
 		continue the action;

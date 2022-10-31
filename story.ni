@@ -214,7 +214,7 @@ to say helladj of (hr - a hubroom):
 
 to decide which room is other-hellscape:
 	if player is in contrive country, decide on oil inc;
-	if player is in contrive country, decide on oil inc;
+	if player is in oil inc, decide on contrive country;
 	say "(bug in hellscape detection code)";
 	decide on WoeWall;
 
@@ -272,15 +272,19 @@ Forfeit Bore Bit is a room. printed name is "[if sco-core-kit is false]'Forfeit,
 
 from-number of Forfeit Bore Bit is 10707. to-number of Forfeit Bore Bit is 5403.
 
+guess-table of forfeit bore bit is the table of forfeit bore bit guesses.
+
 book Free Fright
 
-Free Fright is a room. "Passage leads west[if sco-fun-fool is false] and north[end if] in this barren area."
+Free Fright is a room. "It's very plain here but disturbingly hazy every way except west[if sco-fun-fool is false] and north[end if]."
+
+guess-table of free fright is the table of free fright guesses.
 
 from-number of free fright is 5406. to-number of free fright is 5305.
 
 this is the check-blocking-undeads rule:
 	if number of undeads in location of player > 0, say "You still need to get by [the random undead in location of player]." instead;
-	if number of moot undeads is 2, say "No going back." instead;
+	if number of moot undeads is 2 and noun is not west, say "No going back." instead;
 	if noun is not west, flip-bonus-core 2; [you moved legally but not to the final room and now must to take out the other undead to win]
 
 check going west in Free Fright:
@@ -333,6 +337,8 @@ Set in the Site Net in the Night is a room. printed name is "Set-in-the-Site Net
 from-number of Net in the Night is 10609. to-number of Net in the Night is 5305.
 
 volume verbs
+
+check hinting: say "Sorry, I couldn't get this implemented in time. But there is a walkthrough." instead;
 
 check taking: if noun is not leet learner, say "Anything you need in [this-game] will be automatically taken." instead;
 
@@ -412,6 +418,18 @@ book credits
 carry out creditsing:
 	say "Thanks to my testers.";
 	say "Thanks to Ruber Eaglenest for holding EctoComp yet again and hosting a Grand Guignol division.";
+
+book verbsing
+
+carry out verbsing:
+	say "You don't need any special verbs to win. The four basic cardinal directions work, and you can [b]T NPC[r] for small clues, maybe. The main thing is to guess what to say--[if score is 0]you may note something about the room name and the pest[else]the double rhymes are the main mechanic[end if].";
+	say "[line break][b]OPTS[r] also gives options.";
+	say "[line break][b]META[r] gives meta-commands that show general information.";
+
+book versionsing
+
+carry out versioning:
+	say "Release 1 was submitted for EctoComp around 12:01 AM on October 31, 2022.";
 
 book annoying stuff
 
@@ -582,7 +600,7 @@ after reading a command: [ should this be moved to parser errors? ]
 			replace the regular expression "\W(in( the)?)\W" in X with " ";
 			now final-cmd-extra-words is true;
 			change the text of the player's command to X;
-	if player is in sitch and the player's command includes "bitch", abide by the you-deserve-to-lose rule;
+	if player is in sitch and the player's command includes "buy/bye/bitch", abide by the you-deserve-to-lose rule;
 
 this is the you-deserve-to-lose rule:
 	if sco-lie-lich is false:
@@ -594,6 +612,10 @@ this is the you-deserve-to-lose rule:
 	say "[line break]'[']Bye, indeed!' you hear.[paragraph break]After showing how woke you weren't, you still expect to wake up, but you don't.[paragraph break]She didn't even give you the chance to call her sweetie and tell her not to get over-emotional. How rude!";
 	say "[line break][i][bracket]Your score just went down by [core-score + 100] points.[close bracket][r]";
 	now core-score is -100;
+	now core-max is -100;
+	now max-bonus is 0;
+	now cur-max-bonus is 0;
+	now cur-bonus is 0;
 	force-status;
 	stop game abruptly;
 
