@@ -84,7 +84,9 @@ to say woe-wall-which:
 	if sco-oh-all is true:
 		say "You hear calling from opposite directions: north and south. They both seem the same. But you have nothing to do for yourself here, really";
 		continue the action;
-	say "A large woe wall [if sco-yo-yall is false]defends some people against something. They are too scared to come out without a friendly greeting[else if sco-stow-stall is false]must hide something important you haven't found yet[else]has that slide you uncovered next to it[end if]"
+	say "A large woe wall [if sco-yo-yall is false]defends some people against something. They are too scared to come out without a friendly greeting[else if sco-stow-stall is false]must hide something important you haven't found yet[else if hubs-solved is 4]is a backdrop for a pitched fight[else]sits here. You're more interested in the slide[end if]";
+	if sco-rick-ride is false:
+		say ".[paragraph break]It's all misty here, and maybe you could go back east, but the slide seems your only way out"
 
 from-number of WoeWall is 5304. to-number of WoeWall is 5204.
 
@@ -240,7 +242,7 @@ the strives tree is scenery. "It's quite tall, and it's a symbol of how not to l
 
 book Oil Inc
 
-Oil Inc is a hubroom. printed name is "[if sco-foil-fink is false]Oil, Inc.[else]Loyal Link[end if]". "[if sco-foil-fink is false]With Oil, Inc. destroyed, there's nothing left to do here.[else]Your average run-of-the-mill extra-depersonalizing urban dystopia here[country-vs-oil]. The corporate oppression is so repressive, it's even expressing my freedom to describe it, man. Maybe you can change that![end if]"
+Oil Inc is a hubroom. printed name is "[if sco-foil-fink is false]Oil, Inc.[else]Loyal Link[end if]". "[if sco-foil-fink is true]With Oil, Inc. destroyed, there's nothing left to do here.[else]Your average run-of-the-mill extra-depersonalizing urban dystopia here[country-vs-oil]. The corporate oppression is so repressive, it's even expressing my freedom to describe it, man. Maybe you can change that![end if]"
 
 understand "loyal/link" and "loyal link" as oil inc when sco-foil-fink is true.
 
@@ -295,13 +297,15 @@ check going north in Free Fright:
 
 chapter wee wight
 
-the plea plight wee wight is a person in Free Fright. "[one of]A poor small [wight] stands here. It tries to scare you and utterly fails. It doesn't really want to! That's not its job! Then it starts crying. You tend to believe it.[or]The [wight] still pouts here. How to help it?[stopping]". printed name is "plea-plight wee wight".
+the plea plight wee wight is an undead in Free Fright. "[one of]A poor small [wight] stands here. It tries to scare you and utterly fails. It doesn't really want to! That's not its job! Then it starts crying. For an undead, it's actually pretty cute. So you'd feel mean ditching it.[or]The [wight] still pouts here. How to help it?[stopping]". printed name is "plea-plight wee wight".
 
 from-number of wee wight is 10711. to-number of free fright is 5305.
 
 book spun spool
 
-Spun Spool is a room. "Passage leads west[if sco-re-write is false] and south[end if] in this barren area[if pun pool is in spun spool]. The pun pool you summoned also bubbles here[end if]."
+Spun Spool is a room. "A huge spool of thread on its side blocks passage every way except west[if sco-re-write is false] and south[end if]. Perhaps you should just be glad it hasn't rolled over you yet[if pun pool is in spun spool]. The pun pool you summoned also bubbles here[end if]."
+
+guess-table of spun spool is the table of spun spool guesses.
 
 this is the ghoul-here rule:
 	if gun ghoul is not moot, say "You still need to get by [the ghoul]." instead;
@@ -314,7 +318,7 @@ check going south in spun spool:
 
 chapter gun ghoul
 
-the done duel gun ghoul is a person in Spun Spool. printed name is "done-duel gun ghoul".
+the done duel gun ghoul is an undead in Spun Spool. printed name is "done-duel gun ghoul".
 
 from-number of spun spool is 5405. to-number of spun spool is 5304.
 
@@ -333,6 +337,8 @@ book Set in the Site Net in the Night
 check going to net in the night: say "Freedom! Well, you think, until you are snared.";
 
 Set in the Site Net in the Night is a room. printed name is "Set-in-the-Site Net in the Night". "[if sco-fret-fright is false]You can feel the net around you, but it's so dark. Part of you wants to sort of give up before busting out. But you need to bust out.[else]'Don't mind me,' you fret, telepathically guilt-tripping anyone within a twelve-mile radius. 'I deserved it, for my moment of inattention. I probably had more attention than a schlep like me earned, anyway, and I guess this is my rightful punishment. I don't deserve, like, a simple way out,' you mumble to yourself, while of course deep down you believe the complete opposite.[end if]"
+
+guess-table of net in the night is the table of net in the night guesses.
 
 from-number of Net in the Night is 10609. to-number of Net in the Night is 5305.
 
