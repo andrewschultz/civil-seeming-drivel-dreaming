@@ -625,6 +625,57 @@ this is the you-deserve-to-lose rule:
 	force-status;
 	stop game abruptly;
 
+to decide whether (th - a table name) is worth-sorting:
+	let any-true be false;
+	let any-remaining be false;
+	repeat through th:
+		if got-yet entry is true:
+			now any-true is true;
+			next;
+		if there is a mist-rule entry:
+			process the mist-rule entry;
+			if the rule failed, next;
+		now any-remaining is true;
+	if any-true is false, no;
+	if any-remaining is false, no;
+	yes;
+
+to print-out (tn - a table name):
+	let table-count be 0;
+	repeat through tn:
+		if got-yet entry is false, next;
+		if there is a mist-rule entry:
+			process the mist-rule entry;
+			if the rule failed, next;
+		if table-count is 0:
+			say "Rhyme set(s) found: ";
+		else:
+			say ", ";
+		increment table-count;
+		let itxt be indexed text;
+		if there is no mist-regex entry:
+			say "[b]OOPS CONVERT TO MIST-REGEX[r].";
+			continue the action;
+		let itxt be mist-regex entry;
+		replace the regular expression "(|<a-z>+)" in itxt with "";
+		say "[b][itxt in upper case][r]";
+	say ".";
+
+check thinking:
+	let LTN be a list of table names;
+	let GTL be guess-table of location of player;
+	if GTL is worth-sorting:
+		say "Good guesses found for [location of player]: ";
+		print-out GTL;
+		add GTL to LTN;
+	repeat with Q running through fungible rhymables:
+		let GTQ be guess-table of Q;
+		if GTQ is listed in LTN, next;
+		if GTQ is worth-sorting:
+			say "Good guesses found for [Q]: ";
+			add GTQ to LTN;
+			print-out GTQ;
+
 volume end of game
 
 Table of Final Question Options (continued)
