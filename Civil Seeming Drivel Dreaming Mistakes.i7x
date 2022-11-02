@@ -47,14 +47,20 @@ mist-regex	mist-rule	got-yet	leet-rule	mist-txt
 "floor flit"	--	false	--	"Nothing skitters across the floor to be caught."
 "gore get|git"	--	false	--	"You need to get back to the fight, but don't be that eager!"
 "lore lit"	--	false	--	"You find no ancient tomes to set on fire."
-"more mit|mitt"	--	false	--	"Mr. Hartoonian's gas station already gave you one free as a promotion. That should be enough!"
-"nor nit"	--	false	--	"You try to ignore nitpicks like 'Well, you left out half the letters.'"
+"more mit|mitt"	--	false	--	"Navin at Mr. Hartoonian's gas station already gave you one free as a promotion. That should be enough!"
+"nor nit"	--	false	--	"You try to ignore nitpicks such as 'Well, you left out half the letters of the first word, there.'"
 "poor|pore pit"	bore-bit-now rule	false	--	"No, you're in the dumps enough."
 "roar writ"	--	false	--	"You consider writing a manifesto in favor of yelling, but it seems hypocritical."
 "score skit"	--	false	--	"No, I'm not going to hand you points for that. Your acting is terrible."
-"sore sit"	--	false	--	"Actually, you're already sitting sore."
+"soar|sore sit"	--	false	--	"[soar-or-sore]."
 "spore spit"	--	false	--	"Just what you need! Enemy plants, too!"
 "whore hit"	--	false	--	"That is not how one's thoughts should turn while in solitude."
+
+to say soar-or-sore:
+	if the player's command includes "sore":
+		say "Actually, you're already sitting sore";
+	else:
+		say "You can't sit and soar at the same time, unless your thoughts soar. There is a way to do so";
 
 this is the bore-bit-now rule:
 	if sco-core-kit is false, the rule succeeds;
@@ -65,12 +71,12 @@ mist-regex	mist-rule	got-yet	leet-rule	mist-txt
 "bee bite|bight"	--	false	wight-here rule	"That would be annoying and painful but usually not frightening."
 "fee fight"	--	false	wight-here rule	"More exasperating than frightening."
 "flee flight"	--	false	wight-here rule	"No, you can't run. The wight [if wee wight is moot]wasn't[else]isn't[end if] imposing."
-"he|hee height"	--	false	wight-here rule	"Making the wee wight taller would do no goot."
+"he|hee height"	--	false	wight-here rule	"Making the wee wight taller would do no good."
 "lee light"	--	false	wight-here rule	"There is enough light."
 "ni knight|night"	--	false	wight-here rule	"Now that's scary, in an absurd enough world!"
 "spree sprite"	--	false	wight-here rule	"Wrong kind of supernatural. All undeads here."
 "tea|tee tight"	--	false	wight-here rule	"Golf or the drink, doesn't matter. The wight is too incorporeal."
-"tree trite"	--	false	wight-here rule	"No, that plains here are too barren"
+"tree trite"	--	false	wight-here rule	"No, that plains here are too barren."
 
 this is the wight-here rule:
 	if wee wight is not moot, the rule succeeds;

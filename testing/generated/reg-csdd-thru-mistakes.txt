@@ -301,6 +301,70 @@ by one point
 >foe fall
 by one point
 
+#ttc-table-of-forfeit-bore-bit-guesses-chore-chit
+>chore chit
+Yawn! You don't want to worry about chores right now.
+
+#ttc-table-of-forfeit-bore-bit-guesses-floor-flit
+>floor flit
+Nothing skitters across the floor to be caught.
+
+#ttc-table-of-forfeit-bore-bit-guesses-gore-get-git
+>gore get
+You need to get back to the fight, but don't be that eager!
+
+#+ttc-table-of-forfeit-bore-bit-guesses-gore-get-git
+>gore git
+You need to get back to the fight, but don't be that eager!
+
+#ttc-table-of-forfeit-bore-bit-guesses-lore-lit
+>lore lit
+You find no ancient tomes to set on fire.
+
+#ttc-table-of-forfeit-bore-bit-guesses-more-mit-mitt
+>more mit
+Navin at Mr. Hartoonian's gas station already gave you one free as a promotion. That should be enough!
+
+#+ttc-table-of-forfeit-bore-bit-guesses-more-mit-mitt
+>more mitt
+Navin at Mr. Hartoonian's gas station already gave you one free as a promotion. That should be enough!
+
+#ttc-table-of-forfeit-bore-bit-guesses-nor-nit
+>nor nit
+You try to ignore nitpicks such as "Well, you left out half the letters of the first word, there."
+
+#ttc-table-of-forfeit-bore-bit-guesses-poor-pore-pit
+>pore pit
+No, you're in the dumps enough.
+
+#+ttc-table-of-forfeit-bore-bit-guesses-poor-pore-pit
+>poor pit
+No, you're in the dumps enough.
+
+#ttc-table-of-forfeit-bore-bit-guesses-roar-writ
+>roar writ
+You consider writing a manifesto in favor of yelling, but it seems hypocritical.
+
+#ttc-table-of-forfeit-bore-bit-guesses-score-skit
+>score skit
+No, I'm not going to hand you points for that. Your acting is terrible.
+
+#ttc-table-of-forfeit-bore-bit-guesses-soar-sore-sit
+>soar sit
+You can't sit and soar at the same time, unless your thoughts soar. There is a way to do so.
+
+#+ttc-table-of-forfeit-bore-bit-guesses-soar-sore-sit
+>sore sit
+Actually, you're already sitting sore.
+
+#ttc-table-of-forfeit-bore-bit-guesses-spore-spit
+>spore spit
+Just what you need! Enemy plants, too!
+
+#ttc-table-of-forfeit-bore-bit-guesses-whore-hit
+>whore hit
+That is not how one's thoughts should turn while in solitude.
+
 >core kit
 by one point
 
@@ -326,13 +390,92 @@ by one point
 
 >s
 
+#ttc-table-of-free-fright-guesses-bee-bite-bight
+>bee bite
+That would be annoying and painful but usually not frightening.
+
+#+ttc-table-of-free-fright-guesses-bee-bite-bight
+>bee bight
+That would be annoying and painful but usually not frightening.
+
+#ttc-table-of-free-fright-guesses-fee-fight
+>fee fight
+More exasperating than frightening.
+
+#ttc-table-of-free-fright-guesses-flee-flight
+>flee flight
+No, you can't run. The wight isn't imposing.
+
+#ttc-table-of-free-fright-guesses-he-hee-height
+>he height
+Making the wee wight taller would do no good.
+
+#+ttc-table-of-free-fright-guesses-he-hee-height
+>hee height
+Making the wee wight taller would do no good.
+
+#ttc-table-of-free-fright-guesses-lee-light
+>lee light
+There is enough light.
+
+#ttc-table-of-free-fright-guesses-ni-knight-night
+>ni knight
+Now that's scary, in an absurd enough world!
+
+#+ttc-table-of-free-fright-guesses-ni-knight-night
+>ni night
+Now that's scary, in an absurd enough world!
+
+#ttc-table-of-free-fright-guesses-spree-sprite
+>spree sprite
+Wrong kind of supernatural. All undeads here.
+
+#ttc-table-of-free-fright-guesses-tea-tee-tight
+>tea tight
+Golf or the drink, doesn't matter. The wight is too incorporeal.
+
+#+ttc-table-of-free-fright-guesses-tea-tee-tight
+>tee tight
+Golf or the drink, doesn't matter. The wight is too incorporeal.
+
+#ttc-table-of-free-fright-guesses-tree-trite
+>tree trite
+No, that plains here are too barren.
+
 >see sight
 by one point
 
 >rewrite
 by one point
 
+#+ttc-table-of-free-fright-guesses-flee-flight
+>flee flight
+No, you can't run. The wight wasn't imposing.
+
 >n
+
+#ttc-table-of-spun-spool-guesses-hun-wholl
+>hun wholl
+We don't want to escalate the violence.
+
+#ttc-table-of-spun-spool-guesses-none-nun-newel
+>none newel
+There's no door to place a doorknob on.
+
+>nun newel
+There's no door to place a doorknob on.
+
+#ttc-table-of-spun-spool-guesses-run-rule
+>run rule
+The ghoul might want to do that, actually.
+
+#ttc-table-of-spun-spool-guesses-stun-stool
+>stun stool
+Alas, this is not a pro wrestling arena.
+
+#ttc-table-of-spun-spool-guesses-ton-tool
+>ton tool
+But what if the ton tool fell on you? There is a less violent solution.
 
 >pun pool
 by one point
@@ -345,6 +488,22 @@ by one point
 >fret in the fright
 by one point
 bonus
+
+#ttc-table-of-net-in-the-night-guesses-bet-bight-bite
+>bet bight
+No, a few bites wouldn't cut through the net.
+
+#+ttc-table-of-net-in-the-night-guesses-bet-bight-bite
+>bet bite
+No, a few bites wouldn't cut through the net.
+
+#ttc-table-of-net-in-the-night-guesses-met-might-mite
+>met mite
+No, physical strength isn't the way to go.
+
+#+ttc-table-of-net-in-the-night-guesses-met-might-mite
+>met might
+No, physical strength isn't the way to go.
 
 >let in the light
 by one point

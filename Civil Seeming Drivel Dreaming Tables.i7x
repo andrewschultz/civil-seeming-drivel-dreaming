@@ -62,7 +62,7 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "dapper"	"dummy"	--	--	false	true	false	false	--	vc-dapper-dummy rule	vr-dapper-dummy rule	--	--
 "rump"	"roast"	--	--	false	true	false	false	--	vc-rump-roast rule	vr-rump-roast rule	--	--
 "see"	"sight"	--	--	false	true	true	false	free fright	vc-see-sight rule	vr-see-sight rule	--	--
-"rewrite"	--	--	--	false	true	true	false	free fright	vc-re-write rule	vr-re-write rule	"rewrite" or "re write"	"You can have [the wight] [b]REWRITE[r] once it has an experience it found worth writing."
+"rewrite"	--	--	--	false	true	true	false	free fright	vc-re-write rule	vr-re-write rule	"rewrite" or "re write"	"You can have [the wight] [b]REWRITE[r] [once-now of vc-re-write rule] it has an experience it found worth writing."
 "fun"	"fool"	--	--	false	true	true	false	Spun Spool	vc-fun-fool rule	vr-fun-fool rule	--	"You can make a [b]FUN FOOL[r] [once-now of vc-fun-fool rule] [the ghoul] has a less violent idea of fun."
 "pun"	"pool"	--	--	false	true	true	false	Spun Spool	vc-pun-pool rule	vr-pun-pool rule	--	--
 "fret"	"fright"	--	--	false	true	false	false	net in the night	vc-fret-fright rule	vr-fret-fright rule	--	"[b]FRET FRIGHT[r] is the right idea if you want to wallow a bit, but there's a word or two to add!"

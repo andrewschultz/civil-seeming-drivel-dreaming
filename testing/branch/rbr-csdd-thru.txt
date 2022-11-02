@@ -72,6 +72,14 @@ Taken.
 >au 2
 
 @verbs
+#testcase-mainverbs-carry-out-versioning-default
+>version
+Release 1 was submitted for EctoComp around 12:01 AM on October 31, 2022.
+\\
+#+testcase-mainverbs-carry-out-versioning-default
+>versions
+Release 1 was submitted for EctoComp around 12:01 AM on October 31, 2022.
+\\
 #testcase-mainverbs-check-swearing-obscenely-default
 >damn
 Sneak-snivel? Seek CIVIL!
@@ -79,7 +87,7 @@ Sneak-snivel? Seek CIVIL!
 #testcase-mainverbs-carry-out-xyzzying-default
 >xyzzy
 Trope-tread: dope?! DEAD.
-(Cross-promotion: why, yes, Very Vile Fairy File, Quite Queer Night Near, Low-Key Learny Jokey Journey and Civil-Seeming Drivel Dreaming, the other three entries in the Prime Pro-Rhyme Row series, have different and equally "witty" XYZZY responses. Of course they do!)
+(Cross-promotion: why, yes, Very Vile Fairy File, Quite Queer Night Near, Low-Key Learny Jokey Journey and There Those Dare Doze, the other four entries in the Prime Pro-Rhyme Row series, have different and equally "witty" XYZZY responses. Of course they do!)
 \\
 >xyzzy
 Trope-tread: dope?! DEAD.
@@ -92,6 +100,26 @@ A warn-was-borne buzz. Dialogue isn't the way to go, here.
 #testcase-mainverbs-carry-out-talktoing-if-noun-is-the-player
 >t me
 "Mild, me? Wild! Whee!" you say, to pep yourself up.
+\\
+#testcase-mainverbs-carry-out-abouting-default
+>about
+Civil Seeming Drivel Dreaming is the fourth entry in the Prime Pro-Rhyme Row series.
+https://github.com/andrewschultz/civil-seeming-drivel-dreaming is a site where you can report issues.
+\\
+#testcase-mainverbs-carry-out-creditsing-default
+>credits
+Thanks to my testers.
+Thanks to Ruber Eaglenest for holding EctoComp yet again and hosting a Grand Guignol division.
+\\
+#testcase-mainverbs-check-attacking-default
+>attack pest
+You're in a dream. One-on-one violence never works there.
+\\
+#testcase-mainverbs-carry-out-verbsing-default
+>verbs
+You don't need any special verbs to win. The four basic cardinal directions work, and you can T NPC for small clues, maybe. The main thing is to guess what to say--you may note something about the room name and the pest.
+OPTS also gives options.
+META gives meta-commands that show general information.
 
 @all
 >gonear night
@@ -298,6 +326,13 @@ The blurring-blest purring pest, pushed back a bit, crawls into a corner. Perhap
 #testcase-check-vc-turing-test-rule-if-sco-turing-test-is-true
 >turing test
 You perform a Turing Test on yourself, since you already administered one to the blurring-blest purring pest. You hope you passed, but then again, maybe the only reason you passed is because you aren't sentient enough to detect fake sentience.
+
+@verbs
+#+testcase-mainverbs-carry-out-verbsing-default
+>verbs
+You don't need any special verbs to win. The four basic cardinal directions work, and you can T NPC for small clues, maybe. The main thing is to guess what to say--the double rhymes are the main mechanic.
+OPTS also gives options.
+META gives meta-commands that show general information.
 
 @hin
 #+testcase-values-from-number-of-blurring-blest-purring-pest-is-11509
@@ -2282,6 +2317,71 @@ You know you will have to plan the battle better eventually, but you are too far
 >think
 You can learn WAR WIT once you are no longer in the depths of despair.
 
+@mis
+#ttc-table-of-forfeit-bore-bit-guesses-chore-chit
+>chore chit
+Yawn! You don't want to worry about chores right now.
+\\
+#ttc-table-of-forfeit-bore-bit-guesses-floor-flit
+>floor flit
+Nothing skitters across the floor to be caught.
+\\
+#ttc-table-of-forfeit-bore-bit-guesses-gore-get-git
+>gore get
+You need to get back to the fight, but don't be that eager!
+\\
+#+ttc-table-of-forfeit-bore-bit-guesses-gore-get-git
+>gore git
+You need to get back to the fight, but don't be that eager!
+\\
+#ttc-table-of-forfeit-bore-bit-guesses-lore-lit
+>lore lit
+You find no ancient tomes to set on fire.
+\\
+#ttc-table-of-forfeit-bore-bit-guesses-more-mit-mitt
+>more mit
+Navin at Mr. Hartoonian's gas station already gave you one free as a promotion. That should be enough!
+\\
+#+ttc-table-of-forfeit-bore-bit-guesses-more-mit-mitt
+>more mitt
+Navin at Mr. Hartoonian's gas station already gave you one free as a promotion. That should be enough!
+\\
+#ttc-table-of-forfeit-bore-bit-guesses-nor-nit
+>nor nit
+You try to ignore nitpicks such as "Well, you left out half the letters of the first word, there."
+\\
+#ttc-table-of-forfeit-bore-bit-guesses-poor-pore-pit
+>pore pit
+No, you're in the dumps enough.
+\\
+#+ttc-table-of-forfeit-bore-bit-guesses-poor-pore-pit
+>poor pit
+No, you're in the dumps enough.
+\\
+#ttc-table-of-forfeit-bore-bit-guesses-roar-writ
+>roar writ
+You consider writing a manifesto in favor of yelling, but it seems hypocritical.
+\\
+#ttc-table-of-forfeit-bore-bit-guesses-score-skit
+>score skit
+No, I'm not going to hand you points for that. Your acting is terrible.
+\\
+#ttc-table-of-forfeit-bore-bit-guesses-soar-sore-sit
+>soar sit
+You can't sit and soar at the same time, unless your thoughts soar. There is a way to do so.
+\\
+#+ttc-table-of-forfeit-bore-bit-guesses-soar-sore-sit
+>sore sit
+Actually, you're already sitting sore.
+\\
+#ttc-table-of-forfeit-bore-bit-guesses-spore-spit
+>spore spit
+Just what you need! Enemy plants, too!
+\\
+#ttc-table-of-forfeit-bore-bit-guesses-whore-hit
+>whore hit
+That is not how one's thoughts should turn while in solitude.
+
 >core kit
 by one point
 
@@ -2493,6 +2593,7 @@ RUMP ROAST
 >undo
 >undo
 >undo
+>undo
 
 @hint
 #testcase-values-from-number-of-bump-boast-gump-ghost-is-10810
@@ -2538,10 +2639,67 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >zsee sight
 {$GREENCORE}
 
+@mis
+#ttc-table-of-free-fright-guesses-bee-bite-bight
+>bee bite
+That would be annoying and painful but usually not frightening.
+\\
+#+ttc-table-of-free-fright-guesses-bee-bite-bight
+>bee bight
+That would be annoying and painful but usually not frightening.
+\\
+#ttc-table-of-free-fright-guesses-fee-fight
+>fee fight
+More exasperating than frightening.
+\\
+#ttc-table-of-free-fright-guesses-flee-flight
+>flee flight
+No, you can't run. The wight isn't imposing.
+\\
+#ttc-table-of-free-fright-guesses-he-hee-height
+>he height
+Making the wee wight taller would do no good.
+\\
+#+ttc-table-of-free-fright-guesses-he-hee-height
+>hee height
+Making the wee wight taller would do no good.
+\\
+#ttc-table-of-free-fright-guesses-lee-light
+>lee light
+There is enough light.
+\\
+#ttc-table-of-free-fright-guesses-ni-knight-night
+>ni knight
+Now that's scary, in an absurd enough world!
+\\
+#+ttc-table-of-free-fright-guesses-ni-knight-night
+>ni night
+Now that's scary, in an absurd enough world!
+\\
+#ttc-table-of-free-fright-guesses-spree-sprite
+>spree sprite
+Wrong kind of supernatural. All undeads here.
+\\
+#ttc-table-of-free-fright-guesses-tea-tee-tight
+>tea tight
+Golf or the drink, doesn't matter. The wight is too incorporeal.
+\\
+#+ttc-table-of-free-fright-guesses-tea-tee-tight
+>tee tight
+Golf or the drink, doesn't matter. The wight is too incorporeal.
+\\
+#ttc-table-of-free-fright-guesses-tree-trite
+>tree trite
+No, that plains here are too barren.
+
 @rej
 #testcase-check-vc-re-write-rule-if-sco-see-sight-is-false
 >rewrite
 Yes, that will be a nice thing for the plea-plight wee wight to do once they've got some ideas worth rewriting!
+\\
+#testcase-think-table-of-verb-checks-vc-re-write-rule
+>think
+You can have the plea-plight wee wight REWRITE once it has an experience it found worth writing.
 
 >see sight
 by one point
@@ -2555,6 +2713,10 @@ You show the plea-plight wee wight ways to be scary. You paint images in its min
 #testcase-check-vc-see-sight-rule-if-sco-see-sight-is-true
 >see sight
 You already showed the plea-plight wee wight something! Now they need to focus on expressing their impressions.
+\\
+#+testcase-think-table-of-verb-checks-vc-re-write-rule
+>think
+You can have the plea-plight wee wight REWRITE now it has an experience it found worth writing.
 
 @hint
 #+testcase-values-from-number-of-free-fright-is-5406
@@ -2581,6 +2743,11 @@ The plea-plight wee wight is in the past. You will want to move on.
 #testcase-check-vc-see-sight-rule-abide-by-the-wight-check-rule
 >see sight
 The plea-plight wee wight is in the past. You will want to move on.
+
+@mis
+#+ttc-table-of-free-fright-guesses-flee-flight
+>flee flight
+No, you can't run. The wight wasn't imposing.
 
 @all
 >w
@@ -2635,6 +2802,34 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 #testcase-check-vc-fun-fool-rule-if-sco-pun-pool-is-false
 >fun fool
 Unfortunately, right now, the done-duel gun ghoul's idea of fun is physically violent! How could you change this?
+\\
+#testcase-think-table-of-verb-checks-vc-fun-fool-rule
+>think
+You can make a FUN FOOL once the done-duel gun ghoul has a less violent idea of fun.
+
+@mis
+#ttc-table-of-spun-spool-guesses-hun-wholl
+>hun wholl
+We don't want to escalate the violence.
+\\
+#ttc-table-of-spun-spool-guesses-none-nun-newel
+>none newel
+There's no door to place a doorknob on.
+\\
+>nun newel
+There's no door to place a doorknob on.
+\\
+#ttc-table-of-spun-spool-guesses-run-rule
+>run rule
+The ghoul might want to do that, actually.
+\\
+#ttc-table-of-spun-spool-guesses-stun-stool
+>stun stool
+Alas, this is not a pro wrestling arena.
+\\
+#ttc-table-of-spun-spool-guesses-ton-tool
+>ton tool
+But what if the ton tool fell on you? There is a less violent solution.
 
 @!min
 >pun pool
@@ -2649,6 +2844,10 @@ A big ol' pun pool -- bubbling like alphabet soup -- begins bubbling up. The don
 #testcase-check-vc-pun-pool-rule-if-sco-pun-pool-is-true
 >pun pool
 You already created a pun pool!
+\\
+#+testcase-think-table-of-verb-checks-vc-fun-fool-rule
+>think
+You can make a FUN FOOL now the done-duel gun ghoul has a less violent idea of fun.
 
 @all
 >x pun pool
@@ -2948,6 +3147,23 @@ You're beyond the rick's help here. You must find a way out on your own.
 >yo yall
 {$REJECT2}
 ====alphabetize off
+
+@mis
+#ttc-table-of-net-in-the-night-guesses-bet-bight-bite
+>bet bight
+No, a few bites wouldn't cut through the net.
+\\
+#+ttc-table-of-net-in-the-night-guesses-bet-bight-bite
+>bet bite
+No, a few bites wouldn't cut through the net.
+\\
+#ttc-table-of-net-in-the-night-guesses-met-might-mite
+>met mite
+No, physical strength isn't the way to go.
+\\
+#+ttc-table-of-net-in-the-night-guesses-met-might-mite
+>met might
+No, physical strength isn't the way to go.
 
 >let in the light
 by one point

@@ -757,6 +757,10 @@ Pop! The bump-boast gump ghost swirls around and gets more opaque as it gets sma
 >rewrite
 Yes, that will be a nice thing for the plea-plight wee wight to do once they've got some ideas worth rewriting!
 
+#testcase-think-table-of-verb-checks-vc-re-write-rule
+>think
+You can have the plea-plight wee wight REWRITE once it has an experience it found worth writing.
+
 >see sight
 by one point
 
@@ -766,6 +770,10 @@ You show the plea-plight wee wight ways to be scary. You paint images in its min
 #testcase-check-vc-see-sight-rule-if-sco-see-sight-is-true
 >see sight
 You already showed the plea-plight wee wight something! Now they need to focus on expressing their impressions.
+
+#+testcase-think-table-of-verb-checks-vc-re-write-rule
+>think
+You can have the plea-plight wee wight REWRITE now it has an experience it found worth writing.
 
 >rewrite
 by one point
@@ -787,6 +795,10 @@ The plea-plight wee wight is in the past. You will want to move on.
 >fun fool
 Unfortunately, right now, the done-duel gun ghoul's idea of fun is physically violent! How could you change this?
 
+#testcase-think-table-of-verb-checks-vc-fun-fool-rule
+>think
+You can make a FUN FOOL once the done-duel gun ghoul has a less violent idea of fun.
+
 >pun pool
 by one point
 
@@ -796,6 +808,10 @@ A big ol' pun pool -- bubbling like alphabet soup -- begins bubbling up. The don
 #testcase-check-vc-pun-pool-rule-if-sco-pun-pool-is-true
 >pun pool
 You already created a pun pool!
+
+#+testcase-think-table-of-verb-checks-vc-fun-fool-rule
+>think
+You can make a FUN FOOL now the done-duel gun ghoul has a less violent idea of fun.
 
 >fun fool
 by one point
