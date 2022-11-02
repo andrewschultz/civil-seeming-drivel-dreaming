@@ -69,6 +69,10 @@ TSV:## minimum walkthrough	## walkthrough with all points	## walkthrough with al
 >take learner
 Taken.
 
+@hom
+>two too
+Homonym detection is already set to on.
+
 >au 2
 
 @verbs
@@ -310,6 +314,12 @@ The blurring-blest purring pest, its job (so to speak) done, disappears with a p
 \\
 >undo
 >undo
+
+@hom
+#testcase-homonym-detail-vh-turing-test-rule-default
+#testcase-homonym-reject-table-of-verb-checks-touring
+>touring
+The pest might be able to show you around without ever seeming like a person. But you must be close.
 
 @!min
 >turing test
@@ -609,7 +619,10 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 
 @hom
 >whoah
-WRONG
+You can't quite change woe like that.
+\\
+>whoa
+You can't quite change woe like that.
 
 @gt
 #testcase-goto-tries-woewall-croots-cravin
@@ -702,6 +715,12 @@ This would be a way to bring everyone fully together once you have their trust. 
 #testcase-mainverbs-carry-out-talktoing-if-noun-is-woe-wall
 >t woe wall
 You need to say something specific to find who's behind there.
+
+@hom
+#testcase-homonym-detail-vh-oh-all-rule-default
+#testcase-homonym-reject-table-of-verb-checks-owe
+>owe all
+This won't help people come out to visit you.
 
 >yo yall
 by one point
@@ -1040,7 +1059,7 @@ You can SICK SIDE now you've made the slick slide navigable.
 You can TICK TIDE now you've made the slick slide navigable.
 
 @alt
-#testcase-alt-words-table-of-verb-checks-9-tide-tied
+#testcase-alt-words-table-of-verb-checks-9-tick-tide-tied
 >tick tied
 by one point
 \\
@@ -1276,7 +1295,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 {--gong}You hear the guide gong ring out. You've already taken care of what you needed there!
 
 @alt
-#testcase-alt-words-table-of-verb-checks-6-hide-hied
+#testcase-alt-words-table-of-verb-checks-6-hick-hide-hied
 >hick hied
 by one point
 \\
@@ -1398,6 +1417,14 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.66, -2.00.)
 
+@hom
+#testcase-homonym-reject-table-of-verb-checks-eye-vee
+>eye
+The Leet Learner shakes back and forth. Something you said sounded right, but it didn't feel right.
+\\
+>vee
+The Leet Learner shakes back and forth. Something you said sounded right, but it didn't feel right.
+
 >ivy
 by one point
 
@@ -1444,7 +1471,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, -1.00.)
 
 @alt
-#testcase-alt-words-table-of-verb-checks-15-gee-g
+#testcase-alt-words-table-of-verb-checks-15-jive-gee-g
 >jive g
 by one point
 \\
@@ -1504,6 +1531,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >ll clive klee
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.00, -2.00.)
 
+@hom
+#testcase-homonym-reject-table-of-verb-checks-wive
+>wive
+The Leet Learner shakes back and forth. Something you said sounded right, but it didn't feel right.
+
 >whyve we
 by one point
 
@@ -1549,6 +1581,14 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 >hick hide
 {--prong}You feel no prod from the pride prong. You've already taken care of what you needed there!
 {--gong}You hear the guide gong ring out. You've already taken care of what you needed there!
+
+@hom
+#testcase-homonym-reject-table-of-verb-checks-sic-sighed
+>sic
+The Leet Learner shakes back and forth. Something you said sounded right, but it didn't feel right.
+\\
+>sighed
+The Leet Learner shakes back and forth. Something you said sounded right, but it didn't feel right.
 
 >sick side
 by one point
@@ -1907,6 +1947,12 @@ Now's not the time for small talk.
 >w
 You really don't want to step into the Die Ditch. You need to figure what the I-Itch-Why Witch needs.
 
+@hom
+#testcase-homonym-detail-vh-lie-lich-rule-default
+#testcase-homonym-reject-table-of-verb-checks-lye
+>lye
+Not that sort of abrasive!
+
 @ha
 #testcase-ha-half-table-of-verb-checks-10-lich
 >lie zlich
@@ -1995,6 +2041,12 @@ But that bit about how the most powerful and spectacular spells can't disarm it?
 #+testcase-goto-table-of-noways-sigh-sitch
 >w
 You really don't want to step into the Die Ditch. You really need to defeat the Lie Lich you summoned.
+
+@hom
+#+testcase-homonym-detail-vh-lie-lich-rule-default
+#+testcase-homonym-reject-table-of-verb-checks-lye
+>lye
+Something less caustic will dissolve the lich.
 
 @hin
 #+testcase-values-from-number-of-sigh-sitch-is-5405
@@ -2230,6 +2282,25 @@ You're already there! Well, here.
 >t throw thrall
 Save your voice for exhorting the troops!
 
+@hom
+#testcase-homonym-reject-table-of-verb-checks-mow-mall
+#testcase-homonym-detail-vh-mo-maul-rule-fallthrough
+#testcase-homonym-detail-vh-mo-maul-rule-else-if-the-player's-command-does-not-include-mall
+>mow maul
+There's no need for garden upkeep, but you sense you're quite close.
+\\
+#+testcase-homonym-reject-table-of-verb-checks-mow-mall
+#+testcase-homonym-detail-vh-mo-maul-rule-fallthrough
+#testcase-homonym-detail-vh-mo-maul-rule-if-the-player's-command-does-not-include-mow
+>mo mall
+Going shopping won't help here, but you sense you're quite close.
+\\
+#+testcase-homonym-reject-table-of-verb-checks-mow-mall
+#+testcase-homonym-detail-vh-mo-maul-rule-fallthrough
+#+testcase-homonym-detail-vh-mo-maul-rule-if-the-player's-command-does-not-include-mow
+>mow mall
+There's no mall to mow, but you sense you're quite close.
+
 >foe fall
 by one point
 
@@ -2413,6 +2484,11 @@ You can learn WAR WIT now you are no longer in the depths of despair.
 >ll
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
+@hom
+#testcase-homonym-reject-table-of-verb-checks-wore
+>wore
+The Leet Learner shakes back and forth. Something you said sounded right, but it didn't feel right.
+
 >war wit
 by one point
 
@@ -2504,6 +2580,12 @@ You can't skip out on this critical fight!
 #+testcase-mainverbs-carry-out-talktoing-if-player-is-in-woewall-and-throw-thrall-is-in-woewall
 >t po paul
 Save your voice for exhorting the troops!
+
+@hom
+#+testcase-homonym-detail-vh-oh-all-rule-default
+#+testcase-homonym-reject-table-of-verb-checks-owe
+>owe all
+You don't want to remind people of what you've done so far.
 
 >oh all
 by one point
@@ -2631,11 +2713,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.50, -0.50.)
 
 @ha
-#testcase-ha-half-table-of-verb-checks-33-see
+#testcase-ha-half-table-of-verb-checks-33-see-sea
 >see zsight
 {$GREENCORE}
 \\
-#testcase-ha-half-table-of-verb-checks-33-sight
+#testcase-ha-half-table-of-verb-checks-33-sight-site
 >zsee sight
 {$GREENCORE}
 
@@ -2700,6 +2782,21 @@ Yes, that will be a nice thing for the plea-plight wee wight to do once they've 
 #testcase-think-table-of-verb-checks-vc-re-write-rule
 >think
 You can have the plea-plight wee wight REWRITE once it has an experience it found worth writing.
+
+@alt
+##balance undos
+#testcase-alt-words-table-of-verb-checks-33-see-sea-sight-site
+>sea sight
+by one point
+\\
+>undo
+>sea site
+by one point
+\\
+>undo
+>see site
+by one point
+>undo
 
 >see sight
 by one point

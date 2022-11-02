@@ -428,7 +428,7 @@ carry out creditsing:
 book verbsing
 
 carry out verbsing:
-	say "You don't need any special verbs to win. The four basic cardinal directions work, and you can [b]T NPC[r] for small clues, maybe. The main thing is to guess what to say--[if score is 0]you may note something about the room name and the pest[else]the double rhymes are the main mechanic[end if].";
+	say "You don't need any special verbs to win. The four basic cardinal directions work, and you can [b]T NPC[r] for small clues, maybe. The main thing is to guess what to say--[if current-score is 0]you may note something about the room name and the pest[else]the double rhymes are the main mechanic[end if].";
 	say "[line break][b]OPTS[r] also gives options.";
 	say "[line break][b]META[r] gives meta-commands that show general information.";
 
@@ -441,7 +441,7 @@ book annoying stuff
 
 the block attacking rule is not listed in any rulebook.
 
-check attacking: say "You're in a dream. One-on-one violence never works here." instead;
+check attacking: say "You're in a dream. One-on-one violence never works there." instead;
 
 check swearing obscenely: say "Sneak-snivel? Seek CIVIL!" instead;
 

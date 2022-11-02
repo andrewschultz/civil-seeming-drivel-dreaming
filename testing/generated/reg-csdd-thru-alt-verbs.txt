@@ -29,7 +29,7 @@ by one point
 >trick tried
 by one point
 
-#testcase-alt-words-table-of-verb-checks-9-tide-tied
+#testcase-alt-words-table-of-verb-checks-9-tick-tide-tied
 >tick tied
 by one point
 
@@ -47,7 +47,7 @@ by one point
 >rick ride
 by one point
 
-#testcase-alt-words-table-of-verb-checks-6-hide-hied
+#testcase-alt-words-table-of-verb-checks-6-hick-hide-hied
 >hick hied
 by one point
 
@@ -62,7 +62,7 @@ by one point
 >lively
 by one point
 
-#testcase-alt-words-table-of-verb-checks-15-gee-g
+#testcase-alt-words-table-of-verb-checks-15-jive-gee-g
 >jive g
 by one point
 
@@ -139,6 +139,19 @@ bonus
 by one point
 
 >s
+
+#testcase-alt-words-table-of-verb-checks-33-see-sea-sight-site
+>sea sight
+by one point
+
+>undo
+>sea site
+by one point
+
+>undo
+>see site
+by one point
+>undo
 
 >see sight
 by one point

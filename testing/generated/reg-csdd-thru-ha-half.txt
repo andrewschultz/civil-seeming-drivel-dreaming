@@ -372,11 +372,11 @@ by one point
 
 >s
 
-#testcase-ha-half-table-of-verb-checks-33-see
+#testcase-ha-half-table-of-verb-checks-33-see-sea
 >see zsight
 The HA HALF button on your Leet Learner lights up green.
 
-#testcase-ha-half-table-of-verb-checks-33-sight
+#testcase-ha-half-table-of-verb-checks-33-sight-site
 >zsee sight
 The HA HALF button on your Leet Learner lights up green.
 

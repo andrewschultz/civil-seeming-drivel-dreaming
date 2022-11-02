@@ -29,7 +29,7 @@ other stuff that may be added is best-room though I may have divided room-specif
 
 table of verb checks
 w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	idid	best-room	check-rule	run-rule	wfull (topic)	think-advice (text)
-"turing"	"test"	"touring"	--	false	false	false	false	Croots Cravin	vc-turing-test rule	vr-turing-test rule	--
+"turing"	"test"	"touring"	vh-turing-test rule	false	false	false	false	Croots Cravin	vc-turing-test rule	vr-turing-test rule	--
 "whirring"	"west"	--	--	false	false	true	false	Croots Cravin	vc-whirring-west rule	vr-whirring-west rule	--
 "yo"	"yall"	--	--	false	false	true	false	WoeWall	vc-yo-yall rule	vr-yo-yall rule	-- [Woe Wall start]
 "stow"	"stall"	--	--	false	false	true	false	WoeWall	vc-stow-stall rule	vr-stow-stall rule	--	"You can find the [b]STOW STALL[r] [once-now of vc-stow-stall rule] you've met people familiar with the area."
@@ -38,15 +38,15 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "prick"	"pride"	--	--	false	false	true	false	WoeWall	vc-prick-pride rule	vr-prick-pride rule	--	"You can [b]PRICK PRIDE[r] [slick-nav]."
 "sick"	"side"	"sic/sighed"	--	false	false	true	false	WoeWall	vc-sick-side rule	vr-sick-side rule	--	"You can [b]SICK SIDE[r] [slick-nav]."
 "tick"	"tide|tied"	--	--	false	false	true	false	WoeWall	vc-tick-tide rule	vr-tick-tide rule	--	"You can [b]TICK TIDE[r] [slick-nav]."
-"lie"	"lich"	--	--	false	true	true	false	sigh sitch	vc-lie-lich rule	vr-lie-lich rule	--	-- [Sigh Sitch start]
+"lie"	"lich"	"lye"	vh-lie-lich rule	false	true	true	false	sigh sitch	vc-lie-lich rule	vr-lie-lich rule	--	-- [Sigh Sitch start]
 "pie"	"pitch"	--	--	false	true	true	false	sigh sitch	vc-pie-pitch rule	vr-pie-pitch rule	--	"You can ask for a [b]PIE PITCH[r] [once-now of vc-pie-pitch rule] there's someone or something evil as a target."
 "owning"	"eh"	--	--	false	true	true	false	honing hey	vc-owning-eh rule	vr-owning-eh rule	--	--
 "cloning"	"clay"	--	--	false	true	true	false	honing hey	vc-cloning-clay rule	vr-cloning-clay rule	--	"You can summon [b]CLONING CLAY[r] [once-now of vc-cloning-clay rule] [mmdd] are more worth cloning."
-"ivy"	--	--	--	false	true	true	false	contrive country	vc-ivy rule	vr-ivy rule	"ivy"	--
+"ivy"	--	"eye/vee"	--	false	true	true	false	contrive country	vc-ivy rule	vr-ivy rule	"ivy"	--
 "jive"	"gee|g"	--	--	false	true	true	false	contrive country	vc-jive-gee rule	vr-jive-gee rule	--	--
 "lively"	--	--	--	false	true	true	false	contrive country	vc-lively rule	vr-lively rule	"lively"	--
 "thrive"	"three"	--	--	false	true	true	false	contrive country	vc-thrive-three rule	vr-thrive-three rule	--	"You can summon the [b]THRIVE THREE[r] [once-now of vc-thrive-three rule] [country] thrives three ways."
-"whyve"	"we"	--	--	false	true	true	false	contrive country	vc-whyve-we rule	vr-whyve-we rule	--	"You can say [b]WHYVE WE[r] [once-now of vc-whyve-we rule] you have allies to outnumber Clive Klee."
+"whyve"	"we"	"wive"	--	false	true	true	false	contrive country	vc-whyve-we rule	vr-whyve-we rule	--	"You can say [b]WHYVE WE[r] [once-now of vc-whyve-we rule] you have allies to outnumber Clive Klee."
 "broil"	"brink"	--	--	false	true	true	false	oil inc	vc-broil-brink rule	vr-broil-brink rule	--	--
 "moil"	"mink"	--	--	false	true	true	false	oil inc	vc-moil-mink rule	vr-moil-mink rule	--	--
 "royal"	"rink"	--	--	false	true	true	false	oil inc	vc-royal-rink rule	vr-royal-rink rule	--	--
@@ -54,19 +54,21 @@ w1 (text)	w2 (text)	posthom (topic)	hom-txt-rule (rule)	think-cue	okflip	core	id
 "foil"	"fink"	--	--	false	true	true	false	oil inc	vc-foil-fink rule	vr-foil-fink rule	--	"You can [b]FOIL FINK[r] [once-now of vc-foil-fink rule] Oil, Inc. is weak enough and you've gained enough support."
 "rick"	"ride"	--	--	false	false	true	false	WoeWall	vc-rick-ride rule	vr-rick-ride rule	--	"You can take a [b]RICK RIDE[r] [once-now of vc-rick-ride rule] you've taken a trip on the slick slide." [ this is pushed down here as otherwise JERKING JUMP bumps you back to Woe Wall ]
 "foe"	"fall"	--	--	false	true	true	false	WoeWall	vc-foe-fall rule	vr-foe-fall rule	--	"You can cry [b]FOE FALL[r] [once-now of vc-foe-fall rule] combat is underway." [ this clearly seems the most intuitive of the 3 options IMHO. Thus, I put it at the top so the Lurking Lump picks it first. ]
-"mo"	"maul"	--	--	false	true	true	false	WoeWall	vc-mo-maul rule	vr-mo-maul rule	--	"You can cry [b]MO MAUL[r] [once-now of vc-mo-maul rule] combat is underway."
+"mo"	"maul"	"mow/mall"	vh-mo-maul rule	false	true	true	false	WoeWall	vc-mo-maul rule	vr-mo-maul rule	--	"You can cry [b]MO MAUL[r] [once-now of vc-mo-maul rule] combat is underway."
 "bro"	"brawl"	--	--	false	true	true	false	WoeWall	vc-bro-brawl rule	vr-bro-brawl rule	--	"You can cry [b]BRO BRAWL[r] [once-now of vc-bro-brawl rule] combat is underway."
-"oh"	"all"	--	--	false	true	true	false	WoeWall	vc-oh-all rule	vr-oh-all rule	--	"You can cry [b]OH ALL[r] [once-now of vc-foe-fall rule] you have full leadership skills."
+"oh"	"all"	"owe"	vh-oh-all rule	false	true	true	false	WoeWall	vc-oh-all rule	vr-oh-all rule	--	"You can cry [b]OH ALL[r] [once-now of vc-foe-fall rule] you have full leadership skills."
 "core"	"kit"	--	--	false	true	true	false	forfeit bore bit	vc-core-kit rule	vr-core-kit rule	--	--
-"war"	"wit"	--	--	false	true	true	false	forfeit bore bit	vc-war-wit rule	vr-war-wit rule	--	"You can learn [b]WAR WIT[r] [once-now of vc-war-wit rule] you are no longer in the depths of despair."
+"war"	"wit"	"wore"	--	false	true	true	false	forfeit bore bit	vc-war-wit rule	vr-war-wit rule	--	"You can learn [b]WAR WIT[r] [once-now of vc-war-wit rule] you are no longer in the depths of despair."
 "dapper"	"dummy"	--	--	false	true	false	false	--	vc-dapper-dummy rule	vr-dapper-dummy rule	--	--
 "rump"	"roast"	--	--	false	true	false	false	--	vc-rump-roast rule	vr-rump-roast rule	--	--
-"see"	"sight"	--	--	false	true	true	false	free fright	vc-see-sight rule	vr-see-sight rule	--	--
+"see|sea"	"sight|site"	--	--	false	true	true	false	free fright	vc-see-sight rule	vr-see-sight rule	--	--
 "rewrite"	--	--	--	false	true	true	false	free fright	vc-re-write rule	vr-re-write rule	"rewrite" or "re write"	"You can have [the wight] [b]REWRITE[r] [once-now of vc-re-write rule] it has an experience it found worth writing."
 "fun"	"fool"	--	--	false	true	true	false	Spun Spool	vc-fun-fool rule	vr-fun-fool rule	--	"You can make a [b]FUN FOOL[r] [once-now of vc-fun-fool rule] [the ghoul] has a less violent idea of fun."
 "pun"	"pool"	--	--	false	true	true	false	Spun Spool	vc-pun-pool rule	vr-pun-pool rule	--	--
 "fret"	"fright"	--	--	false	true	false	false	net in the night	vc-fret-fright rule	vr-fret-fright rule	--	"[b]FRET FRIGHT[r] is the right idea if you want to wallow a bit, but there's a word or two to add!"
 "let"	"light"	--	--	false	true	true	false	net in the night	vc-let-light rule	vr-let-light rule	--	"The final solution is more than two words long. Add words to [b]LET LIGHT[r] so your action matches the room."
+
+this is the vh-turing-test rule: say "The pest might be able to show you around without ever seeming like a person. But you must be close."
 
 a goodrhyme rule (this is the vc-turing-test rule):
 	unless player is in Croots Cravin, unavailable;
@@ -172,6 +174,8 @@ this is the vr-tick-tide rule:
 	if Groaning Grey is unvisited, thing-decrease slick slide and 5404;
 	now sco-tick-tide is true;
 	slide-shift Honing Hey Groaning Grey;
+
+this is the vh-lie-lich rule: say "Not that sort of abrasive!";
 
 a goodrhyme rule (this is the vc-lie-lich rule):
 	if player is not in sigh sitch, unavailable;
@@ -433,6 +437,15 @@ this is the vr-foe-fall rule:
 	say "You spring a battle cry, simple and effective! While it fails to discuss how the foe can fall, well, it still gives darn-good returns to scale for a measly seven letters.";
 	abide by the big-battle-check rule;
 
+this is the vh-mo-maul rule:
+	if the player's command does not include "mow":
+		say "Going shopping won't help here";
+	else if the player's command does not include "mall":
+		say "There's no need for garden upkeep";
+	else:
+		say "There's no mall to mow";
+	say ", but you sense you're quite close."
+
 a goodrhyme rule (this is the vc-mo-maul rule):
 	abide by the pre-wall-fight rule;
 	if sco-mo-maul is true:
@@ -444,6 +457,9 @@ this is the vr-mo-maul rule:
 	now sco-mo-maul is true;
 	say "You spring a battle cry, simple and effective! While it's relatively obvious that, given the choice between more mauling and less mauling, the first is to be preferred, (provided said mauling is of evil people who deserve it,) sometimes people need that forceful nudge to what they were going to do anyway, just to make sure they do it to the max.";
 	abide by the big-battle-check rule;
+
+this is the vh-oh-all rule:
+	say "[if sco-yo-yall is false]This won't help people come out to visit you[else]You don't want to remind people of what you've done so far[end if]."
 
 a goodrhyme rule (this is the vc-oh-all rule):
 	if player is not in WoeWall, unavailable;
