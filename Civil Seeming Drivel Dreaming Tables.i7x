@@ -818,11 +818,31 @@ volume homonyms
 
 table of thing homonyms
 mything	hom-rule (a rule)	myhom (topic)	custom-msg (text)
-a thing	a rule	a topic	a text
+lie lich	a rule	"lye"	"Something less caustic will dissolve the lich."
 
 table of room homonyms
 loc	hom-rule (a rule)	myhom (topic)	custom-msg (text)
 WoeWall	--	"whoa/whoah"	"You can't quite change woe like that."
+Bore Bit	bore-bit-hom rule	"four/fit"	--
+Bore Bit	pore-pit-hom rule	"poor"	--
+Oil Inc	oil-inc-now rule	"ink"	--
+
+this is the bore-bit-hom rule:
+	say "1.";
+	if sco-core-kit is false:
+		say "No, you need to work on making the place less boring. Find something interesting to do.";
+		the rule succeeds;
+
+this is the pore-pit-hom rule:
+	say "2.";
+	if sco-core-kit is true:
+		say "Things are poor enough already. You need to think your way out.";
+		the rule succeeds;
+
+this is the oil-inc-now rule:
+	if sco-foil-fink is false:
+		say "The whole backdrop is inky enough already.";
+		the rule succeeds;
 
 Civil Seeming Drivel Dreaming Tables ends here.
 

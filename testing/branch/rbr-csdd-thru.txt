@@ -618,6 +618,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.00, 0.00.)
 
 @hom
+#ttc-table-of-room-homonyms-woewall-whoa-whoah
 >whoah
 You can't quite change woe like that.
 \\
@@ -1716,6 +1717,11 @@ You're not ready yet. You need more support!
 >think
 You can FOIL FINK once Oil, Inc. is weak enough and you've gained enough support.
 
+@hom
+#ttc-table-of-room-homonyms-oil-inc-oil-inc-now-rule-ink
+>ink
+The whole backdrop is inky enough already.
+
 >royal rink
 by one point
 
@@ -1883,6 +1889,11 @@ You retreat to a scene of prior success.
 >tick tide
 You retreat to a scene of prior success.
 
+@hom
+#+ttc-table-of-room-homonyms-oil-inc-oil-inc-now-rule-ink
+>ink
+!The whole
+
 >rick ride
 
 @prong,gong
@@ -2043,8 +2054,7 @@ But that bit about how the most powerful and spectacular spells can't disarm it?
 You really don't want to step into the Die Ditch. You really need to defeat the Lie Lich you summoned.
 
 @hom
-#+testcase-homonym-detail-vh-lie-lich-rule-default
-#+testcase-homonym-reject-table-of-verb-checks-lye
+#ttc-table-of-thing-homonyms-lie-lich-lye
 >lye
 Something less caustic will dissolve the lich.
 
@@ -2453,6 +2463,15 @@ Just what you need! Enemy plants, too!
 >whore hit
 That is not how one's thoughts should turn while in solitude.
 
+@hom
+#ttc-table-of-room-homonyms-bore-bit-bore-bit-now-rule-four-fit
+>four fit
+No, you need to work on making the place less boring. Find something interesting to do.
+\\
+#ttc-table-of-room-homonyms-bore-bit-pore-pit-now-rule-poor
+>poor
+!Things are
+
 >core kit
 by one point
 
@@ -2464,6 +2483,15 @@ by one point
 {--rej}#testcase-check-vc-core-kit-rule-fallthrough
 {--all}#testcase-run-vr-core-kit-rule-default
 You discover a core kit somewhere in the darkness here. It contains a book of affirmations, some soldier toys to plan strategies and also tools you can use to climb up to somewhere less awful. So you do. But you drop the book in the process. Pity. Some of the ideas would've made you a lot more content once you woke up. That's life!
+
+@hom
+#+ttc-table-of-room-homonyms-bore-bit-bore-bit-now-rule-four-fit
+>four fit
+!No, you need
+\\
+#+ttc-table-of-room-homonyms-bore-bit-pore-pit-now-rule-poor
+>poor
+Things are poor enough already. You need to think your way out.
 
 @gt
 #+testcase-goto-table-of-noways-bore-bit

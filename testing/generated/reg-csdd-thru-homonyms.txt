@@ -1,0 +1,245 @@
+## reg-csdd-thru-homonyms.txt
+## GENERATOR FILE: rbr-csdd-thru.txt
+
+## walkthrough testing homonyms
+
+** game: /home/andrew/prt/debug-civil-seeming-drivel-dreaming.z8
+** interpreter: /home/andrew/prt/dfrotz -m -w5000 -h25
+
+* main-thru
+
+>take learner
+Taken.
+
+>two too
+Homonym detection is already set to on.
+
+>au 2
+
+#testcase-homonym-detail-vh-turing-test-rule-default
+#testcase-homonym-reject-table-of-verb-checks-touring
+>touring
+The pest might be able to show you around without ever seeming like a person. But you must be close.
+
+>turing test
+
+>whirring west
+by one point
+
+>w
+
+#ttc-table-of-room-homonyms-woewall-whoa-whoah
+>whoah
+You can't quite change woe like that.
+
+>whoa
+You can't quite change woe like that.
+
+#testcase-homonym-detail-vh-oh-all-rule-default
+#testcase-homonym-reject-table-of-verb-checks-owe
+>owe all
+This won't help people come out to visit you.
+
+>yo yall
+by one point
+
+>stow stall
+by one point
+
+>trick tried
+by one point
+
+>tick tide
+by one point
+
+>owning eh
+by one point
+
+>cloning clay
+by one point
+
+>rick ride
+by one point
+
+>hick hide
+by one point
+
+#testcase-homonym-reject-table-of-verb-checks-eye-vee
+>eye
+The Leet Learner shakes back and forth. Something you said sounded right, but it didn't feel right.
+
+>vee
+The Leet Learner shakes back and forth. Something you said sounded right, but it didn't feel right.
+
+>ivy
+by one point
+
+>lively
+by one point
+
+>jive gee
+by one point
+
+>thrive three
+by one point
+
+#testcase-homonym-reject-table-of-verb-checks-wive
+>wive
+The Leet Learner shakes back and forth. Something you said sounded right, but it didn't feel right.
+
+>whyve we
+by one point
+
+>rick ride
+!by one point
+
+#testcase-homonym-reject-table-of-verb-checks-sic-sighed
+>sic
+The Leet Learner shakes back and forth. Something you said sounded right, but it didn't feel right.
+
+>sighed
+The Leet Learner shakes back and forth. Something you said sounded right, but it didn't feel right.
+
+>sick side
+by one point
+
+#ttc-table-of-room-homonyms-oil-inc-oil-inc-now-rule-ink
+>ink
+The whole backdrop is inky enough already.
+
+>royal rink
+by one point
+
+>soil sink
+by one point
+
+>broil brink
+by one point
+
+>moil mink
+by one point
+
+>foil fink
+by one point
+
+#+ttc-table-of-room-homonyms-oil-inc-oil-inc-now-rule-ink
+>ink
+!The whole
+
+>rick ride
+
+>prick pride
+by one point
+
+#testcase-homonym-detail-vh-lie-lich-rule-default
+#testcase-homonym-reject-table-of-verb-checks-lye
+>lye
+Not that sort of abrasive!
+
+>lie lich
+by one point
+
+#ttc-table-of-thing-homonyms-lie-lich-lye
+>lye
+Something less caustic will dissolve the lich.
+
+>pie pitch
+by one point
+
+>rick ride
+!by one point
+
+#testcase-homonym-reject-table-of-verb-checks-mow-mall
+#testcase-homonym-detail-vh-mo-maul-rule-fallthrough
+#testcase-homonym-detail-vh-mo-maul-rule-else-if-the-player's-command-does-not-include-mall
+>mow maul
+There's no need for garden upkeep, but you sense you're quite close.
+
+#+testcase-homonym-reject-table-of-verb-checks-mow-mall
+#+testcase-homonym-detail-vh-mo-maul-rule-fallthrough
+#testcase-homonym-detail-vh-mo-maul-rule-if-the-player's-command-does-not-include-mow
+>mo mall
+Going shopping won't help here, but you sense you're quite close.
+
+#+testcase-homonym-reject-table-of-verb-checks-mow-mall
+#+testcase-homonym-detail-vh-mo-maul-rule-fallthrough
+#+testcase-homonym-detail-vh-mo-maul-rule-if-the-player's-command-does-not-include-mow
+>mow mall
+There's no mall to mow, but you sense you're quite close.
+
+>foe fall
+by one point
+
+#ttc-table-of-room-homonyms-bore-bit-bore-bit-now-rule-four-fit
+>four fit
+No, you need to work on making the place less boring. Find something interesting to do.
+
+#ttc-table-of-room-homonyms-bore-bit-pore-pit-now-rule-poor
+>poor
+!Things are
+
+>core kit
+by one point
+
+#+ttc-table-of-room-homonyms-bore-bit-bore-bit-now-rule-four-fit
+>four fit
+!No, you need
+
+#+ttc-table-of-room-homonyms-bore-bit-pore-pit-now-rule-poor
+>poor
+Things are poor enough already. You need to think your way out.
+
+#testcase-homonym-reject-table-of-verb-checks-wore
+>wore
+The Leet Learner shakes back and forth. Something you said sounded right, but it didn't feel right.
+
+>war wit
+by one point
+
+>mo maul
+by one point
+
+>bro brawl
+by one point
+
+#+testcase-homonym-detail-vh-oh-all-rule-default
+#+testcase-homonym-reject-table-of-verb-checks-owe
+>owe all
+You don't want to remind people of what you've done so far.
+
+>oh all
+by one point
+
+>dapper dummy
+bonus
+by one point
+
+>rump roast
+bonus
+by one point
+
+>s
+
+>see sight
+by one point
+
+>rewrite
+by one point
+
+>n
+
+>pun pool
+by one point
+
+>fun fool
+by one point
+
+>w
+
+>fret in the fright
+by one point
+bonus
+
+>let in the light
+by one point
+

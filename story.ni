@@ -270,7 +270,7 @@ from-number of moil mink is 5404. to-number of moil mink is 21817.
 
 book Forfeit Bore Bit
 
-Forfeit Bore Bit is a room. printed name is "[if sco-core-kit is false]'Forfeit, Bore' Bit[else]Pore Pit[end if]".
+Forfeit Bore Bit is a room. printed name is "[if sco-core-kit is false]'Forfeit, Bore' Bit[else]Pore Pit[end if]". "[if sco-core-kit is false]Desolation. Despair. And no tools to pull yourself up[else]You seem stuck, but perhaps you can find a plan for now and Later. Mmm. Now and Laters[end if]."
 
 from-number of Forfeit Bore Bit is 10707. to-number of Forfeit Bore Bit is 5403.
 
