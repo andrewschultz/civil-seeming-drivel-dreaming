@@ -41,15 +41,15 @@
 			<dock index="0" id="1" port="s" />
 			<dock index="1" id="7" port="n" />
 		</line>
-		<room id="14" name="Mesprise Premises" subtitle="" x="-128" y="-192" w="96" h="64" region="NoRegion" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="14" name="Spun Spool" subtitle="" x="-128" y="-192" w="96" h="64" region="NoRegion" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
 		<line id="15" name="" description="" style="dashed" flow="oneWay">
-			<dock index="0" id="1" port="wnw" />
-			<dock index="1" id="14" port="e" />
+			<dock index="0" id="1" port="nnw" />
+			<dock index="1" id="14" port="sse" />
 		</line>
-		<room id="16" name="Mesprise Premises" subtitle="" x="-128" y="64" w="96" h="64" region="NoRegion" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="16" name="Free Fright" subtitle="" x="-128" y="64" w="96" h="64" region="NoRegion" handDrawn="yes" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
 		<line id="17" name="" description="" style="dashed" flow="oneWay">
-			<dock index="0" id="1" port="wsw" />
-			<dock index="1" id="16" port="e" />
+			<dock index="0" id="1" port="ssw" />
+			<dock index="1" id="16" port="nne" />
 		</line>
 		<line id="18" name="" description="" style="dashed" flow="oneWay">
 			<dock index="0" id="14" port="w" />
