@@ -157,6 +157,8 @@ retreat-text of Sigh Sitch is "The bad guys can't strike first, but you don't se
 
 second-text of Sigh Sitch is "You and [the witch] should come through this time.".
 
+go-cmd of Sigh Sitch is "PRICK PRIDE".
+
 chapter witch
 
 The I Itch Why Witch is a person in Sigh Sitch. printed name is "I-Itch-Why Witch". description is "She looks a bit grumpy but not mean. She'd like an excuse to defeat evil, which would make her less grumpy.". "[one of]'Oh! Hi! I'm an [witch]. Apparently some yet-unnamed evil to defeat lurks nearby, and I know I can, and it knows, too. So I can't summon it. Also, um, yeah, don't say it, eh? Um ... you know. I deserve better.' (She does. Even if she weren't on your side.) 'And please don't tell me to smile more. Defeating bad guys would give me an actual [b]REASON[r] to smile more.'[or]The [witch] waits here for you to [if sco-lie-lich is false]summon an enemy[else]cast a spell to get things started[end if].[stopping]"
@@ -197,6 +199,8 @@ retreat-text of Honing Hey is "[mmdd] deserve more to be made of themselves. But
 
 second-text of Honing Hey is "You feel more positive. This time, you'll help [mmdd] actualize themselves, and stuff.".
 
+go-cmd of Honing Hey is "TICK TIDE".
+
 book Five Fee Contrive Country
 
 Five Fee Contrive Country is a hubroom. printed name is "[if sco-whyve-we is false]Five-Fee-Contrive Country[else]Strives Tree[end if]". description is "[if sco-whyve-we is true]It's much nicer here now, what with the strives tree blooming[else]Everything's just so garish here now, offending your sensibilities somethin['] turrible[country-vs-oil][end if]."
@@ -228,6 +232,8 @@ retreat-text of Contrive Country is "Clive Klee and his mini-dystopia will stand
 
 second-text of Contrive Country is "You'll show Clive Klee this time, dadgummit."
 
+go-cmd of Contrive Country is "HICK HIDE".
+
 from-number of five fee contrive country is 11210. to-number of five fee contrive country is 16006.
 
 chapter Clive Klee
@@ -255,6 +261,8 @@ first-text of oil inc is "You figure there must be sickness to stamp out. There 
 retreat-text of Oil Inc is "Big Oil remains entrenched. For now. You mutter something about the petrochemical industrial complex and feel smart. (Neoliberalism, you're next, whatever you are!) Yes, one day, climate justice and such will prevail! Just not now."
 
 second-text of Oil Inc is "You're not going to let Big Oil keep the little guy down forever!"
+
+go-cmd of Oil Inc is "SICK SIDE".
 
 chapter Doyle Dink
 
@@ -424,6 +432,19 @@ book credits
 carry out creditsing:
 	say "Thanks to my testers.";
 	say "Thanks to Ruber Eaglenest for holding EctoComp yet again and hosting a Grand Guignol division.";
+
+book thinking
+
+check thinking:
+	if sco-rick-ride is true and throw thrall is off-stage:
+		say "You can use the [b]RICK RIDE[r] to get back to Woe Wall at any time.";
+		now any-valid-thought is true;
+	repeat with RM running through hubrooms:
+		if RM is solved, next;
+		if RM is not visited, next;
+		if player is in RM, next;
+		say "You can go back to [RM] at any time with [b][go-cmd of RM][r].";
+		now any-valid-thought is true;
 
 book verbsing
 

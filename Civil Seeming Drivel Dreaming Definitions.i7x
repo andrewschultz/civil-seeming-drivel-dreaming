@@ -12,6 +12,10 @@ a hubroom has text called retreat-text.
 
 a hubroom has text called second-text.
 
+a hubroom has text called go-cmd.
+
+a hubroom can be solved. a hubroom is usually not solved.
+
 an undead is a kind of person.
 
 volume gotoing

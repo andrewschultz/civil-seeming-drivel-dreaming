@@ -677,6 +677,7 @@ to room-decrease (rm - a room) and (nu - a number):
 
 to rick-and-slide-check:
 	print-the-loc;
+	now location of player is solved;
 	say "[line break]";
 	if sco-rick-ride is false:
 		say "Now to find transport back.";
