@@ -823,24 +823,25 @@ lie lich	a rule	"lye"	"Something less caustic will dissolve the lich."
 table of room homonyms
 loc	hom-rule (a rule)	myhom (topic)	custom-msg (text)
 WoeWall	--	"whoa/whoah"	"You can't quite change woe like that."
-Bore Bit	bore-bit-hom rule	"four/fit"	--
-Bore Bit	pore-pit-hom rule	"poor"	--
-Oil Inc	oil-inc-now rule	"ink"	--
+Bore Bit	bore-bit-hom rule	--	--
+Bore Bit	pore-pit-hom rule	--	--
+Oil Inc	oil-inc-now rule	--	--
 
 this is the bore-bit-hom rule:
-	say "1.";
-	if sco-core-kit is false:
+	unless sco-core-kit is false, continue the action;
+	if the player's command matches "four/fit":
 		say "No, you need to work on making the place less boring. Find something interesting to do.";
 		the rule succeeds;
 
 this is the pore-pit-hom rule:
-	say "2.";
-	if sco-core-kit is true:
+	unless sco-core-kit is true, continue the action;
+	if the player's command matches "poor":
 		say "Things are poor enough already. You need to think your way out.";
 		the rule succeeds;
 
 this is the oil-inc-now rule:
-	if sco-foil-fink is false:
+	unless sco-foil-fink is false, continue the action;
+	if the player's command matches "ink":
 		say "The whole backdrop is inky enough already.";
 		the rule succeeds;
 
