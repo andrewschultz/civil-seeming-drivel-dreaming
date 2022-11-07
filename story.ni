@@ -59,8 +59,9 @@ guess-table of croots Cravin is the table of croots Cravin guesses.
 chapter leet learner
 
 this is the leet-take rule:
-	say "(hard to do without taking it, so you do)";
-	now player has leet learner;
+	if player does not have leet learner:
+		say "(hard to do without taking it, so you do)";
+		now player has leet learner;
 
 check examining leet learner: follow the leet-take rule;
 
@@ -430,7 +431,8 @@ carry out abouting:
 book credits
 
 carry out creditsing:
-	say "Thanks to my testers.";
+	say "Thanks to my testers, Daniel M. Stelzer and Jeff. They were not credited in the original version.";
+	say "Thanks to Damon Wakes for reporting a bug.";
 	say "Thanks to Ruber Eaglenest for holding EctoComp yet again and hosting a Grand Guignol division.";
 
 book thinking
