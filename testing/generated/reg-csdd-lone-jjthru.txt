@@ -1,5 +1,4 @@
 ## reg-csdd-lone-jjthru.txt
-## GENERATOR FILE: rbr-lljj-lone-jjthru.txt
 
 ## checking wins and leet learner scoring with all possibilities
 
