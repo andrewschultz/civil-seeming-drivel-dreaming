@@ -592,6 +592,7 @@ this is the verb-checker rule:
 
 Rule for printing a parser error (this is the clue half right words rule):
 	now compare-item is the player;
+	now got-half-match is false;
 	abide by the rhyme-guess-checker rule for the table of first check rhymes;
 	abide by the game-specific-backdrop-check rule;
 	unless guess-table of location of player is table of no good guesses:
@@ -612,6 +613,7 @@ Rule for printing a parser error (this is the clue half right words rule):
 		abide by the rhyme-guess-checker rule for gtt;
 	abide by the verb-checker rule;
 	abide by the rhyme-guess-checker rule for table of general good guesses;
+	if press-pro-level is 4 and got-half-match is true, say "The leet learner beeps weirdly. You had one word guessed right." instead;
 	continue the action;
 
 the clue half right words rule is listed first in the for printing a parser error rulebook. [note: this caused a speedup when I first tried it. I'm not sure if this would last, so I'll need to do testing with this line vs with it commented out. ?? ]
