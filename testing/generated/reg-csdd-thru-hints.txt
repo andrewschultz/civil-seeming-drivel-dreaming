@@ -130,18 +130,18 @@ by one point
 
 #+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, -0.66.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.67, -0.67.)
 
 >hick hide
 by one point
 
 #testcase-values-from-number-of-five-fee-contrive-country-is-11210
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.66, -3.00.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.67, -3.00.)
 
 #testcase-values-from-number-of-clive-klee-is-5504
 >ll clive klee
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.66, -2.00.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.67, -2.00.)
 
 >ivy
 by one point
@@ -218,7 +218,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 
 #+testcase-values-from-number-of-doyle-dink-is-5504
 >ll doyle dink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, 0.33.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.67, 0.33.)
 
 >soil sink
 by one point
@@ -344,11 +344,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 
 #testcase-values-from-number-of-throw-thrall-is-5506
 >ll throw thrall
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.33, -1.66.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.33, -1.67.)
 
 #testcase-values-from-number-of-po-paul-is-5204
 >ll po paul
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.66, 0.33.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.67, 0.33.)
 
 >foe fall
 by one point

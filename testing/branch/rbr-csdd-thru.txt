@@ -78,11 +78,11 @@ Homonym detection is already set to on.
 @verbs
 #testcase-mainverbs-carry-out-versioning-default
 >version
-Release 1 was submitted for EctoComp around 12:01 AM on October 31, 2022.
+Release 1 was submitted for EctoComp around 12:01 AM Central on October 31, 2022. That's two hours before the deadline of Halloween on the Pacific coast!
 \\
 #+testcase-mainverbs-carry-out-versioning-default
 >versions
-Release 1 was submitted for EctoComp around 12:01 AM on October 31, 2022.
+Release 1 was submitted for EctoComp around 12:01 AM Central on October 31, 2022. That's two hours before the deadline of Halloween on the Pacific coast!
 \\
 #testcase-mainverbs-check-swearing-obscenely-default
 >damn
@@ -112,8 +112,8 @@ https://github.com/andrewschultz/civil-seeming-drivel-dreaming is a site where y
 \\
 #testcase-mainverbs-carry-out-creditsing-default
 >credits
-Thanks to my testers.
-Thanks to Ruber Eaglenest for holding EctoComp yet again and hosting a Grand Guignol division.
+Thanks to my testers, Daniel M. Stelzer and Jeff.
+Thanks to Ruber Eaglenest for holding EctoComp yet again and hosting a Grand Guignol division, and thanks to the people who reviewed Civil Seeming Drivel Dreaming.
 \\
 #testcase-mainverbs-check-attacking-default
 >attack pest
@@ -1288,7 +1288,7 @@ Woe Wall
 @hin
 #+testcase-values-from-number-of-slick-slide-is-5505
 >ll slide
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, -0.66.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.67, -0.67.)
 
 @prong,gong
 >tick tide
@@ -1412,11 +1412,11 @@ You won't convince Clive of anything with general chatter. But a big question at
 @hin
 #testcase-values-from-number-of-five-fee-contrive-country-is-11210
 >ll
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.66, -3.00.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.67, -3.00.)
 \\
 #testcase-values-from-number-of-clive-klee-is-5504
 >ll clive klee
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.66, -2.00.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-1.67, -2.00.)
 
 @hom
 #testcase-homonym-reject-table-of-verb-checks-eye-vee
@@ -1742,7 +1742,7 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 \\
 #+testcase-values-from-number-of-doyle-dink-is-5504
 >ll doyle dink
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.66, 0.33.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-0.67, 0.33.)
 
 >soil sink
 by one point
@@ -2204,11 +2204,11 @@ The leet learner's display lights up and scrolls through LCD numbers which settl
 \\
 #testcase-values-from-number-of-throw-thrall-is-5506
 >ll throw thrall
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.33, -1.66.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (-2.33, -1.67.)
 \\
 #testcase-values-from-number-of-po-paul-is-5204
 >ll po paul
-The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.66, 0.33.)
+The leet learner's display lights up and scrolls through LCD numbers which settle on the pair (0.67, 0.33.)
 
 @all
 #testcase-run-vr-bro-brawl-rule-abide-by-the-big-battle-check-rule
