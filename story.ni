@@ -36,6 +36,8 @@ when play begins:
 	say "Of course you always save the bad Halloween candy for last. You buy your stash on November 1st, when the bargains hit, right when the stores open. Last year, though, you messed up. You didn't get to the store soon enough! It was a combination of things. You didn't feel like you deserved such great bargains. Perhaps you were ripping off people who might enjoy the candy more--in particular, kids of families who couldn't trick-or-treat so easily or who needed the bargains earlier than you did. What if you got sick of it? Weren't you getting bored of this? Aren't you too old? You'll get enough discounted candy after Christmas, anyway. And so forth.[paragraph break]And now it's close to that time, again. Your fear of missing out has overcome your guilt over pigging out. Oh, the mediocre candy you ate to make space in your cupboard to prepare for this watershed event! The result was first a sugar coma, then actual sleep, then a weird dream...";
 	wfas;
 
+description of the player is "You feel a tired-[']til-wired will inside you."
+
 volume rooms
 
 check going up when player is in a hubroom: say "The slick slide isn't the way back. [if sco-rick-ride is true][b]RICK RIDE[r] it is[else]There must be another way[end if]." instead;
@@ -75,7 +77,7 @@ the blurring blest purring pest is a rhymable in Croots Cravin. printed name is 
 
 guess-table of blurring blest purring pest is table of blurring blest purring pest guesses.
 
-from-number of blurring blest purring pest is 11509. to-number of blurring blest purring pest is 5804.
+from-number of blurring blest purring pest is 5759. to-number of blurring blest purring pest is 2904.
 
 book Woe Wall
 
@@ -89,7 +91,7 @@ to say woe-wall-which:
 	if sco-rick-ride is false:
 		say ".[paragraph break]It's all misty here, and maybe you could go back east, but the slide seems your only way out"
 
-from-number of WoeWall is 5304. to-number of WoeWall is 5204.
+from-number of WoeWall is 2654. to-number of WoeWall is 2604.
 
 guess-table of WoeWall is table of woewall guesses.
 
@@ -104,13 +106,13 @@ chapter woe wall
 
 the woe wall is scenery in WoeWall. "It looks stable enough to hold against invaders, for now. You think you hear shifting behind it."
 
-from-number of Woe Wall is 5304. to-number of Woe Wall is 5204.
+from-number of Woe Wall is 2654. to-number of Woe Wall is 2604.
 
 chapter slick slide
 
 the slick slide is a rhymable. it is scenery. "It seems to branch out in the darkness. Four ways, in fact[if sco-trick-tried is false], but it's too gleamy and shiny to go down at the moment[end if].".
 
-from-number of slick slide is 5505. to-number of slick slide is 5505.
+from-number of slick slide is 2755. to-number of slick slide is 2755.
 
 guess-table of slick slide is table of slick slide guesses.
 
@@ -124,25 +126,25 @@ paul-look-list is a list of text variable. paul-look-list is { "in no way", "bar
 
 description of Po Paul is "[if hubs-solved is 4]Confidently leading his group of charges into action! Everything's moving so fast, you can't tell [the witch] from the moil mink from [mmdd] from Contrive-Country allies.[paragraph break]He's doing the best he can, but he still needs help from you[else]He looks like the least sad of the lot. He gazes hopefully back at you, wondering what more you can do[end if]."
 
-from-number of Po Paul is 5204. to-number of Po Paul is 5204.
+from-number of Po Paul is 2604. to-number of Po Paul is 2604.
 
 chapter Throw Thrall
 
 the throw thrall is a plural-named person. "The throw thrall is fighting with the outnumbered populace of Woe Wall!". description is "All manner of evil goons, dead and undead. They have numbers but seem leaderless and mindless. If only you had something [if forfeit is visited]else [end if]motivational and double-plus-leadershippy to say..."
 
-from-number of throw thrall is 5506. to-number of throw thrall is 5204.
+from-number of throw thrall is 2756. to-number of throw thrall is 2604.
 
 chapter mapper mummy
 
 the mapper mummy is a person. "The mapper mummy shambles towards you very slowly. Every few seconds, it pulls out a map, studies it, and draws in something else before putting the map back. This makes the mummy even slower! So you can probably just outrun it. But it would be nice to get rid of for good.". description is "It's more annoying than spooky. You almost feel sorry for it. Not sorry enough to let it catch you."
 
-from-number of mapper mummy is 5605. to-number of mapper mummy is -5605.
+from-number of mapper mummy is 2805. to-number of mapper mummy is -2805.
 
 chapter bump boast gump ghost
 
 the bump boast gump ghost is a person. printed name of gump ghost is "bump-boast gump-ghost". "The bump-boast gump-ghost continues to try to bump you and fist-bump you. It's pretty obvious it's harmless, but like [the mummy], man, what a nuisance!". description of gump ghost is "What you can see of [the ghost] isn't particularly evil, but its grin is a bit big, and it does mumble on about what a great undead it is, one of the nicest undeads you'll meet!"
 
-from-number of bump boast gump ghost is 10810. to-number of bump boast gump ghost is -5405.
+from-number of bump boast gump ghost is 5410. to-number of bump boast gump ghost is -2705.
 
 book Sigh Sitch
 
@@ -150,7 +152,7 @@ Sigh Sitch is a hubroom. printed name is "[if sco-pie-pitch is false](Sigh) Sitc
 
 guess-table of sigh sitch is the table of sigh sitch guesses.
 
-from-number of sigh sitch is 5405. to-number of sigh sitch is 5304.
+from-number of sigh sitch is 2705. to-number of sigh sitch is 2654.
 
 first-text of Sigh Sitch is "You're ready to help someone burst someone else's bubble, or perhaps help them gently burst their own.".
 
@@ -164,19 +166,19 @@ chapter witch
 
 The I Itch Why Witch is a person in Sigh Sitch. printed name is "I-Itch-Why Witch". description is "She looks a bit grumpy but not mean. She'd like an excuse to defeat evil, which would make her less grumpy.". "[one of]'Oh! Hi! I'm an [witch]. Apparently some yet-unnamed evil to defeat lurks nearby, and I know I can, and it knows, too. So I can't summon it. Also, um, yeah, don't say it, eh? Um ... you know. I deserve better.' (She does. Even if she weren't on your side.) 'And please don't tell me to smile more. Defeating bad guys would give me an actual [b]REASON[r] to smile more.'[or]The [witch] waits here for you to [if sco-lie-lich is false]summon an enemy[else]cast a spell to get things started[end if].[stopping]"
 
-from-number of i itch why witch is 10409. to-number of i itch why witch is 5304.
+from-number of i itch why witch is 5209. to-number of i itch why witch is 2654.
 
 chapter ditch
 
 the die ditch is scenery in Sigh Sitch. "It looks very dark and very deadly and very ubiquitous. You probably don't want to go near it."
 
-from-number of die ditch is 5305. to-number of die ditch is 5304.
+from-number of die ditch is 2655. to-number of die ditch is 2654.
 
 chapter lich
 
 the lie lich is a person. description is "The lie lich you summoned waits here for you or [the witch] to cast the first spell. The rules of the universe dictate bad guys don't get to go first. RIGGED!"
 
-from-number of lie lich is 5304. to-number of lie lich is 5305.
+from-number of lie lich is 2654. to-number of lie lich is 2655.
 
 book Honing Hey Groaning Grey
 
@@ -184,15 +186,15 @@ Honing Hey Groaning Grey is a hubroom. printed name is "[if sco-cloning-clay is 
 
 guess-table of honing hey is the table of honing hey guesses.
 
-from-number of honing hey groaning grey is 11407. to-number of honing hey groaning grey is 5602.
+from-number of honing hey groaning grey is 5707. to-number of honing hey groaning grey is 2802.
 
 Moaning Mae is a person in Honing Hey.
 
-from-number of moaning mae is 5703. to-number of moaning mae is 5602.
+from-number of moaning mae is 2853. to-number of moaning mae is 2802.
 
 Droning Dre is a person in Honing Hey.
 
-from-number of droning dre is 5703. to-number of droning dre is 5602.
+from-number of droning dre is 2853. to-number of droning dre is 2802.
 
 first-text of Honing Hey is "You're ready to face a whole tide of pestilence. It doesn't seem too bad. But there's a lot of complaining. You don't see any bugs, yet, but you do see two prime suspects.";
 
@@ -235,13 +237,13 @@ second-text of Contrive Country is "You'll show Clive Klee this time, dadgummit.
 
 go-cmd of Contrive Country is "HICK HIDE".
 
-from-number of five fee contrive country is 11210. to-number of five fee contrive country is 16006.
+from-number of five fee contrive country is 5610. to-number of five fee contrive country is 8006.
 
 chapter Clive Klee
 
 Clive Klee is a person in Contrive Country.
 
-from-number of clive klee is 5504. to-number of clive klee is 16006.
+from-number of clive klee is 2754. to-number of clive klee is 8006.
 
 chapter strives tree
 
@@ -255,7 +257,7 @@ understand "loyal/link" and "loyal link" as oil inc when sco-foil-fink is true.
 
 guess-table of Oil Inc is table of oil inc guesses.
 
-from-number of oil inc is 5303. to-number of oil inc is 21817.
+from-number of oil inc is 2653. to-number of oil inc is 10917.
 
 first-text of oil inc is "You figure there must be sickness to stamp out. There always is. The process of doing so is at least as important as the physical help."
 
@@ -269,19 +271,19 @@ chapter Doyle Dink
 
 Doyle Dink is a person in Oil Inc. "[one of]A man here introduces himself as Doyle Dink, philanthropist, entrepeneur, etc. He points out this place is all his, and he had to overcome having a stupid name to get it, so if you can't overcome whatever silly things were thrown in your path, you don't deserve much. and you should be impressed with it. Oh, and him, too, if you'd be so kind[or]Doyle Dink seems slightly upset you're not as impressed with his vision of peak capitalism as you should be[stopping]."
 
-from-number of doyle dink is 5504. to-number of doyle dink is 21817.
+from-number of doyle dink is 2754. to-number of doyle dink is 10917.
 
 chapter moil mink
 
 the moil mink is a thing. "The moil mink scurries around here, not quite bothering Doyle Dink enough by itself.". description is "It's big and can obviously mess up the plans of all sorts of cartoonishly evil people who hate animals!"
 
-from-number of moil mink is 5404. to-number of moil mink is 21817.
+from-number of moil mink is 2704. to-number of moil mink is 10917.
 
 book Forfeit Bore Bit
 
 Forfeit Bore Bit is a room. printed name is "[if sco-core-kit is false]'Forfeit, Bore' Bit[else]Pore Pit[end if]". "[if sco-core-kit is false]Desolation. Despair. And no tools to pull yourself up[else]You seem stuck, but perhaps you can find a plan for now and Later. Mmm. Now and Laters[end if]."
 
-from-number of Forfeit Bore Bit is 10707. to-number of Forfeit Bore Bit is 5403.
+from-number of Forfeit Bore Bit is 5357. to-number of Forfeit Bore Bit is 2703.
 
 guess-table of forfeit bore bit is the table of forfeit bore bit guesses.
 
@@ -291,7 +293,7 @@ Free Fright is a room. "It's very plain here but disturbingly hazy every way exc
 
 guess-table of free fright is the table of free fright guesses.
 
-from-number of free fright is 5406. to-number of free fright is 5305.
+from-number of free fright is 2706. to-number of free fright is 2655.
 
 this is the check-blocking-undeads rule:
 	if number of undeads in location of player > 0, say "You still need to get by [the random undead in location of player]." instead;
@@ -308,7 +310,7 @@ chapter wee wight
 
 the plea plight wee wight is an undead in Free Fright. "[one of]A poor small [wight] stands here. It tries to scare you and utterly fails. It doesn't really want to! That's not its job! Then it starts crying. For an undead, it's actually pretty cute. So you'd feel mean ditching it.[or]The [wight] still pouts here. How to help it?[stopping]". printed name is "plea-plight wee wight".
 
-from-number of wee wight is 10711. to-number of free fright is 5305.
+from-number of wee wight is 5361. to-number of free fright is 2655.
 
 book spun spool
 
@@ -329,9 +331,9 @@ chapter gun ghoul
 
 the done duel gun ghoul is an undead in Spun Spool. printed name is "done-duel gun ghoul".
 
-from-number of spun spool is 5405. to-number of spun spool is 5304.
+from-number of spun spool is 2705. to-number of spun spool is 2654.
 
-from-number of done duel gun ghoul is 10709. to-number of done duel gun ghoul is 5304.
+from-number of done duel gun ghoul is 5359. to-number of done duel gun ghoul is 2654.
 
 chapter pun pool
 
@@ -339,7 +341,7 @@ the pun pool is scenery. "Just looking at the pun pool, you remember some really
 
 check entering pun pool: say "You prefer dry humor, right? Of course you do! That's why you're playing [this-game]!" instead;
 
-from-number of pun pool is 5304. to-number of pun pool is 5304.
+from-number of pun pool is 2654. to-number of pun pool is 2654.
 
 book Set in the Site Net in the Night
 
@@ -349,7 +351,7 @@ Set in the Site Net in the Night is a room. printed name is "Set-in-the-Site Net
 
 guess-table of net in the night is the table of net in the night guesses.
 
-from-number of Net in the Night is 10609. to-number of Net in the Night is 5305.
+from-number of Net in the Night is 5309. to-number of Net in the Night is 2655.
 
 volume verbs
 
@@ -431,9 +433,9 @@ carry out abouting:
 book credits
 
 carry out creditsing:
-	say "Thanks to my testers, Daniel M. Stelzer and Jeff. They were not credited in the original version.";
+	say "Thanks to my testers, Daniel M. Stelzer and Jeff.";
 	say "Thanks to Damon Wakes for reporting a bug.";
-	say "Thanks to Ruber Eaglenest for holding EctoComp yet again and hosting a Grand Guignol division.";
+	say "Thanks to Ruber Eaglenest for holding EctoComp yet again and hosting a Grand Guignol division, and thanks to the people who reviewed [csdd].";
 
 book thinking
 
@@ -458,7 +460,8 @@ carry out verbsing:
 book versionsing
 
 carry out versioning:
-	say "Release 1 was submitted for EctoComp around 12:01 AM on October 31, 2022.";
+	say "Release 1 was submitted for EctoComp around 12:01 AM Central on October 31, 2022. That's two hours before the deadline of Halloween on the Pacific coast!";
+	say "Release 2 was submitted just after EctoComp on 11/22/22 (November 22) with a lot of hints and bug fixes added.";
 
 book annoying stuff
 

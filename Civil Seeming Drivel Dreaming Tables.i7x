@@ -92,7 +92,7 @@ this is the vr-whirring-west rule:
 	now WoeWall is mapped west of Croots Cravin;
 	now Croots Cravin is mapped east of WoeWall;
 	now sco-whirring-west is true;
-	now to-number of blurring blest purring pest is -5604;
+	now to-number of blurring blest purring pest is -2804;
 
 this is the vc-yo-yall rule:
 	if player is not in WoeWall, unavailable;
@@ -104,7 +104,7 @@ this is the vc-yo-yall rule:
 this is the vr-yo-yall rule:
 	say "Some people pop out from behind Woe Wall. [paul], their leader, introduces himself to you.";
 	now Po Paul is in WoeWall;
-	woe-all 5405;
+	woe-all 2705;
 	now sco-yo-yall is true;
 
 this is the vc-stow-stall rule:
@@ -132,7 +132,7 @@ a goodrhyme rule (this is the vc-trick-tried rule):
 
 this is the vr-trick-tried rule:
 	now sco-trick-tried is true;
-	now to-number of slick slide is 21717;
+	now to-number of slick slide is 10867;
 	say "Aha! You see what was wrong with the slick slide. You see what to do. It's so tricky, I can't even describe it to you, but since you did it, you have a pretty good idea. Right?";
 
 a goodrhyme rule (this is the vc-hick-hide rule):
@@ -141,7 +141,7 @@ a goodrhyme rule (this is the vc-hick-hide rule):
 	ready;
 
 this is the vr-hick-hide rule:
-	if Contrive Country is unvisited, thing-decrease slick slide and 5404;
+	if Contrive Country is unvisited, thing-decrease slick slide and 2704;
 	now sco-hick-hide is true;
 	slide-shift Five Fee Contrive Country;
 
@@ -151,7 +151,7 @@ a goodrhyme rule (this is the vc-prick-pride rule):
 	ready;
 
 this is the vr-prick-pride rule:
-	if Sigh Sitch is unvisited, thing-decrease slick slide and 5505;
+	if Sigh Sitch is unvisited, thing-decrease slick slide and 2755;
 	now sco-prick-pride is true;
 	slide-shift Sigh Sitch;
 
@@ -161,7 +161,7 @@ a goodrhyme rule (this is the vc-sick-side rule):
 	ready;
 
 this is the vr-sick-side rule:
-	if Oil Inc is unvisited, thing-decrease slick slide and 5404;
+	if Oil Inc is unvisited, thing-decrease slick slide and 2704;
 	now sco-sick-side is true;
 	slide-shift Oil Inc;
 
@@ -171,7 +171,7 @@ a goodrhyme rule (this is the vc-tick-tide rule):
 	ready;
 
 this is the vr-tick-tide rule:
-	if Groaning Grey is unvisited, thing-decrease slick slide and 5404;
+	if Groaning Grey is unvisited, thing-decrease slick slide and 2704;
 	now sco-tick-tide is true;
 	slide-shift Honing Hey Groaning Grey;
 
@@ -185,9 +185,9 @@ a goodrhyme rule (this is the vc-lie-lich rule):
 	ready;
 
 this is the vr-lie-lich rule:
-	now to-number of die ditch is 5305;
-	now to-number of sigh sitch is 5305;
-	now to-number of i itch why witch is 5305;
+	now to-number of die ditch is 2655;
+	now to-number of sigh sitch is 2655;
+	now to-number of i itch why witch is 2655;
 	now sco-lie-lich is true;
 	say "A vicious lie lich appears! It rattles off all sorts of lies. The tricky ones seem somewhat true. Including the languid one about letting you go first even though it doesn't have to. (It does.)";
 	say "[line break]But that bit about how the most powerful and spectacular spells can't disarm it? True. Except...";
@@ -224,9 +224,9 @@ a goodrhyme rule (this is the vc-owning-eh rule):
 this is the vr-owning-eh rule:
 	now sco-owning-eh is true;
 	say "You commence a small heart-to-heart with [mmdd]. Nothing accusatory, just a suggestion they have more agency than they think. You reminisce of times you thought you were helpless but weren't, or when you should or could have done more, but you didn't. And you all share a few special moments and vow to do better in the future.";
-	now to-number of honing hey groaning grey is 5704;
-	now to-number of moaning mae is 5704;
-	now to-number of droning dre is 5704;
+	now to-number of honing hey groaning grey is 2854;
+	now to-number of moaning mae is 2854;
+	now to-number of droning dre is 2854;
 
 a goodrhyme rule (this is the vc-cloning-clay rule):
 	if player is not in honing hey, unavailable;
@@ -253,7 +253,7 @@ a goodrhyme rule (this is the vc-ivy rule):
 this is the vr-ivy rule:
 	now sco-ivy is true;
 	say "[country] is now filled with vegetation!";
-	country-down 5201;
+	country-down 2601;
 
 a goodrhyme rule (this is the vc-lively rule):
 	if player is not in contrive country, unavailable;
@@ -265,7 +265,7 @@ a goodrhyme rule (this is the vc-lively rule):
 this is the vr-lively rule:
 	now sco-lively is true;
 	say "[country] now seems more populated.";
-	country-down 5402;
+	country-down 2702;
 
 a goodrhyme rule (this is the vc-jive-gee rule):
 	if player is not in contrive country, unavailable;
@@ -277,7 +277,7 @@ a goodrhyme rule (this is the vc-jive-gee rule):
 this is the vr-jive-gee rule:
 	now sco-jive-gee is true;
 	say "The air feels laden with possibilities for friendly wisecracking.";
-	country-down 5403;
+	country-down 2703;
 
 a goodrhyme rule (this is the vc-thrive-three rule):
 	if player is not in contrive country, unavailable;
@@ -292,8 +292,8 @@ a goodrhyme rule (this is the vc-thrive-three rule):
 this is the vr-thrive-three rule:
 	now sco-thrive-three is true;
 	say "Now that you've changed the area in three ways, it makes sense that you can summon three people to help you improve it even more. They look at you as if to say, just one question to Clive over here, and he's a goner.";
-	now to-number of clive klee is 5502;
-	now to-number of contrive country is 5502;
+	now to-number of clive klee is 2752;
+	now to-number of contrive country is 2752;
 
 a goodrhyme rule (this is the vc-whyve-we rule):
 	if player is not in contrive country, unavailable;
@@ -324,7 +324,7 @@ a goodrhyme rule (this is the vc-broil-brink rule):
 this is the vr-broil-brink rule:
 	now sco-broil-brink is true;
 	say "You foment an undercurrent of constructive discontent in the populace. Nothing that would cause the quasi-police state to have cause to repress them, of course.";
-	oil-inc-decrease 5505;
+	oil-inc-decrease 2755;
 
 a goodrhyme rule (this is the vc-moil-mink rule):
 	abide by the oil-inc-basics rule;
@@ -337,7 +337,7 @@ this is the vr-moil-mink rule:
 	now sco-moil-mink is true;
 	say "A large mink appears and begins racing around. It looks like it can do damage when the time comes.";
 	move moil mink to oil inc;
-	oil-inc-decrease 5404;
+	oil-inc-decrease 2704;
 
 a goodrhyme rule (this is the vc-royal-rink rule):
 	abide by the oil-inc-basics rule;
@@ -349,7 +349,7 @@ a goodrhyme rule (this is the vc-royal-rink rule):
 this is the vr-royal-rink rule:
 	now sco-royal-rink is true;
 	say "A big ol['] royal rink pops up in the middle of the dystopian landscape. Worse, it's solar-powered! Doyle Dink looks furious.";
-	oil-inc-decrease 5504;
+	oil-inc-decrease 2754;
 
 a goodrhyme rule (this is the vc-soil-sink rule):
 	abide by the oil-inc-basics rule;
@@ -361,7 +361,7 @@ a goodrhyme rule (this is the vc-soil-sink rule):
 this is the vr-soil-sink rule:
 	now sco-soil-sink is true;
 	say "The soil collapses under the most hideous of workhouses and takes along an almost-completely-constructed Trump Tower-level-ugly skyscraper in the process! (Don't worry, they were empty. After all, it's night-time.)";
-	oil-inc-decrease 5404;
+	oil-inc-decrease 2704;
 
 a goodrhyme rule (this is the vc-foil-fink rule):
 	if player is not in oil inc, unavailable; [can't use oil inc rule as it may say you are already-done ]
@@ -500,8 +500,8 @@ a goodrhyme rule (this is the vc-core-kit rule):
 this is the vr-core-kit rule:
 	now sco-core-kit is true;
 	say "You discover a core kit somewhere in the darkness here. It contains a book of affirmations, some soldier toys to plan strategies and also tools you can use to climb up to somewhere less awful. So you do. But you drop the book in the process. Pity. Some of the ideas would've made you a lot more content once you woke up. That's life!";
-	now to-number of bore bit is 5303;
-	now from-number of bore bit is 5403;
+	now to-number of bore bit is 2653;
+	now from-number of bore bit is 2703;
 	print-the-loc;
 
 a goodrhyme rule (this is the vc-war-wit rule):
@@ -513,7 +513,7 @@ a goodrhyme rule (this is the vc-war-wit rule):
 
 this is the vr-war-wit rule:
 	now sco-war-wit is true;
-	woe-all 5203;
+	woe-all 2603;
 	say "Yes! You see what to do, now. You make believe you still have the soldier toys and see the right strategy for repelling the enemy. They'll be toast now.";
 	move player to WoeWall;
 
@@ -546,8 +546,8 @@ a goodrhyme rule (this is the vc-see-sight rule):
 this is the vr-see-sight rule:
 	now sco-see-sight is true;
 	say "You show [the wight] ways to be scary. You paint images in its mind. It whips out a notebook, jots down some ideas, then waits for more. It needs a way to know it's nailed down what you said!";
-	now to-number of free fright is 5205;
-	now to-number of wee wight is 5205;
+	now to-number of free fright is 2605;
+	now to-number of wee wight is 2605;
 
 a goodrhyme rule (this is the vc-re-write rule):
 	abide by the wight-check rule;
@@ -669,7 +669,7 @@ to thing-decrease (th - a thing) and (nu - a number):
 	if to-number of th is 0, now to-number of th is -4;
 	if sco-rick-ride is false and th is slick slide and testing-slide is false:
 		now spare-slide-num is to-number of slick slide;
-		now to-number of slick slide is 5404;
+		now to-number of slick slide is 2704;
 
 to room-decrease (rm - a room) and (nu - a number):
 	decrease to-number of rm by nu;
@@ -686,7 +686,7 @@ to rick-and-slide-check:
 	declue-here;
 	if hubs-solved is 4 and to-number of WoeWall is -5:
 		move throw thrall to WoeWall;
-		woe-all 15813;
+		woe-all 7913;
 
 to woe-all (nu - a number):
 	now to-number of WoeWall is nu;
@@ -707,7 +707,7 @@ to say mmdd: say "[one of]Moaning Mae and Droning Dre[or]Droning Dre and Moaning
 
 to oil-inc-decrease (nu - a number):
 	decrease to-number of oil inc by nu;
-	if to-number of oil inc is 0, now to-number of oil inc is 5404;
+	if to-number of oil inc is 0, now to-number of oil inc is 2704;
 	now to-number of Doyle Dink is to-number of oil inc;
 	now to-number of moil mink is to-number of oil inc;
 
@@ -724,7 +724,7 @@ a goodrhyme rule (this is the oil-inc-basics rule):
 
 to country-down (nu - a number):
 	if country-score is 3:
-		now to-number of contrive country is 5605;
+		now to-number of contrive country is 2805;
 	else:
 		decrease to-number of contrive country by nu;
 	now to-number of clive klee is to-number of contrive country;
@@ -830,7 +830,7 @@ Oil Inc	oil-inc-now rule	--	--
 
 this is the bore-bit-hom rule:
 	unless sco-core-kit is false, continue the action;
-	if the player's command matches "four/fit":
+	if the player's command includes "four/fit":
 		say "No, you need to work on making the place less boring. Find something interesting to do.";
 		the rule succeeds;
 

@@ -4,7 +4,7 @@ Version 1/221003 of Civil Seeming Drivel Dreaming Globals by Andrew Schultz begi
 
 volume scoring and meta variable numbers
 
-the release number is 1.
+the release number is 2.
 
 entry-in-series is 4.
 
